@@ -5058,10 +5058,12 @@
 }
 
 /* ─────────────────────────────────────────────────────────
-   MOBILE TIGHTENING v2
-   Goal: keep title/subhead full width, then place
-   snapshot + image/CTA side-by-side on mobile
-   Desktop unchanged
+   MOBILE TIGHTENING v3
+   Goal:
+   - title/subhead full width
+   - snapshot + image side by side
+   - CTA below both, full width
+   - desktop unchanged
 ───────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
 
@@ -5080,13 +5082,12 @@
 
   .cs-site .decision-section .decision-cols {
     display: grid !important;
-    grid-template-columns: minmax(0, 1fr) 132px !important;
+    grid-template-columns: minmax(0, 1.55fr) minmax(120px, 0.9fr) !important;
     column-gap: 14px !important;
     row-gap: 14px !important;
     align-items: start !important;
   }
 
-  /* Flatten only on mobile so children can be placed in the parent grid */
   .cs-site .decision-section .decision-info {
     display: contents !important;
   }
@@ -5125,50 +5126,54 @@
   .cs-site .decision-section .decision-media {
     grid-column: 2 / 3 !important;
     grid-row: 4 !important;
-    display: grid !important;
-    gap: 10px !important;
-    align-self: start !important;
+    display: block !important;
     margin: 0 !important;
   }
 
   .cs-site .decision-section .decision-img {
-    min-height: 150px !important;
-    padding: 12px !important;
+    min-height: 190px !important;
+    padding: 14px !important;
     border-radius: 20px !important;
+    margin: 0 !important;
   }
 
   .cs-site .decision-section .decision-img img {
-    max-height: 126px !important;
+    max-height: 160px !important;
     width: auto !important;
     max-width: 100% !important;
     object-fit: contain !important;
     margin: 0 auto !important;
   }
 
+  /* CTA moves below the grid and spans full width */
   .cs-site .decision-section .decision-cta-box {
-    padding: 12px 10px !important;
+    grid-column: 1 / -1 !important;
+    grid-row: 5 !important;
+    padding: 14px 14px 12px !important;
     border-radius: 18px !important;
+    margin: 0 !important;
   }
 
   .cs-site .decision-section .btn-block-cta,
   .cs-site .decision-section .btn-block {
-    min-height: 48px !important;
-    padding: 14px 12px !important;
-    font-size: 14px !important;
+    min-height: 54px !important;
+    padding: 16px 18px !important;
+    font-size: 16px !important;
     line-height: 1.2 !important;
     text-align: center !important;
+    width: 100% !important;
   }
 
   .cs-site .decision-section .cta-micro,
   .cs-site .decision-section .inline-disclosure {
-    font-size: 11px !important;
-    line-height: 1.35 !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
     text-align: center !important;
   }
 
   .cs-site .decision-section .snapshot-list li {
-    grid-template-columns: 92px minmax(0, 1fr) !important;
-    column-gap: 12px !important;
+    grid-template-columns: 96px minmax(0, 1fr) !important;
+    column-gap: 14px !important;
     padding: 14px 0 !important;
   }
 
@@ -5180,7 +5185,9 @@
 
   .cs-site .decision-section .snapshot-val {
     font-size: 15px !important;
-    line-height: 1.4 !important;
+    line-height: 1.38 !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
   }
 
   .cs-site .decision-section .decision-followups {
@@ -5194,7 +5201,7 @@
   }
 }
 
-/* Extra-small phones: fall back to stacked layout */
+/* Extra-small phones: stack again */
 @media (max-width: 390px) {
   .cs-site .decision-section .decision-cols {
     grid-template-columns: 1fr !important;
@@ -5208,14 +5215,18 @@
   .cs-site .decision-section .decision-media {
     grid-column: 1 / -1 !important;
     grid-row: auto !important;
-    grid-template-columns: 1fr !important;
+  }
+
+  .cs-site .decision-section .decision-cta-box {
+    grid-column: 1 / -1 !important;
+    grid-row: auto !important;
   }
 
   .cs-site .decision-section .decision-img {
-    min-height: 180px !important;
+    min-height: 200px !important;
   }
 
   .cs-site .decision-section .decision-img img {
-    max-height: 150px !important;
+    max-height: 170px !important;
   }
 }
