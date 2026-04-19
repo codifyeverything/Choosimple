@@ -40,6 +40,12 @@
 <a class="btn btn-primary" href="#catalogue">Browse categories</a>
 <a class="btn btn-outline" href="#how">How it works</a>
 </div>
+<div class="hero-mobile-jump" aria-label="Quick category links">
+<a class="hero-chip" href="blender.html">Blender</a>
+<a class="hero-chip" href="robot-vacuum.html">Robot Vacuum</a>
+<a class="hero-chip" href="air-fryer.html">Air Fryer</a>
+<a class="hero-chip" href="electric-toothbrush.html">Toothbrush</a>
+</div>
 </div>
 <div class="hero-right">
 <div class="hero-card hero-card--rotator" id="heroRotator">
@@ -285,16 +291,19 @@
 </footer>
 </div>
 <script>
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   var rotator = document.getElementById('heroRotator');
   if (!rotator) return;
-  var slides = rotator.querySelectorAll('.hero-slide');
-  var dots = rotator.querySelectorAll('.hero-dot');
+
+  var slides = Array.prototype.slice.call(rotator.querySelectorAll('.hero-slide'));
+  var dots = Array.prototype.slice.call(rotator.querySelectorAll('.hero-dot'));
+  if (!slides.length || !dots.length) return;
+
+  var current = slides.findIndex(function (slide) { return slide.classList.contains('is-active'); });
+  if (current < 0) current = 0;
   var total = slides.length;
-  var current = 0;
-  var interval = null;
-  var INTERVAL_MS = 7500;
-  var paused = false;
+  var timer = null;
+  var intervalMs = window.matchMedia && window.matchMedia('(max-width: 900px)').matches ? 5200 : 7000;
 
   function go(to) {
     slides[current].classList.remove('is-active');
@@ -304,34 +313,38 @@
     dots[current].classList.add('is-active');
   }
 
-  function next() { if (!paused) go(current + 1); }
-
   function start() {
     stop();
-    interval = setInterval(next, INTERVAL_MS);
+    timer = window.setInterval(function () {
+      go(current + 1);
+    }, intervalMs);
   }
+
   function stop() {
-    if (interval) { clearInterval(interval); interval = null; }
+    if (timer) {
+      window.clearInterval(timer);
+      timer = null;
+    }
   }
 
   dots.forEach(function (dot, i) {
     dot.addEventListener('click', function (e) {
       e.preventDefault();
       go(i);
-      start(); // reset timer
+      start();
     });
   });
 
-  rotator.addEventListener('mouseenter', function () { paused = true; });
-  rotator.addEventListener('mouseleave', function () { paused = false; });
-
-  // Respect reduced motion — show all but don't auto-rotate
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    return;
-  }
+  rotator.addEventListener('mouseenter', stop);
+  rotator.addEventListener('mouseleave', start);
+  rotator.addEventListener('touchstart', stop, { passive: true });
+  rotator.addEventListener('touchend', start, { passive: true });
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) stop(); else start();
+  });
 
   start();
-})();
+});
 </script>
 </body>
 </html>
