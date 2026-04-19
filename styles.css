@@ -4227,107 +4227,220 @@
 }
 
 
-/* ── Final mobile optimization pass ───────────────────────────── */
-@media (max-width: 768px) {
-  .cs-site {
-    font-size: 16px !important;
+/* ── Homepage mobile-first cleanup pass ───────────────────────── */
+.cs-site .hero-mobile-jump {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .cs-site .hero {
+    padding: 34px 0 24px !important;
   }
 
-  .cs-site .hero {
-    padding: 64px 0 48px !important;
+  .cs-site .hero-grid {
+    gap: 22px !important;
+  }
+
+  .cs-site .hero-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cs-site .hero-eyebrow {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    margin-bottom: 16px !important;
+  }
+
+  .cs-site .hero h1 {
+    font-size: 34px !important;
+    line-height: 0.98 !important;
+    margin-bottom: 16px !important;
+    max-width: 11ch;
   }
 
   .cs-site .hero-body {
-    font-size: 18px !important;
-    margin-bottom: 28px !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 12px !important;
+    max-width: none !important;
   }
 
   .cs-site .hero-helper {
-    font-size: 15px !important;
-    line-height: 1.6 !important;
+    display: none !important;
+  }
+
+  .cs-site .hero-buttons {
+    gap: 10px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .cs-site .hero-buttons .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 14px 20px !important;
+  }
+
+  .cs-site .hero-buttons .btn-outline {
+    border-radius: 14px !important;
+  }
+
+  .cs-site .hero-mobile-jump {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .cs-site .hero-chip {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 44px;
+    padding: 10px 12px !important;
+    border: 1px solid rgba(176,138,62,0.22) !important;
+    border-radius: 999px !important;
+    background: rgba(255,255,255,0.62) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: var(--ink) !important;
+    text-align: center !important;
+  }
+
+  .cs-site .hero-right {
+    margin-top: 4px !important;
   }
 
   .cs-site .hero-card--rotator {
-    padding: 24px !important;
-    min-height: auto !important;
+    min-height: 0 !important;
+    padding: 18px !important;
+    border-radius: 18px !important;
   }
 
   .cs-site .hero-rotator-stage {
-    min-height: 220px !important;
+    min-height: 188px !important;
+  }
+
+  .cs-site .hero-slide h3 {
+    font-size: 24px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .cs-site .hero-slide .hero-card-sub {
+    font-size: 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .cs-site .hero-slide .hero-card-rule {
+    margin: 12px 0 !important;
+  }
+
+  .cs-site .hero-slide .hero-card-quote {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+    margin-bottom: 14px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .cs-site .hero-card-link {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+
+  .cs-site .hero-rotator-dots {
+    margin-top: 12px !important;
+    padding-top: 0 !important;
   }
 
   .cs-site .catalogue {
-    padding: 64px 0 72px !important;
+    padding: 28px 0 44px !important;
   }
 
-  .cs-site .catalogue-guide {
-    margin-bottom: 24px !important;
+  .cs-site .catalogue-header {
+    gap: 10px !important;
+    margin-bottom: 18px !important;
   }
 
-  .cs-site .card-grid,
-  .cs-site .card-grid-2 {
-    gap: 20px !important;
+  .cs-site .catalogue-header-left h2 {
+    font-size: 34px !important;
+    line-height: 1.02 !important;
   }
 
-  .cs-site .dec-card-img {
-    height: 248px !important;
-  }
-
-  .cs-site .dec-card-body {
-    padding: 20px 20px 22px !important;
-  }
-
-  .cs-site .dec-card-title {
-    font-size: 23px !important;
-  }
-
-  .cs-site .dec-card-summary,
-  .cs-site .dec-card-pick,
-  .cs-site .dec-card-price {
+  .cs-site .catalogue-header-right {
     font-size: 15px !important;
     line-height: 1.55 !important;
   }
 
-  .cs-site .decision-cols {
-    grid-template-columns: 1fr !important;
-    gap: 24px !important;
+  .cs-site .catalogue-guide {
+    margin-bottom: 18px !important;
   }
 
-  .cs-site .decision-media {
-    margin-bottom: 4px !important;
+  .cs-site .catalogue-guide-intro {
+    font-size: 22px !important;
+    margin-bottom: 12px !important;
   }
 
-  .cs-site .decision-img {
-    min-height: 340px !important;
+  .cs-site .catalogue-step {
+    padding: 14px 14px 12px !important;
   }
 
-  .cs-site .decision-cta-box {
-    padding: 18px !important;
+  .cs-site .cat-group {
+    margin-bottom: 34px !important;
   }
 
-  .cs-site .snapshot {
-    padding: 18px 18px !important;
+  .cs-site .cat-group-header {
+    margin-bottom: 16px !important;
+    padding-bottom: 12px !important;
   }
 
-  .cs-site .snapshot-list li {
-    grid-template-columns: 100px 1fr !important;
-    gap: 14px !important;
+  .cs-site .cat-group-header h3 {
+    font-size: 24px !important;
   }
 
-  .cs-site .page-hero {
-    padding-top: 40px !important;
-    padding-bottom: 28px !important;
+  .cs-site .cat-group-count {
+    font-size: 11px !important;
   }
 
-  .cs-site .page-tagline {
-    font-size: 18px !important;
+  .cs-site .card-grid,
+  .cs-site .card-grid-2 {
+    gap: 16px !important;
   }
 
-  .cs-site .page-verdict {
-    margin-top: 14px !important;
+  .cs-site .dec-card-img {
+    height: 228px !important;
   }
 
-  .cs-site .text-page {
-    padding-top: 48px !important;
+  .cs-site .dec-card-img img {
+    height: 188px !important;
+    max-width: 84% !important;
+  }
+
+  .cs-site .dec-card-body {
+    padding: 18px 18px 20px !important;
+  }
+
+  .cs-site .dec-card-title {
+    font-size: 22px !important;
+    line-height: 1.12 !important;
+  }
+
+  .cs-site .dec-card-pick,
+  .cs-site .dec-card-summary,
+  .cs-site .dec-card-price {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  .cs-site .what-section {
+    padding: 40px 0 !important;
+  }
+
+  .cs-site .email-cta {
+    padding-top: 54px !important;
+    padding-bottom: 56px !important;
   }
 }
