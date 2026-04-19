@@ -5226,3 +5226,13 @@
     max-width: none !important;
   }
 }
+@media (max-width: 768px) {
+  .decision-img {
+    padding: 14px !important;
+  }
+
+  .decision-img img {
+    max-height: 140px !important;
+    opacity: 0.95;
+  }
+}
