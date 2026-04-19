@@ -4635,3 +4635,88 @@
     padding-right: 20px !important;
   }
 }
+
+/* ═════════ CATEGORY PAGE MOBILE CONSOLIDATION ═════════ */
+@media (max-width: 900px) {
+
+  /* Reduce repetitive intro copy */
+  .cs-site .page-verdict {
+    display: none !important;
+  }
+
+  .cs-site .decision-helper {
+    display: none !important;
+  }
+
+  .cs-site .decision-kicker {
+    font-size: 16px !important;
+    margin-top: 2px !important;
+    margin-bottom: 4px !important;
+  }
+
+  /* Make the page hero tighter */
+  .cs-site .page-hero {
+    padding: 34px 20px 24px !important;
+  }
+
+  .cs-site .page-hero h1 {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .page-tagline {
+    font-size: 17px !important;
+    max-width: none !important;
+  }
+
+  /* Put the answer first */
+  .cs-site .decision-cols {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  .cs-site .decision-info {
+    order: 1 !important;
+  }
+
+  .cs-site .decision-media {
+    order: 2 !important;
+  }
+
+  /* Keep CTA attached but secondary to the answer */
+  .cs-site .decision-cta-box {
+    order: 3 !important;
+    margin-top: 10px !important;
+  }
+
+  /* Make the image shorter so snapshot appears sooner */
+  .cs-site .decision-img {
+    min-height: 220px !important;
+    padding: 16px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 190px !important;
+  }
+
+  /* Tighten top-of-decision spacing */
+  .cs-site .conf-badge {
+    margin-bottom: 12px !important;
+  }
+
+  .cs-site .decision-name {
+    font-size: 28px !important;
+    line-height: 1.08 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-subhead {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .cs-site .snapshot {
+    margin-bottom: 14px !important;
+  }
+}
