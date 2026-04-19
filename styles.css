@@ -5058,13 +5058,9 @@
 }
 
 /* ─────────────────────────────────────────────────────────
-   MOBILE TIGHTENING v4
-   Clean version:
-   - title/subhead full width
-   - snapshot left
-   - image + CTA stacked right
-   - wider snapshot
-   - desktop unchanged
+   MOBILE DECISION LAYOUT — FINAL SAFE VERSION
+   Stacked only. Tight, clean, readable.
+   Desktop unchanged.
 ───────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
 
@@ -5078,103 +5074,45 @@
   }
 
   .cs-site .decision-section .num-left {
-    margin-bottom: 18px !important;
+    margin-bottom: 14px !important;
   }
 
   .cs-site .decision-section .decision-cols {
-    display: grid !important;
-    grid-template-columns: minmax(0, 1.75fr) minmax(132px, 0.95fr) !important;
-    column-gap: 14px !important;
-    row-gap: 14px !important;
-    align-items: start !important;
+    display: block !important;
   }
 
   .cs-site .decision-section .decision-info {
-    display: contents !important;
+    display: block !important;
   }
 
   .cs-site .decision-section .conf-badge,
   .cs-site .decision-section .conf-badge--pick {
-    grid-column: 1 / -1 !important;
-    justify-self: start !important;
-    margin: 0 0 2px 0 !important;
+    display: inline-flex !important;
+    margin: 0 0 14px 0 !important;
   }
 
   .cs-site .decision-section .decision-name {
-    grid-column: 1 / -1 !important;
-    margin: 0 !important;
+    margin: 0 0 12px 0 !important;
     font-size: clamp(30px, 9vw, 44px) !important;
     line-height: 0.96 !important;
     letter-spacing: -0.03em !important;
-    max-width: 12ch !important;
+    max-width: 11ch !important;
   }
 
   .cs-site .decision-section .decision-subhead {
-    grid-column: 1 / -1 !important;
-    margin: 0 !important;
+    margin: 0 0 18px 0 !important;
     font-size: 16px !important;
     line-height: 1.5 !important;
     max-width: none !important;
   }
 
   .cs-site .decision-section .snapshot {
-    grid-column: 1 / 2 !important;
-    margin: 0 !important;
-    min-width: 0 !important;
-  }
-
-  .cs-site .decision-section .decision-media {
-    grid-column: 2 / 3 !important;
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 12px !important;
-    align-content: start !important;
-    margin: 0 !important;
-    min-width: 0 !important;
-  }
-
-  .cs-site .decision-section .decision-img {
-    min-height: 190px !important;
-    padding: 14px !important;
-    border-radius: 20px !important;
-    margin: 0 !important;
-  }
-
-  .cs-site .decision-section .decision-img img {
-    max-height: 160px !important;
-    width: auto !important;
-    max-width: 100% !important;
-    object-fit: contain !important;
-    margin: 0 auto !important;
-  }
-
-  .cs-site .decision-section .decision-cta-box {
-    padding: 12px !important;
-    border-radius: 18px !important;
-    margin: 0 !important;
-  }
-
-  .cs-site .decision-section .btn-block-cta,
-  .cs-site .decision-section .btn-block {
-    min-height: 52px !important;
-    padding: 14px 12px !important;
-    font-size: 15px !important;
-    line-height: 1.2 !important;
-    text-align: center !important;
-    width: 100% !important;
-    white-space: nowrap !important;
-  }
-
-  .cs-site .decision-section .cta-micro,
-  .cs-site .decision-section .inline-disclosure {
-    font-size: 11px !important;
-    line-height: 1.35 !important;
-    text-align: center !important;
+    margin: 0 0 12px 0 !important;
   }
 
   .cs-site .decision-section .snapshot-list li {
     grid-template-columns: 104px minmax(0, 1fr) !important;
-    column-gap: 12px !important;
+    column-gap: 14px !important;
     padding: 14px 0 !important;
   }
 
@@ -5186,41 +5124,71 @@
 
   .cs-site .decision-section .snapshot-val {
     font-size: 15px !important;
-    line-height: 1.4 !important;
+    line-height: 1.38 !important;
     word-break: normal !important;
-    overflow-wrap: anywhere !important;
-  }
-
-  .cs-site .decision-section .decision-followups {
-    margin-top: 16px !important;
-    gap: 14px !important;
-  }
-
-  .cs-site .decision-section .watchout {
-    padding: 16px 16px 15px !important;
-    border-radius: 18px !important;
-  }
-}
-
-@media (max-width: 390px) {
-  .cs-site .decision-section .decision-cols {
-    grid-template-columns: 1fr !important;
-  }
-
-  .cs-site .decision-section .snapshot,
-  .cs-site .decision-section .decision-media {
-    grid-column: 1 / -1 !important;
+    overflow-wrap: normal !important;
   }
 
   .cs-site .decision-section .decision-media {
-    gap: 12px !important;
+    display: block !important;
+    margin: 0 !important;
   }
 
   .cs-site .decision-section .decision-img {
-    min-height: 200px !important;
+    min-height: 180px !important;
+    padding: 16px !important;
+    border-radius: 20px !important;
+    margin: 0 0 12px 0 !important;
   }
 
   .cs-site .decision-section .decision-img img {
-    max-height: 170px !important;
+    max-height: 150px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+  }
+
+  .cs-site .decision-section .decision-cta-box {
+    padding: 14px !important;
+    border-radius: 18px !important;
+    margin: 0 !important;
+  }
+
+  .cs-site .decision-section .btn-block-cta,
+  .cs-site .decision-section .btn-block {
+    width: 100% !important;
+    min-height: 54px !important;
+    padding: 16px 18px !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  .cs-site .decision-section .cta-micro,
+  .cs-site .decision-section .inline-disclosure {
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+  }
+
+  .cs-site .decision-section .decision-followups {
+    margin-top: 14px !important;
+    gap: 14px !important;
+  }
+
+  .cs-site .decision-section .trust-block {
+    padding: 18px 18px 16px !important;
+    border-radius: 20px !important;
+  }
+
+  .cs-site .decision-section .watchout {
+    padding: 14px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .cs-site .decision-section .watchout .eyebrow {
+    margin-bottom: 6px !important;
   }
 }
