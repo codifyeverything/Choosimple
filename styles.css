@@ -4444,3 +4444,84 @@
     padding-bottom: 56px !important;
   }
 }
+
+/* ═════════ MOBILE FIX — PRODUCT PAGES ═════════ */
+
+@media (max-width: 900px) {
+
+  /* Page hero spacing */
+  .cs-site .page-hero {
+    padding: 40px 20px 32px !important;
+  }
+
+  .cs-site .page-hero h1 {
+    font-size: 36px !important;
+    line-height: 1.1 !important;
+  }
+
+  .cs-site .page-tagline {
+    font-size: 16px !important;
+  }
+
+  /* Main section layout (kills sidebar layout) */
+  .cs-site .num-split {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .cs-site .num-left {
+    margin-bottom: 6px;
+  }
+
+  /* Decision section (MOST IMPORTANT FIX) */
+  .cs-site .decision-cols {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  /* Image container */
+  .cs-site .decision-img {
+    min-height: 260px !important;
+    padding: 20px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 220px !important;
+    margin: 0 auto;
+  }
+
+  /* CTA box */
+  .cs-site .decision-cta-box {
+    margin-top: 12px;
+  }
+
+  /* Decision info block */
+  .cs-site .decision-info {
+    text-align: left;
+  }
+
+  .cs-site .decision-name {
+    font-size: 28px !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Snapshot grid */
+  .cs-site .snapshot-list {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px;
+  }
+
+  /* Tables (alternatives section) */
+  .cs-site .alt-table {
+    display: block !important;
+    overflow-x: auto !important;
+    font-size: 14px;
+  }
+
+  /* Signal grid */
+  .cs-site .signal-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+}
