@@ -5300,3 +5300,32 @@
     max-width: none !important;
   }
 }
+/* ─────────────────────────────────────────────────────────
+   EMERGENCY RESET — disable decision title thumbnail
+   Keeps desktop and mobile clean again
+───────────────────────────────────────────────────────── */
+
+.cs-site .decision-thumb {
+  display: none !important;
+}
+
+.cs-site .decision-name--with-thumb,
+.cs-site .decision-info .decision-name--with-thumb {
+  display: block !important;
+  max-width: 11ch !important;
+}
+
+@media (max-width: 768px) {
+  .cs-site .decision-name--with-thumb,
+  .cs-site .decision-info .decision-name--with-thumb {
+    display: block !important;
+    max-width: 11ch !important;
+  }
+
+  .cs-site .decision-thumb {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+  }
+}
