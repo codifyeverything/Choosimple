@@ -4720,3 +4720,137 @@
     margin-bottom: 14px !important;
   }
 }
+
+/* ═════════ FINAL MOBILE FLOW OVERRIDES — CATEGORY PAGES ═════════ */
+@media (max-width: 900px) {
+  /* Make the very top lighter and faster */
+  .cs-site .page-hero {
+    padding: 30px 20px 20px !important;
+  }
+
+  .cs-site .page-breadcrumb {
+    margin-bottom: 14px !important;
+    font-size: 10px !important;
+    letter-spacing: 0.14em !important;
+  }
+
+  .cs-site .page-hero h1 {
+    font-size: 34px !important;
+    line-height: 1.04 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .page-tagline {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    max-width: 30ch !important;
+  }
+
+  /* Reduce redundant intro energy */
+  .cs-site .decision-section .num-split {
+    gap: 18px !important;
+  }
+
+  .cs-site .decision-kicker {
+    display: none !important;
+  }
+
+  .cs-site .decision-section .num-left {
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .cs-site .decision-section .num-left .eyebrow {
+    margin-bottom: 4px !important;
+  }
+
+  /* Tighter decision content */
+  .cs-site .decision-cols {
+    gap: 14px !important;
+  }
+
+  .cs-site .conf-badge {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-name {
+    font-size: 27px !important;
+    line-height: 1.06 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .decision-subhead {
+    font-size: 15px !important;
+    line-height: 1.48 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .cs-site .snapshot {
+    margin-bottom: 10px !important;
+  }
+
+  /* Keep image visible earlier and less tall */
+  .cs-site .decision-img {
+    min-height: 200px !important;
+    padding: 14px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 170px !important;
+  }
+
+  /* Reorder only the media stack */
+  .cs-site .decision-media {
+    gap: 12px !important;
+  }
+
+  .cs-site .decision-img {
+    order: 1 !important;
+  }
+
+  .cs-site .decision-cta-box {
+    order: 2 !important;
+    margin-top: 0 !important;
+    padding: 12px !important;
+  }
+
+  .cs-site .trust-block {
+    order: 3 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .cs-site .watchout {
+    order: 4 !important;
+    margin-top: 0 !important;
+  }
+
+  /* Softer caution block */
+  .cs-site .watchout {
+    background-color: #f4efdf !important;
+    border-left: 2px solid #d3b46d !important;
+    border-radius: 12px !important;
+    padding: 18px 18px !important;
+  }
+
+  .cs-site .watchout .eyebrow {
+    color: #8a6a2e !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .watchout p {
+    color: #775725 !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* CTA should feel primary and easy to hit */
+  .cs-site .btn-block-cta {
+    padding: 15px 18px !important;
+    font-size: 15px !important;
+  }
+
+  .cs-site .decision-cta-box .cta-micro,
+  .cs-site .inline-disclosure {
+    font-size: 11px !important;
+  }
+}
