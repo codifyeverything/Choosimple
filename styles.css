@@ -4525,3 +4525,113 @@
   }
 
 }
+
+/* ═════════ CATEGORY PAGE MOBILE FIX — DECISION SECTION ═════════ */
+@media (max-width: 900px) {
+
+  /* Collapse the left intro rail and main content into one clean stack */
+  .cs-site .decision-section .num-split {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .cs-site .decision-section .num-left {
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Make the intro block read like a compact header, not a side rail */
+  .cs-site .decision-kicker {
+    display: block !important;
+    margin-top: 6px !important;
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+  }
+
+  .cs-site .decision-helper {
+    max-width: none !important;
+    margin-top: 6px !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Kill the desktop two-column decision layout */
+  .cs-site .decision-section .decision-cols {
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+
+  /* Keep media centered and compact */
+  .cs-site .decision-media {
+    width: 100% !important;
+    gap: 12px !important;
+  }
+
+  .cs-site .decision-img {
+    min-height: 240px !important;
+    padding: 18px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 210px !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Make the CTA card feel attached, not floating */
+  .cs-site .decision-cta-box {
+    width: 100% !important;
+    padding: 12px !important;
+  }
+
+  .cs-site .btn-block-cta {
+    width: 100% !important;
+    padding: 16px 18px !important;
+    font-size: 15px !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Reset the right-column feel */
+  .cs-site .decision-info {
+    padding-top: 0 !important;
+  }
+
+  .cs-site .decision-name {
+    font-size: 30px !important;
+    line-height: 1.08 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .cs-site .decision-subhead {
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Make snapshot rows easier to scan on mobile */
+  .cs-site .snapshot {
+    padding: 18px 18px 16px !important;
+  }
+
+  .cs-site .snapshot-list li {
+    grid-template-columns: 1fr !important;
+    gap: 4px !important;
+    padding: 10px 0 !important;
+  }
+
+  .cs-site .snapshot-key {
+    font-size: 11px !important;
+  }
+
+  .cs-site .snapshot-val {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Keep the rest of the page aligned consistently */
+  .cs-site .num-wrap,
+  .cs-site .page-hero {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
