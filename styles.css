@@ -4854,3 +4854,114 @@
     font-size: 11px !important;
   }
 }
+
+/* ═════════ MOBILE COMPACT DECISION ROW ═════════ */
+@media (max-width: 900px) {
+
+  /* Keep the top tighter */
+  .cs-site .decision-section .num-left {
+    margin-bottom: 6px !important;
+  }
+
+  .cs-site .decision-kicker {
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .decision-info {
+    margin-bottom: 10px !important;
+  }
+
+  /* Make the media area compact */
+  .cs-site .decision-media {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.15fr) minmax(140px, 0.85fr) !important;
+    gap: 14px !important;
+    align-items: stretch !important;
+    margin-bottom: 14px !important;
+  }
+
+  /* Smaller image box */
+  .cs-site .decision-img {
+    min-height: 180px !important;
+    padding: 14px !important;
+    border-radius: 16px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 150px !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Turn CTA into a compact side card */
+  .cs-site .decision-cta-box {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding: 14px !important;
+    border-radius: 16px !important;
+    min-height: 180px !important;
+  }
+
+  .cs-site .btn-block-cta {
+    width: 100% !important;
+    padding: 14px 12px !important;
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+    border-radius: 14px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .cta-micro,
+  .cs-site .inline-disclosure {
+    text-align: center !important;
+    font-size: 11px !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Put snapshot right after the compact row */
+  .cs-site .snapshot {
+    margin-top: 0 !important;
+    margin-bottom: 14px !important;
+  }
+
+  /* Keep trust and caution lower */
+  .cs-site .trust-block {
+    margin-top: 0 !important;
+    margin-bottom: 14px !important;
+  }
+
+  /* Soften the caution box */
+  .cs-site .watchout {
+    background-color: #f5ecd9 !important;
+    border-left: 2px solid #d2a246 !important;
+    border-radius: 12px !important;
+    padding: 14px 16px !important;
+    margin-top: 0 !important;
+  }
+
+  .cs-site .watchout .eyebrow {
+    color: #8a6725 !important;
+  }
+
+  .cs-site .watchout p {
+    color: #8a6725 !important;
+    font-size: 14px !important;
+  }
+}
+
+/* Very small phones: stack image + CTA again */
+@media (max-width: 420px) {
+  .cs-site .decision-media {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cs-site .decision-img,
+  .cs-site .decision-cta-box {
+    min-height: auto !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 180px !important;
+  }
+}
