@@ -3,3 +3,15 @@
 
 /*.html
   Cache-Control: no-store
+
+/*.png
+  Cache-Control: no-store
+
+/*.jpg
+  Cache-Control: no-store
+
+/*.jpeg
+  Cache-Control: no-store
+
+/*.css
+  Cache-Control: no-store
