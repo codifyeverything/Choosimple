@@ -4854,3 +4854,205 @@
     font-size: 11px !important;
   }
 }
+
+/* ═════════ AUTHORITATIVE MOBILE CATEGORY PAGE PATCH ═════════
+   Purpose: fix mobile decision flow without changing desktop.
+   This block is intentionally last so it overrides earlier mobile rules. */
+@media (max-width: 900px) {
+  .cs-site .page-hero {
+    padding: 28px 20px 18px !important;
+  }
+
+  .cs-site .page-breadcrumb {
+    margin-bottom: 12px !important;
+    font-size: 10px !important;
+    letter-spacing: 0.13em !important;
+  }
+
+  .cs-site .page-hero h1 {
+    font-size: 38px !important;
+    line-height: 1.02 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .page-tagline {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+    max-width: 32ch !important;
+  }
+
+  .cs-site .decision-section {
+    padding-top: 26px !important;
+  }
+
+  .cs-site .decision-section .num-split {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .cs-site .decision-section .num-left {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .cs-site .decision-section .num-left .eyebrow {
+    margin-bottom: 2px !important;
+  }
+
+  .cs-site .decision-kicker,
+  .cs-site .page-verdict,
+  .cs-site .decision-helper {
+    display: none !important;
+  }
+
+  .cs-site .decision-section .decision-cols {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .cs-site .decision-section .decision-info {
+    order: 1 !important;
+    padding-top: 0 !important;
+  }
+
+  .cs-site .conf-badge {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-name {
+    font-size: 29px !important;
+    line-height: 1.06 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .decision-subhead {
+    font-size: 15px !important;
+    line-height: 1.48 !important;
+    margin: 0 0 12px !important;
+    max-width: none !important;
+  }
+
+  .cs-site .snapshot {
+    margin-bottom: 0 !important;
+    padding: 18px 16px !important;
+  }
+
+  .cs-site .snapshot::before {
+    left: 16px !important;
+    right: 16px !important;
+  }
+
+  .cs-site .snapshot-label {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .snapshot-list li {
+    grid-template-columns: 96px 1fr !important;
+    gap: 12px !important;
+    padding: 8px 0 !important;
+  }
+
+  .cs-site .snapshot-key {
+    font-size: 12px !important;
+    letter-spacing: 0.06em !important;
+  }
+
+  .cs-site .snapshot-val {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+  }
+
+  .cs-site .decision-section .decision-media {
+    order: 2 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  .cs-site .decision-img {
+    min-height: 190px !important;
+    padding: 14px !important;
+    border-radius: 16px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 170px !important;
+    max-width: 88% !important;
+  }
+
+  .cs-site .decision-cta-box {
+    padding: 12px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 18px -16px rgba(20,18,12,0.18) !important;
+  }
+
+  .cs-site .btn-block-cta {
+    padding: 14px 16px !important;
+    font-size: 15px !important;
+  }
+
+  .cs-site .decision-cta-box .cta-micro,
+  .cs-site .inline-disclosure {
+    font-size: 11px !important;
+    line-height: 1.45 !important;
+  }
+
+  .cs-site .decision-followups {
+    margin-top: 14px !important;
+  }
+
+  .cs-site .trust-block {
+    margin-bottom: 12px !important;
+  }
+
+  .cs-site .trust-label {
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .trust-list li {
+    padding: 10px 0 10px 18px !important;
+  }
+
+  .cs-site .watchout {
+    margin-top: 0 !important;
+    padding: 14px 16px !important;
+    border-left: 2px solid #d3b46d !important;
+    border-radius: 12px !important;
+    background: #f7f0dd !important;
+  }
+
+  .cs-site .watchout .eyebrow {
+    margin-bottom: 4px !important;
+    color: #8a6a2e !important;
+  }
+
+  .cs-site .watchout p {
+    font-size: 13.5px !important;
+    line-height: 1.55 !important;
+    color: #775725 !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .cs-site .page-hero h1 {
+    font-size: 34px !important;
+  }
+
+  .cs-site .decision-name {
+    font-size: 27px !important;
+  }
+
+  .cs-site .decision-img {
+    min-height: 176px !important;
+  }
+
+  .cs-site .decision-img img {
+    max-height: 156px !important;
+  }
+
+  .cs-site .snapshot-list li {
+    grid-template-columns: 88px 1fr !important;
+    gap: 10px !important;
+  }
+}
