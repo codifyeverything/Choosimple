@@ -4721,247 +4721,173 @@
   }
 }
 
-/* ═════════ FINAL MOBILE FLOW OVERRIDES — CATEGORY PAGES ═════════ */
-@media (max-width: 900px) {
-  /* Make the very top lighter and faster */
-  .cs-site .page-hero {
-    padding: 30px 20px 20px !important;
-  }
 
-  .cs-site .page-breadcrumb {
-    margin-bottom: 14px !important;
-    font-size: 10px !important;
-    letter-spacing: 0.14em !important;
+
+/* ═════════ FINAL MOBILE DECISION FLOW OVERRIDE ═════════ */
+@media (max-width: 900px) {
+  /* tighter page intro */
+  .cs-site .page-hero {
+    padding-top: 42px !important;
+    padding-bottom: 28px !important;
   }
 
   .cs-site .page-hero h1 {
-    font-size: 34px !important;
-    line-height: 1.04 !important;
     margin-bottom: 10px !important;
   }
 
   .cs-site .page-tagline {
-    font-size: 15px !important;
-    line-height: 1.5 !important;
-    max-width: 30ch !important;
-  }
-
-  /* Reduce redundant intro energy */
-  .cs-site .decision-section .num-split {
-    gap: 18px !important;
-  }
-
-  .cs-site .decision-kicker {
-    display: none !important;
+    font-size: 17px !important;
+    max-width: none !important;
   }
 
   .cs-site .decision-section .num-left {
-    margin-bottom: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  .cs-site .decision-section .num-left .eyebrow {
     margin-bottom: 4px !important;
   }
 
-  /* Tighter decision content */
-  .cs-site .decision-cols {
-    gap: 14px !important;
+  .cs-site .decision-kicker {
+    margin-top: 0 !important;
+    margin-bottom: 6px !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
   }
 
+  .cs-site .decision-helper,
+  .cs-site .page-verdict {
+    display: none !important;
+  }
+
+  /* flatten decision block so children can be reordered without changing desktop */
+  .cs-site .decision-cols {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+
+  .cs-site .decision-info,
+  .cs-site .decision-media {
+    display: contents !important;
+  }
+
+  /* order: answer -> image+cta -> snapshot -> trust -> worth knowing */
   .cs-site .conf-badge {
-    margin-bottom: 10px !important;
+    order: 1;
+    margin-bottom: 12px !important;
+    align-self: flex-start;
   }
 
   .cs-site .decision-name {
-    font-size: 27px !important;
-    line-height: 1.06 !important;
-    margin-bottom: 8px !important;
+    order: 2;
+    font-size: 28px !important;
+    line-height: 1.08 !important;
+    margin-bottom: 10px !important;
   }
 
   .cs-site .decision-subhead {
-    font-size: 15px !important;
-    line-height: 1.48 !important;
-    margin-bottom: 12px !important;
-  }
-
-  .cs-site .snapshot {
-    margin-bottom: 10px !important;
-  }
-
-  /* Keep image visible earlier and less tall */
-  .cs-site .decision-img {
-    min-height: 200px !important;
-    padding: 14px !important;
-  }
-
-  .cs-site .decision-img img {
-    max-height: 170px !important;
-  }
-
-  /* Reorder only the media stack */
-  .cs-site .decision-media {
-    gap: 12px !important;
-  }
-
-  .cs-site .decision-img {
-    order: 1 !important;
-  }
-
-  .cs-site .decision-cta-box {
-    order: 2 !important;
-    margin-top: 0 !important;
-    padding: 12px !important;
-  }
-
-  .cs-site .trust-block {
-    order: 3 !important;
-    margin-bottom: 0 !important;
-  }
-
-  .cs-site .watchout {
-    order: 4 !important;
-    margin-top: 0 !important;
-  }
-
-  /* Softer caution block */
-  .cs-site .watchout {
-    background-color: #f4efdf !important;
-    border-left: 2px solid #d3b46d !important;
-    border-radius: 12px !important;
-    padding: 18px 18px !important;
-  }
-
-  .cs-site .watchout .eyebrow {
-    color: #8a6a2e !important;
-    margin-bottom: 8px !important;
-  }
-
-  .cs-site .watchout p {
-    color: #775725 !important;
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-  }
-
-  /* CTA should feel primary and easy to hit */
-  .cs-site .btn-block-cta {
-    padding: 15px 18px !important;
-    font-size: 15px !important;
-  }
-
-  .cs-site .decision-cta-box .cta-micro,
-  .cs-site .inline-disclosure {
-    font-size: 11px !important;
-  }
-}
-
-/* ═════════ MOBILE COMPACT DECISION ROW ═════════ */
-@media (max-width: 900px) {
-
-  /* Keep the top tighter */
-  .cs-site .decision-section .num-left {
-    margin-bottom: 6px !important;
-  }
-
-  .cs-site .decision-kicker {
-    margin-bottom: 8px !important;
-  }
-
-  .cs-site .decision-info {
-    margin-bottom: 10px !important;
-  }
-
-  /* Make the media area compact */
-  .cs-site .decision-media {
-    display: grid !important;
-    grid-template-columns: minmax(0, 1.15fr) minmax(140px, 0.85fr) !important;
-    gap: 14px !important;
-    align-items: stretch !important;
+    order: 3;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
     margin-bottom: 14px !important;
   }
 
-  /* Smaller image box */
+  /* compact side-by-side row */
   .cs-site .decision-img {
-    min-height: 180px !important;
-    padding: 14px !important;
+    order: 4;
+    min-height: 170px !important;
+    padding: 12px !important;
     border-radius: 16px !important;
+    margin: 0 !important;
+    width: calc(58% - 7px);
+    align-self: flex-start;
   }
 
   .cs-site .decision-img img {
-    max-height: 150px !important;
+    max-height: 138px !important;
     max-width: 100% !important;
     margin: 0 auto !important;
   }
 
-  /* Turn CTA into a compact side card */
   .cs-site .decision-cta-box {
+    order: 5;
+    width: calc(42% - 7px) !important;
+    align-self: flex-end;
+    margin-top: -170px !important;
+    min-height: 170px !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
-    padding: 14px !important;
+    padding: 12px !important;
     border-radius: 16px !important;
-    min-height: 180px !important;
   }
 
   .cs-site .btn-block-cta {
     width: 100% !important;
-    padding: 14px 12px !important;
-    font-size: 14px !important;
+    padding: 13px 10px !important;
+    font-size: 13px !important;
     line-height: 1.3 !important;
     border-radius: 14px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 9px !important;
   }
 
   .cs-site .cta-micro,
   .cs-site .inline-disclosure {
     text-align: center !important;
-    font-size: 11px !important;
-    line-height: 1.45 !important;
+    font-size: 10.5px !important;
+    line-height: 1.4 !important;
   }
 
-  /* Put snapshot right after the compact row */
   .cs-site .snapshot {
-    margin-top: 0 !important;
+    order: 6;
+    margin-top: 14px !important;
     margin-bottom: 14px !important;
   }
 
-  /* Keep trust and caution lower */
+  .cs-site .snapshot-list li {
+    grid-template-columns: 1fr !important;
+    gap: 4px !important;
+    padding: 10px 0 !important;
+  }
+
   .cs-site .trust-block {
+    order: 7;
     margin-top: 0 !important;
     margin-bottom: 14px !important;
   }
 
-  /* Soften the caution box */
   .cs-site .watchout {
+    order: 8;
+    margin-top: 0 !important;
     background-color: #f5ecd9 !important;
     border-left: 2px solid #d2a246 !important;
     border-radius: 12px !important;
     padding: 14px 16px !important;
-    margin-top: 0 !important;
   }
 
-  .cs-site .watchout .eyebrow {
-    color: #8a6725 !important;
-  }
-
+  .cs-site .watchout .eyebrow,
   .cs-site .watchout p {
     color: #8a6725 !important;
-    font-size: 14px !important;
   }
 }
 
-/* Very small phones: stack image + CTA again */
+/* very small phones: return to stack, but keep better order */
 @media (max-width: 420px) {
-  .cs-site .decision-media {
-    grid-template-columns: 1fr !important;
-  }
-
   .cs-site .decision-img,
   .cs-site .decision-cta-box {
-    min-height: auto !important;
+    width: 100% !important;
+    align-self: stretch !important;
+    margin-top: 0 !important;
+  }
+
+  .cs-site .decision-img {
+    min-height: 190px !important;
+    margin-bottom: 12px !important;
   }
 
   .cs-site .decision-img img {
-    max-height: 180px !important;
+    max-height: 150px !important;
+  }
+
+  .cs-site .decision-cta-box {
+    min-height: auto !important;
+    margin-bottom: 14px !important;
   }
 }
