@@ -5058,11 +5058,12 @@
 }
 
 /* ─────────────────────────────────────────────────────────
-   MOBILE TIGHTENING v3
-   Goal:
+   MOBILE TIGHTENING v4
+   Clean version:
    - title/subhead full width
-   - snapshot + image side by side
-   - CTA below both, full width
+   - snapshot left
+   - image + CTA stacked right
+   - wider snapshot
    - desktop unchanged
 ───────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
@@ -5082,7 +5083,7 @@
 
   .cs-site .decision-section .decision-cols {
     display: grid !important;
-    grid-template-columns: minmax(0, 1.55fr) minmax(120px, 0.9fr) !important;
+    grid-template-columns: minmax(0, 1.75fr) minmax(132px, 0.95fr) !important;
     column-gap: 14px !important;
     row-gap: 14px !important;
     align-items: start !important;
@@ -5118,16 +5119,18 @@
 
   .cs-site .decision-section .snapshot {
     grid-column: 1 / 2 !important;
-    grid-row: 4 !important;
     margin: 0 !important;
     min-width: 0 !important;
   }
 
   .cs-site .decision-section .decision-media {
     grid-column: 2 / 3 !important;
-    grid-row: 4 !important;
-    display: block !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    align-content: start !important;
     margin: 0 !important;
+    min-width: 0 !important;
   }
 
   .cs-site .decision-section .decision-img {
@@ -5145,35 +5148,33 @@
     margin: 0 auto !important;
   }
 
-  /* CTA moves below the grid and spans full width */
   .cs-site .decision-section .decision-cta-box {
-    grid-column: 1 / -1 !important;
-    grid-row: 5 !important;
-    padding: 14px 14px 12px !important;
+    padding: 12px !important;
     border-radius: 18px !important;
     margin: 0 !important;
   }
 
   .cs-site .decision-section .btn-block-cta,
   .cs-site .decision-section .btn-block {
-    min-height: 54px !important;
-    padding: 16px 18px !important;
-    font-size: 16px !important;
+    min-height: 52px !important;
+    padding: 14px 12px !important;
+    font-size: 15px !important;
     line-height: 1.2 !important;
     text-align: center !important;
     width: 100% !important;
+    white-space: nowrap !important;
   }
 
   .cs-site .decision-section .cta-micro,
   .cs-site .decision-section .inline-disclosure {
-    font-size: 12px !important;
-    line-height: 1.4 !important;
+    font-size: 11px !important;
+    line-height: 1.35 !important;
     text-align: center !important;
   }
 
   .cs-site .decision-section .snapshot-list li {
-    grid-template-columns: 96px minmax(0, 1fr) !important;
-    column-gap: 14px !important;
+    grid-template-columns: 104px minmax(0, 1fr) !important;
+    column-gap: 12px !important;
     padding: 14px 0 !important;
   }
 
@@ -5185,9 +5186,9 @@
 
   .cs-site .decision-section .snapshot-val {
     font-size: 15px !important;
-    line-height: 1.38 !important;
+    line-height: 1.4 !important;
     word-break: normal !important;
-    overflow-wrap: break-word !important;
+    overflow-wrap: anywhere !important;
   }
 
   .cs-site .decision-section .decision-followups {
@@ -5201,25 +5202,18 @@
   }
 }
 
-/* Extra-small phones: stack again */
 @media (max-width: 390px) {
   .cs-site .decision-section .decision-cols {
     grid-template-columns: 1fr !important;
   }
 
-  .cs-site .decision-section .snapshot {
+  .cs-site .decision-section .snapshot,
+  .cs-site .decision-section .decision-media {
     grid-column: 1 / -1 !important;
-    grid-row: auto !important;
   }
 
   .cs-site .decision-section .decision-media {
-    grid-column: 1 / -1 !important;
-    grid-row: auto !important;
-  }
-
-  .cs-site .decision-section .decision-cta-box {
-    grid-column: 1 / -1 !important;
-    grid-row: auto !important;
+    gap: 12px !important;
   }
 
   .cs-site .decision-section .decision-img {
