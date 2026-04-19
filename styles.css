@@ -5263,3 +5263,40 @@
     margin-top: 6px !important;
   }
 }
+/* ─────────────────────────────────────────────────────────
+   HARD OVERRIDE: thumbnail fix (safe, no searching needed)
+───────────────────────────────────────────────────────── */
+
+/* Reset anything earlier */
+.cs-site .decision-name--with-thumb {
+  display: block !important;
+}
+
+.cs-site .decision-thumb {
+  display: none !important;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+
+  .cs-site .decision-name--with-thumb {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 72px !important;
+    column-gap: 12px !important;
+    align-items: start !important;
+  }
+
+  .cs-site .decision-thumb {
+    display: block !important;
+    width: 72px !important;
+    height: 72px !important;
+    object-fit: contain !important;
+    justify-self: end !important;
+    margin-top: 6px !important;
+  }
+
+  /* FORCE text to stay clean and not get squeezed */
+  .cs-site .decision-name--with-thumb {
+    max-width: none !important;
+  }
+}
