@@ -1,349 +1,282 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Choosimple — Stop Researching. Get the Right Answer.</title>
-<meta content="One clear purchase decision per category. No top-10 lists. No noise. Backed by reliability data and real owner feedback." name="description"/>
-
-
-
-
+<meta content="One clear purchase decision per category. No top-10 lists. No noise. Backed by reliability signals and real owner feedback." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&amp;family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&amp;display=swap" rel="stylesheet"/>
-<link href="styles.css" rel="stylesheet"/></head>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
 <div class="cs-site">
 <nav class="nav">
-<div class="nav-inner">
-<a aria-label="Choosimple — Home" class="nav-logo" href="index.html">
-<img alt="Choosimple" class="nav-logo-img" src="TRANSPARENT_Logo.png"/>
-</a>
-<ul class="nav-links">
-<li><a href="index.html#kitchen">Kitchen</a></li>
-<li><a href="index.html#home-cat">Home Essentials</a></li>
-<li><a href="index.html#personal-care">Personal Care</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-</div>
+  <div class="nav-inner">
+    <a aria-label="Choosimple — Home" class="nav-logo" href="index.html">
+      <img alt="Choosimple" class="nav-logo-img" src="TRANSPARENT_Logo.png"/>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#kitchen">Kitchen</a></li>
+      <li><a href="#home-cat">Home Essentials</a></li>
+      <li><a href="#personal-care">Personal Care</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
 </nav>
+
 <section class="hero">
-<div class="hero-grid">
-<div class="hero-left">
-<p class="hero-eyebrow">Decision-first buying guides · Built to reduce buyer regret</p>
-<h1>Stop researching.<br/><em>Get the right answer</em><br/>for your situation.</h1>
-<p class="hero-body">Choosimple gives you one defensible purchase decision per category — built from buyer patterns, reliability signals, and expert sources, then translated into plain English.</p>
-<p class="hero-helper">Start here: choose a category below and get one clear answer.</p><div class="hero-buttons">
-<a class="btn btn-primary" href="#catalogue">Browse categories</a>
-<a class="btn btn-outline" href="#how">How it works</a>
-</div>
-<div class="hero-mobile-jump" aria-label="Quick category links">
-<a class="hero-chip" href="blender.html">Blender</a>
-<a class="hero-chip" href="robot-vacuum.html">Robot Vacuum</a>
-<a class="hero-chip" href="air-fryer.html">Air Fryer</a>
-<a class="hero-chip" href="electric-toothbrush.html">Toothbrush</a>
-</div>
-</div>
-<div class="hero-right">
-<div class="hero-card hero-card--rotator" id="heroRotator">
-<p class="hero-card-eyebrow">Start with a category</p>
-<div class="hero-rotator-stage">
-<a class="hero-slide is-active" data-slide="0" href="robot-vacuum.html">
-<h3>Roborock Qrevo Curv</h3>
-<p class="hero-card-sub">Featured home decision · $850–$1,200</p>
-<div class="hero-card-rule"></div>
-<p class="hero-card-quote">"For mixed floors, the Qrevo Curv delivers strong automation without the dock complexity that causes most premium robot vacuums to fail."</p>
-<span class="hero-card-link">Read the decision <span>→</span></span>
-</a>
-<a class="hero-slide" data-slide="1" href="blender.html">
-<h3>Breville Fresh &amp; Furious BBL620</h3>
-<p class="hero-card-sub">Featured kitchen decision · $160–$200</p>
-<div class="hero-card-rule"></div>
-<p class="hero-card-quote">"Reliable daily blending without the overbuilt complexity of premium machines — the defensible buy before Vitamix pricing starts to make sense."</p>
-<span class="hero-card-link">Read the decision <span>→</span></span>
-</a>
-<a class="hero-slide" data-slide="2" href="air-fryer.html">
-<h3>Instant Vortex Plus 6-Quart</h3>
-<p class="hero-card-sub">Featured kitchen decision · $100–$200</p>
-<div class="hero-card-rule"></div>
-<p class="hero-card-quote">"Enough capacity for a real family meal without taking over the counter — the version most kitchens actually need."</p>
-<span class="hero-card-link">Read the decision <span>→</span></span>
-</a>
-<a class="hero-slide" data-slide="3" href="electric-toothbrush.html">
-<h3>Philips Sonicare 4100 Series</h3>
-<p class="hero-card-sub">Featured personal care decision · $50–$90</p>
-<div class="hero-card-rule"></div>
-<p class="hero-card-quote">"Everything that matters clinically — pressure sensing, timer, proven heads — without the app-dependent bloat of pricier models."</p>
-<span class="hero-card-link">Read the decision <span>→</span></span>
-</a>
-</div>
-<div aria-label="Select pick" class="hero-rotator-dots" role="tablist">
-<button aria-label="Pick 1" class="hero-dot is-active" data-dot="0"></button>
-<button aria-label="Pick 2" class="hero-dot" data-dot="1"></button>
-<button aria-label="Pick 3" class="hero-dot" data-dot="2"></button>
-<button aria-label="Pick 4" class="hero-dot" data-dot="3"></button>
-</div>
-</div>
-</div>
-</div>
+  <div class="hero-grid hero-grid--focused">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Decision-first buying guides · Built to reduce buyer regret</p>
+      <h1>Stop researching.<br/><em>Get the right answer</em><br/>for your situation.</h1>
+      <p class="hero-body">Choosimple gives you one defensible purchase decision per category — built from buyer patterns, reliability signals, and expert sources, then translated into plain English.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#catalogue">Browse categories</a>
+      </div>
+      <p class="hero-helper">Start with the category you are actually shopping for. We will give you the one that makes the most sense — plus the obvious exceptions only when they truly matter.</p>
+      <div class="hero-mobile-jump" aria-label="Quick category links">
+        <a class="hero-chip" href="blender-option-a-inline.html">Blender</a>
+        <a class="hero-chip" href="robot-vacuum.html">Robot Vacuum</a>
+        <a class="hero-chip" href="air-fryer.html">Air Fryer</a>
+        <a class="hero-chip" href="electric-toothbrush.html">Toothbrush</a>
+      </div>
+      <div class="hero-proof" aria-label="Proof signals">
+        <span class="hero-proof-item">Reliability first</span>
+        <span class="hero-proof-item">Real regret patterns</span>
+        <span class="hero-proof-item">Clear default picks</span>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <p class="hero-card-eyebrow">Featured decision</p>
+        <h3>Breville Fresh &amp; Furious BBL620</h3>
+        <p class="hero-card-sub">Kitchen · Typical price: $160–$200</p>
+        <div class="hero-card-rule"></div>
+        <p class="hero-card-quote">“Reliable daily blending without the overbuilt complexity of premium machines — the defensible buy before Vitamix pricing starts to make sense.”</p>
+        <p class="hero-card-proof"><strong>Why it wins:</strong> fewer durability complaints than most mid-range blenders people cross-shop, with enough real-world power for frozen fruit, ice, and everyday use.</p>
+        <a class="hero-card-link" href="blender-option-a-inline.html">See why this one wins <span>→</span></a>
+        <p class="hero-card-note">Want a different category? Start with the buttons on the left.</p>
+      </div>
+    </div>
+  </div>
 </section>
+
 <section class="catalogue" id="catalogue">
-<div class="catalogue-header">
-<div class="catalogue-header-left">
-<span class="eyebrow">Browse by category</span>
-<h2>Choose a category.<br/>Get one clear answer.</h2>
-</div>
-<p class="catalogue-header-right">Each category leads to one defensible default — with the obvious alternatives explained only when they truly matter.</p>
-</div><div class="catalogue-guide"><p class="catalogue-guide-intro">Pick a category. We'll give you the one that makes the most sense.</p><div class="catalogue-steps"><div class="catalogue-step"><span>01</span><strong>Choose a category</strong><p>Start with the product you're actually shopping for.</p></div><div class="catalogue-step"><span>02</span><strong>See the default pick</strong><p>Get the clear answer first, not a top-10 list.</p></div><div class="catalogue-step"><span>03</span><strong>Check the exceptions</strong><p>Only review alternatives if your situation truly calls for one.</p></div></div></div>
-<div class="cat-group" id="kitchen">
-<div class="cat-group-header">
-<h3>Kitchen</h3>
-<span class="cat-group-count">3 decisions</span>
-</div>
-<div class="card-grid">
-<a class="dec-card-new dec-card-new--lifestyle" href="blender.html">
-<div class="dec-card-img dec-card-img--lifestyle">
-<img alt="Breville Fresh &amp; Furious BBL620" src="Breville_Fresh_and_Furious_jpeg.png"/>
-</div>
-<div class="dec-card-body">
-<p class="dec-card-cat">Kitchen</p>
-<p class="dec-card-kicker">Default decision</p>
-<h3 class="dec-card-title">The blender that makes the most sense</h3>
-<p class="dec-card-pick">Breville Fresh &amp; Furious BBL620</p>
-<p class="dec-card-summary">Reliable daily blending, strong enough for frozen fruit, and easier to live with than heavier premium machines.</p>
-<p class="dec-card-price">Typical price: $160–$200</p>
-<div class="dec-card-footer">
-<span class="dec-card-badge">Live decision</span>
-<span class="dec-card-link">Read the decision <span>→</span></span>
-</div>
-</div>
-</a>
-<a class="dec-card-new" href="air-fryer.html">
-<div class="dec-card-img">
-<img alt="Instant Vortex Plus" src="Instant_Vortex_Plus__transparent_.png"/>
-</div>
-<div class="dec-card-body">
-<p class="dec-card-cat">Kitchen</p>
-<p class="dec-card-kicker">Default decision</p>
-<h3 class="dec-card-title">The air fryer most kitchens should buy</h3>
-<p class="dec-card-pick">Instant Vortex Plus 6-Quart</p>
-<p class="dec-card-summary">Enough capacity for real meals, strong everyday performance, and fewer tradeoffs than oversized or ultra-cheap options.</p>
-<p class="dec-card-price">Typical price: $100–$200</p>
-<div class="dec-card-footer">
-<span class="dec-card-badge">Live decision</span>
-<span class="dec-card-link">Read the decision <span>→</span></span>
-</div>
-</div>
-</a>
-<div class="dec-card-new dec-card-new--soon">
-<div class="dec-card-img">
-<div class="dec-card-coming"><span>Coming Soon</span></div>
-</div>
-<div class="dec-card-body">
-<p class="dec-card-cat">Kitchen</p>
-<p class="dec-card-kicker">Next category</p>
-<h3 class="dec-card-title">Coffee grinder decision</h3>
-<p class="dec-card-pick">We are finishing the research now.</p>
-<p class="dec-card-summary">A single clear grinder recommendation is coming next.</p>
-<div class="dec-card-footer">
-<span class="dec-card-badge dec-card-badge--muted">Coming soon</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cat-group" id="home-cat">
-<div class="cat-group-header">
-<h3>Home Essentials</h3>
-<span class="cat-group-count">2 decisions</span>
-</div>
-<div class="card-grid-2">
-<a class="dec-card-new" href="robot-vacuum.html">
-<div class="dec-card-img">
-<img alt="Roborock Qrevo Curv" src="ROBOROCK_QREVO_TRANSPARENT_FOR_NOTION.png"/>
-</div>
-<div class="dec-card-body">
-<p class="dec-card-cat">Home Essentials</p>
-<p class="dec-card-kicker">Default decision</p>
-<h3 class="dec-card-title">The robot vacuum that best balances automation and reliability</h3>
-<p class="dec-card-pick">Roborock Qrevo Curv</p>
-<p class="dec-card-summary">High-end convenience that still feels rational: strong navigation, solid dock automation, and fewer painful compromises.</p>
-<p class="dec-card-price">Typical price: $850–$1,200</p>
-<div class="dec-card-footer">
-<span class="dec-card-badge">Live decision</span>
-<span class="dec-card-link">Read the decision <span>→</span></span>
-</div>
-</div>
-</a>
-<div class="dec-card-new dec-card-new--soon">
-<div class="dec-card-img">
-<div class="dec-card-coming"><span>Coming Soon</span></div>
-</div>
-<div class="dec-card-body">
-<p class="dec-card-cat">Home Essentials</p>
-<p class="dec-card-kicker">Next category</p>
-<h3 class="dec-card-title">Air purifier decision</h3>
-<p class="dec-card-pick">We are finishing the research now.</p>
-<p class="dec-card-summary">We are narrowing this to one defensible pick before publishing.</p>
-<div class="dec-card-footer">
-<span class="dec-card-badge dec-card-badge--muted">Coming soon</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cat-group" id="personal-care">
-<div class="cat-group-header">
-<h3>Personal Care</h3>
-<span class="cat-group-count">1 decision</span>
-</div>
-<div class="card-grid">
-<a class="dec-card-new" href="electric-toothbrush.html">
-<div class="dec-card-img">
-<img alt="Philips Sonicare 4100" src="PHILIPS_SONICARE_4100__transparent_.png"/>
-</div>
-<div class="dec-card-body">
-<p class="dec-card-cat">Personal Care</p>
-<p class="dec-card-kicker">Default decision</p>
-<h3 class="dec-card-title">The electric toothbrush most people should stop at</h3>
-<p class="dec-card-pick">Philips Sonicare 4100 Series</p>
-<p class="dec-card-summary">Gets the essentials right without the app extras, charger clutter, or premium price creep that rarely improves outcomes.</p>
-<p class="dec-card-price">Typical price: $50–$90</p>
-<div class="dec-card-footer">
-<span class="dec-card-badge">Live decision</span>
-<span class="dec-card-link">Read the decision <span>→</span></span>
-</div>
-</div>
-</a>
-</div>
-</div>
-</section><section class="what-section" id="how">
-<div class="what-grid">
-<div class="what-left">
-<span class="eyebrow">What you get</span>
-<h2>A faster way to make the right purchase</h2>
-</div>
-<div class="what-items">
-<div class="what-item">
-<span class="what-item-icon">✓</span>
-<h3>One decision — not ten options</h3>
-<p>A single default that makes the most sense for most buyers. No endless tabs. No fake choice overload.</p>
-</div>
-<div class="what-item">
-<span class="what-item-icon">⇄</span>
-<h3>Honest alternatives only when needed</h3>
-<p>If the default is wrong for your situation, we show the better fit — and explain why it is not the main pick.</p>
-</div>
-<div class="what-item">
-<span class="what-item-icon">!</span>
-<h3>Built on real regret patterns</h3>
-<p>We pay attention to what causes returns, failures, wasted money, and buyer remorse — not just star ratings.</p>
-</div>
-</div>
-</div>
+  <div class="catalogue-header">
+    <div class="catalogue-header-left">
+      <span class="eyebrow">Browse by category</span>
+      <h2>Choose a category.<br/>Get one clear answer.</h2>
+    </div>
+    <p class="catalogue-header-right">Each category leads to one defensible default — with the obvious alternatives explained only when they truly matter.</p>
+  </div>
+
+  <div class="catalogue-intro">
+    <p><strong>Pick the product you are actually shopping for.</strong> You will get the default choice first, not a top-10 list. Then, only if your situation truly calls for it, you will see the better-fit exceptions and the reason they still are not the default.</p>
+    <p>This keeps the homepage focused on the answer path instead of making you learn the whole system before you can use it.</p>
+  </div>
+
+  <div class="cat-group" id="kitchen">
+    <div class="cat-group-header">
+      <h3>Kitchen</h3>
+      <span class="cat-group-count">3 decisions</span>
+    </div>
+    <div class="card-grid">
+      <a class="dec-card-new dec-card-new--lifestyle" href="blender-option-a-inline.html">
+        <div class="dec-card-img dec-card-img--lifestyle">
+          <img alt="Breville Fresh &amp; Furious BBL620" src="Breville_Fresh_and_Furious_jpeg.png"/>
+        </div>
+        <div class="dec-card-body">
+          <p class="dec-card-cat">Kitchen</p>
+          <p class="dec-card-kicker">Default decision</p>
+          <h3 class="dec-card-title">The blender that makes the most sense</h3>
+          <p class="dec-card-pick">Breville Fresh &amp; Furious BBL620</p>
+          <p class="dec-card-summary">Reliable daily blending, strong enough for frozen fruit, and easier to live with than heavier premium machines.</p>
+          <p class="dec-card-proofline"><strong>Why it wins:</strong> fewer long-term complaints than most mid-range blenders people compare first.</p>
+          <p class="dec-card-price">Typical price: $160–$200</p>
+          <div class="dec-card-footer">
+            <span class="dec-card-badge">Default pick</span>
+            <span class="dec-card-link">See why this one wins <span>→</span></span>
+          </div>
+        </div>
+      </a>
+
+      <a class="dec-card-new" href="air-fryer.html">
+        <div class="dec-card-img">
+          <img alt="Instant Vortex Plus" src="Instant_Vortex_Plus__transparent_.png"/>
+        </div>
+        <div class="dec-card-body">
+          <p class="dec-card-cat">Kitchen</p>
+          <p class="dec-card-kicker">Default decision</p>
+          <h3 class="dec-card-title">The air fryer most kitchens should buy</h3>
+          <p class="dec-card-pick">Instant Vortex Plus 6-Quart</p>
+          <p class="dec-card-summary">Enough capacity for real meals, strong everyday performance, and fewer tradeoffs than oversized or ultra-cheap options.</p>
+          <p class="dec-card-proofline"><strong>Why it wins:</strong> the 6-quart size hits the sweet spot for daily use without paying for features most households ignore.</p>
+          <p class="dec-card-price">Typical price: $100–$200</p>
+          <div class="dec-card-footer">
+            <span class="dec-card-badge">Default pick</span>
+            <span class="dec-card-link">See why this one wins <span>→</span></span>
+          </div>
+        </div>
+      </a>
+
+      <div class="dec-card-new dec-card-new--soon">
+        <div class="dec-card-img">
+          <div class="dec-card-coming"><span>Publishing Soon</span></div>
+        </div>
+        <div class="dec-card-body">
+          <p class="dec-card-cat">Kitchen</p>
+          <p class="dec-card-kicker">Next category</p>
+          <h3 class="dec-card-title">Coffee grinder decision</h3>
+          <p class="dec-card-pick">Publishing soon.</p>
+          <p class="dec-card-summary">One clear grinder recommendation is next.</p>
+          <div class="dec-card-footer">
+            <span class="dec-card-badge dec-card-badge--muted">Publishing soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="mini-how" id="how">
+    <div class="mini-how-grid">
+      <div class="mini-how-item">
+        <span>01</span>
+        <h3>Start with the default</h3>
+        <p>Get the one pick that makes the most sense before spending time on edge cases.</p>
+      </div>
+      <div class="mini-how-item">
+        <span>02</span>
+        <h3>Use the proof</h3>
+        <p>See the buyer mistakes, misleading signals, and ownership tradeoffs that support the decision.</p>
+      </div>
+      <div class="mini-how-item">
+        <span>03</span>
+        <h3>Check the exceptions</h3>
+        <p>Only look at alternatives if your situation clearly calls for one.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cat-group" id="home-cat">
+    <div class="cat-group-header">
+      <h3>Home Essentials</h3>
+      <span class="cat-group-count">2 decisions</span>
+    </div>
+    <div class="card-grid-2">
+      <a class="dec-card-new" href="robot-vacuum.html">
+        <div class="dec-card-img">
+          <img alt="Roborock Qrevo Curv" src="ROBOROCK_QREVO_TRANSPARENT_FOR_NOTION.png"/>
+        </div>
+        <div class="dec-card-body">
+          <p class="dec-card-cat">Home Essentials</p>
+          <p class="dec-card-kicker">Default decision</p>
+          <h3 class="dec-card-title">The robot vacuum that best balances automation and reliability</h3>
+          <p class="dec-card-pick">Roborock Qrevo Curv</p>
+          <p class="dec-card-summary">High-end convenience that still feels rational: strong navigation, solid dock automation, and fewer painful compromises.</p>
+          <p class="dec-card-proofline"><strong>Why it wins:</strong> strong daily automation without stepping into the most failure-prone premium complexity.</p>
+          <p class="dec-card-price">Typical price: $850–$1,200</p>
+          <div class="dec-card-footer">
+            <span class="dec-card-badge">Default pick</span>
+            <span class="dec-card-link">See why this one wins <span>→</span></span>
+          </div>
+        </div>
+      </a>
+
+      <div class="dec-card-new dec-card-new--soon">
+        <div class="dec-card-img">
+          <div class="dec-card-coming"><span>Publishing Soon</span></div>
+        </div>
+        <div class="dec-card-body">
+          <p class="dec-card-cat">Home Essentials</p>
+          <p class="dec-card-kicker">Next category</p>
+          <h3 class="dec-card-title">Air purifier decision</h3>
+          <p class="dec-card-pick">Publishing soon.</p>
+          <p class="dec-card-summary">One clear purifier recommendation is coming next.</p>
+          <div class="dec-card-footer">
+            <span class="dec-card-badge dec-card-badge--muted">Publishing soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cat-group" id="personal-care">
+    <div class="cat-group-header">
+      <h3>Personal Care</h3>
+      <span class="cat-group-count">1 decision</span>
+    </div>
+    <div class="card-grid">
+      <a class="dec-card-new" href="electric-toothbrush.html">
+        <div class="dec-card-img">
+          <img alt="Philips Sonicare 4100" src="PHILIPS_SONICARE_4100__transparent_.png"/>
+        </div>
+        <div class="dec-card-body">
+          <p class="dec-card-cat">Personal Care</p>
+          <p class="dec-card-kicker">Default decision</p>
+          <h3 class="dec-card-title">The electric toothbrush most people should stop at</h3>
+          <p class="dec-card-pick">Philips Sonicare 4100 Series</p>
+          <p class="dec-card-summary">Gets the essentials right without the app extras, charger clutter, or premium price creep that rarely improves outcomes.</p>
+          <p class="dec-card-proofline"><strong>Why it wins:</strong> proven daily cleaning with pressure sensing and fewer gimmicks than pricier models.</p>
+          <p class="dec-card-price">Typical price: $50–$90</p>
+          <div class="dec-card-footer">
+            <span class="dec-card-badge">Default pick</span>
+            <span class="dec-card-link">See why this one wins <span>→</span></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </section>
+
 <section class="email-cta">
-<div class="container-text">
-<span class="eyebrow">Get new decisions</span>
-<h2>New categories. One clear answer each.</h2>
-<p>Join the list for fresh decisions as new categories go live — concise, useful, and easy to scan.</p>
-<form action="ACTION-URL-HERE" class="email-form" method="post" target="_blank">
-<input name="EMAIL" placeholder="you@example.com" required="" type="email"/>
-<button type="submit">Get new decisions →</button>
-</form>
-<p class="email-note">No spam. Unsubscribe any time.</p>
-</div>
+  <div class="container-text">
+    <span class="eyebrow">Get new decisions</span>
+    <h2>New categories. One clear answer each.</h2>
+    <p>Join the list for fresh decisions as new categories go live — concise, useful, and easy to scan.</p>
+    <form action="ACTION-URL-HERE" class="email-form" method="post" target="_blank">
+      <input name="EMAIL" placeholder="you@example.com" required type="email"/>
+      <button type="submit">Get new decisions →</button>
+    </form>
+    <p class="email-note">No spam. Unsubscribe any time.</p>
+  </div>
 </section>
+
 <footer>
-<div class="footer-grid">
-<div class="footer-brand">
-<h2>Stop researching<br/><em>Start buying</em></h2>
-<p>One clear purchase decision per category. No endless options. No hedging.</p>
-<form action="ACTION-URL-HERE" class="footer-email-row" method="post" target="_blank">
-<input name="EMAIL" placeholder="you@example.com" type="email"/>
-<button type="submit">Subscribe</button>
-</form>
-</div>
-<div class="footer-col">
-<h3>Site</h3>
-<ul>
-<li><a href="about.html">About</a></li>
-<li><a href="disclosure.html">Affiliate Disclosure</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h3>Categories</h3>
-<ul>
-<li><a href="blender.html">Best Blender</a></li>
-<li><a href="air-fryer.html">Best Air Fryer</a></li>
-<li><a href="robot-vacuum.html">Best Robot Vacuum</a></li>
-<li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li>
-</ul>
-</div>
-</div>
-<div class="footer-bottom">
-<p>© 2025 Choosimple. All rights reserved.</p>
-<a href="disclosure.html">As an Amazon Associate we earn from qualifying purchases.</a>
-</div>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h2>Stop researching.<br/><em>Start buying.</em></h2>
+      <p>One clear purchase decision per category. No endless options. No hedging.</p>
+      <form action="ACTION-URL-HERE" class="footer-email-row" method="post" target="_blank">
+        <input name="EMAIL" placeholder="you@example.com" type="email"/>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="footer-col">
+      <h3>Site</h3>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="disclosure.html">Affiliate Disclosure</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="blender-option-a-inline.html">Best Blender</a></li>
+        <li><a href="air-fryer.html">Best Air Fryer</a></li>
+        <li><a href="robot-vacuum.html">Best Robot Vacuum</a></li>
+        <li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Choosimple. All rights reserved.</p>
+    <a href="disclosure.html">As an Amazon Associate we earn from qualifying purchases.</a>
+  </div>
 </footer>
 </div>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var rotator = document.getElementById('heroRotator');
-  if (!rotator) return;
-
-  var slides = Array.prototype.slice.call(rotator.querySelectorAll('.hero-slide'));
-  var dots = Array.prototype.slice.call(rotator.querySelectorAll('.hero-dot'));
-  if (!slides.length || !dots.length) return;
-
-  var current = slides.findIndex(function (slide) { return slide.classList.contains('is-active'); });
-  if (current < 0) current = 0;
-  var total = slides.length;
-  var timer = null;
-  var intervalMs = window.matchMedia && window.matchMedia('(max-width: 900px)').matches ? 5200 : 7000;
-
-  function go(to) {
-    slides[current].classList.remove('is-active');
-    dots[current].classList.remove('is-active');
-    current = (to + total) % total;
-    slides[current].classList.add('is-active');
-    dots[current].classList.add('is-active');
-  }
-
-  function start() {
-    stop();
-    timer = window.setInterval(function () {
-      go(current + 1);
-    }, intervalMs);
-  }
-
-  function stop() {
-    if (timer) {
-      window.clearInterval(timer);
-      timer = null;
-    }
-  }
-
-  dots.forEach(function (dot, i) {
-    dot.addEventListener('click', function (e) {
-      e.preventDefault();
-      go(i);
-      start();
-    });
-  });
-
-  rotator.addEventListener('mouseenter', stop);
-  rotator.addEventListener('mouseleave', start);
-  rotator.addEventListener('touchstart', stop, { passive: true });
-  rotator.addEventListener('touchend', start, { passive: true });
-  document.addEventListener('visibilitychange', function () {
-    if (document.hidden) stop(); else start();
-  });
-
-  start();
-});
-</script>
 </body>
 </html>
