@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
-<link href="styles.css" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="cs-site">
@@ -31,6 +31,7 @@
     <p class="page-breadcrumb"><a href="index.html">Home</a> · <a href="index.html#kitchen">Kitchen</a> · The Decision</p>
     <h1>Best Air Fryer</h1>
     <p class="page-tagline">Stop researching. Get the right answer for your situation.</p>
+    <p class="page-support">For most households, the Instant Vortex Plus 6-Quart is still the air fryer that makes the most sense.</p>
   </div>
 </div>
 
@@ -42,19 +43,38 @@
         <span class="eyebrow">The decision</span>
         <div class="decision-kicker">Start here.</div>
       </div>
+
       <div>
         <div class="decision-cols">
           <div class="decision-info">
             <span class="conf-badge conf-badge--pick">✓ Default Pick</span>
-            <h2 class="decision-name">Instant Vortex Plus 6-Quart</h2>
-            <p class="decision-subhead">Best for most households that want fast, even air frying without paying extra for smart features they will barely use.</p>
+            <div class="decision-head-mobile">
+              <div class="decision-head-mobile__row">
+                <div class="decision-head-mobile__text">
+                  <h2 class="decision-name">Instant Vortex Plus 6-Quart</h2>
+                </div>
+                <img class="decision-head-mobile__thumb" src="Instant_Vortex_Plus__transparent_.png" alt="Instant Vortex Plus 6-Quart"/>
+              </div>
+              <p class="decision-subhead">Best for most households that want fast, even air frying without paying extra for smart features they will barely use.</p>
+            </div>
+
             <div class="snapshot">
               <p class="snapshot-label">Decision Snapshot</p>
               <ul class="snapshot-list">
                 <li><span class="snapshot-key">Price</span><span class="snapshot-val">$100–$200</span></li>
                 <li><span class="snapshot-key">Best for</span><span class="snapshot-val">Most households</span></li>
-                <li><span class="snapshot-key">Stands out for</span><span class="snapshot-val">Strong basket capacity, even cooking, and a better long-term ownership fit than many flashier alternatives</span></li>
+                <li><span class="snapshot-key">Stands out for</span><span class="snapshot-val">Strong basket capacity, even cooking, and better long-term ownership</span></li>
               </ul>
+            </div>
+
+            <div class="decision-inline-proof">
+              <p><strong>Why it wins:</strong> better basket-size-to-usability balance than many flashy alternatives, with a stronger long-term ownership case for everyday meals.</p>
+            </div>
+
+            <div class="decision-inline-cta">
+              <a class="btn-block btn-block-green btn-block-cta" data-affiliate-placeholder="true" href="#">Check the price <span>→</span></a>
+              <p class="cta-micro">Pricing may vary by retailer and timing.</p>
+              <p class="inline-disclosure">Affiliate link. <a href="disclosure.html">Disclosure</a></p>
             </div>
           </div>
 
@@ -62,10 +82,11 @@
             <div class="decision-img">
               <img alt="Instant Vortex Plus 6-Quart" src="Instant_Vortex_Plus__transparent_.png"/>
             </div>
-            <div class="decision-cta-box">
-              <a class="btn-block btn-block-green btn-block-cta" href="#" data-affiliate-placeholder="true">Check current price <span>→</span></a>
-              <p class="cta-micro">Pricing may vary.</p>
-              <p class="inline-disclosure">Affiliate link. <a href="disclosure.html">Disclosure</a></p>
+
+            <div class="decision-cta-box decision-cta-box--supporting">
+              <p class="supporting-cta-label">Want the shortest path?</p>
+              <a class="btn-block btn-block-outline btn-block-cta" data-affiliate-placeholder="true" href="#obvious-alternatives">Compare the obvious alternatives <span>→</span></a>
+              <p class="cta-micro">See where Ninja, Cosori, and toaster-oven hybrids still fall short for most buyers.</p>
             </div>
           </div>
         </div>
@@ -84,6 +105,15 @@
             <span class="eyebrow">Worth knowing</span>
             <p>The ClearCook window is useful, but the basket coating still wears faster if you use metal utensils.</p>
           </div>
+        </div>
+
+        <div class="mid-cta-box">
+          <p class="mid-cta-kicker">Already leaning toward it?</p>
+          <div class="mid-cta-row">
+            <p class="mid-cta-copy">Check current pricing now — this is the point where most people already know whether the Instant Vortex fits their situation.</p>
+            <a class="btn btn-primary" data-affiliate-placeholder="true" href="#">Check the price</a>
+          </div>
+          <p class="inline-disclosure">Affiliate link. <a href="disclosure.html">Disclosure</a></p>
         </div>
       </div>
     </div>
@@ -138,14 +168,83 @@
       <div class="num-left">
         <span class="section-num">04</span>
         <span class="eyebrow">Misleading signals</span>
-        <h2>What sounds convincing — but is not</h2>
+        <h2>What sounds convincing — but isn’t</h2>
       </div>
       <div>
         <div class="signal-grid">
-          <div class="signal-card"><div class="signal-title">More presets</div><p>Most presets are just slightly different time and temperature combinations. They do not tell you whether the machine cooks better.</p></div>
-          <div class="signal-card"><div class="signal-title">Smart app features</div><p>Most owners stop using app connectivity quickly. Physical controls matter much more in everyday use.</p></div>
-          <div class="signal-card"><div class="signal-title">Dual baskets</div><p>Two baskets sound like more capacity, but each basket is usually smaller and harder to clean than a strong single 6-quart basket.</p></div>
-          <div class="signal-card"><div class="signal-title">More wattage</div><p>Raw wattage is less important than airflow design, basket shape, and how evenly the machine browns food.</p></div>
+          <div class="signal-card">
+            <h3 class="signal-title">More presets</h3>
+            <p>Most presets are just slightly different time and temperature combinations. They do not tell you whether the machine cooks better.</p>
+          </div>
+          <div class="signal-card">
+            <h3 class="signal-title">Smart app features</h3>
+            <p>Most owners stop using app connectivity quickly. Physical controls matter much more in everyday use.</p>
+          </div>
+          <div class="signal-card">
+            <h3 class="signal-title">Dual baskets</h3>
+            <p>Two baskets sound like more capacity, but each basket is usually smaller and harder to clean than a strong single 6-quart basket.</p>
+          </div>
+          <div class="signal-card">
+            <h3 class="signal-title">More wattage</h3>
+            <p>Raw wattage is less important than airflow design, basket shape, and how evenly the machine browns food.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="num-section obvious-alternatives-section" id="obvious-alternatives">
+  <div class="num-wrap">
+    <div class="num-split">
+      <div class="num-left">
+        <span class="section-num">05</span>
+        <span class="eyebrow">Obvious alternatives</span>
+        <h2>What about the obvious alternatives?</h2>
+      </div>
+
+      <div>
+        <div class="proof-intro">
+          <p class="proof-intro-title">This is where the decision gets pressure-tested.</p>
+          <p class="win-supporting">These are the models most buyers compare first — and the specific reason they still make less sense as the default choice for most households.</p>
+        </div>
+
+        <div class="default-pick-block">
+          <span class="default-pick-tag">Default pick</span>
+          <h3 class="default-pick-name">Instant Vortex Plus 6-Quart</h3>
+          <p class="default-pick-desc">Best for most households that want strong day-to-day air frying without paying extra for complexity they will not use.</p>
+          <a class="btn-block btn-block-green btn-block-cta default-pick-cta" data-affiliate-placeholder="true" href="#">Check the price</a>
+          <p class="cta-micro">Opens retailer — pricing may vary</p>
+        </div>
+
+        <div class="alt-card-stack">
+          <div class="alt-card">
+            <span class="alt-card-tag">Dual-zone pick</span>
+            <h3 class="alt-card-title">Ninja Foodi DZ201 Dual Zone</h3>
+            <p class="alt-card-label">Better fit if you…</p>
+            <p class="alt-card-copy">cook two different foods at once regularly</p>
+            <p class="alt-card-label">Why it’s not the default</p>
+            <p class="alt-card-copy alt-card-copy--strong">Useful for a specific use case, but each basket is smaller and the overall ownership experience is less simple.</p>
+            <a class="alt-card-link" data-affiliate-placeholder="true" href="#">Check the price</a>
+          </div>
+          <div class="alt-card">
+            <span class="alt-card-tag">Budget pick</span>
+            <h3 class="alt-card-title">Cosori Pro II 5.8-Qt</h3>
+            <p class="alt-card-label">Better fit if you…</p>
+            <p class="alt-card-copy">want to spend less upfront</p>
+            <p class="alt-card-label">Why it’s not the default</p>
+            <p class="alt-card-copy alt-card-copy--strong">Good value, but the long-term coating and basket durability story is less convincing.</p>
+            <a class="alt-card-link" data-affiliate-placeholder="true" href="#">Check the price</a>
+          </div>
+          <div class="alt-card">
+            <span class="alt-card-tag">Hybrid pick</span>
+            <h3 class="alt-card-title">Breville Smart Oven Air</h3>
+            <p class="alt-card-label">Better fit if you…</p>
+            <p class="alt-card-copy">need a toaster-oven hybrid more than a pure air fryer</p>
+            <p class="alt-card-label">Why it’s not the default</p>
+            <p class="alt-card-copy alt-card-copy--strong">A stronger fit for a different appliance category, but too large and expensive for most people just wanting a better air fryer.</p>
+            <a class="alt-card-link" data-affiliate-placeholder="true" href="#">Check the price</a>
+          </div>
         </div>
       </div>
     </div>
@@ -156,51 +255,86 @@
   <div class="num-wrap">
     <div class="num-split">
       <div class="num-left">
-        <span class="section-num">05</span>
-        <span class="eyebrow">Obvious alternatives</span>
-        <h2>What about the obvious alternatives?</h2>
+        <span class="section-num">06</span>
+        <span class="eyebrow">FAQ</span>
+        <h2>What buyers still want to know</h2>
       </div>
       <div>
-        <p class="win-supporting">These are the models most buyers compare first — and the specific reason they still make less sense as the default choice for most households.</p>
-        <div class="default-pick-block">
-          <span class="default-pick-tag">Default pick</span>
-          <h3 class="default-pick-name">Instant Vortex Plus 6-Quart</h3>
-          <p class="default-pick-desc">Best for most households that want strong day-to-day air frying without paying extra for complexity they will not use.</p>
-          <a class="btn-block btn-block-green btn-block-cta default-pick-cta" href="#" data-affiliate-placeholder="true">Check current price <span>→</span></a>
-          <p class="cta-micro">Opens retailer — pricing may vary</p>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>How do I make the basket coating last longer?</summary>
+            <p class="faq-answer">Use silicone or wood utensils, hand-wash when possible, and avoid abrasive scrubbers. The coating usually fails from tool abuse before the heating system does.</p>
+          </details>
+
+          <details class="faq-item" open>
+            <summary>Is 6 quarts enough for a family?</summary>
+            <p class="faq-answer">For most households, yes. It handles everyday dinners for 2–5 people much better than the small units buyers regret first.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Are dual-basket models better?</summary>
+            <p class="faq-answer">Only if you regularly cook two separate foods at the same time. For most buyers, a strong single-basket unit is simpler and easier to live with.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do air fryer presets matter?</summary>
+            <p class="faq-answer">Not much. Once you know rough time and temperature ranges, presets are mostly convenience labels rather than performance advantages.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can this replace an oven?</summary>
+            <p class="faq-answer">For smaller meals, sides, and reheats, often yes. For big trays, baking, or larger family meals, no.</p>
+          </details>
         </div>
-        <div class="alt-divider"></div>
-        <table class="alt-table">
-          <thead>
-            <tr>
-              <th class="alt-col-model">Alternative</th>
-              <th class="alt-col-fit">Better fit if you…</th>
-              <th class="alt-col-why">Why it is not the default</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><div class="alt-model">Ninja Foodi DZ201 Dual Zone</div></td>
-              <td><div class="alt-fit">Cook two different foods at once regularly</div></td>
-              <td><div class="alt-why">Useful for a specific use case, but each basket is smaller and the overall ownership experience is less simple.</div></td>
-            </tr>
-            <tr>
-              <td><div class="alt-model">Cosori Pro II 5.8-Qt</div></td>
-              <td><div class="alt-fit">Want to spend less upfront</div></td>
-              <td><div class="alt-why">Good value, but the long-term coating and basket durability story is less convincing.</div></td>
-            </tr>
-            <tr>
-              <td><div class="alt-model">Breville Smart Oven Air</div></td>
-              <td><div class="alt-fit">Need a toaster-oven hybrid more than a pure air fryer</div></td>
-              <td><div class="alt-why">A stronger fit for a different appliance category, but too large and expensive for most people just wanting a better air fryer.</div></td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
   </div>
 </section>
 
+<div class="page-cta-wrap">
+  <div class="page-cta-box">
+    <h2>Ready to stop researching?</h2>
+    <p>For most people, the Instant Vortex Plus 6-Quart is still the air fryer that makes the most sense. Check live pricing if it fits your situation.</p>
+    <a class="btn btn-primary" data-affiliate-placeholder="true" href="#" style="font-size:18px; padding:18px 38px;">Check the price</a>
+    <p class="affiliate-note">As an Amazon Associate we earn from qualifying purchases. <a href="disclosure.html">See our affiliate disclosure.</a></p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h2>Stop researching<br/><em>Start buying</em></h2>
+      <p>One honest pick per category. No endless options. No hedging.</p>
+      <form action="ACTION-URL-HERE" class="footer-email-row" method="post" target="_blank">
+        <input name="EMAIL" placeholder="you@example.com" type="email"/>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-col">
+      <h3>Site</h3>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="disclosure.html">Affiliate Disclosure</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="blender.html">Best Blender</a></li>
+        <li><a href="air-fryer.html">Best Air Fryer</a></li>
+        <li><a href="robot-vacuum.html">Best Robot Vacuum</a></li>
+        <li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Choosimple. All rights reserved.</p>
+    <a href="disclosure.html">As an Amazon Associate we earn from qualifying purchases.</a>
+  </div>
+</footer>
 </div>
 </body>
 </html>
