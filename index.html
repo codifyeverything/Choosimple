@@ -51,6 +51,34 @@
     margin: 0 auto;
   }
 
+  .hero-left h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: inherit;
+  }
+
+  .hero-left h1 em {
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .catalogue-intro {
+    margin-bottom: 1rem;
+  }
+
+  .mini-how {
+    margin-top: 0;
+    margin-bottom: 1.1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .cat-group#kitchen {
+    margin-top: 0;
+  }
+
   @media (min-width: 768px) {
     .hero {
       padding-bottom: 0.25rem;
@@ -93,6 +121,14 @@
 
     .catalogue {
       padding-top: 0.2rem;
+    }
+
+    .catalogue-intro {
+      margin-bottom: 0.85rem;
+    }
+
+    .mini-how {
+      margin-bottom: 0.9rem;
     }
 
     .featured-image-wrap {
@@ -173,6 +209,26 @@
     <p>Each category leads to one defensible default — with the obvious alternatives explained only when they truly matter.</p>
   </div>
 
+  <section class="mini-how" id="how">
+    <div class="mini-how-grid">
+      <div class="mini-how-item">
+        <span>01</span>
+        <h3>Start with the default</h3>
+        <p>Get the one pick that makes the most sense before spending time on edge cases.</p>
+      </div>
+      <div class="mini-how-item">
+        <span>02</span>
+        <h3>Use the proof</h3>
+        <p>See the buyer mistakes, misleading signals, and ownership tradeoffs that support the decision.</p>
+      </div>
+      <div class="mini-how-item">
+        <span>03</span>
+        <h3>Check the exceptions</h3>
+        <p>Only look at alternatives if your situation clearly calls for one.</p>
+      </div>
+    </div>
+  </section>
+
   <div class="cat-group" id="kitchen">
     <div class="cat-group-header">
       <h3>Kitchen</h3>
@@ -234,26 +290,6 @@
       </div>
     </div>
   </div>
-
-  <section class="mini-how" id="how">
-    <div class="mini-how-grid">
-      <div class="mini-how-item">
-        <span>01</span>
-        <h3>Start with the default</h3>
-        <p>Get the one pick that makes the most sense before spending time on edge cases.</p>
-      </div>
-      <div class="mini-how-item">
-        <span>02</span>
-        <h3>Use the proof</h3>
-        <p>See the buyer mistakes, misleading signals, and ownership tradeoffs that support the decision.</p>
-      </div>
-      <div class="mini-how-item">
-        <span>03</span>
-        <h3>Check the exceptions</h3>
-        <p>Only look at alternatives if your situation clearly calls for one.</p>
-      </div>
-    </div>
-  </section>
 
   <div class="cat-group" id="home-cat">
     <div class="cat-group-header">
