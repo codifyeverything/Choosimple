@@ -238,7 +238,7 @@
   <div class="cat-group" id="kitchen">
     <div class="cat-group-header">
       <h3>Kitchen</h3>
-      <span class="cat-group-count">3 decisions</span>
+      <span class="cat-group-count">4 decisions</span>
     </div>
     <div class="card-grid">
       <a class="dec-card-new dec-card-new--lifestyle" href="blender.html">
@@ -279,21 +279,26 @@
         </div>
       </a>
 
-      <div class="dec-card-new dec-card-new--soon">
+      <a class="dec-card-new" href="coffee-grinder.html">
         <div class="dec-card-img">
-          <div class="dec-card-coming"><span>Publishing Soon</span></div>
+          <img alt="Baratza Encore ESP" src="baratza-encore-esp.png"/>
         </div>
         <div class="dec-card-body">
           <p class="dec-card-cat">Kitchen</p>
-          <p class="dec-card-kicker">Next category</p>
-          <h3 class="dec-card-title">Coffee grinder decision</h3>
-          <p class="dec-card-pick">Publishing soon.</p>
-          <p class="dec-card-summary">One clear grinder recommendation is next.</p>
+          <p class="dec-card-kicker">Default decision</p>
+          <h3 class="dec-card-title">The coffee grinder that makes the most sense</h3>
+          <p class="dec-card-pick">Baratza Encore ESP</p>
+          <p class="dec-card-summary">Consistent burr grinding across brew styles, strong long-term usability, and a simpler ownership fit than more specialized grinders.</p>
+          <p class="dec-card-proofline"><strong>Why it wins:</strong> reliable grind quality without forcing most buyers into premium pricing or niche workflow tradeoffs.</p>
+          <p class="dec-card-price">Typical price: $199–$220</p>
           <div class="dec-card-footer">
-            <span class="dec-card-badge dec-card-badge--muted">Publishing soon</span>
+            <span class="dec-card-badge">Default pick</span>
+            <span class="dec-card-link">See why this one wins <span>→</span></span>
           </div>
         </div>
-      </div>
+      </a>
+
+      <a class="dec-card-new" href="blender.html" style="display:none;"></a>
     </div>
   </div>
 
@@ -392,8 +397,10 @@
       <h3>Categories</h3>
       <ul>
         <li><a href="blender.html">Best Blender</a></li>
+        <li><a href="coffee-grinder.html">Best Coffee Grinder</a></li>
         <li><a href="air-fryer.html">Best Air Fryer</a></li>
         <li><a href="robot-vacuum.html">Best Robot Vacuum</a></li>
+        <li><a href="air-purifier.html">Best Air Purifier</a></li>
         <li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li>
       </ul>
     </div>
@@ -424,6 +431,15 @@
       link: "air-fryer.html",
       image: "Instant_Vortex_Plus__transparent_.png",
       alt: "Instant Vortex Plus 6-Quart"
+    },
+    {
+      title: "Baratza Encore ESP",
+      sub: "Kitchen · Typical price: $199–$220",
+      quote: "“Consistent burr grinding across brew styles without pushing most buyers into premium cost or workflow complexity.”",
+      proof: "<strong>Why it wins:</strong> dependable grind quality, strong owner trust, and a simpler long-term fit than more specialized grinders.",
+      link: "coffee-grinder.html",
+      image: "baratza-encore-esp.png",
+      alt: "Baratza Encore ESP"
     },
     {
       title: "Roborock Qrevo Curv",
@@ -483,7 +499,7 @@
       updateFeaturedDecision(featuredIndex);
       heroCard.classList.remove("is-fading");
     }, 350);
-  }, 5000);
+  }, 4000);
 </script>
 
 </body>
