@@ -5973,3 +5973,418 @@ font-size: 11px !important;
     margin-bottom: 20px;
   }
 }
+
+
+/* ── SCALABLE NAV + MOBILE ACTION LAYER ───────────────────────────── */
+.cs-site .nav-menu-toggle {
+  display: none !important;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--border) !important;
+  background: var(--surface) !important;
+  color: var(--ink) !important;
+  border-radius: 999px !important;
+  padding: 10px 14px !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+.cs-site .nav-menu-toggle span:not(.nav-menu-label) {
+  display: block;
+  width: 16px;
+  height: 1.5px;
+  background: var(--ink);
+  border-radius: 999px;
+}
+.cs-site .nav-panel {
+  display: flex !important;
+  align-items: center !important;
+  gap: 18px !important;
+}
+.cs-site .nav-primary {
+  display: flex !important;
+  align-items: center !important;
+  gap: 24px !important;
+}
+.cs-site .nav-primary > a,
+.cs-site .nav-categories-toggle {
+  font-size: 14px;
+  color: var(--ink-2);
+  background: transparent;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  transition: color 0.18s ease;
+}
+.cs-site .nav-primary > a:hover,
+.cs-site .nav-categories-toggle:hover,
+.cs-site .nav-primary > a.active { color: var(--green-mid); }
+.cs-site .nav-subscribe-link {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px !important;
+  border-radius: 999px !important;
+  background: var(--green-soft) !important;
+  border: 1px solid var(--green-border) !important;
+  color: var(--green-dark) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+.cs-site .nav-categories { position: relative; }
+.cs-site .nav-categories-menu {
+  position: absolute;
+  top: calc(100% + 16px);
+  left: 0;
+  min-width: 320px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 22px 40px -24px rgba(20,18,12,0.24);
+  padding: 18px;
+  display: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  z-index: 120;
+}
+.cs-site .nav-categories:hover .nav-categories-menu,
+.cs-site .nav-categories:focus-within .nav-categories-menu,
+.cs-site .nav-categories.is-open .nav-categories-menu {
+  display: grid;
+}
+.cs-site .nav-categories-group {
+  display: grid;
+  gap: 8px;
+}
+.cs-site .nav-categories-group p {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+.cs-site .nav-categories-group a {
+  font-size: 14px;
+  color: var(--ink);
+}
+.cs-site .nav-categories-group a:hover { color: var(--green-mid); }
+
+.cs-site .quick-shop {
+  padding: 20px 0 18px !important;
+}
+.cs-site .quick-shop-inner,
+.cs-site .micro-signup-inner {
+  max-width: var(--max) !important;
+  margin: 0 auto !important;
+  padding: 0 40px !important;
+}
+.cs-site .quick-shop-inner {
+  display: grid !important;
+  grid-template-columns: 320px 1fr !important;
+  gap: 28px !important;
+  align-items: start !important;
+}
+.cs-site .quick-shop-copy h2,
+.cs-site .micro-signup-copy h2 {
+  font-size: clamp(30px, 4vw, 40px);
+  margin: 8px 0 10px;
+}
+.cs-site .quick-shop-copy p,
+.cs-site .micro-signup-copy p {
+  color: var(--muted);
+  font-size: 16px;
+}
+.cs-site .quick-shop-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 16px !important;
+}
+.cs-site .quick-shop-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  display: grid;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.cs-site .quick-shop-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--green-border);
+  box-shadow: 0 18px 34px -26px rgba(20,18,12,0.22);
+}
+.cs-site .quick-shop-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.cs-site .quick-shop-card strong {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 22px;
+  line-height: 1.12;
+}
+.cs-site .quick-shop-card span:last-child {
+  color: var(--green);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cs-site .micro-signup {
+  padding: 8px 0 30px !important;
+}
+.cs-site .micro-signup-inner {
+  background: linear-gradient(180deg, var(--surface) 0%, #f7faef 100%);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 22px 24px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 360px !important;
+  gap: 20px !important;
+  align-items: center !important;
+  box-shadow: 0 10px 26px -22px rgba(20,18,12,0.2);
+}
+.cs-site .micro-signup-form {
+  display: flex !important;
+  gap: 8px !important;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+}
+.cs-site .micro-signup-form input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  background: transparent;
+  padding: 12px 16px;
+  font-size: 15px;
+  outline: none;
+}
+.cs-site .micro-signup-form button {
+  border: none;
+  background: var(--green);
+  color: white;
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cs-site .page-quick-decision {
+  margin-top: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 12px 26px -22px rgba(20,18,12,0.22);
+}
+.cs-site .page-quick-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--green-mid);
+  margin-bottom: 8px;
+}
+.cs-site .page-quick-product {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 28px;
+  line-height: 1.08;
+  margin-bottom: 12px;
+}
+.cs-site .page-quick-points {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.cs-site .page-quick-points li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.cs-site .page-quick-points li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--green);
+  font-weight: 700;
+}
+.cs-site .page-jump-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.cs-site .page-jump-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--green-soft);
+  border: 1px solid var(--green-border);
+  color: var(--green-dark);
+  font-size: 13px;
+  font-weight: 600;
+}
+.cs-site .mobile-sticky-cta {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .cs-site .nav-inner {
+    height: 70px !important;
+    padding: 0 20px !important;
+  }
+  .cs-site .nav-menu-toggle {
+    display: inline-flex !important;
+  }
+  .cs-site .nav-panel {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 16px;
+    right: 16px;
+    display: none !important;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: 0 20px 42px -24px rgba(20,18,12,0.28);
+    padding: 16px;
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 14px !important;
+  }
+  .cs-site .nav.nav-open .nav-panel {
+    display: flex !important;
+  }
+  .cs-site .nav-primary {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 4px !important;
+  }
+  .cs-site .nav-primary > a,
+  .cs-site .nav-categories-toggle,
+  .cs-site .nav-subscribe-link {
+    min-height: 48px;
+    padding: 12px 14px !important;
+    border-radius: 14px !important;
+    background: transparent;
+    border: 1px solid transparent !important;
+    justify-content: space-between;
+  }
+  .cs-site .nav-subscribe-link {
+    background: var(--green-soft) !important;
+    border-color: var(--green-border) !important;
+  }
+  .cs-site .nav-categories-menu {
+    position: static;
+    min-width: 0;
+    display: none;
+    grid-template-columns: 1fr;
+    padding: 12px;
+    margin-top: 8px;
+    box-shadow: none;
+    border-radius: 14px;
+    background: var(--bg);
+  }
+  .cs-site .nav-categories.is-open .nav-categories-menu {
+    display: grid;
+  }
+  .cs-site .quick-shop-inner {
+    grid-template-columns: 1fr !important;
+    padding: 0 24px !important;
+  }
+  .cs-site .quick-shop-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .cs-site .micro-signup-inner {
+    grid-template-columns: 1fr !important;
+    padding: 18px !important;
+    margin: 0 24px;
+  }
+  .cs-site .micro-signup-form {
+    flex-direction: column !important;
+    border-radius: 18px;
+  }
+  .cs-site .micro-signup-form button {
+    width: 100%;
+  }
+  .cs-site .page-quick-product {
+    font-size: 22px;
+  }
+  .cs-site .page-jump-links {
+    gap: 6px;
+  }
+  .cs-site .page-jump-links a {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cs-site .hero {
+    padding-bottom: 12px !important;
+  }
+  .cs-site .hero-grid {
+    gap: 18px !important;
+  }
+  .cs-site .hero-buttons .btn {
+    width: 100%;
+  }
+  .cs-site .quick-shop {
+    padding-top: 8px !important;
+  }
+  .cs-site .catalogue-header {
+    margin-bottom: 22px !important;
+  }
+  .cs-site .catalogue-header-left h2 {
+    font-size: 34px;
+    line-height: 1.05;
+  }
+  .cs-site .page-hero {
+    padding-bottom: 12px !important;
+  }
+  .cs-site .page-quick-decision {
+    margin-top: 14px;
+    padding: 14px;
+  }
+  .cs-site .page-quick-actions .btn {
+    width: 100%;
+  }
+  .cs-site .decision-section {
+    padding-top: 12px !important;
+  }
+  .cs-site .mobile-sticky-cta {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 10px);
+    z-index: 120;
+    display: block;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  .cs-site .mobile-sticky-cta.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+  }
+  .cs-site .mobile-sticky-cta a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 54px;
+    border-radius: 999px;
+    background: var(--green);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 16px 26px -18px rgba(20,18,12,0.6);
+  }
+  .cs-site footer {
+    padding-bottom: 96px !important;
+  }
+}

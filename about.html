@@ -17,12 +17,36 @@
 <a aria-label="Choosimple — Home" class="nav-logo" href="index.html">
 <img alt="Choosimple" class="nav-logo-img" src="TRANSPARENT_Logo.png"/>
 </a>
-<ul class="nav-links">
-<li><a href="index.html#kitchen">Kitchen</a></li>
-<li><a href="index.html#home-cat">Home Essentials</a></li>
-<li><a href="index.html#personal-care">Personal Care</a></li>
-<li><a class="active" href="about.html">About</a></li>
-</ul>
+<button aria-controls="site-nav-panel" aria-expanded="false" class="nav-menu-toggle" type="button">
+<span></span><span></span><span></span><span class="nav-menu-label">Menu</span>
+</button>
+<div class="nav-panel" id="site-nav-panel">
+<div class="nav-primary">
+<div class="nav-categories">
+<button aria-controls="site-categories-menu" aria-expanded="false" class="nav-categories-toggle" type="button">Categories</button>
+<div class="nav-categories-menu" id="site-categories-menu">
+<div class="nav-categories-group">
+<p>Kitchen</p>
+<a href="blender.html">Blender</a>
+<a href="air-fryer.html">Air Fryer</a>
+<a href="coffee-grinder.html">Coffee Grinder</a>
+</div>
+<div class="nav-categories-group">
+<p>Home Essentials</p>
+<a href="robot-vacuum.html">Robot Vacuum</a>
+<a href="air-purifier.html">Air Purifier</a>
+</div>
+<div class="nav-categories-group">
+<p>Personal Care</p>
+<a href="electric-toothbrush.html">Electric Toothbrush</a>
+</div>
+</div>
+</div>
+<a class="active" href="about.html">About</a>
+<a class="" href="disclosure.html">Disclosure</a>
+</div>
+<a class="nav-subscribe-link" href="index.html#email-signup">Get updates</a>
+</div>
 </div>
 </nav>
 <div class="text-page">
@@ -74,8 +98,8 @@
 <h2>Stop researching.<br/><em>Start buying.</em></h2>
 <p>One honest pick per category. No roundups. No hedging.</p>
 <form action="ACTION-URL-HERE" class="footer-email-row" method="post" target="_blank">
-<input name="EMAIL" placeholder="you@example.com" type="email"/>
-<button type="submit">Subscribe</button>
+<input name="EMAIL" placeholder="Get new default picks" type="email"/>
+<button type="submit">Get updates</button>
 </form>
 </div>
 <div class="footer-col">
@@ -87,12 +111,7 @@
 </div>
 <div class="footer-col">
 <h3>Categories</h3>
-<ul>
-<li><a href="blender.html">Best Blender</a></li>
-<li><a href="air-fryer.html">Best Air Fryer</a></li>
-<li><a href="robot-vacuum.html">Best Robot Vacuum</a></li>
-<li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li>
-</ul>
+<ul><li><a href="blender.html">Best Blender</a></li><li><a href="coffee-grinder.html">Best Coffee Grinder</a></li><li><a href="air-fryer.html">Best Air Fryer</a></li><li><a href="robot-vacuum.html">Best Robot Vacuum</a></li><li><a href="air-purifier.html">Best Air Purifier</a></li><li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li></ul>
 </div>
 </div>
 <div class="footer-bottom">
@@ -101,5 +120,33 @@
 </div>
 </footer>
 </div>
-</body>
+<script>
+(function () {
+  const nav = document.querySelector('.cs-site .nav');
+  if (!nav) return;
+  const menuToggle = nav.querySelector('.nav-menu-toggle');
+  const categoriesToggle = nav.querySelector('.nav-categories-toggle');
+  const categories = nav.querySelector('.nav-categories');
+  if (menuToggle) {
+    menuToggle.addEventListener('click', function () {
+      const isOpen = nav.classList.toggle('nav-open');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+  if (categoriesToggle && categories) {
+    categoriesToggle.addEventListener('click', function () {
+      const isOpen = categories.classList.toggle('is-open');
+      categoriesToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+  document.addEventListener('click', function (event) {
+    if (!nav.contains(event.target)) {
+      nav.classList.remove('nav-open');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+      if (categories) categories.classList.remove('is-open');
+      if (categoriesToggle) categoriesToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+</script></body>
 </html>
