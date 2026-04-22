@@ -5903,3 +5903,73 @@ font-size: 11px !important;
   }
 
 }
+
+
+/* ── SEO INTENT + RELATED LINKS ───────────────────────────────────── */
+.cs-site .intent-intro,
+.cs-site .related-intro {
+  font-size: 18px;
+  color: var(--ink-2);
+  max-width: 760px;
+  margin-bottom: 26px;
+}
+
+.cs-site .intent-grid,
+.cs-site .related-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+}
+
+.cs-site .intent-card,
+.cs-site .related-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 1px 2px rgba(20,18,12,0.03);
+}
+
+.cs-site .intent-card h3,
+.cs-site .related-card h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.cs-site .intent-card p,
+.cs-site .related-card p {
+  color: var(--ink-2);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.cs-site .related-card a {
+  display: inline-flex;
+  margin-top: 12px;
+  color: var(--green);
+  font-weight: 500;
+  align-items: center;
+  gap: 4px;
+}
+
+.cs-site .intent-tag {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--green-mid);
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .cs-site .intent-grid,
+  .cs-site .related-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cs-site .intent-intro,
+  .cs-site .related-intro {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
