@@ -344,6 +344,34 @@
 
 .cs-site .hero-card-link:hover { gap: 8px; }
 
+.cs-site .hero-card--featured-link {
+  display: block !important;
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, opacity 0.35s ease;
+}
+
+.cs-site .hero-card--featured-link:hover {
+  border-color: var(--green-border) !important;
+  transform: translateY(-3px);
+  box-shadow:
+    0 1px 2px rgba(20,18,12,0.04),
+    0 24px 44px -24px rgba(20,18,12,0.2),
+    0 0 0 1px rgba(255,255,255,0.6) inset;
+}
+
+.cs-site .hero-card--featured-link:focus-visible {
+  outline: 3px solid rgba(47, 90, 28, 0.22);
+  outline-offset: 3px;
+}
+
+.cs-site .hero-card--featured-link:hover #featured-image {
+  transform: scale(1.03);
+}
+
+.cs-site #featured-image {
+  transition: transform 0.3s ease;
+}
+
 /* ── WHAT YOU GET ───────────────────────────────────────────────────── */
 .cs-site .what-section {
   background-color: var(--bg-2) !important;
@@ -6346,13 +6374,31 @@ font-size: 11px !important;
 
 @media (max-width: 767px) {
   .cs-site .hero {
-    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 8px !important;
   }
   .cs-site .hero-grid {
-    gap: 18px !important;
+    gap: 14px !important;
+  }
+  .cs-site .hero h1 {
+    font-size: clamp(38px, 11.2vw, 54px) !important;
+    line-height: 1.01 !important;
+    margin-bottom: 14px !important;
+  }
+  .cs-site .hero-body {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 12px !important;
+    max-width: none !important;
+  }
+  .cs-site .hero-buttons {
+    margin-bottom: 0 !important;
   }
   .cs-site .hero-buttons .btn {
     width: 100%;
+  }
+  .cs-site .hero-card-note {
+    display: none !important;
   }
   .cs-site .quick-shop {
     padding-top: 8px !important;
