@@ -185,7 +185,7 @@
 
 /* ── HERO ────────────────────────────────────────────────────────────── */
 .cs-site .hero {
-  padding: 36px 0 26px !important;
+  padding: 18px 0 12px !important;
   position: relative;
   overflow: hidden;
 }
@@ -206,8 +206,8 @@
   margin: 0 auto !important;
   padding: 0 40px !important;
   display: grid !important;
-  grid-template-columns: minmax(0, 1fr) 448px !important;
-  gap: 54px !important;
+  grid-template-columns: minmax(0, 1fr) 432px !important;
+  gap: 50px !important;
   align-items: center !important;
   position: relative;
   z-index: 1;
@@ -2254,7 +2254,7 @@
 
 /* ── HERO ────────────────────────────────────────────────────────────── */
 .cs-site .hero {
-  padding: 36px 0 26px !important;
+  padding: 18px 0 12px !important;
   position: relative;
   overflow: hidden;
 }
@@ -2275,8 +2275,8 @@
   margin: 0 auto !important;
   padding: 0 40px !important;
   display: grid !important;
-  grid-template-columns: minmax(0, 1fr) 448px !important;
-  gap: 54px !important;
+  grid-template-columns: minmax(0, 1fr) 432px !important;
+  gap: 50px !important;
   align-items: center !important;
   position: relative;
   z-index: 1;
@@ -6730,8 +6730,8 @@ font-size: 11px !important;
 @media (min-width: 768px) {
   .cs-site .hero-grid.hero-grid--focused {
     align-items: start !important;
-    grid-template-columns: minmax(0, 1fr) 448px !important;
-    gap: 54px !important;
+    grid-template-columns: minmax(0, 1fr) 432px !important;
+    gap: 50px !important;
   }
 
   .cs-site .hero-left {
@@ -6744,7 +6744,7 @@ font-size: 11px !important;
   }
 
   .cs-site .hero-card {
-    min-height: 620px !important;
+    min-height: 540px !important;
   }
 }
 
