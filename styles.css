@@ -185,7 +185,7 @@
 
 /* ── HERO ────────────────────────────────────────────────────────────── */
 .cs-site .hero {
-  padding: 54px 0 72px !important;
+  padding: 46px 0 40px !important;
   position: relative;
   overflow: hidden;
 }
@@ -206,8 +206,8 @@
   margin: 0 auto !important;
   padding: 0 40px !important;
   display: grid !important;
-  grid-template-columns: 1fr 380px !important;
-  gap: 72px !important;
+  grid-template-columns: minmax(0, 1fr) 420px !important;
+  gap: 58px !important;
   align-items: center !important;
   position: relative;
   z-index: 1;
@@ -2254,7 +2254,7 @@
 
 /* ── HERO ────────────────────────────────────────────────────────────── */
 .cs-site .hero {
-  padding: 54px 0 72px !important;
+  padding: 46px 0 40px !important;
   position: relative;
   overflow: hidden;
 }
@@ -2275,8 +2275,8 @@
   margin: 0 auto !important;
   padding: 0 40px !important;
   display: grid !important;
-  grid-template-columns: 1fr 380px !important;
-  gap: 72px !important;
+  grid-template-columns: minmax(0, 1fr) 420px !important;
+  gap: 58px !important;
   align-items: center !important;
   position: relative;
   z-index: 1;
