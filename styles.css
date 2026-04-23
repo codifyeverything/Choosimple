@@ -6507,3 +6507,136 @@ font-size: 11px !important;
     flex: 0 0 auto;
   }
 }
+
+/* ── HOMEPAGE HERO TIGHTENING (latest revision) ───────────────────── */
+.cs-site .hero-eyebrow {
+  margin-bottom: 8px;
+}
+
+.cs-site .hero-left h1 {
+  margin-bottom: 8px !important;
+}
+
+.cs-site .hero h1 em {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--green);
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.cs-site .hero-body {
+  display: none !important;
+}
+
+.cs-site .hero-buttons {
+  margin-top: 0 !important;
+}
+
+.cs-site .hero-helper {
+  margin: -2px 0 16px;
+}
+
+.cs-site .quick-shop {
+  padding-top: 18px !important;
+}
+
+.cs-site .quick-shop-label {
+  font-size: 13px !important;
+  letter-spacing: 0.16em !important;
+}
+
+.cs-site .quick-shop-card .quick-shop-label {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: var(--ink) !important;
+  margin-bottom: 10px !important;
+}
+
+.cs-site .quick-shop-card strong.quick-shop-products {
+  font-size: 24px !important;
+  line-height: 1.18 !important;
+  font-weight: 500 !important;
+  color: var(--ink-2) !important;
+  display: block !important;
+}
+
+.cs-site .quick-shop-card span:last-child {
+  margin-top: 10px !important;
+}
+
+@media (min-width: 768px) {
+  .cs-site .hero {
+    padding: 82px 0 70px !important;
+  }
+
+  .cs-site .hero-grid {
+    gap: 56px !important;
+  }
+
+  .cs-site .hero-eyebrow {
+    max-width: 640px;
+  }
+
+  .cs-site .quick-shop-copy h2 {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .quick-shop-copy p {
+    max-width: 360px;
+  }
+
+  .cs-site .quick-shop-card .quick-shop-label {
+    font-size: 15px !important;
+  }
+
+  .cs-site .quick-shop-card strong.quick-shop-products {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .cs-site .hero {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.1rem !important;
+  }
+
+  .cs-site .hero-left h1 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .cs-site .hero-eyebrow {
+    margin-bottom: 0.5rem !important;
+    max-width: 100%;
+  }
+
+  .cs-site .hero-buttons {
+    margin-bottom: 0.35rem !important;
+  }
+
+  .cs-site .hero-helper {
+    margin: 0 0 0.6rem !important;
+  }
+
+  .cs-site .quick-shop {
+    padding-top: 6px !important;
+  }
+
+  .cs-site .quick-shop-copy h2 {
+    margin-bottom: 0.35rem !important;
+  }
+
+  .cs-site .quick-shop-copy p {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+  }
+
+  .cs-site .quick-shop-card .quick-shop-label {
+    font-size: 15px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .quick-shop-card strong.quick-shop-products {
+    font-size: 18px !important;
+    line-height: 1.16 !important;
+  }
+}
