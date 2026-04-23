@@ -97,7 +97,7 @@
   margin: 0 auto !important;
   padding: 0 40px !important;
   display: flex !important;
-  align-items: center !important;
+  align-items: start !important;
   justify-content: space-between !important;
   height: 76px !important;
 }
@@ -1293,35 +1293,6 @@
   transition: gap 0.2s ease;
 }
 .cs-site .alt-link:hover { gap: 7px; }
-
-.cs-site .alt-card-button {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-start;
-  margin-top: 4px;
-  padding: 10px 16px !important;
-  border-radius: 999px !important;
-  background-color: var(--green) !important;
-  color: #FFFFFF !important;
-  border: 1px solid var(--green) !important;
-  font-family: 'DM Sans', sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 500 !important;
-  line-height: 1 !important;
-  text-decoration: none !important;
-  white-space: nowrap;
-  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
-}
-
-.cs-site .alt-card-button:hover {
-  background-color: var(--green-dark) !important;
-  border-color: var(--green-dark) !important;
-  color: #FFFFFF !important;
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px -6px rgba(47, 90, 28, 0.45);
-}
-
 
 /* ── QUOTE GRID ────────────────────────────────────────────────────── */
 .cs-site .quote-grid {
@@ -3364,35 +3335,6 @@
 }
 .cs-site .alt-link:hover { gap: 7px; }
 
-.cs-site .alt-card-button {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-start;
-  margin-top: 4px;
-  padding: 10px 16px !important;
-  border-radius: 999px !important;
-  background-color: var(--green) !important;
-  color: #FFFFFF !important;
-  border: 1px solid var(--green) !important;
-  font-family: 'DM Sans', sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 500 !important;
-  line-height: 1 !important;
-  text-decoration: none !important;
-  white-space: nowrap;
-  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
-}
-
-.cs-site .alt-card-button:hover {
-  background-color: var(--green-dark) !important;
-  border-color: var(--green-dark) !important;
-  color: #FFFFFF !important;
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px -6px rgba(47, 90, 28, 0.45);
-}
-
-
 /* ── QUOTE GRID ────────────────────────────────────────────────────── */
 .cs-site .quote-grid {
   display: grid !important;
@@ -5409,6 +5351,38 @@
   color: var(--ink);
 }
 
+.cs-site .alt-card-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 42px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--green);
+  color: #FFFFFF !important;
+  border: 1px solid var(--green);
+  box-shadow: 0 1px 2px rgba(20,18,12,0.04), 0 1px 0 rgba(255,255,255,0.15) inset;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.cs-site .alt-card-link:hover {
+  background: var(--green-dark);
+  border-color: var(--green-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px -6px rgba(47, 90, 28, 0.45);
+}
+
+.cs-site .alt-card-link:focus-visible {
+  outline: 3px solid rgba(47, 90, 28, 0.22);
+  outline-offset: 3px;
+}
+
 .cs-site .alt-table {
   display: none !important;
 }
@@ -5815,7 +5789,7 @@ display: block !important;
     box-shadow: 0 8px 18px -14px rgba(20,18,12,0.22);
   }
 
-  .cs-site .decision-cta-box .btn-block-cta, .cs-site .mid-cta-row .btn, .cs-site .alt-card-button, .cs-site .final-cta .btn {
+  .cs-site .decision-cta-box .btn-block-cta, .cs-site .mid-cta-row .btn, .cs-site .alt-card-link, .cs-site .final-cta .btn {
 width: 100% !important; justify-content: center !important; text-align: center !important;
   }
 
@@ -5823,8 +5797,8 @@ width: 100% !important; justify-content: center !important; text-align: center !
 padding-left: 0 !important; padding-right: 0 !important;
   }
 
-  .cs-site .alt-card-button {
-display: inline-flex !important;
+  .cs-site .alt-card-link {
+display: block !important;
   }
 
   .cs-site .mid-cta-row {
@@ -6109,22 +6083,6 @@ font-size: 11px !important;
   font-size: 13px !important;
   font-weight: 600 !important;
 }
-
-.cs-site .nav-panel,
-.cs-site .nav-primary,
-.cs-site .nav-categories,
-.cs-site .nav-primary > a,
-.cs-site .nav-categories-toggle,
-.cs-site .nav-subscribe-link {
-  line-height: 1 !important;
-}
-
-.cs-site .nav-categories-toggle,
-.cs-site .nav-primary > a {
-  display: inline-flex !important;
-  align-items: center !important;
-}
-
 .cs-site .nav-categories { position: relative; }
 .cs-site .nav-categories-menu {
   position: absolute;
