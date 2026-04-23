@@ -156,36 +156,12 @@
 <a aria-label="Choosimple — Home" class="nav-logo" href="index.html">
 <img alt="Choosimple" class="nav-logo-img" src="TRANSPARENT_Logo.png"/>
 </a>
-<button aria-controls="site-nav-panel" aria-expanded="false" class="nav-menu-toggle" type="button">
-<span class="nav-menu-label">Site Menu</span>
-</button>
-<div class="nav-panel" id="site-nav-panel">
-<div class="nav-primary">
-<div class="nav-categories">
-<button aria-controls="site-categories-menu" aria-expanded="false" class="nav-categories-toggle" type="button">Categories</button>
-<div class="nav-categories-menu" id="site-categories-menu">
-<div class="nav-categories-group">
-<p>Kitchen</p>
-<a href="blender.html">Blender</a>
-<a href="air-fryer.html">Air Fryer</a>
-<a href="coffee-grinder.html">Coffee Grinder</a>
-</div>
-<div class="nav-categories-group">
-<p>Home Essentials</p>
-<a href="robot-vacuum.html">Robot Vacuum</a>
-<a href="air-purifier.html">Air Purifier</a>
-</div>
-<div class="nav-categories-group">
-<p>Personal Care</p>
-<a href="electric-toothbrush.html">Electric Toothbrush</a>
-</div>
-</div>
-</div>
-<a class="" href="about.html">About</a>
-<a class="" href="disclosure.html">Disclosure</a>
-</div>
-<a class="nav-subscribe-link" href="#email-signup">Get updates</a>
-</div>
+<ul class="nav-links">
+<li><a href="#kitchen">Kitchen</a></li>
+<li><a href="#home-cat">Home Essentials</a></li>
+<li><a href="#personal-care">Personal Care</a></li>
+<li><a href="about.html">About Us</a></li>
+</ul>
 </div>
 </nav>
 <section class="hero">
@@ -195,9 +171,9 @@
 <h1>Best products without the noise.<br/><em>One clear pick</em><br/>for your situation.</h1>
 <p class="hero-body">Choosimple helps you find the best product for your situation with one clear default pick per category — built from buyer patterns, reliability signals, and expert sources, then translated into plain English.</p>
 <div class="hero-buttons">
-<a class="btn btn-primary" href="#quick-shop">Find your product</a>
+<a class="btn btn-primary" href="#catalogue">Browse categories</a>
 </div>
-<p class="hero-helper">Start with the product you are actually shopping for, then move straight to the default pick and the proof behind it.</p>
+<p class="hero-helper">Start with the product you are actually shopping for. We will show you the best default choice for most buyers, then the few exceptions only when they truly matter.</p>
 </div>
 <div class="hero-right">
 <div class="hero-card" id="hero-card">
@@ -215,43 +191,6 @@
 </div>
 </div>
 </div>
-</section><section class="quick-shop" id="quick-shop">
-<div class="quick-shop-inner">
-<div class="quick-shop-copy">
-<span class="eyebrow">Start here</span>
-<h2>What are you shopping for?</h2>
-<p>Browse by parent category first, then jump straight to the default pick.</p>
-</div>
-<div class="quick-shop-grid">
-<a class="quick-shop-card" href="#kitchen">
-<span class="quick-shop-label">Kitchen</span>
-<strong>Blender, air fryer, coffee grinder</strong>
-<span>See kitchen picks →</span>
-</a>
-<a class="quick-shop-card" href="#home-cat">
-<span class="quick-shop-label">Home Essentials</span>
-<strong>Robot vacuum, air purifier</strong>
-<span>See home picks →</span>
-</a>
-<a class="quick-shop-card" href="#personal-care">
-<span class="quick-shop-label">Personal Care</span>
-<strong>Electric toothbrush</strong>
-<span>See personal care picks →</span>
-</a>
-</div>
-</div>
-</section><section class="micro-signup" id="email-signup">
-<div class="micro-signup-inner">
-<div class="micro-signup-copy">
-<span class="eyebrow">Get updates</span>
-<h2>Still deciding?</h2>
-<p>Get new default picks and category launches without turning the site into clutter.</p>
-</div>
-<form action="ACTION-URL-HERE" class="micro-signup-form" method="post" target="_blank">
-<input name="EMAIL" placeholder="you@example.com" type="email"/>
-<button type="submit">Get updates</button>
-</form>
-</div>
 </section>
 <section class="catalogue" id="catalogue">
 <div class="catalogue-header">
@@ -259,6 +198,10 @@
 <span class="eyebrow">Browse by category</span>
 <h2>Shop by category.<br/>Get one clear answer.</h2>
 </div>
+</div>
+<div class="catalogue-intro">
+<p><strong>Start with the product you are actually shopping for.</strong> Choosimple is built for people searching for the best blender, best air fryer, best robot vacuum, best air purifier, best coffee grinder, or best electric toothbrush without falling into top-10 list overload.</p>
+<p>Each category leads to one defensible default pick, the proof behind it, and the obvious alternatives only when they truly matter.</p>
 </div>
 <section class="mini-how" id="how">
 <div class="mini-how-grid">
@@ -419,8 +362,8 @@
 <h2>Stop researching.<br/><em>Start buying.</em></h2>
 <p>One clear purchase decision per category. No endless options. No hedging.</p>
 <form action="ACTION-URL-HERE" class="footer-email-row" method="post" target="_blank">
-<input name="EMAIL" placeholder="Get new default picks" type="email"/>
-<button type="submit">Get updates</button>
+<input name="EMAIL" placeholder="you@example.com" type="email"/>
+<button type="submit">Subscribe</button>
 </form>
 </div>
 <div class="footer-col">
@@ -432,7 +375,14 @@
 </div>
 <div class="footer-col">
 <h3>Categories</h3>
-<ul><li><a href="blender.html">Best Blender</a></li><li><a href="coffee-grinder.html">Best Coffee Grinder</a></li><li><a href="air-fryer.html">Best Air Fryer</a></li><li><a href="robot-vacuum.html">Best Robot Vacuum</a></li><li><a href="air-purifier.html">Best Air Purifier</a></li><li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li></ul>
+<ul>
+<li><a href="blender.html">Best Blender</a></li>
+<li><a href="coffee-grinder.html">Best Coffee Grinder</a></li>
+<li><a href="air-fryer.html">Best Air Fryer</a></li>
+<li><a href="robot-vacuum.html">Best Robot Vacuum</a></li>
+<li><a href="air-purifier.html">Best Air Purifier</a></li>
+<li><a href="electric-toothbrush.html">Best Electric Toothbrush</a></li>
+</ul>
 </div>
 </div>
 <div class="footer-bottom">
@@ -530,33 +480,5 @@
     }, 350);
   }, 4000);
 </script>
-<script>
-(function () {
-  const nav = document.querySelector('.cs-site .nav');
-  if (!nav) return;
-  const menuToggle = nav.querySelector('.nav-menu-toggle');
-  const categoriesToggle = nav.querySelector('.nav-categories-toggle');
-  const categories = nav.querySelector('.nav-categories');
-  if (menuToggle) {
-    menuToggle.addEventListener('click', function () {
-      const isOpen = nav.classList.toggle('nav-open');
-      menuToggle.setAttribute('aria-expanded', String(isOpen));
-    });
-  }
-  if (categoriesToggle && categories) {
-    categoriesToggle.addEventListener('click', function () {
-      const isOpen = categories.classList.toggle('is-open');
-      categoriesToggle.setAttribute('aria-expanded', String(isOpen));
-    });
-  }
-  document.addEventListener('click', function (event) {
-    if (!nav.contains(event.target)) {
-      nav.classList.remove('nav-open');
-      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
-      if (categories) categories.classList.remove('is-open');
-      if (categoriesToggle) categoriesToggle.setAttribute('aria-expanded', 'false');
-    }
-  });
-})();
-</script></body>
+</body>
 </html>
