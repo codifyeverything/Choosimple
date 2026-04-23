@@ -192,15 +192,15 @@
 <div class="hero-grid hero-grid--focused">
 <div class="hero-left">
 <p class="hero-eyebrow">Best product picks for real buyers · Clear defaults backed by reliability signals</p>
-<h1>Best products without the noise.<br/><em>One clear pick</em><br/>for your situation.</h1>
-<p class="hero-body">Choosimple helps you find the best product for your situation with one clear default pick per category — built from buyer patterns, reliability signals, and expert sources, then translated into plain English.</p>
+<h1>Best products without the noise. <em>One clear pick</em> for your situation.</h1>
+<p class="hero-body">Choosimple gives you one clear default pick per category, backed by reliability signals and buyer patterns.</p>
 <div class="hero-buttons">
 <a class="btn btn-primary" href="#quick-shop">Find your product</a>
 </div>
 <p class="hero-helper">Start with the product you are actually shopping for, then move straight to the default pick and the proof behind it.</p>
 </div>
 <div class="hero-right">
-<div class="hero-card" id="hero-card">
+<a aria-label="View featured decision details" class="hero-card hero-card--featured-link" href="blender.html" id="hero-card">
 <p class="hero-card-eyebrow">Featured decision</p>
 <div class="featured-image-wrap">
 <img alt="Breville Fresh &amp; Furious BBL620" id="featured-image" src="Breville_Fresh_and_Furious_jpeg.png"/>
@@ -210,9 +210,8 @@
 <div class="hero-card-rule"></div>
 <p class="hero-card-quote" id="featured-quote">“Reliable daily blending without the overbuilt complexity of premium machines — the defensible buy before Vitamix pricing starts to make sense.”</p>
 <p class="hero-card-proof" id="featured-proof"><strong>Why it wins:</strong> fewer durability complaints than most mid-range blenders people cross-shop, with enough real-world power for frozen fruit, ice, and everyday use.</p>
-<a class="hero-card-link" href="blender.html" id="featured-link">More details <span>→</span></a>
 <p class="hero-card-note">Want a different category? Start with the buttons on the left.</p>
-</div>
+</a>
 </div>
 </div>
 </section><section class="quick-shop" id="quick-shop">
@@ -507,7 +506,6 @@
   const featuredSub = document.getElementById("featured-sub");
   const featuredQuote = document.getElementById("featured-quote");
   const featuredProof = document.getElementById("featured-proof");
-  const featuredLink = document.getElementById("featured-link");
 
   function updateFeaturedDecision(index) {
     const item = featuredDecisions[index];
@@ -517,7 +515,8 @@
     featuredSub.textContent = item.sub;
     featuredQuote.textContent = item.quote;
     featuredProof.innerHTML = item.proof;
-    featuredLink.href = item.link;
+    heroCard.href = item.link;
+    heroCard.setAttribute("aria-label", `View details for ${item.title}`);
   }
 
   setInterval(() => {
