@@ -219,18 +219,14 @@
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--muted);
-  margin-bottom: 28px;
+  margin-bottom: 14px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .cs-site .hero-eyebrow::before {
-  content: '';
-  display: inline-block;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--green);
+  display: none;
 }
 
 .cs-site .hero h1 {
@@ -239,7 +235,7 @@
   font-weight: 600 !important;
   line-height: 0.98 !important;
   letter-spacing: -0.035em !important;
-  margin-bottom: 28px !important;
+  margin-bottom: 16px !important;
   color: var(--ink);
 }
 
@@ -247,7 +243,7 @@
   color: var(--green);
   font-style: italic;
   font-weight: 600;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: 'DM Sans', sans-serif !important;
 }
 
 .cs-site .hero-body {
@@ -262,6 +258,8 @@
   display: flex !important;
   gap: 12px !important;
   flex-wrap: wrap;
+
+  margin-top: 4px !important;
 }
 
 .cs-site .hero-card {
@@ -1508,7 +1506,7 @@
 .cs-site .hero-helper {
   font-size: 15px;
   color: var(--green-dark);
-  margin: -8px 0 22px;
+  margin: 4px 0 0;
   font-weight: 500;
 }
 
@@ -1696,10 +1694,7 @@
   margin-bottom: 32px !important;
 }
 .cs-site .hero-eyebrow::before {
-  width: 8px !important;
-  height: 8px !important;
-  background: var(--brass) !important;
-  box-shadow: 0 0 0 4px rgba(176,138,62,0.15);
+  display: none;
 }
 
 /* ── Section eyebrows — warmer, more present ──────────────────── */
@@ -2293,18 +2288,14 @@
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--muted);
-  margin-bottom: 28px;
+  margin-bottom: 14px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .cs-site .hero-eyebrow::before {
-  content: '';
-  display: inline-block;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--green);
+  display: none;
 }
 
 .cs-site .hero h1 {
@@ -2313,7 +2304,7 @@
   font-weight: 600 !important;
   line-height: 0.98 !important;
   letter-spacing: -0.035em !important;
-  margin-bottom: 28px !important;
+  margin-bottom: 16px !important;
   color: var(--ink);
 }
 
@@ -2321,7 +2312,7 @@
   color: var(--green);
   font-style: italic;
   font-weight: 600;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: 'DM Sans', sans-serif !important;
 }
 
 .cs-site .hero-body {
@@ -2336,6 +2327,8 @@
   display: flex !important;
   gap: 12px !important;
   flex-wrap: wrap;
+
+  margin-top: 4px !important;
 }
 
 .cs-site .hero-card {
@@ -4294,7 +4287,9 @@
   .cs-site .hero-buttons {
     gap: 10px !important;
     margin-bottom: 14px !important;
-  }
+  
+  margin-top: 4px !important;
+}
 
   .cs-site .hero-buttons .btn {
     width: 100% !important;
@@ -6393,7 +6388,9 @@ font-size: 11px !important;
   }
   .cs-site .hero-buttons {
     margin-bottom: 0 !important;
-  }
+  
+  margin-top: 4px !important;
+}
   .cs-site .hero-buttons .btn {
     width: 100%;
   }
@@ -6518,9 +6515,9 @@ font-size: 11px !important;
 }
 
 .cs-site .hero h1 em {
-  font-style: normal;
-  font-weight: 600;
   color: var(--green);
+  font-style: italic;
+  font-weight: 600;
   font-family: 'DM Sans', sans-serif !important;
 }
 
@@ -6530,6 +6527,7 @@ font-size: 11px !important;
 
 .cs-site .hero-buttons {
   margin-top: 0 !important;
+
 }
 
 .cs-site .hero-helper {
@@ -6581,9 +6579,7 @@ font-size: 11px !important;
     margin-bottom: 10px !important;
   }
 
-  .cs-site .quick-shop-copy p {
-    max-width: 360px;
-  }
+  .cs-site .quick-shop-copy p { display: none !important; }
 
   .cs-site .quick-shop-card .quick-shop-label {
     font-size: 15px !important;
@@ -6611,7 +6607,9 @@ font-size: 11px !important;
 
   .cs-site .hero-buttons {
     margin-bottom: 0.35rem !important;
-  }
+  
+  margin-top: 4px !important;
+}
 
   .cs-site .hero-helper {
     margin: 0 0 0.6rem !important;
@@ -6625,10 +6623,7 @@ font-size: 11px !important;
     margin-bottom: 0.35rem !important;
   }
 
-  .cs-site .quick-shop-copy p {
-    font-size: 15px !important;
-    line-height: 1.45 !important;
-  }
+  .cs-site .quick-shop-copy p { display: none !important; }
 
   .cs-site .quick-shop-card .quick-shop-label {
     font-size: 15px !important;
@@ -6638,5 +6633,83 @@ font-size: 11px !important;
   .cs-site .quick-shop-card strong.quick-shop-products {
     font-size: 18px !important;
     line-height: 1.16 !important;
+  }
+}
+
+
+/* ── FINAL HOMEPAGE OPTICAL ALIGNMENT PASS ────────────────────────── */
+.cs-site .hero {
+  padding: 92px 0 82px !important;
+}
+
+.cs-site .hero-grid {
+  gap: 64px !important;
+}
+
+.cs-site .hero-left h1 {
+  margin-bottom: 16px !important;
+}
+
+.cs-site .hero-eyebrow {
+  margin-bottom: 14px !important;
+  max-width: 660px;
+}
+
+.cs-site .hero-buttons {
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+
+.cs-site .hero-helper {
+  margin: 8px 0 0 !important;
+}
+
+.cs-site .quick-shop-card .quick-shop-label {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: var(--ink) !important;
+  margin-bottom: 10px !important;
+}
+
+.cs-site .quick-shop-card strong.quick-shop-products {
+  font-size: 19px !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+  color: var(--muted) !important;
+  display: block !important;
+}
+
+@media (max-width: 767px) {
+  .cs-site .hero {
+    padding-top: 1.15rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .cs-site .hero-eyebrow {
+    margin-bottom: 0.75rem !important;
+    max-width: 100%;
+  }
+
+  .cs-site .hero-left h1 {
+    margin-bottom: 0.8rem !important;
+  }
+
+  .cs-site .hero-buttons {
+    margin-top: 0 !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  .cs-site .hero-helper {
+    margin: 0 !important;
+  }
+
+  .cs-site .quick-shop-card .quick-shop-label {
+    font-size: 15px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .quick-shop-card strong.quick-shop-products {
+    font-size: 17px !important;
+    line-height: 1.18 !important;
   }
 }
