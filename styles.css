@@ -185,7 +185,7 @@
 
 /* ── HERO ────────────────────────────────────────────────────────────── */
 .cs-site .hero {
-  padding: 96px 0 88px !important;
+  padding: 54px 0 72px !important;
   position: relative;
   overflow: hidden;
 }
@@ -219,7 +219,7 @@
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--muted);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -233,9 +233,9 @@
   font-family: 'Fraunces', Georgia, serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
-  line-height: 0.98 !important;
-  letter-spacing: -0.035em !important;
-  margin-bottom: 16px !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.03em !important;
+  margin-bottom: 18px !important;
   color: var(--ink);
 }
 
@@ -258,8 +258,8 @@
   display: flex !important;
   gap: 12px !important;
   flex-wrap: wrap;
-
-  margin-top: 4px !important;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
 }
 
 .cs-site .hero-card {
@@ -1506,7 +1506,7 @@
 .cs-site .hero-helper {
   font-size: 15px;
   color: var(--green-dark);
-  margin: 4px 0 0;
+  margin: 2px 0 0;
   font-weight: 500;
 }
 
@@ -2254,7 +2254,7 @@
 
 /* ── HERO ────────────────────────────────────────────────────────────── */
 .cs-site .hero {
-  padding: 96px 0 88px !important;
+  padding: 54px 0 72px !important;
   position: relative;
   overflow: hidden;
 }
@@ -2288,7 +2288,7 @@
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--muted);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -2302,9 +2302,9 @@
   font-family: 'Fraunces', Georgia, serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
-  line-height: 0.98 !important;
-  letter-spacing: -0.035em !important;
-  margin-bottom: 16px !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.03em !important;
+  margin-bottom: 18px !important;
   color: var(--ink);
 }
 
@@ -2327,8 +2327,8 @@
   display: flex !important;
   gap: 12px !important;
   flex-wrap: wrap;
-
-  margin-top: 4px !important;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
 }
 
 .cs-site .hero-card {
@@ -4267,11 +4267,14 @@
   }
 
   .cs-site .hero h1 {
-    font-size: 34px !important;
-    line-height: 0.98 !important;
-    margin-bottom: 16px !important;
-    max-width: 11ch;
-  }
+  font-family: 'Fraunces', Georgia, serif !important;
+  font-size: clamp(52px, 7vw, 88px) !important;
+  font-weight: 600 !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.03em !important;
+  margin-bottom: 18px !important;
+  color: var(--ink);
+}
 
   .cs-site .hero-body {
     font-size: 15px !important;
@@ -4285,10 +4288,11 @@
   }
 
   .cs-site .hero-buttons {
-    gap: 10px !important;
-    margin-bottom: 14px !important;
-  
-  margin-top: 4px !important;
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
 }
 
   .cs-site .hero-buttons .btn {
@@ -6387,9 +6391,11 @@ font-size: 11px !important;
     max-width: none !important;
   }
   .cs-site .hero-buttons {
-    margin-bottom: 0 !important;
-  
-  margin-top: 4px !important;
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
 }
   .cs-site .hero-buttons .btn {
     width: 100%;
@@ -6606,9 +6612,11 @@ font-size: 11px !important;
   }
 
   .cs-site .hero-buttons {
-    margin-bottom: 0.35rem !important;
-  
-  margin-top: 4px !important;
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
 }
 
   .cs-site .hero-helper {
@@ -6656,8 +6664,11 @@ font-size: 11px !important;
 }
 
 .cs-site .hero-buttons {
-  margin-top: 4px !important;
-  margin-bottom: 0 !important;
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
 }
 
 .cs-site .hero-helper {
