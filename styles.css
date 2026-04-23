@@ -1681,8 +1681,8 @@
 }
 
 /* ── NAV — more visible logo and links ─────────────────────────── */
-.cs-site .nav-inner { height: 84px !important; }
-.cs-site .nav-logo-img { height: 56px !important; }
+.cs-site .nav-inner { height: 76px !important; }
+.cs-site .nav-logo-img { height: 44px !important; }
 .cs-site .nav-links a { font-size: 15px !important; font-weight: 500 !important; letter-spacing: 0.01em; }
 
 /* ── HERO eyebrow — larger, more visible ──────────────────────── */
@@ -3651,8 +3651,8 @@
 }
 
 /* ── NAV — more visible ───────────────────────────────────────── */
-.cs-site .nav-inner { height: 84px !important; }
-.cs-site .nav-logo-img { height: 56px !important; }
+.cs-site .nav-inner { height: 76px !important; }
+.cs-site .nav-logo-img { height: 44px !important; }
 .cs-site .nav-links a { font-size: 15px !important; font-weight: 500 !important; letter-spacing: 0.01em; }
 
 /* ── Section eyebrows — warmer, more present ──────────────────── */
@@ -6765,5 +6765,58 @@ font-size: 11px !important;
 
   .cs-site .hero-card {
     min-height: auto !important;
+  }
+}
+
+
+/* ── HOMEPAGE HERO DESKTOP OVERRIDE (final) ───────────────────────── */
+@media (min-width: 768px) {
+  .cs-site .hero {
+    padding-top: 18px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .cs-site .hero-grid.hero-grid--focused {
+    align-items: start !important;
+    grid-template-columns: minmax(0, 1fr) 432px !important;
+    gap: 50px !important;
+    min-height: 500px !important;
+  }
+
+  .cs-site .hero-left {
+    align-self: start !important;
+    padding-top: 0.95rem !important;
+    padding-bottom: 0 !important;
+    max-width: 600px !important;
+  }
+
+  .cs-site .hero-right {
+    align-self: start !important;
+    width: 432px !important;
+  }
+
+  .cs-site .hero-eyebrow {
+    margin-bottom: 0.7rem !important;
+    max-width: 640px !important;
+  }
+
+  .cs-site .hero-left h1 {
+    margin-bottom: 0.55rem !important;
+    max-width: 8.8ch !important;
+  }
+
+  .cs-site .hero-buttons {
+    margin-top: 0 !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  .cs-site .hero-helper {
+    margin: 0 !important;
+    max-width: 34rem !important;
+  }
+
+  .cs-site .hero-card {
+    min-height: 540px !important;
+    padding: 28px 24px 24px !important;
   }
 }
