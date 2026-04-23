@@ -6820,3 +6820,22 @@ font-size: 11px !important;
     padding: 28px 24px 24px !important;
   }
 }
+
+
+/* ── HERO SPACING TUNE (desktop only) ─────────────────────────────── */
+@media (min-width: 768px) {
+  .cs-site .hero-left h1 {
+    margin-bottom: 1.05rem !important;
+  }
+
+  .cs-site .hero-buttons {
+    margin-top: 0 !important;
+    margin-bottom: 0.95rem !important;
+  }
+
+  .cs-site .hero-helper {
+    margin-top: 0.45rem !important;
+    max-width: 34rem !important;
+    line-height: 1.65 !important;
+  }
+}
