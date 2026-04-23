@@ -1681,8 +1681,8 @@
 }
 
 /* ── NAV — more visible logo and links ─────────────────────────── */
-.cs-site .nav-inner { height: 84px !important; }
-.cs-site .nav-logo-img { height: 56px !important; }
+.cs-site .nav-inner { height: 76px !important; }
+.cs-site .nav-logo-img { height: 44px !important; }
 .cs-site .nav-links a { font-size: 15px !important; font-weight: 500 !important; letter-spacing: 0.01em; }
 
 /* ── HERO eyebrow — larger, more visible ──────────────────────── */
@@ -3651,8 +3651,8 @@
 }
 
 /* ── NAV — more visible ───────────────────────────────────────── */
-.cs-site .nav-inner { height: 84px !important; }
-.cs-site .nav-logo-img { height: 56px !important; }
+.cs-site .nav-inner { height: 76px !important; }
+.cs-site .nav-logo-img { height: 44px !important; }
 .cs-site .nav-links a { font-size: 15px !important; font-weight: 500 !important; letter-spacing: 0.01em; }
 
 /* ── Section eyebrows — warmer, more present ──────────────────── */
