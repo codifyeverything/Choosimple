@@ -97,7 +97,7 @@
   margin: 0 auto !important;
   padding: 0 40px !important;
   display: flex !important;
-  align-items: start !important;
+  align-items: center !important;
   justify-content: space-between !important;
   height: 76px !important;
 }
@@ -1282,7 +1282,6 @@
 .cs-site .alt-rule { height: 1px; background: var(--border); margin: 14px 0; }
 .cs-site .alt-card p { font-size: 16.5px; color: var(--ink-2); line-height: 1.65; margin-bottom: 14px; }
 
-
 .cs-site .alt-link {
   color: var(--green);
   font-size: 14px;
@@ -1322,6 +1321,7 @@
   transform: translateY(-1px);
   box-shadow: 0 6px 18px -6px rgba(47, 90, 28, 0.45);
 }
+
 
 /* ── QUOTE GRID ────────────────────────────────────────────────────── */
 .cs-site .quote-grid {
@@ -3363,6 +3363,35 @@
   transition: gap 0.2s ease;
 }
 .cs-site .alt-link:hover { gap: 7px; }
+
+.cs-site .alt-card-button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 10px 16px !important;
+  border-radius: 999px !important;
+  background-color: var(--green) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--green) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.cs-site .alt-card-button:hover {
+  background-color: var(--green-dark) !important;
+  border-color: var(--green-dark) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px -6px rgba(47, 90, 28, 0.45);
+}
+
 
 /* ── QUOTE GRID ────────────────────────────────────────────────────── */
 .cs-site .quote-grid {
@@ -6080,6 +6109,22 @@ font-size: 11px !important;
   font-size: 13px !important;
   font-weight: 600 !important;
 }
+
+.cs-site .nav-panel,
+.cs-site .nav-primary,
+.cs-site .nav-categories,
+.cs-site .nav-primary > a,
+.cs-site .nav-categories-toggle,
+.cs-site .nav-subscribe-link {
+  line-height: 1 !important;
+}
+
+.cs-site .nav-categories-toggle,
+.cs-site .nav-primary > a {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
 .cs-site .nav-categories { position: relative; }
 .cs-site .nav-categories-menu {
   position: absolute;
