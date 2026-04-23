@@ -6859,12 +6859,12 @@ font-size: 11px !important;
   color: var(--green-dark);
 }
 
-.cs-site .decision-inline-cta--top {
-  margin-top: 4px;
-  padding: 16px 18px;
+.cs-site .decision-inline-cta {
+  margin-top: 10px;
+  padding: 14px 16px;
 }
 
-.cs-site .decision-inline-cta--top .btn-block-cta {
+.cs-site .decision-inline-cta .btn-block-cta {
   margin-bottom: 8px;
 }
 
@@ -6899,7 +6899,7 @@ font-size: 11px !important;
 }
 
 .cs-site .decision-inline-proof {
-  margin: 14px 0 0;
+  margin: 12px 0 0;
   padding: 12px 14px;
 }
 
@@ -6958,9 +6958,9 @@ font-size: 11px !important;
 }
 
 @media (max-width: 900px) {
-  .cs-site .decision-inline-cta--top {
-    padding: 14px 16px;
-    margin-top: 2px;
+  .cs-site .decision-inline-cta {
+    padding: 12px 14px;
+    margin-top: 8px;
   }
 
   .cs-site .price-cta-link {
