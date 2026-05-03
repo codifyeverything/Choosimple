@@ -7003,3 +7003,112 @@ font-size: 11px !important;
     padding: 20px 18px;
   }
 }
+
+/* === Choosimple refinement: quick comparison placement + mobile tightening === */
+.cs-site .quick-comparison-box {
+  margin: 0 !important;
+}
+
+.cs-site .quick-comparison-box .snapshot-val a {
+  color: var(--ink) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(47, 90, 28, 0.25);
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.cs-site .quick-comparison-box .snapshot-val a:hover {
+  color: var(--green-dark) !important;
+  border-bottom-color: var(--green-dark);
+}
+
+.cs-site .quick-comparison-cta {
+  margin-top: 16px !important;
+  width: 100% !important;
+}
+
+.cs-site .decision-media .quick-comparison-box {
+  box-shadow: 0 10px 24px -18px rgba(20,18,12,0.18);
+}
+
+@media (min-width: 901px) {
+  .cs-site .decision-section .decision-media {
+    gap: 12px !important;
+  }
+
+  .cs-site .decision-section .decision-img {
+    margin-bottom: 0 !important;
+  }
+
+  .cs-site .decision-section .decision-inline-proof {
+    margin-top: 0 !important;
+  }
+
+  .cs-site .decision-section .decision-followups {
+    margin-top: 18px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .cs-site .decision-head-mobile__thumb {
+    background: radial-gradient(120% 100% at 50% 0%, #F7FBEF 0%, #E8F1D6 100%) !important;
+  }
+
+  .cs-site .decision-section .decision-media {
+    margin-top: 0 !important;
+  }
+
+  .cs-site .decision-section .decision-img {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-section .quick-comparison-box {
+    padding: 16px !important;
+    margin: 0 0 12px 0 !important;
+  }
+
+  .cs-site .decision-section .quick-comparison-box .snapshot-list li {
+    padding: 10px 0 !important;
+  }
+
+  .cs-site .quick-comparison-cta {
+    min-height: 50px !important;
+    padding: 14px 14px !important;
+    font-size: 15px !important;
+    margin-top: 12px !important;
+  }
+
+  .cs-site .decision-section .decision-followups {
+    margin-top: 12px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .cs-site .decision-section {
+    padding-top: 14px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .cs-site .decision-section .decision-subhead {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-section .snapshot:not(.quick-comparison-box) {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-section .decision-inline-proof {
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .decision-section .decision-inline-cta {
+    margin-bottom: 10px !important;
+  }
+
+  .cs-site .decision-section .quick-comparison-box .snapshot-key {
+    font-size: 10.5px !important;
+  }
+
+  .cs-site .decision-section .quick-comparison-box .snapshot-val {
+    font-size: 14.5px !important;
+  }
+}
