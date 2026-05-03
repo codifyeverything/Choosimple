@@ -7214,3 +7214,93 @@ font-size: 11px !important;
     padding: 2px 0;
   }
 }
+
+/* =========================
+   MOBILE: High-Conversion Alternatives Cards
+   Applies only to Obvious Alternatives cards
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* Section spacing */
+  #obvious-alternatives {
+    padding-top: 42px !important;
+    padding-bottom: 42px !important;
+  }
+
+  #obvious-alternatives .num-wrap {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* Alternative cards */
+  #obvious-alternatives .alt-card {
+    padding: 22px 20px !important;
+    border-radius: 18px !important;
+    margin-bottom: 18px !important;
+  }
+
+  /* Pick label: Compact pick / Budget pick / Upgrade pick */
+  #obvious-alternatives .alt-card > p:first-child {
+    font-size: 15px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 8px !important;
+    color: var(--ink-2) !important;
+  }
+
+  /* Product title */
+  #obvious-alternatives .alt-card h3 {
+    font-size: 27px !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.02em !important;
+    margin-bottom: 18px !important;
+  }
+
+  /* Section labels: BEST FOR / TRADEOFF / WHY NOT */
+  #obvious-alternatives .alt-card .alt-label,
+  #obvious-alternatives .alt-card .eyebrow {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0.16em !important;
+    margin-top: 18px !important;
+    margin-bottom: 7px !important;
+  }
+
+  /* Body text */
+  #obvious-alternatives .alt-card p {
+    font-size: 16px !important;
+    line-height: 1.52 !important;
+  }
+
+  /* Reduce excessive vertical gaps */
+  #obvious-alternatives .alt-card p + .alt-label,
+  #obvious-alternatives .alt-card p + .eyebrow {
+    margin-top: 20px !important;
+  }
+
+  /* CTA button */
+  #obvious-alternatives .alt-card .btn-block,
+  #obvious-alternatives .alt-card .btn-block-green {
+    width: 100% !important;
+    min-height: 48px !important;
+    padding: 14px 18px !important;
+    font-size: 15.5px !important;
+    font-weight: 600 !important;
+    margin-top: 22px !important;
+    border-radius: 999px !important;
+  }
+
+  /* Make CTA feel tappable but not oversized */
+  #obvious-alternatives .alt-card .btn-block span {
+    font-size: 15px !important;
+  }
+
+  /* Tighten secondary note under CTA, if present */
+  #obvious-alternatives .alt-card .cta-micro,
+  #obvious-alternatives .alt-card .inline-disclosure {
+    font-size: 12px !important;
+    line-height: 1.35 !important;
+    margin-top: 8px !important;
+    text-align: center !important;
+  }
+}
