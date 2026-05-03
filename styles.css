@@ -7112,3 +7112,105 @@ font-size: 11px !important;
     font-size: 14.5px !important;
   }
 }
+
+
+/* ── BRAND IDENTITY REINFORCEMENT ─────────────────────────────────── */
+.cs-site .nav-logo-tagline {
+  display: inline-block;
+  margin-left: 8px;
+  padding-left: 10px;
+  border-left: 1px solid var(--green-border);
+  font-size: 11px;
+  line-height: 1.1;
+  color: var(--green-dark);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.cs-site .home-brand-proofline,
+.cs-site .category-brand-proofline,
+.cs-site .text-brand-proofline,
+.cs-site .decision-brand-micro {
+  color: var(--ink-2);
+  border-left: 2px solid var(--green-border);
+  background: rgba(255,255,255,0.32);
+}
+
+.cs-site .home-brand-proofline {
+  max-width: 34rem;
+  margin-top: 0.75rem;
+  padding: 0.7rem 0 0.7rem 1rem;
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+
+.cs-site .category-brand-proofline {
+  max-width: 700px;
+  margin-top: 16px;
+  padding: 12px 0 12px 16px;
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+
+.cs-site .text-brand-proofline {
+  margin: 22px 0 34px;
+  padding: 14px 18px;
+  border-radius: 0 12px 12px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.cs-site .decision-brand-micro {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 0 10px 10px 0;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.cs-site .quick-comparison-box .snapshot-val a {
+  color: #1D5FBF !important;
+  font-weight: 600;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.cs-site .quick-comparison-box .snapshot-val a:hover {
+  color: #164A96 !important;
+}
+
+@media (max-width: 767px) {
+  .cs-site .nav-logo-tagline {
+    display: none;
+  }
+
+  .cs-site .home-brand-proofline {
+    display: block;
+    margin-top: 0.65rem;
+    padding: 0.65rem 0 0.65rem 0.85rem;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .cs-site .category-brand-proofline {
+    margin-top: 12px;
+    padding: 10px 0 10px 12px;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .cs-site .text-brand-proofline {
+    margin: 18px 0 28px;
+    padding: 12px 14px;
+    font-size: 14.5px;
+  }
+
+  .cs-site .quick-comparison-box .snapshot-val a {
+    display: inline-block;
+    padding: 2px 0;
+  }
+}
