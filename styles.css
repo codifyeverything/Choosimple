@@ -4229,6 +4229,9 @@
   color: var(--green);
   font-weight: 700;
 }
+.cs-site .trust-list li:first-child::before {
+  top: 0;
+}
 .cs-site .inline-disclosure {
   font-size: 12px !important;
   color: var(--muted-2) !important;
