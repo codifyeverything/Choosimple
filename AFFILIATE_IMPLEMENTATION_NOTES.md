@@ -1,6 +1,6 @@
 # Choosimple affiliate-ready update notes
 
-Files in this folder keep the repo filenames unchanged.
+Files in this folder keep the repo filenames unchanged..
 
 What changed:
 - Added `data-affiliate-id` to every existing affiliate placeholder link on the six category pages.
