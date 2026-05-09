@@ -128,6 +128,30 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "t3-singlepass-stylemax-1-inch": {
+    "name": "T3 SinglePass StyleMax 1 inch",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "hot-tools-pro-artist-black-gold-1-inch": {
+    "name": "Hot Tools Pro Artist Black Gold 1 inch Flat Iron",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "babylisspro-nano-titanium-mini": {
+    "name": "BaBylissPRO Nano Titanium Mini Straightening Iron",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "ghd-platinum-plus-styler": {
+    "name": "ghd Platinum+ Styler",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
   "vitamix-5200": {
     "name": "Vitamix 5200",
     "url": "",
