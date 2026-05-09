@@ -169,5 +169,29 @@ window.CS_AFFILIATE_LINKS = {
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "ring-battery-doorbell-plus-2nd-gen": {
+    "name": "Ring Battery Doorbell Plus 2nd Gen",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "google-nest-doorbell-wired-2nd-gen": {
+    "name": "Google Nest Doorbell Wired 2nd Gen",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "eufy-video-doorbell-e340": {
+    "name": "eufy Video Doorbell E340",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "reolink-video-doorbell-poe": {
+    "name": "Reolink Video Doorbell PoE",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   }
 };
