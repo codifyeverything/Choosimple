@@ -6,6 +6,17 @@
 
 /* Font imports stay in <head> via <link> — scope everything else here. */
 
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #EEF5E0;
+}
 .cs-site, .cs-site *, .cs-site *::before, .cs-site *::after {
   box-sizing: border-box !important;
   margin: 0;
