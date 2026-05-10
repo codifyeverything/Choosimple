@@ -224,7 +224,23 @@ extraHead: |
       }
   
       .hero-card {
-        min-height: auto;
+        min-height: 430px;
+      }
+
+      #featured-title {
+        min-height: 62px;
+      }
+
+      #featured-sub {
+        min-height: 42px;
+      }
+
+      #featured-quote {
+        min-height: 96px;
+      }
+
+      #featured-proof {
+        min-height: 118px;
       }
     }
   </style>
@@ -382,18 +398,70 @@ extraHead: |
     return;
   }
 
-  function updateFeaturedDecision(index) {
-    const item = featuredDecisions[index];
+  function applyFeaturedItemToCard(card, item) {
+    const image = card.querySelector("#featured-image");
+    const title = card.querySelector("#featured-title");
+    const sub = card.querySelector("#featured-sub");
+    const quote = card.querySelector("#featured-quote");
+    const proof = card.querySelector("#featured-proof");
 
-    featuredImage.src = item.image;
-    featuredImage.alt = item.alt;
-    featuredTitle.textContent = item.title;
-    featuredSub.textContent = item.sub;
-    featuredQuote.textContent = item.quote;
-    featuredProof.innerHTML = item.proof;
-    heroCard.href = item.link;
-    heroCard.setAttribute("aria-label", `View details for ${item.title}`);
+    if (image) {
+      image.src = item.image;
+      image.alt = item.alt;
+    }
+
+    if (title) title.textContent = item.title;
+    if (sub) sub.textContent = item.sub;
+    if (quote) quote.textContent = item.quote;
+    if (proof) proof.innerHTML = item.proof;
+
+    card.href = item.link;
+    card.setAttribute("aria-label", `View details for ${item.title}`);
   }
+
+  function lockFeaturedCardHeight() {
+    const cardWidth = heroCard.getBoundingClientRect().width;
+
+    if (!cardWidth) {
+      return;
+    }
+
+    const measuringCard = heroCard.cloneNode(true);
+    measuringCard.classList.remove("is-fading");
+    measuringCard.removeAttribute("id");
+    measuringCard.style.position = "absolute";
+    measuringCard.style.visibility = "hidden";
+    measuringCard.style.pointerEvents = "none";
+    measuringCard.style.left = "-9999px";
+    measuringCard.style.top = "0";
+    measuringCard.style.width = `${cardWidth}px`;
+    measuringCard.style.minHeight = "0";
+    measuringCard.style.height = "auto";
+
+    document.body.appendChild(measuringCard);
+
+    let tallestCardHeight = 0;
+
+    featuredDecisions.forEach((item) => {
+      applyFeaturedItemToCard(measuringCard, item);
+      tallestCardHeight = Math.max(tallestCardHeight, measuringCard.scrollHeight);
+    });
+
+    measuringCard.remove();
+
+    heroCard.style.minHeight = `${Math.ceil(tallestCardHeight)}px`;
+  }
+
+  function updateFeaturedDecision(index) {
+    applyFeaturedItemToCard(heroCard, featuredDecisions[index]);
+  }
+
+  lockFeaturedCardHeight();
+
+  window.addEventListener("resize", () => {
+    heroCard.style.minHeight = "";
+    lockFeaturedCardHeight();
+  });
 
   setInterval(() => {
     heroCard.classList.add("is-fading");
