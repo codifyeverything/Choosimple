@@ -152,12 +152,6 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Shark SpeedStyle curly/coily bundle with diffuser here."
   },
-  "shark-speedstyle-compact": {
-    "name": "Shark SpeedStyle Compact Hair Dryer",
-    "url": "",
-    "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Shark SpeedStyle compact/high-velocity dryer here. Use this for the compact pick, not necessarily a dual-voltage travel dryer."
-  },
   "t3-singlepass-stylemax-1-inch": {
     "name": "T3 SinglePass StyleMax 1 inch",
     "url": "",
