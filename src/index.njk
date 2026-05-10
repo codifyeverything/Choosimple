@@ -15,32 +15,12 @@ extraHead: |
   
     .hero-card {
       box-sizing: border-box;
-    }
-
-    .featured-rotation-stack {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-    }
-
-    .featured-rotation-card {
-      position: absolute !important;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      min-height: 0 !important;
-      max-height: none !important;
-      overflow: hidden;
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
+      opacity: 1;
       transition: opacity 0.35s ease;
     }
-
-    .featured-rotation-card.is-active {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
+  
+    .hero-card.is-fading {
+      opacity: 0;
     }
   
     .featured-image-wrap {
@@ -54,7 +34,7 @@ extraHead: |
       overflow: hidden;
     }
   
-    .featured-image {
+    #featured-image {
       display: block;
       width: auto;
       max-width: 100%;
@@ -133,15 +113,10 @@ extraHead: |
       .hero-right {
         width: 432px;
       }
-
-      .featured-rotation-stack {
-        height: 540px;
-        min-height: 540px;
-        max-height: 540px;
-      }
   
       .hero-card {
         padding: 28px 24px 24px;
+        min-height: 540px;
       }
   
       .hero-card-eyebrow {
@@ -166,6 +141,18 @@ extraHead: |
         margin-bottom: 0.9rem;
         font-size: 16px;
         line-height: 1.52;
+      }
+  
+      #featured-title {
+        min-height: 82px;
+      }
+  
+      #featured-quote {
+        min-height: 80px;
+      }
+  
+      #featured-proof {
+        min-height: 88px;
       }
   
       .catalogue {
@@ -232,20 +219,32 @@ extraHead: |
         margin: 0 0 0.75rem;
       }
   
-      .featured-image {
+      #featured-image {
         max-height: 84px;
       }
   
-      .featured-rotation-stack {
-        height: 430px;
+      .hero-card {
         min-height: 430px;
-        max-height: 430px;
       }
 
+      #featured-title {
+        min-height: 62px;
+      }
+
+      #featured-sub {
+        min-height: 42px;
+      }
+
+      #featured-quote {
+        min-height: 96px;
+      }
+
+      #featured-proof {
+        min-height: 118px;
+      }
     }
   </style>
 ---
-<!-- SAFE RESTORE: front matter starts on line 1; rotating feature uses fixed slot. -->
 
 <section class="hero">
 <div class="hero-grid hero-grid--focused">
@@ -259,22 +258,18 @@ extraHead: |
 <p class="home-brand-proofline">Choosimple gives you one clear decision — based on real ownership patterns, not review noise or spec-sheet overload.</p>
 </div>
 <div class="hero-right">
-<div class="featured-rotation-stack" aria-live="polite">
-{% for item in categories %}{% if item.featured %}
-<a aria-label="View details for {{ item.decision }}" class="hero-card hero-card--featured-link featured-rotation-card{% if loop.first %} is-active{% endif %}" href="{{ item.url }}">
+<a aria-label="View featured decision details" class="hero-card hero-card--featured-link" href="/blender.html" id="hero-card">
 <p class="hero-card-eyebrow">Choosimple featured decision</p>
 <div class="featured-image-wrap">
-<img alt="{{ item.imageAlt }}" class="featured-image" src="{{ item.image }}"/>
+<img alt="Vitamix 5200" id="featured-image" src="/Vitamix_5200.png"/>
 </div>
-<h3>{{ item.decision }}</h3>
-<p class="hero-card-sub">{{ item.featuredSub }}</p>
+<h3 id="featured-title">Vitamix 5200</h3>
+<p class="hero-card-sub" id="featured-sub">Kitchen · Typical price: $350–$480</p>
 <div class="hero-card-rule"></div>
-<p class="hero-card-quote">{{ item.featuredQuote }}</p>
-<p class="hero-card-proof">{{ item.featuredProof | safe }}</p>
+<p class="hero-card-quote" id="featured-quote">“The best blender for most people: Vitamix 5200 — proven durability, consistent performance, and simple long-term ownership.”</p>
+<p class="hero-card-proof" id="featured-proof"><strong>Why it wins:</strong> proven motor durability, consistent results across smoothies, frozen fruit, nut butters, and soups, and a simple low-failure design.</p>
 <p class="hero-card-note">Want a different category? Start with the buttons on the left.</p>
 </a>
-{% endif %}{% endfor %}
-</div>
 </div>
 </div>
 </section><section class="quick-shop" id="quick-shop">
@@ -376,27 +371,106 @@ extraHead: |
 
 <script>
 (function () {
-  const featuredCards = Array.from(document.querySelectorAll(".featured-rotation-card"));
+  const featuredDecisions = [
+{% for item in categories %}{% if item.featured %}
+    {
+      title: {{ item.decision | dump | safe }},
+      sub: {{ item.featuredSub | dump | safe }},
+      quote: {{ item.featuredQuote | dump | safe }},
+      proof: {{ item.featuredProof | dump | safe }},
+      link: {{ item.url | dump | safe }},
+      image: {{ item.image | dump | safe }},
+      alt: {{ item.imageAlt | dump | safe }}
+    },
+{% endif %}{% endfor %}
+  ];
 
-  if (featuredCards.length === 0) {
+  let featuredIndex = 0;
+
+  const heroCard = document.getElementById("hero-card");
+  const featuredImage = document.getElementById("featured-image");
+  const featuredTitle = document.getElementById("featured-title");
+  const featuredSub = document.getElementById("featured-sub");
+  const featuredQuote = document.getElementById("featured-quote");
+  const featuredProof = document.getElementById("featured-proof");
+
+  if (!heroCard || !featuredImage || !featuredTitle || !featuredSub || !featuredQuote || !featuredProof || featuredDecisions.length < 2) {
     return;
   }
 
-  let featuredIndex = featuredCards.findIndex((card) => card.classList.contains("is-active"));
+  function applyFeaturedItemToCard(card, item) {
+    const image = card.querySelector("#featured-image");
+    const title = card.querySelector("#featured-title");
+    const sub = card.querySelector("#featured-sub");
+    const quote = card.querySelector("#featured-quote");
+    const proof = card.querySelector("#featured-proof");
 
-  if (featuredIndex === -1) {
-    featuredIndex = 0;
-    featuredCards[0].classList.add("is-active");
+    if (image) {
+      image.src = item.image;
+      image.alt = item.alt;
+    }
+
+    if (title) title.textContent = item.title;
+    if (sub) sub.textContent = item.sub;
+    if (quote) quote.textContent = item.quote;
+    if (proof) proof.innerHTML = item.proof;
+
+    card.href = item.link;
+    card.setAttribute("aria-label", `View details for ${item.title}`);
   }
 
-  if (featuredCards.length < 2) {
-    return;
+  function lockFeaturedCardHeight() {
+    const cardWidth = heroCard.getBoundingClientRect().width;
+
+    if (!cardWidth) {
+      return;
+    }
+
+    const measuringCard = heroCard.cloneNode(true);
+    measuringCard.classList.remove("is-fading");
+    measuringCard.removeAttribute("id");
+    measuringCard.style.position = "absolute";
+    measuringCard.style.visibility = "hidden";
+    measuringCard.style.pointerEvents = "none";
+    measuringCard.style.left = "-9999px";
+    measuringCard.style.top = "0";
+    measuringCard.style.width = `${cardWidth}px`;
+    measuringCard.style.minHeight = "0";
+    measuringCard.style.height = "auto";
+
+    document.body.appendChild(measuringCard);
+
+    let tallestCardHeight = 0;
+
+    featuredDecisions.forEach((item) => {
+      applyFeaturedItemToCard(measuringCard, item);
+      tallestCardHeight = Math.max(tallestCardHeight, measuringCard.scrollHeight);
+    });
+
+    measuringCard.remove();
+
+    heroCard.style.minHeight = `${Math.ceil(tallestCardHeight)}px`;
   }
+
+  function updateFeaturedDecision(index) {
+    applyFeaturedItemToCard(heroCard, featuredDecisions[index]);
+  }
+
+  lockFeaturedCardHeight();
+
+  window.addEventListener("resize", () => {
+    heroCard.style.minHeight = "";
+    lockFeaturedCardHeight();
+  });
 
   setInterval(() => {
-    featuredCards[featuredIndex].classList.remove("is-active");
-    featuredIndex = (featuredIndex + 1) % featuredCards.length;
-    featuredCards[featuredIndex].classList.add("is-active");
+    heroCard.classList.add("is-fading");
+
+    setTimeout(() => {
+      featuredIndex = (featuredIndex + 1) % featuredDecisions.length;
+      updateFeaturedDecision(featuredIndex);
+      heroCard.classList.remove("is-fading");
+    }, 350);
   }, 3000);
 })();
 </script>
