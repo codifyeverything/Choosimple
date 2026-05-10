@@ -119,6 +119,23 @@ module.exports = [
     "featuredProof": "<strong>Why it wins:</strong> proven daily cleaning with pressure sensing and fewer gimmicks than pricier models."
   },
   {
+    "title": "Hair Dryer",
+    "slug": "hair-dryer",
+    "url": "/hair-dryer.html",
+    "group": "Personal Care",
+    "cardTitle": "The hair dryer that makes the most sense",
+    "decision": "T3 AireLuxe",
+    "image": "/t3-aireluxe.png",
+    "imageAlt": "T3 AireLuxe",
+    "summary": "The best hair dryer for most people: controlled drying, easier daily use, and a stronger ownership case than cheap dryers or luxury systems.",
+    "proof": "balanced reliability, comfort, control, and value make it more defensible than cheap dryers and less excessive than Dyson-level pricing.",
+    "price": "Typical price: $180–$250",
+    "featured": true,
+    "featuredSub": "Personal Care · Typical price: $180–$250",
+    "featuredQuote": "“The best hair dryer for most people: T3 AireLuxe — controlled drying, daily comfort, and practical premium ownership without Dyson-level pricing.”",
+    "featuredProof": "<strong>Why it wins:</strong> balanced reliability, comfort, control, and value make it more defensible than cheap dryers and less excessive than luxury systems."
+  },
+  {
     "title": "Hair Straightener",
     "slug": "hair-straightener",
     "url": "/hair-straightener.html",
