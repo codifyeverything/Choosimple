@@ -224,9 +224,64 @@ extraHead: |
       }
   
       .hero-card {
-        min-height: auto;
+        min-height: 430px;
+      }
+
+      #featured-title {
+        min-height: 62px;
+      }
+
+      #featured-sub {
+        min-height: 42px;
+      }
+
+      #featured-quote {
+        min-height: 96px;
+      }
+
+      #featured-proof {
+        min-height: 118px;
       }
     }
+
+
+    /* ROTATION GRID FIX - all featured cards render at once, then fade. */
+    .featured-card-rotator {
+      display: grid;
+      width: 100%;
+    }
+
+    .featured-card-rotator .hero-card {
+      grid-area: 1 / 1;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.35s ease;
+    }
+
+    .featured-card-rotator .hero-card.is-active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .featured-card-rotator .featured-image {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      max-height: 110px;
+      height: auto;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 767px) {
+      .featured-card-rotator .featured-image {
+        max-height: 84px;
+      }
+    }
+
   </style>
 ---
 
@@ -242,18 +297,21 @@ extraHead: |
 <p class="home-brand-proofline">Choosimple gives you one clear decision — based on real ownership patterns, not review noise or spec-sheet overload.</p>
 </div>
 <div class="hero-right">
-<a aria-label="View featured decision details" class="hero-card hero-card--featured-link" href="/blender.html" id="hero-card">
+<div class="featured-card-rotator" aria-live="polite">
+{% for item in categories %}{% if item.featured %}
+<a aria-label="View details for {{ item.decision }}" class="hero-card hero-card--featured-link{% if loop.first %} is-active{% endif %}" href="{{ item.url }}">
 <p class="hero-card-eyebrow">Choosimple featured decision</p>
 <div class="featured-image-wrap">
-<img alt="Vitamix 5200" id="featured-image" src="/Vitamix_5200.png"/>
+<img alt="{{ item.imageAlt }}" class="featured-image" src="{{ item.image }}"/>
 </div>
-<h3 id="featured-title">Vitamix 5200</h3>
-<p class="hero-card-sub" id="featured-sub">Kitchen · Typical price: $350–$480</p>
+<h3>{{ item.decision }}</h3>
+<p class="hero-card-sub">{{ item.featuredSub }}</p>
 <div class="hero-card-rule"></div>
-<p class="hero-card-quote" id="featured-quote">“The best blender for most people: Vitamix 5200 — proven durability, consistent performance, and simple long-term ownership.”</p>
-<p class="hero-card-proof" id="featured-proof"><strong>Why it wins:</strong> proven motor durability, consistent results across smoothies, frozen fruit, nut butters, and soups, and a simple low-failure design.</p>
-<p class="hero-card-note">Want a different category? Start with the buttons on the left.</p>
+<p class="hero-card-quote">{{ item.featuredQuote }}</p>
+<p class="hero-card-proof">{{ item.featuredProof | safe }}</p>
 </a>
+{% endif %}{% endfor %}
+</div>
 </div>
 </div>
 </section><section class="quick-shop" id="quick-shop">
@@ -355,54 +413,23 @@ extraHead: |
 
 <script>
 (function () {
-  const featuredDecisions = [
-{% for item in categories %}{% if item.featured %}
-    {
-      title: {{ item.decision | dump | safe }},
-      sub: {{ item.featuredSub | dump | safe }},
-      quote: {{ item.featuredQuote | dump | safe }},
-      proof: {{ item.featuredProof | dump | safe }},
-      link: {{ item.url | dump | safe }},
-      image: {{ item.image | dump | safe }},
-      alt: {{ item.imageAlt | dump | safe }}
-    },
-{% endif %}{% endfor %}
-  ];
+  const cards = Array.from(document.querySelectorAll(".featured-card-rotator .hero-card"));
 
-  let featuredIndex = 0;
-
-  const heroCard = document.getElementById("hero-card");
-  const featuredImage = document.getElementById("featured-image");
-  const featuredTitle = document.getElementById("featured-title");
-  const featuredSub = document.getElementById("featured-sub");
-  const featuredQuote = document.getElementById("featured-quote");
-  const featuredProof = document.getElementById("featured-proof");
-
-  if (!heroCard || !featuredImage || !featuredTitle || !featuredSub || !featuredQuote || !featuredProof || featuredDecisions.length < 2) {
+  if (cards.length < 2) {
     return;
   }
 
-  function updateFeaturedDecision(index) {
-    const item = featuredDecisions[index];
+  let featuredIndex = cards.findIndex((card) => card.classList.contains("is-active"));
 
-    featuredImage.src = item.image;
-    featuredImage.alt = item.alt;
-    featuredTitle.textContent = item.title;
-    featuredSub.textContent = item.sub;
-    featuredQuote.textContent = item.quote;
-    featuredProof.innerHTML = item.proof;
-    heroCard.href = item.link;
-    heroCard.setAttribute("aria-label", `View details for ${item.title}`);
+  if (featuredIndex < 0) {
+    featuredIndex = 0;
+    cards[0].classList.add("is-active");
   }
 
   setInterval(() => {
-    heroCard.classList.add("is-fading");
-
-    setTimeout(() => {
-      featuredIndex = (featuredIndex + 1) % featuredDecisions.length;
-      updateFeaturedDecision(featuredIndex);
-      heroCard.classList.remove("is-fading");
-    }, 350);
+    cards[featuredIndex].classList.remove("is-active");
+    featuredIndex = (featuredIndex + 1) % cards.length;
+    cards[featuredIndex].classList.add("is-active");
   }, 3000);
 })();
 </script>
