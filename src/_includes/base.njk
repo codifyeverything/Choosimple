@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include "head.njk" %}
+</head>
+<body>
+<div class="cs-site">
+{% include "header.njk" %}
+{{ content | safe }}
+{% include "footer.njk" %}
+</div>
+<script>
+(function () {
+  const nav = document.querySelector('.cs-site .nav');
+  if (!nav) return;
+  const menuToggle = nav.querySelector('.nav-menu-toggle');
+  const categoriesToggle = nav.querySelector('.nav-categories-toggle');
+  const categories = nav.querySelector('.nav-categories');
+  if (menuToggle) {
+    menuToggle.addEventListener('click', function () {
+      const isOpen = nav.classList.toggle('nav-open');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+  if (categoriesToggle && categories) {
+    categoriesToggle.addEventListener('click', function () {
+      const isOpen = categories.classList.toggle('is-open');
+      categoriesToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+  document.addEventListener('click', function (event) {
+    if (!nav.contains(event.target)) {
+      nav.classList.remove('nav-open');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+      if (categories) categories.classList.remove('is-open');
+      if (categoriesToggle) categoriesToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+</script>
+<script src="/affiliate-links.js"></script>
+<script src="/affiliate-loader.js"></script>
+{% if extraBody %}
+{{ extraBody | safe }}
+{% endif %}
+</body>
+</html>
