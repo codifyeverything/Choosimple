@@ -128,6 +128,36 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "t3-aireluxe": {
+    "name": "T3 AireLuxe",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the standalone T3 AireLuxe hair dryer here after Amazon Associates/Geniuslink setup."
+  },
+  "conair-infinitipro-smoothwrap": {
+    "name": "Conair InfinitiPRO SmoothWrap",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the InfinitiPRO SmoothWrap hair dryer here. Avoid generic InfinitiPRO dryer variants."
+  },
+  "dyson-supersonic": {
+    "name": "Dyson Supersonic",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the standard Dyson Supersonic hair dryer here. Do not use Nural, R, Travel, or accessory-only listings unless intentionally changed."
+  },
+  "shark-speedstyle-curly-coily": {
+    "name": "Shark SpeedStyle Curly/Coily Bundle",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Shark SpeedStyle curly/coily bundle with diffuser here."
+  },
+  "shark-speedstyle-compact": {
+    "name": "Shark SpeedStyle Compact Hair Dryer",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Shark SpeedStyle compact/high-velocity dryer here. Use this for the compact pick, not necessarily a dual-voltage travel dryer."
+  },
   "t3-singlepass-stylemax-1-inch": {
     "name": "T3 SinglePass StyleMax 1 inch",
     "url": "",
