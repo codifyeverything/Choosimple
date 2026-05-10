@@ -228,55 +228,6 @@ extraHead: |
       }
     }
   </style>
-extraBody: |
-  <script>
-  
-    const featuredDecisions = [
-  {% for item in categories %}{% if item.featured %}
-    {
-      title: {{ item.decision | json | safe }},
-      sub: {{ item.featuredSub | json | safe }},
-      quote: {{ item.featuredQuote | json | safe }},
-      proof: {{ item.featuredProof | json | safe }},
-      link: {{ item.url | json | safe }},
-      image: {{ item.image | json | safe }},
-      alt: {{ item.imageAlt | json | safe }}
-    },
-  {% endif %}{% endfor %}
-  ];
-  
-    let featuredIndex = 0;
-  
-    const heroCard = document.getElementById("hero-card");
-    const featuredImage = document.getElementById("featured-image");
-    const featuredTitle = document.getElementById("featured-title");
-    const featuredSub = document.getElementById("featured-sub");
-    const featuredQuote = document.getElementById("featured-quote");
-    const featuredProof = document.getElementById("featured-proof");
-  
-    function updateFeaturedDecision(index) {
-      const item = featuredDecisions[index];
-      featuredImage.src = item.image;
-      featuredImage.alt = item.alt;
-      featuredTitle.textContent = item.title;
-      featuredSub.textContent = item.sub;
-      featuredQuote.textContent = item.quote;
-      featuredProof.innerHTML = item.proof;
-      heroCard.href = item.link;
-      heroCard.setAttribute("aria-label", `View details for ${item.title}`);
-    }
-  
-    setInterval(() => {
-      heroCard.classList.add("is-fading");
-  
-      setTimeout(() => {
-        featuredIndex = (featuredIndex + 1) % featuredDecisions.length;
-        updateFeaturedDecision(featuredIndex);
-        heroCard.classList.remove("is-fading");
-      }, 350);
-    }, 4000);
-  
-  </script>
 ---
 
 <section class="hero">
@@ -401,3 +352,57 @@ extraBody: |
 </div>
 </section>
 </section>
+
+<script>
+(function () {
+  const featuredDecisions = [
+{% for item in categories %}{% if item.featured %}
+    {
+      title: {{ item.decision | dump | safe }},
+      sub: {{ item.featuredSub | dump | safe }},
+      quote: {{ item.featuredQuote | dump | safe }},
+      proof: {{ item.featuredProof | dump | safe }},
+      link: {{ item.url | dump | safe }},
+      image: {{ item.image | dump | safe }},
+      alt: {{ item.imageAlt | dump | safe }}
+    },
+{% endif %}{% endfor %}
+  ];
+
+  let featuredIndex = 0;
+
+  const heroCard = document.getElementById("hero-card");
+  const featuredImage = document.getElementById("featured-image");
+  const featuredTitle = document.getElementById("featured-title");
+  const featuredSub = document.getElementById("featured-sub");
+  const featuredQuote = document.getElementById("featured-quote");
+  const featuredProof = document.getElementById("featured-proof");
+
+  if (!heroCard || !featuredImage || !featuredTitle || !featuredSub || !featuredQuote || !featuredProof || featuredDecisions.length < 2) {
+    return;
+  }
+
+  function updateFeaturedDecision(index) {
+    const item = featuredDecisions[index];
+
+    featuredImage.src = item.image;
+    featuredImage.alt = item.alt;
+    featuredTitle.textContent = item.title;
+    featuredSub.textContent = item.sub;
+    featuredQuote.textContent = item.quote;
+    featuredProof.innerHTML = item.proof;
+    heroCard.href = item.link;
+    heroCard.setAttribute("aria-label", `View details for ${item.title}`);
+  }
+
+  setInterval(() => {
+    heroCard.classList.add("is-fading");
+
+    setTimeout(() => {
+      featuredIndex = (featuredIndex + 1) % featuredDecisions.length;
+      updateFeaturedDecision(featuredIndex);
+      heroCard.classList.remove("is-fading");
+    }, 350);
+  }, 2000);
+})();
+</script>
