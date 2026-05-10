@@ -1,11 +1,11 @@
 {
   "name": "choosimple",
   "version": "1.0.0",
-  "private": true,
-"scripts": {
-  "start": "eleventy --input=src --output=_site --serve",
-  "build": "eleventy --input=src --output=_site"
-}
+  "description": "Choosimple static site built with Eleventy.",
+  "scripts": {
+    "start": "eleventy --input=src --output=_site --serve",
+    "build": "eleventy --input=src --output=_site"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
   }
