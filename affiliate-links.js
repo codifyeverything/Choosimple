@@ -14,6 +14,30 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "breville-bambino-plus": {
+    "name": "Breville Bambino Plus",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Bambino Plus here. Use the BES500/BES500BSS model, not the regular Bambino."
+  },
+  "breville-bambino": {
+    "name": "Breville Bambino",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Bambino here. Use the BES450/BES450BSS model, not the Bambino Plus."
+  },
+  "breville-barista-express-impress": {
+    "name": "Breville Barista Express Impress",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Barista Express Impress here. Use BES876/BES876BSS, not the regular Barista Express BES870 or Barista Touch."
+  },
+  "delonghi-magnifica-evo-ecam29084sb": {
+    "name": "De'Longhi Magnifica Evo ECAM29084SB",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the De'Longhi Magnifica Evo ECAM29084SB here. Use the Evo model with LatteCrema automatic milk system; avoid Magnifica Start or manual-frother variants unless intentionally changed."
+  },
   "breville-smart-oven-air": {
     "name": "Breville Smart Oven Air",
     "url": "",
