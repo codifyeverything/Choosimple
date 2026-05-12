@@ -50,6 +50,24 @@ module.exports = [
     "featuredQuote": "“The best coffee grinder for most people: Baratza Encore ESP — consistent burr grinding, broad brew coverage, and a simpler long-term fit.”",
     "featuredProof": "<strong>Why it wins:</strong> dependable grind quality, strong owner trust, and a broader use case than more specialized grinders."
   },
+
+  {
+    "title": "Espresso Machine",
+    "slug": "espresso-machine",
+    "url": "/espresso-machine.html",
+    "group": "Kitchen",
+    "cardTitle": "The espresso machine that makes the most sense",
+    "decision": "Breville Bambino Plus",
+    "image": "/Bambino_Plus.png",
+    "imageAlt": "Breville Bambino Plus espresso machine",
+    "summary": "The best espresso machine for most people: real espresso and milk drinks, fast daily use, compact size, and fewer long-term compromises than all-in-one grinder machines.",
+    "proof": "strong daily usability, a forgiving milk workflow, and no built-in grinder dependency make it the cleanest mainstream decision.",
+    "price": "Typical price: $400–$500",
+    "featured": true,
+    "featuredSub": "Kitchen · Typical price: $400–$500",
+    "featuredQuote": "“The best espresso machine for most people: Breville Bambino Plus — real espresso, easy milk drinks, compact ownership, and fewer long-term compromises.”",
+    "featuredProof": "<strong>Why it wins:</strong> strong daily usability, automatic milk support, compact size, and no built-in grinder dependency."
+  },
   {
     "title": "Robot Vacuum",
     "slug": "robot-vacuum",
