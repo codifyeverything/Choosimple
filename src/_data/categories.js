@@ -119,6 +119,24 @@ module.exports = [
     "featuredQuote": "“The best video doorbell for most people: Ring Battery Doorbell Plus — easy setup, reliable alerts, and less annoying long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> strong mainstream reliability, a removable battery, good package visibility, and a mature app ecosystem."
   },
+
+  {
+    "title": "Cordless Vacuum",
+    "slug": "cordless-vacuum",
+    "url": "/cordless-vacuum.html",
+    "group": "Home Essentials",
+    "cardTitle": "The cordless vacuum that makes the most sense",
+    "decision": "Dyson V15 Detect",
+    "image": "/Dyson-V15.png",
+    "imageAlt": "Dyson V15 Detect cordless vacuum",
+    "summary": "The best cordless vacuum for most people: strong mixed-floor cleaning, proven pet-hair performance, and a mature ownership case without paying for newer flagship complexity.",
+    "proof": "balances cleaning power, pet-hair handling, usability, and long-term confidence better than cheaper or newer alternatives.",
+    "price": "Typical price: $550–$750",
+    "featured": true,
+    "featuredSub": "Home Essentials · Typical price: $550–$750",
+    "featuredQuote": "“The best cordless vacuum for most people: Dyson V15 Detect — strong mixed-floor cleaning, pet-hair confidence, and proven ownership without flagship overkill.”",
+    "featuredProof": "<strong>Why it wins:</strong> broad cleaning performance, strong pet-hair pickup, mature accessory support, and fewer unknowns than newer dock-based or flagship models."
+  },
   {
     "title": "Electric Toothbrush",
     "slug": "electric-toothbrush",
