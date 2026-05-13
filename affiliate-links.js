@@ -268,4 +268,32 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Paste the Geniuslink URL for the Shark PowerDetect Clean & Empty cordless vacuum here. Confirm the exact Amazon SKU before launch; avoid non-dock PowerDetect, upright, or accessory-only listings unless intentionally changed."
   }
 
+
+  ,
+  "breville-smart-oven-pro": {
+    "name": "Breville Smart Oven Pro",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Smart Oven Pro here. Use BOV845BSS / BOV845 model listings; avoid Mini, Compact, Air Fryer Pro, Joule, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "breville-smart-oven-air-fryer-pro": {
+    "name": "Breville Smart Oven Air Fryer Pro",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Smart Oven Air Fryer Pro here. Use BOV900BSS model listings; avoid Smart Oven Pro BOV845, Joule BOV950, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "panasonic-flashxpress-nb-g110p": {
+    "name": "Panasonic FlashXpress NB-G110P",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Panasonic FlashXpress here. Use NB-G110P / NB-G110PW new-unit listings from credible sellers; avoid renewed, marketplace-only, or unrelated Panasonic toaster oven variants unless intentionally changed."
+  },
+  "hamilton-beach-easy-reach-31127d": {
+    "name": "Hamilton Beach Easy Reach 31127D",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Hamilton Beach Easy Reach 6-slice roll-top toaster oven here. Use 31127D / 31127 model family listings; avoid 4-slice, Sure-Crisp, air-fryer, or inflated marketplace listings unless intentionally changed."
+  }
+
+
 };
