@@ -294,6 +294,32 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Hamilton Beach Easy Reach 6-slice roll-top toaster oven here. Use 31127D / 31127 model family listings; avoid 4-slice, Sure-Crisp, air-fryer, or inflated marketplace listings unless intentionally changed."
   }
+  ,
+  "instant-pot-duo-plus-6qt": {
+    "name": "Instant Pot Duo Plus 6 qt",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Instant Pot Duo Plus 6 qt here. Use the 6-quart Duo Plus listing; avoid Duo, Pro, Pro Plus, Rio, Mini, 8 qt, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "instant-pot-duo-6qt": {
+    "name": "Instant Pot Duo 6 qt",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Instant Pot Duo 6 qt here. Use the classic 6-quart Duo listing; avoid Mini 3 qt, 8 qt, Duo Plus, Rio, renewed, bundle, or accessory-only listings unless intentionally changed."
+  },
+  "instant-pot-pro-6qt": {
+    "name": "Instant Pot Pro 6 qt",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Instant Pot Pro 6 qt here. Use the Pro 10-in-1 6-quart listing; avoid Pro Plus, Pro Crisp, 8 qt, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "instant-pot-pro-crisp-8qt": {
+    "name": "Instant Pot Pro Crisp 8 qt",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Instant Pot Pro Crisp 8 qt here. Use the Pro Crisp pressure cooker and air fryer combo; avoid Duo Crisp, Pro 6 qt, Pro Plus, renewed, or accessory-only listings unless intentionally changed."
+  }
+
 
 
 };
