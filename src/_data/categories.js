@@ -68,6 +68,24 @@ module.exports = [
     "featuredQuote": "“The best espresso machine for most people: Breville Bambino Plus — real espresso, easy milk drinks, compact ownership, and fewer long-term compromises.”",
     "featuredProof": "<strong>Why it wins:</strong> strong daily usability, automatic milk support, compact size, and no built-in grinder dependency."
   },
+
+  {
+    "title": "Toaster Oven",
+    "slug": "toaster-oven",
+    "url": "/toaster-oven.html",
+    "group": "Kitchen",
+    "cardTitle": "The toaster oven that makes the most sense",
+    "decision": "Breville Smart Oven Pro",
+    "image": "/Breville-Smart-Oven-Pro.png",
+    "imageAlt": "Breville Smart Oven Pro toaster oven",
+    "summary": "The best toaster oven for most people: reliable everyday cooking, useful capacity, clear controls, and fewer regrets than cheap or oversized alternatives.",
+    "proof": "balances toast, reheating, baking, and small meals without forcing most buyers into a giant air-fryer oven.",
+    "price": "Typical price: $250–$350",
+    "featured": true,
+    "featuredSub": "Kitchen · Typical price: $250–$350",
+    "featuredQuote": "“The best toaster oven for most people: Breville Smart Oven Pro — practical capacity, predictable cooking, and daily usability without oversized-appliance regret.”",
+    "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of cooking consistency, capacity, controls, and long-term ownership confidence."
+  },
   {
     "title": "Robot Vacuum",
     "slug": "robot-vacuum",
