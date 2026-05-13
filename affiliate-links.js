@@ -242,4 +242,30 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   }
+  ,
+  "dyson-v15-detect": {
+    "name": "Dyson V15 Detect",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Dyson V15 Detect here. Use the standard V15 Detect listing, not Renewed, accessory-only, Gen5detect, V12, or Outsize listings unless intentionally changed."
+  },
+  "shark-stratos-cordless-iz862h": {
+    "name": "Shark Stratos Cordless IZ862H / IZ862HC",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Shark Stratos Cordless here. Use IZ862H for U.S. listings and IZ862HC for Canadian listings when needed; avoid upright or corded Stratos models."
+  },
+  "dyson-v12-detect-slim": {
+    "name": "Dyson V12 Detect Slim",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Dyson V12 Detect Slim here. Use the V12 Detect Slim cordless vacuum, not V15, Gen5detect, or accessory-only listings."
+  },
+  "shark-powerdetect-clean-empty": {
+    "name": "Shark PowerDetect Clean & Empty",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Shark PowerDetect Clean & Empty cordless vacuum here. Confirm the exact Amazon SKU before launch; avoid non-dock PowerDetect, upright, or accessory-only listings unless intentionally changed."
+  }
+
 };
