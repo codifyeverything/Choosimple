@@ -1,0 +1,46 @@
+---
+layout: base.njk
+permalink: /all-decisions.html
+title: "All Choosimple Decisions | Product Index"
+description: "Browse every Choosimple product decision by category. One clear pick per product category, organized for quick discovery."
+---
+
+<section class="category-landing-hero all-decisions-hero">
+  <div class="category-landing-hero-inner">
+    <a class="page-breadcrumb" href="/index.html">Choosimple / Home</a>
+    <span class="eyebrow">Product index</span>
+    <h1>All decisions</h1>
+    <p>Every Choosimple guide in one place, grouped by category so you can get to the right pick quickly.</p>
+    <div class="category-landing-meta">
+      <span>{{ categories.length }} guides</span>
+      <span>{{ site.categoryGroups.length }} categories</span>
+    </div>
+  </div>
+</section>
+
+<section class="all-decisions-index">
+  <div class="all-decisions-index-inner">
+    {% for group in site.categoryGroups %}
+    {% set groupItems = categories | groupItems(group) %}
+    <section class="all-decisions-group" id="{{ group.slug }}">
+      <div class="all-decisions-group-header">
+        <div>
+          <h2>{{ group.title }}</h2>
+          <p>{{ group.shortDescription }}</p>
+        </div>
+        <a href="{{ group.url }}">Browse {{ group.title }} →</a>
+      </div>
+
+      <div class="all-decisions-list">
+        {% for item in groupItems %}
+        <a class="all-decisions-row" href="{{ item.url }}">
+          <span class="all-decisions-title">Best {{ item.title }}</span>
+          <span class="all-decisions-pick">{{ item.decision }}</span>
+          <span class="all-decisions-link">See pick →</span>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</section>

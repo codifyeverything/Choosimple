@@ -5,410 +5,165 @@ title: "Choosimple | Best Products. One Clear Decision."
 description: "Choosimple helps you find the best product for your situation with one clear pick per category. No top-10 lists. Just the right answer and the proof behind it."
 extraHead: |
   <style>
-    .hero-grid.hero-grid--focused {
-      align-items: start;
-    }
-  
-    .hero-right {
-      align-self: start;
-    }
-  
-    .hero-card {
-      box-sizing: border-box;
-      opacity: 1;
-      transition: opacity 0.35s ease;
-    }
-  
-    .hero-card.is-fading {
-      opacity: 0;
-    }
-  
-    .featured-image-wrap {
-      height: 130px;
-      min-height: 130px;
-      max-height: 130px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 0 0.7rem;
-      overflow: hidden;
-    }
-  
-    #featured-image {
-      display: block;
-      width: auto;
-      max-width: 100%;
-      max-height: 110px;
-      height: auto;
-      object-fit: contain;
-      margin: 0 auto;
-    }
-  
-    .hero-left h1 {
-      font-family: "DM Sans", sans-serif;
-      font-weight: 500;
-      letter-spacing: -0.04em;
-      line-height: 0.96;
-    }
-  
-    .hero-left h1 em {
-      font-family: "DM Sans", sans-serif;
-      font-style: italic;
-      font-weight: 600;
-      color: #2F5A1C;
-    }
-  
-    .catalogue-intro {
-      margin-bottom: 1rem;
-    }
-  
-    .mini-how {
-      margin-top: 0;
-      margin-bottom: 1.1rem;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  
-    .cat-group#kitchen {
-      margin-top: 0;
-    }
-  
+    .hero-grid.hero-grid--focused { align-items: start; }
+    .hero-right { align-self: start; }
+    .hero-card { box-sizing: border-box; opacity: 1; transition: opacity 0.35s ease; }
+    .hero-card.is-fading { opacity: 0; }
+    .featured-image-wrap { height: 130px; min-height: 130px; max-height: 130px; display: flex; align-items: center; justify-content: center; margin: 0 0 0.7rem; overflow: hidden; }
+    .featured-card-rotator .featured-image { display: block; width: auto; max-width: 100%; max-height: 110px; height: auto; object-fit: contain; margin: 0 auto; }
+    .hero-left h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; letter-spacing: -0.045em; line-height: 0.96; }
+    .hero-left h1 em { font-family: Georgia, "Times New Roman", serif; font-style: normal; font-weight: 600; color: #2F5A1C; }
+
     @media (min-width: 768px) {
-      .hero {
-        padding-top: 0.15rem;
-        padding-bottom: 0.2rem;
-      }
-  
-      .hero-grid.hero-grid--focused {
-        grid-template-columns: minmax(0, 1fr) 432px;
-        gap: 50px;
-        align-items: start;
-        min-height: 500px;
-      }
-  
-      .hero-left {
-        padding-top: 0.95rem;
-        padding-bottom: 0;
-        max-width: 600px;
-      }
-  
-      .hero-eyebrow {
-        margin-bottom: 0.7rem;
-      }
-  
-      .hero-left h1 {
-        max-width: 8.8ch;
-        margin-bottom: 1.05rem;
-      }
-  
-      .hero-buttons {
-        margin-bottom: 0.95rem;
-      }
-  
-      .hero-helper {
-        max-width: 34rem;
-        margin-top: 0.45rem;
-      }
-  
-      .hero-right {
-        width: 432px;
-      }
-  
-      .hero-card {
-        padding: 28px 24px 24px;
-        min-height: 540px;
-      }
-  
-      .hero-card-eyebrow {
-        margin-bottom: 0.7rem;
-      }
-  
-      .hero-card h3 {
-        margin-bottom: 0.35rem;
-        font-size: 26px;
-        line-height: 1.05;
-      }
-  
-      .hero-card-sub {
-        margin-bottom: 0.8rem;
-      }
-  
-      .hero-card-rule {
-        margin: 0.85rem 0;
-      }
-  
-      .hero-card-quote {
-        margin-bottom: 0.9rem;
-        font-size: 16px;
-        line-height: 1.52;
-      }
-  
-      #featured-title {
-        min-height: 82px;
-      }
-  
-      #featured-quote {
-        min-height: 80px;
-      }
-  
-      #featured-proof {
-        min-height: 88px;
-      }
-  
-      .catalogue {
-        padding-top: 0.1rem;
-      }
-    }
-  
-    @media (max-width: 767px) {
-      .hero {
-        padding-top: 1rem;
-        padding-bottom: 0.15rem;
-      }
-  
-      .hero-grid.hero-grid--focused {
-        align-items: start;
-        gap: 0.45rem;
-      }
-  
-      .hero-right {
-        align-self: start;
-        margin-top: 0;
-      }
-  
-      .hero-left h1 {
-        margin-bottom: 0.75rem;
-        max-width: 8.5ch;
-        line-height: 0.98;
-      }
-  
-      .hero-body {
-        margin-bottom: 0.75rem;
-      }
-  
-      .hero-buttons {
-        margin-bottom: 0.1rem;
-      }
-  
-      .hero-helper {
-        display: none;
-      }
-  
-      .catalogue {
-        padding-top: 0.2rem;
-      }
-  
-      .catalogue-intro {
-        margin-bottom: 0.35rem;
-      }
-  
-      .mini-how {
-        display: none;
-        margin: 0;
-        padding: 0;
-      }
-  
-      .cat-group#kitchen {
-        margin-top: 0;
-      }
-  
-      .featured-image-wrap {
-        height: 100px;
-        min-height: 100px;
-        max-height: 100px;
-        margin: 0 0 0.75rem;
-      }
-  
-      #featured-image {
-        max-height: 84px;
-      }
-  
-      .hero-card {
-        min-height: 430px;
-      }
-
-      #featured-title {
-        min-height: 62px;
-      }
-
-      #featured-sub {
-        min-height: 42px;
-      }
-
-      #featured-quote {
-        min-height: 96px;
-      }
-
-      #featured-proof {
-        min-height: 118px;
-      }
-    }
-
-
-    /* ROTATION GRID FIX - all featured cards render at once, then fade. */
-    .featured-card-rotator {
-      display: grid;
-      width: 100%;
-    }
-
-    .featured-card-rotator .hero-card {
-      grid-area: 1 / 1;
-      width: 100%;
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
-      transition: opacity 0.35s ease;
-    }
-
-    .featured-card-rotator .hero-card.is-active {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-    }
-
-    .featured-card-rotator .featured-image {
-      display: block;
-      width: auto;
-      max-width: 100%;
-      max-height: 110px;
-      height: auto;
-      object-fit: contain;
-      margin: 0 auto;
+      .hero { padding-top: 0.15rem; padding-bottom: 0.2rem; }
+      .hero-grid.hero-grid--focused { grid-template-columns: minmax(0, 1fr) 432px; gap: 50px; align-items: start; min-height: 500px; }
+      .hero-left { padding-top: 0.95rem; padding-bottom: 0; max-width: 600px; }
+      .hero-eyebrow { margin-bottom: 0.7rem; }
+      .hero-left h1 { max-width: 8.8ch; margin-bottom: 1.05rem; }
+      .hero-body { max-width: 35rem; margin-bottom: 1.1rem; }
+      .hero-buttons { margin-bottom: 0.95rem; }
+      .hero-helper { max-width: 34rem; margin-top: 0.45rem; }
+      .hero-right { width: 432px; }
+      .hero-card { padding: 28px 24px 24px; min-height: 540px; }
+      .hero-card-eyebrow { margin-bottom: 0.7rem; }
+      .hero-card h3 { margin-bottom: 0.35rem; font-size: 26px; line-height: 1.05; }
+      .hero-card-sub { margin-bottom: 0.8rem; }
+      .hero-card-rule { margin: 0.85rem 0; }
+      .hero-card-quote { margin-bottom: 0.9rem; font-size: 16px; line-height: 1.52; }
     }
 
     @media (max-width: 767px) {
-      .featured-card-rotator .featured-image {
-        max-height: 84px;
-      }
+      .hero { padding-top: 1rem; padding-bottom: 0.15rem; }
+      .hero-grid.hero-grid--focused { align-items: start; gap: 0.45rem; }
+      .hero-right { align-self: start; margin-top: 0; }
+      .hero-left h1 { margin-bottom: 0.75rem; max-width: 8.5ch; line-height: 0.98; }
+      .hero-body { margin-bottom: 0.85rem; }
+      .hero-buttons { margin-bottom: 0.1rem; }
+      .hero-helper { display: none; }
+      .featured-image-wrap { height: 100px; min-height: 100px; max-height: 100px; margin: 0 0 0.75rem; }
+      .featured-card-rotator .featured-image { max-height: 84px; }
+      .hero-card { min-height: 430px; }
     }
 
+    .featured-card-rotator { display: grid; width: 100%; }
+    .featured-card-rotator .hero-card { grid-area: 1 / 1; width: 100%; opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.35s ease; }
+    .featured-card-rotator .hero-card.is-active { opacity: 1; visibility: visible; pointer-events: auto; }
   </style>
 ---
 
 <section class="hero">
-<div class="hero-grid hero-grid--focused">
-<div class="hero-left">
-<p class="hero-eyebrow">BEST PRODUCT PICKS FOR REAL BUYERS - BACKED BY RELIABILITY SIGNALS AND BUYER PATTERNS</p>
-<h1>Best products. One clear decision.</h1>
-<div class="hero-buttons">
-<a class="btn btn-primary" href="#quick-shop">Find your product</a>
-</div>
-<p class="hero-helper">Start with the product you are actually shopping for, then move straight to the decision and the proof behind it. Start with the product you are actually shopping for, then move straight to the decision and the proof behind it.</p>
-<p class="home-brand-proofline">Choosimple gives you one clear decision — based on real ownership patterns, not review noise or spec-sheet overload.</p>
-</div>
-<div class="hero-right">
-<div class="featured-card-rotator" aria-live="polite">
-{% for item in categories %}{% if item.featured %}
-<a aria-label="View details for {{ item.decision }}" class="hero-card hero-card--featured-link{% if loop.first %} is-active{% endif %}" href="{{ item.url }}">
-<p class="hero-card-eyebrow">Choosimple featured decision</p>
-<div class="featured-image-wrap">
-<img alt="{{ item.imageAlt }}" class="featured-image" src="{{ item.image }}"/>
-</div>
-<h3>{{ item.decision }}</h3>
-<p class="hero-card-sub">{{ item.featuredSub }}</p>
-<div class="hero-card-rule"></div>
-<p class="hero-card-quote">{{ item.featuredQuote }}</p>
-<p class="hero-card-proof">{{ item.featuredProof | safe }}</p>
-</a>
-{% endif %}{% endfor %}
-</div>
-</div>
-</div>
-</section><section class="quick-shop" id="quick-shop">
-<div class="quick-shop-inner">
-<div class="quick-shop-copy">
-<span class="eyebrow">Start here</span>
-<h2>What are you shopping for?</h2>
-</div>
-<div class="quick-shop-grid">
-<a class="quick-shop-card" href="#kitchen">
-<span class="quick-shop-label">Kitchen</span>
-<strong class="quick-shop-products">Blender, air fryer, coffee grinder, espresso machine, toaster oven, Instant Pot, rice cooker</strong>
-<span>See kitchen picks →</span>
-</a>
-<a class="quick-shop-card" href="#home-cat">
-<span class="quick-shop-label">Home Essentials</span>
-<strong class="quick-shop-products">Robot vacuum, air purifier, video doorbell, cordless vacuum</strong>
-<span>See home picks →</span>
-</a>
-<a class="quick-shop-card" href="#personal-care">
-<span class="quick-shop-label">Personal Care</span>
-<strong class="quick-shop-products">Electric toothbrush, hair dryer, hair straightener</strong>
-<span>See personal care picks →</span>
-</a>
-</div>
-</div>
-</section><section class="micro-signup" id="email-signup">
-<div class="micro-signup-inner">
-<div class="micro-signup-copy">
-<span class="eyebrow">Get updates</span>
-<h2>Still deciding?</h2>
-<p>Stay up to date with the latest picks and category launches</p>
-</div>
-<form action="ACTION-URL-HERE" class="micro-signup-form" method="post" target="_blank">
-<input name="EMAIL" placeholder="you@example.com" type="email"/>
-<button type="submit">Get updates</button>
-</form>
-</div>
-</section><section class="catalogue" id="catalogue">
-<div class="catalogue-header">
-<div class="catalogue-header-left">
-<span class="eyebrow">Browse by category</span>
-<h2>Shop by category.<br/>Get one clear answer.</h2>
-</div>
-</div>
-<section class="mini-how" id="how">
-<div class="mini-how-grid">
-<div class="mini-how-item">
-<span>01</span>
-<h3>Start with the decision</h3>
-<p>Get the one pick that makes the most sense before spending time on edge cases.</p>
-</div>
-<div class="mini-how-item">
-<span>02</span>
-<h3>Use the proof</h3>
-<p>See the buyer mistakes, misleading signals, and ownership tradeoffs that support the decision.</p>
-</div>
-<div class="mini-how-item">
-<span>03</span>
-<h3>Check the exceptions</h3>
-<p>Only look at alternatives if your situation clearly calls for one.</p>
-</div>
-</div>
+  <div class="hero-grid hero-grid--focused">
+    <div class="hero-left">
+      <p class="hero-eyebrow">INDEPENDENT PRODUCT DECISIONS</p>
+      <h1>Best products. <em>One clear decision.</em></h1>
+      <p class="hero-body">We compare the obvious choices, filter out the noise, and point you to the product that makes the most sense for most people.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#decision-areas">Shop by category</a>
+        <a class="btn btn-outline" href="/all-decisions.html">Browse all decisions</a>
+      </div>
+      <p class="home-brand-proofline">No top-10 lists. No spec-sheet overload. Just the pick, the reasoning, and the tradeoffs worth knowing.</p>
+    </div>
+
+    <div class="hero-right">
+      <div class="featured-card-rotator" aria-live="polite">
+        {% for item in categories | featuredItems | limitItems(site.homepage.featuredLimit) %}
+        <a aria-label="View details for {{ item.decision }}" class="hero-card hero-card--featured-link{% if loop.first %} is-active{% endif %}" href="{{ item.url }}">
+          <p class="hero-card-eyebrow">Featured decision</p>
+          <div class="featured-image-wrap">
+            <img alt="{{ item.imageAlt }}" class="featured-image" src="{{ item.image }}"/>
+          </div>
+          <h3>{{ item.decision }}</h3>
+          <p class="hero-card-sub">{{ item.featuredSub }}</p>
+          <div class="hero-card-rule"></div>
+          <p class="hero-card-quote">{{ item.featuredQuote }}</p>
+          <p class="hero-card-proof">{{ item.featuredProof | safe }}</p>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </section>
-<section class="cat-group" id="kitchen">
-<div class="cat-group-header">
-<h3>Kitchen</h3>
-<span class="cat-group-count">{{ categories | groupCount('Kitchen') }} decisions</span>
-</div>
-<div class="card-grid">
-{% for item in categories %}{% if item.group == "Kitchen" %}
-{% include "category-card.njk" %}
-{% endif %}{% endfor %}
-</div>
+
+<section class="decision-areas" id="decision-areas">
+  <div class="decision-areas-inner">
+    <div class="decision-areas-header">
+      <span class="eyebrow">Shop by category</span>
+      <h2>Find the right decision faster</h2>
+      <p>Start with the area you’re shopping in, then choose the product guide you need.</p>
+    </div>
+
+    <div class="decision-area-grid">
+      {% for group in site.categoryGroups %}
+      {% set groupItems = categories | groupItems(group) %}
+      <a class="decision-area-card" href="{{ group.url }}">
+        <h3>{{ group.title }}</h3>
+        <p>{{ group.shortDescription }}</p>
+        <div class="decision-area-products">
+          {% for item in groupItems | limitItems(site.homepage.categoryPreviewLimit) %}
+          <span>{{ item.title }}</span>
+          {% endfor %}
+        </div>
+        <div class="decision-area-footer">
+          <strong>{{ groupItems.length }} guides</strong>
+          <span>Browse {{ group.title }} →</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
 </section>
-<section class="cat-group" id="home-cat">
-<div class="cat-group-header">
-<h3>Home Essentials</h3>
-<span class="cat-group-count">{{ categories | groupCount('Home Essentials') }} decisions</span>
-</div>
-<div class="card-grid">
-{% for item in categories %}{% if item.group == "Home Essentials" %}
-{% include "category-card.njk" %}
-{% endif %}{% endfor %}
-</div>
+
+<section class="latest-decisions" id="latest-decisions">
+  <div class="latest-decisions-inner">
+    <div class="catalogue-header catalogue-header--compact">
+      <div class="catalogue-header-left">
+        <span class="eyebrow">Latest decisions</span>
+        <h2>Recently added picks</h2>
+      </div>
+    </div>
+    <div class="card-grid">
+      {% for item in categories | latestItems(site.homepage.latestLimit) %}
+      {% include "category-card.njk" %}
+      {% endfor %}
+    </div>
+    <div class="home-section-action">
+      <a class="btn btn-outline" href="/all-decisions.html">Browse every decision</a>
+    </div>
+  </div>
 </section>
-<section class="cat-group" id="personal-care">
-<div class="cat-group-header">
-<h3>Personal Care</h3>
-<span class="cat-group-count">{{ categories | groupCount('Personal Care') }} decisions</span>
-</div>
-<div class="card-grid">
-{% for item in categories %}{% if item.group == "Personal Care" %}
-{% include "category-card.njk" %}
-{% endif %}{% endfor %}
-</div>
+
+<section class="mini-how mini-how--home" id="how">
+  <div class="mini-how-grid">
+    <div class="mini-how-item">
+      <span>01</span>
+      <h3>Reliability first</h3>
+      <p>We prioritize products that hold up well in real ownership, not just products that look best on paper.</p>
+    </div>
+    <div class="mini-how-item">
+      <span>02</span>
+      <h3>Performance that matters</h3>
+      <p>We focus on the features and results people actually notice after buying.</p>
+    </div>
+    <div class="mini-how-item">
+      <span>03</span>
+      <h3>Clear tradeoffs</h3>
+      <p>Alternatives matter only when there is a real reason to choose something different.</p>
+    </div>
+  </div>
 </section>
+
+<section class="micro-signup" id="email-signup">
+  <div class="micro-signup-inner">
+    <div class="micro-signup-copy">
+      <span class="eyebrow">Get updates</span>
+      <h2>New picks, no clutter</h2>
+      <p>Get the latest Choosimple decisions as new guides are added.</p>
+    </div>
+    <form action="ACTION-URL-HERE" class="micro-signup-form" method="post" target="_blank">
+      <input name="EMAIL" placeholder="you@example.com" type="email"/>
+      <button type="submit">Get updates</button>
+    </form>
+  </div>
 </section>
 
 <script>

@@ -64,7 +64,7 @@ body {
 .cs-site a { color: inherit; text-decoration: none; }
 
 .cs-site h1, .cs-site h2, .cs-site h3, .cs-site h4 {
-  font-family: 'Fraunces', Georgia, 'Times New Roman', serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-weight: 600;
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -241,7 +241,7 @@ body {
 }
 
 .cs-site .hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
   line-height: 1.02 !important;
@@ -312,7 +312,7 @@ body {
 }
 
 .cs-site .hero-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -332,7 +332,7 @@ body {
 }
 
 .cs-site .hero-card-quote {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -400,7 +400,7 @@ body {
 }
 
 .cs-site .what-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 46px);
   font-weight: 600;
   line-height: 1.12;
@@ -425,13 +425,13 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 18px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 18px !important;
   font-weight: 400;
 }
 
 .cs-site .what-item h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -462,7 +462,7 @@ body {
 .cs-site .catalogue-header-left .eyebrow { margin-bottom: 10px; }
 
 .cs-site .catalogue-header-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(40px, 4.5vw, 56px);
   font-weight: 600;
   line-height: 1.05;
@@ -496,7 +496,7 @@ body {
 }
 
 .cs-site .cat-group-header h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -606,7 +606,7 @@ body {
 }
 
 .cs-site .dec-card-title {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   color: var(--ink);
@@ -705,7 +705,7 @@ body {
 }
 
 .cs-site .email-cta h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(38px, 4.5vw, 52px);
   font-weight: 600;
   margin-bottom: 14px;
@@ -789,7 +789,7 @@ body {
 }
 
 .cs-site .footer-brand h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.1;
@@ -927,7 +927,7 @@ body {
 .cs-site .page-breadcrumb a:hover { color: var(--green-mid); }
 
 .cs-site .page-hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(50px, 6.2vw, 80px);
   font-weight: 600 !important;
   line-height: 0.98;
@@ -969,7 +969,7 @@ body {
 .cs-site .num-left .eyebrow { margin-bottom: 12px; }
 
 .cs-site .num-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(30px, 3vw, 38px);
   font-weight: 600;
   line-height: 1.15;
@@ -1044,7 +1044,7 @@ body {
 
 .cs-site .decision-info h2,
 .cs-site .decision-name {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 44px);
   font-weight: 600;
   line-height: 1.1;
@@ -1080,7 +1080,7 @@ body {
 }
 
 .cs-site .stat-val {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -1244,7 +1244,7 @@ body {
 
 /* ── EDGE CASE / ALTERNATIVES ─────────────────────────────────────── */
 .cs-site .edge-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 42px);
   font-weight: 600;
   line-height: 1.15;
@@ -1282,7 +1282,7 @@ body {
 }
 
 .cs-site .alt-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -1324,14 +1324,14 @@ body {
   content: '"';
   position: absolute;
   top: 6px; left: 16px;
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 56px;
   color: var(--green-border);
   line-height: 1;
 }
 
 .cs-site .quote-card p {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17.5px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -1366,7 +1366,7 @@ body {
 .cs-site details.faq-item summary {
   list-style: none !important;
   padding: 20px 0 !important;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -1432,7 +1432,7 @@ body {
 }
 
 .cs-site .page-cta-box h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 44px);
   font-weight: 600;
   margin-bottom: 12px;
@@ -1453,7 +1453,7 @@ body {
 }
 
 .cs-site .text-page h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(48px, 5.6vw, 72px);
   font-weight: 600;
   margin-bottom: 18px;
@@ -1466,7 +1466,7 @@ body {
   color: var(--muted);
   line-height: 1.65;
   margin-bottom: 40px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-style: italic;
   font-weight: 300;
 }
@@ -1474,7 +1474,7 @@ body {
 .cs-site .text-page .about-section { margin-bottom: 40px; }
 
 .cs-site .text-page h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-top: 44px;
@@ -1532,7 +1532,7 @@ body {
 }
 
 .cs-site .catalogue-guide-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(28px, 3.2vw, 36px);
   line-height: 1.18;
   letter-spacing: -0.02em;
@@ -1809,7 +1809,7 @@ body {
 }
 
 .cs-site .hero-slide h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px !important;
   font-weight: 600 !important;
   margin-bottom: 6px !important;
@@ -1830,7 +1830,7 @@ body {
 }
 
 .cs-site .hero-slide .hero-card-quote {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px !important;
   color: var(--ink-2) !important;
   line-height: 1.6 !important;
@@ -1926,7 +1926,7 @@ body {
 }
 
 .cs-site .catalogue-guide-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(28px, 3vw, 34px);
   line-height: 1.18;
   letter-spacing: -0.02em;
@@ -2133,7 +2133,7 @@ body {
 .cs-site a { color: inherit; text-decoration: none; }
 
 .cs-site h1, .cs-site h2, .cs-site h3, .cs-site h4 {
-  font-family: 'Fraunces', Georgia, 'Times New Roman', serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-weight: 600;
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -2310,7 +2310,7 @@ body {
 }
 
 .cs-site .hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
   line-height: 1.02 !important;
@@ -2381,7 +2381,7 @@ body {
 }
 
 .cs-site .hero-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -2401,7 +2401,7 @@ body {
 }
 
 .cs-site .hero-card-quote {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -2441,7 +2441,7 @@ body {
 }
 
 .cs-site .what-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 46px);
   font-weight: 600;
   line-height: 1.12;
@@ -2466,13 +2466,13 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 18px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 18px !important;
   font-weight: 400;
 }
 
 .cs-site .what-item h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -2503,7 +2503,7 @@ body {
 .cs-site .catalogue-header-left .eyebrow { margin-bottom: 10px; }
 
 .cs-site .catalogue-header-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(40px, 4.5vw, 56px);
   font-weight: 600;
   line-height: 1.05;
@@ -2537,7 +2537,7 @@ body {
 }
 
 .cs-site .cat-group-header h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -2647,7 +2647,7 @@ body {
 }
 
 .cs-site .dec-card-title {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   color: var(--ink);
@@ -2746,7 +2746,7 @@ body {
 }
 
 .cs-site .email-cta h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(38px, 4.5vw, 52px);
   font-weight: 600;
   margin-bottom: 14px;
@@ -2830,7 +2830,7 @@ body {
 }
 
 .cs-site .footer-brand h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.1;
@@ -2968,7 +2968,7 @@ body {
 .cs-site .page-breadcrumb a:hover { color: var(--green-mid); }
 
 .cs-site .page-hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(50px, 6.2vw, 80px);
   font-weight: 600 !important;
   line-height: 0.98;
@@ -3010,7 +3010,7 @@ body {
 .cs-site .num-left .eyebrow { margin-bottom: 12px; }
 
 .cs-site .num-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(30px, 3vw, 38px);
   font-weight: 600;
   line-height: 1.15;
@@ -3085,7 +3085,7 @@ body {
 
 .cs-site .decision-info h2,
 .cs-site .decision-name {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 44px);
   font-weight: 600;
   line-height: 1.1;
@@ -3121,7 +3121,7 @@ body {
 }
 
 .cs-site .stat-val {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -3285,7 +3285,7 @@ body {
 
 /* ── EDGE CASE / ALTERNATIVES ─────────────────────────────────────── */
 .cs-site .edge-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 42px);
   font-weight: 600;
   line-height: 1.15;
@@ -3323,7 +3323,7 @@ body {
 }
 
 .cs-site .alt-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -3365,14 +3365,14 @@ body {
   content: '"';
   position: absolute;
   top: 6px; left: 16px;
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 56px;
   color: var(--green-border);
   line-height: 1;
 }
 
 .cs-site .quote-card p {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17.5px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -3407,7 +3407,7 @@ body {
 .cs-site details.faq-item summary {
   list-style: none !important;
   padding: 20px 0 !important;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -3473,7 +3473,7 @@ body {
 }
 
 .cs-site .page-cta-box h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 44px);
   font-weight: 600;
   margin-bottom: 12px;
@@ -3494,7 +3494,7 @@ body {
 }
 
 .cs-site .text-page h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(48px, 5.6vw, 72px);
   font-weight: 600;
   margin-bottom: 18px;
@@ -3507,7 +3507,7 @@ body {
   color: var(--muted);
   line-height: 1.65;
   margin-bottom: 40px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-style: italic;
   font-weight: 300;
 }
@@ -3515,7 +3515,7 @@ body {
 .cs-site .text-page .about-section { margin-bottom: 40px; }
 
 .cs-site .text-page h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-top: 44px;
@@ -3761,7 +3761,7 @@ body {
   letter-spacing: 0.08em;
 }
 .cs-site .snapshot-val {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 17.5px;
   color: var(--ink);
   line-height: 1.45;
@@ -3806,7 +3806,7 @@ body {
 .cs-site .decision-kicker {
   display: inline-block;
   margin-top: 10px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 22px;
   line-height: 1.2;
   color: var(--ink);
@@ -3974,7 +3974,7 @@ body {
   box-shadow: 0 14px 28px -16px rgba(20,18,12,0.16);
 }
 .cs-site .signal-title {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 22px !important;
   font-weight: 600 !important;
   color: var(--ink) !important;
@@ -4028,7 +4028,7 @@ body {
   border: 1px solid var(--brass-border);
 }
 .cs-site .default-pick-name {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 28px !important;
   font-weight: 600 !important;
   color: var(--ink) !important;
@@ -4089,7 +4089,7 @@ body {
 .cs-site .alt-table tr:last-child td { border-bottom: none; }
 .cs-site .alt-table tr:hover td { background: rgba(245,236,210,0.22); }
 .cs-site .alt-model {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px !important;
   font-weight: 600;
   color: var(--ink);
@@ -4107,7 +4107,7 @@ body {
 
 /* ── Edge/alt section intro refined ───────────────────────────── */
 .cs-site .edge-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(28px, 2.8vw, 36px) !important;
   font-weight: 600 !important;
   line-height: 1.2;
@@ -4192,7 +4192,7 @@ body {
 
 /* ── Choosimple conversion refinements ───────────────────────────── */
 .cs-site .page-verdict {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(24px, 3vw, 30px) !important;
   line-height: 1.28 !important;
   letter-spacing: -0.015em;
@@ -4281,7 +4281,7 @@ body {
   }
 
   .cs-site .hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
   line-height: 1.02 !important;
@@ -6186,7 +6186,7 @@ font-size: 11px !important;
   color: var(--muted);
 }
 .cs-site .quick-shop-card strong {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 22px;
   line-height: 1.12;
 }
@@ -6254,7 +6254,7 @@ font-size: 11px !important;
   margin-bottom: 8px;
 }
 .cs-site .page-quick-product {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 28px;
   line-height: 1.08;
   margin-bottom: 12px;
@@ -7316,5 +7316,897 @@ font-size: 11px !important;
     line-height: 1.35 !important;
     margin-top: 8px !important;
     text-align: center !important;
+  }
+}
+
+/* ── CHOOSIMPLE SCALING UPGRADE: HOMEPAGE, CATEGORY HUBS, INDEX ───── */
+.cs-site .nav-categories-menu--scalable {
+  min-width: min(760px, calc(100vw - 44px)) !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+.cs-site .nav-categories-group-title {
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.14em !important;
+  color: var(--muted) !important;
+  margin-bottom: 2px !important;
+  font-weight: 600 !important;
+}
+.cs-site .nav-categories-view-all {
+  color: var(--green) !important;
+  font-weight: 600 !important;
+  margin-top: 4px !important;
+}
+
+.cs-site .decision-areas,
+.cs-site .latest-decisions,
+.cs-site .category-landing-list,
+.cs-site .all-decisions-index {
+  padding: 72px 0 !important;
+}
+.cs-site .decision-areas-inner,
+.cs-site .latest-decisions-inner,
+.cs-site .category-landing-list-inner,
+.cs-site .all-decisions-index-inner,
+.cs-site .category-landing-hero-inner,
+.cs-site .category-landing-note-inner {
+  max-width: var(--max) !important;
+  margin: 0 auto !important;
+  padding: 0 40px !important;
+}
+.cs-site .decision-areas-header {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+.cs-site .decision-areas-header .eyebrow,
+.cs-site .category-landing-hero .eyebrow {
+  margin-bottom: 12px;
+}
+.cs-site .decision-areas-header h2,
+.cs-site .category-landing-hero h1,
+.cs-site .category-landing-note h2,
+.cs-site .all-decisions-group-header h2 {
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.04;
+}
+.cs-site .decision-areas-header h2 {
+  font-size: clamp(40px, 5vw, 62px);
+  margin-bottom: 14px;
+}
+.cs-site .decision-areas-header p,
+.cs-site .category-landing-hero p,
+.cs-site .category-landing-note p,
+.cs-site .all-decisions-group-header p {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+.cs-site .decision-area-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 20px !important;
+}
+.cs-site .decision-area-card {
+  display: grid !important;
+  align-content: start;
+  gap: 14px;
+  min-height: 360px;
+  background: linear-gradient(180deg, var(--surface) 0%, #f7faef 100%);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 26px;
+  box-shadow: 0 18px 38px -34px rgba(20,18,12,0.22);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.cs-site .decision-area-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--green-border);
+  box-shadow: 0 24px 46px -34px rgba(20,18,12,0.28);
+}
+.cs-site .decision-area-eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  font-weight: 600;
+}
+.cs-site .decision-area-card h3 {
+  font-size: 34px;
+  margin-top: 2px;
+}
+.cs-site .decision-area-card p {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.65;
+}
+.cs-site .decision-area-products {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+.cs-site .decision-area-products span {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.72);
+  color: var(--ink-2);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 13px;
+  line-height: 1;
+}
+.cs-site .decision-area-footer {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.cs-site .decision-area-footer strong {
+  font-size: 13px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.cs-site .decision-area-footer span,
+.cs-site .home-section-action a {
+  color: var(--green);
+  font-weight: 600;
+}
+.cs-site .catalogue-header--compact {
+  padding: 0 !important;
+  margin-bottom: 28px !important;
+}
+.cs-site .home-section-action {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+.cs-site .mini-how--home {
+  max-width: var(--max) !important;
+  margin: 0 auto !important;
+  padding: 0 40px 72px !important;
+}
+
+.cs-site .category-landing-hero {
+  padding: 76px 0 52px !important;
+  background: radial-gradient(700px 460px at 85% 20%, rgba(47,90,28,0.08), transparent 65%);
+}
+.cs-site .category-landing-hero h1 {
+  font-size: clamp(54px, 8vw, 88px);
+  max-width: 760px;
+  margin: 10px 0 18px;
+}
+.cs-site .category-landing-hero p {
+  max-width: 700px;
+  font-size: 19px;
+}
+.cs-site .category-landing-meta {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+.cs-site .category-landing-meta span {
+  border: 1px solid var(--green-border);
+  background: var(--green-soft);
+  color: var(--green-dark);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.cs-site .category-landing-note {
+  padding: 64px 0 86px !important;
+}
+.cs-site .category-landing-note-inner {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 36px 40px !important;
+  box-shadow: 0 18px 38px -34px rgba(20,18,12,0.22);
+}
+.cs-site .category-landing-note h2 {
+  font-size: clamp(34px, 4vw, 48px);
+  max-width: 720px;
+  margin: 10px 0 14px;
+}
+.cs-site .category-landing-note p {
+  max-width: 760px;
+  margin-bottom: 22px;
+}
+
+.cs-site .all-decisions-index {
+  padding-top: 46px !important;
+}
+.cs-site .all-decisions-group {
+  margin-bottom: 44px;
+}
+.cs-site .all-decisions-group:last-child {
+  margin-bottom: 0;
+}
+.cs-site .all-decisions-group-header {
+  display: flex !important;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: end;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 14px;
+}
+.cs-site .all-decisions-group-header h2 {
+  font-size: clamp(32px, 4vw, 46px);
+  margin: 8px 0 8px;
+}
+.cs-site .all-decisions-group-header a {
+  color: var(--green);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.cs-site .all-decisions-list {
+  display: grid !important;
+  gap: 8px;
+}
+.cs-site .all-decisions-row {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr) auto;
+  gap: 18px;
+  align-items: center;
+  background: rgba(255,255,255,0.72);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  transition: border-color 0.18s ease, transform 0.18s ease, background-color 0.18s ease;
+}
+.cs-site .all-decisions-row:hover {
+  border-color: var(--green-border);
+  transform: translateY(-1px);
+  background: var(--surface);
+}
+.cs-site .all-decisions-title {
+  font-weight: 600;
+  color: var(--ink);
+}
+.cs-site .all-decisions-pick {
+  color: var(--muted);
+}
+.cs-site .all-decisions-link {
+  color: var(--green);
+  font-weight: 600;
+  font-size: 14px;
+}
+.cs-site .footer-grid--scalable {
+  grid-template-columns: 1.45fr 0.9fr 0.8fr !important;
+}
+.cs-site .footer-count {
+  color: rgba(237, 231, 212, 0.45);
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+@media (max-width: 900px) {
+  .cs-site .nav-categories-menu--scalable {
+    min-width: 0 !important;
+    grid-template-columns: 1fr !important;
+  }
+  .cs-site .decision-areas,
+  .cs-site .latest-decisions,
+  .cs-site .category-landing-list,
+  .cs-site .all-decisions-index {
+    padding: 52px 0 !important;
+  }
+  .cs-site .decision-areas-inner,
+  .cs-site .latest-decisions-inner,
+  .cs-site .category-landing-list-inner,
+  .cs-site .all-decisions-index-inner,
+  .cs-site .category-landing-hero-inner,
+  .cs-site .category-landing-note-inner,
+  .cs-site .mini-how--home {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+  .cs-site .decision-area-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .cs-site .decision-area-card {
+    min-height: 0;
+  }
+  .cs-site .category-landing-hero {
+    padding: 52px 0 38px !important;
+  }
+  .cs-site .category-landing-hero h1 {
+    font-size: 48px;
+  }
+  .cs-site .all-decisions-group-header {
+    flex-direction: column;
+    align-items: start;
+  }
+  .cs-site .all-decisions-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .cs-site .footer-grid--scalable {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ═══ Choosimple homepage/category polish — consumer-facing copy pass ═══ */
+.cs-site .hero-body {
+  color: var(--ink-2) !important;
+  font-size: clamp(18px, 2vw, 22px) !important;
+  line-height: 1.45 !important;
+  max-width: 36rem !important;
+}
+
+.cs-site .home-brand-proofline {
+  max-width: 36rem !important;
+  color: var(--muted) !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  margin-top: 0.75rem !important;
+}
+
+.cs-site .decision-areas {
+  padding: 82px 0 68px !important;
+  background:
+    radial-gradient(900px 520px at 15% 0%, rgba(47,90,28,0.06), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,0.34), rgba(246,242,229,0.58)) !important;
+}
+
+.cs-site .decision-areas-header {
+  max-width: 680px !important;
+  margin-bottom: 30px !important;
+}
+
+.cs-site .decision-areas-header h2 {
+  font-size: clamp(38px, 4.6vw, 58px) !important;
+  margin-bottom: 12px !important;
+}
+
+.cs-site .decision-areas-header p {
+  max-width: 600px !important;
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+}
+
+.cs-site .decision-area-grid {
+  gap: 18px !important;
+}
+
+.cs-site .decision-area-card {
+  min-height: 330px !important;
+  padding: 28px !important;
+  border-radius: 26px !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(250,248,240,0.94) 100%) !important;
+  box-shadow: 0 22px 55px -45px rgba(20,18,12,0.42) !important;
+}
+
+.cs-site .decision-area-card h3 {
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-size: clamp(30px, 3vw, 38px) !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.02 !important;
+}
+
+.cs-site .decision-area-card p {
+  max-width: 31rem !important;
+  line-height: 1.6 !important;
+}
+
+.cs-site .decision-area-products {
+  gap: 7px !important;
+}
+
+.cs-site .decision-area-products span {
+  background: rgba(255,255,255,0.8) !important;
+  border-color: rgba(196, 182, 149, 0.55) !important;
+  color: var(--ink-2) !important;
+}
+
+.cs-site .decision-area-footer strong {
+  color: var(--muted) !important;
+}
+
+.cs-site .latest-decisions {
+  padding: 68px 0 !important;
+}
+
+.cs-site .catalogue-header--compact {
+  align-items: end !important;
+  border: 0 !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-left h2 {
+  font-size: clamp(34px, 4vw, 50px) !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-right p {
+  color: var(--muted) !important;
+  line-height: 1.6 !important;
+}
+
+.cs-site .mini-how--home {
+  padding-bottom: 76px !important;
+}
+
+.cs-site .mini-how--home .mini-how-grid {
+  border-radius: 26px !important;
+  background: rgba(255,255,255,0.68) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: 0 18px 45px -42px rgba(20,18,12,0.35) !important;
+}
+
+.cs-site .category-landing-hero {
+  padding: 76px 0 48px !important;
+  background:
+    radial-gradient(820px 500px at 88% 8%, rgba(47,90,28,0.09), transparent 64%),
+    linear-gradient(180deg, rgba(250,248,240,0.4), rgba(255,255,255,0)) !important;
+}
+
+.cs-site .page-breadcrumb {
+  display: inline-flex !important;
+  margin-bottom: 20px !important;
+  color: var(--muted) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+.cs-site .category-landing-hero h1 {
+  font-size: clamp(50px, 7vw, 82px) !important;
+  letter-spacing: -0.045em !important;
+  margin: 10px 0 16px !important;
+}
+
+.cs-site .category-landing-hero p {
+  max-width: 690px !important;
+  color: var(--ink-2) !important;
+  font-size: clamp(18px, 2vw, 21px) !important;
+  line-height: 1.58 !important;
+}
+
+.cs-site .category-landing-meta {
+  margin-top: 22px !important;
+}
+
+.cs-site .category-landing-meta span {
+  background: rgba(238, 246, 226, 0.95) !important;
+  border-color: rgba(47,90,28,0.22) !important;
+}
+
+.cs-site .category-landing-list {
+  padding: 58px 0 66px !important;
+}
+
+.cs-site .category-landing-note {
+  padding: 22px 0 82px !important;
+}
+
+.cs-site .category-landing-note-inner {
+  border-radius: 28px !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.92), rgba(248,246,237,0.95)) !important;
+  box-shadow: 0 24px 70px -58px rgba(20,18,12,0.45) !important;
+}
+
+.cs-site .category-landing-note h2 {
+  font-size: clamp(32px, 4vw, 46px) !important;
+  margin-bottom: 12px !important;
+}
+
+.cs-site .all-decisions-hero .category-landing-hero-inner,
+.cs-site .all-decisions-index-inner {
+  max-width: 1120px !important;
+}
+
+.cs-site .all-decisions-index {
+  padding-top: 38px !important;
+}
+
+.cs-site .all-decisions-group {
+  margin-bottom: 42px !important;
+}
+
+.cs-site .all-decisions-group-header {
+  align-items: end !important;
+  padding-bottom: 16px !important;
+}
+
+.cs-site .all-decisions-row {
+  background: rgba(255,255,255,0.76) !important;
+  border-radius: 16px !important;
+  padding: 15px 18px !important;
+}
+
+.cs-site .all-decisions-title,
+.cs-site .all-decisions-pick,
+.cs-site .all-decisions-link {
+  line-height: 1.35 !important;
+}
+
+.cs-site .nav-menu-label {
+  letter-spacing: 0.06em !important;
+}
+
+.cs-site .footer-grid--scalable {
+  gap: clamp(28px, 5vw, 72px) !important;
+}
+
+.cs-site .footer-brand p {
+  max-width: 430px !important;
+}
+
+@media (max-width: 900px) {
+  .cs-site .decision-areas,
+  .cs-site .latest-decisions,
+  .cs-site .category-landing-list,
+  .cs-site .all-decisions-index {
+    padding: 44px 0 !important;
+  }
+
+  .cs-site .decision-areas-header {
+    margin-bottom: 22px !important;
+  }
+
+  .cs-site .decision-areas-header h2,
+  .cs-site .catalogue-header--compact .catalogue-header-left h2 {
+    font-size: 36px !important;
+    line-height: 1.05 !important;
+  }
+
+  .cs-site .decision-area-card {
+    padding: 22px !important;
+    border-radius: 22px !important;
+  }
+
+  .cs-site .decision-area-footer {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+  }
+
+  .cs-site .category-landing-hero {
+    padding: 44px 0 30px !important;
+  }
+
+  .cs-site .category-landing-hero h1 {
+    font-size: 44px !important;
+    line-height: 1.02 !important;
+  }
+
+  .cs-site .category-landing-hero p {
+    font-size: 17px !important;
+  }
+
+  .cs-site .category-landing-note {
+    padding: 10px 0 58px !important;
+  }
+
+  .cs-site .category-landing-note-inner {
+    padding: 26px 22px !important;
+  }
+
+  .cs-site .all-decisions-group-header a {
+    margin-top: 2px !important;
+  }
+
+  .cs-site .all-decisions-row {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .cs-site .hero-body {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+  }
+
+  .cs-site .home-brand-proofline {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  .cs-site .hero-buttons {
+    gap: 10px !important;
+  }
+
+  .cs-site .hero-buttons .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .cs-site .decision-area-products span:nth-child(n+4) {
+    display: none !important;
+  }
+
+  .cs-site .latest-decisions .card-grid .dec-card-new:nth-child(n+5) {
+    display: none !important;
+  }
+
+  .cs-site .all-decisions-link {
+    font-size: 13px !important;
+  }
+}
+
+
+/* ═══ Choosimple final homepage/category tightening pass ═══ */
+.cs-site h1,
+.cs-site h2,
+.cs-site h3,
+.cs-site h4,
+.cs-site .what-left h2,
+.cs-site .what-item-icon,
+.cs-site .what-item h3,
+.cs-site .catalogue-header-left h2,
+.cs-site .cat-group-header h3,
+.cs-site .decision-info h2,
+.cs-site .decision-name,
+.cs-site .decision-areas-header h2,
+.cs-site .category-landing-hero h1,
+.cs-site .category-landing-note h2,
+.cs-site .all-decisions-group-header h2,
+.cs-site .decision-area-card h3,
+.cs-site .footer-brand h2 {
+  font-family: Georgia, 'Times New Roman', serif !important;
+}
+
+.cs-site .decision-areas {
+  padding-top: 70px !important;
+  padding-bottom: 58px !important;
+}
+
+.cs-site .decision-areas-header {
+  margin-bottom: 24px !important;
+}
+
+.cs-site .decision-areas-header h2 {
+  margin-bottom: 10px !important;
+}
+
+.cs-site .decision-area-card {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 334px !important;
+  gap: 13px !important;
+}
+
+.cs-site .decision-area-eyebrow {
+  display: none !important;
+}
+
+.cs-site .decision-area-card h3 {
+  margin-top: 0 !important;
+}
+
+.cs-site .decision-area-card p {
+  min-height: 78px !important;
+}
+
+.cs-site .decision-area-products {
+  min-height: 66px !important;
+  align-content: flex-start !important;
+}
+
+.cs-site .decision-area-footer {
+  width: 100% !important;
+  margin-top: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+}
+
+.cs-site .decision-area-footer strong {
+  white-space: nowrap !important;
+  flex: 0 0 auto !important;
+  line-height: 1.2 !important;
+}
+
+.cs-site .decision-area-footer span {
+  white-space: nowrap !important;
+  text-align: right !important;
+  line-height: 1.2 !important;
+  font-size: 15px !important;
+}
+
+.cs-site .latest-decisions {
+  padding-top: 56px !important;
+  padding-bottom: 60px !important;
+}
+
+.cs-site .catalogue-header--compact {
+  margin-bottom: 22px !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-left .eyebrow {
+  margin-bottom: 8px !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-left h2 {
+  line-height: 1.04 !important;
+}
+
+.cs-site .mini-how--home {
+  padding-bottom: 64px !important;
+}
+
+.cs-site .micro-signup {
+  padding-top: 54px !important;
+  padding-bottom: 58px !important;
+}
+
+.cs-site .category-landing-hero {
+  padding-top: 62px !important;
+  padding-bottom: 40px !important;
+}
+
+.cs-site .category-landing-hero h1 {
+  margin-top: 6px !important;
+  margin-bottom: 14px !important;
+}
+
+.cs-site .category-landing-list {
+  padding-top: 46px !important;
+  padding-bottom: 56px !important;
+}
+
+.cs-site .category-landing-note {
+  padding-top: 10px !important;
+  padding-bottom: 70px !important;
+}
+
+.cs-site .all-decisions-index {
+  padding-top: 30px !important;
+}
+
+.cs-site .all-decisions-group-header h2 {
+  margin-top: 0 !important;
+}
+
+@media (min-width: 901px) {
+  .cs-site .decision-area-card:nth-child(2) .decision-area-footer span,
+  .cs-site .decision-area-card:nth-child(3) .decision-area-footer span {
+    font-size: 14.5px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .cs-site .decision-areas {
+    padding-top: 42px !important;
+    padding-bottom: 38px !important;
+  }
+
+  .cs-site .decision-area-card {
+    min-height: 0 !important;
+    gap: 11px !important;
+  }
+
+  .cs-site .decision-area-card p,
+  .cs-site .decision-area-products {
+    min-height: 0 !important;
+  }
+
+  .cs-site .decision-area-footer {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .cs-site .latest-decisions {
+    padding-top: 38px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .cs-site .mini-how--home {
+    padding-bottom: 46px !important;
+  }
+
+  .cs-site .category-landing-hero {
+    padding-top: 38px !important;
+    padding-bottom: 26px !important;
+  }
+
+  .cs-site .category-landing-list {
+    padding-top: 34px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .cs-site .category-landing-note {
+    padding-top: 4px !important;
+    padding-bottom: 48px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .cs-site .decision-area-footer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+  }
+
+  .cs-site .decision-area-footer span {
+    text-align: left !important;
+  }
+}
+
+
+/* ═══ Choosimple minor homepage/header refinement pass ═══ */
+.cs-site .hero h1 em {
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+.cs-site .nav-categories-group-title {
+  color: var(--ink) !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  padding-bottom: 4px !important;
+  margin-bottom: 4px !important;
+  border-bottom: 1px solid rgba(90, 74, 43, 0.16) !important;
+}
+
+.cs-site .nav-categories-group-title:hover {
+  color: var(--green-dark) !important;
+}
+
+@media (max-width: 920px) {
+  .cs-site .nav-categories-group-title {
+    font-size: 13px !important;
+    color: var(--green-dark) !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-top: 4px !important;
+    margin-bottom: 6px !important;
+    border-bottom: 1px solid rgba(43, 90, 43, 0.20) !important;
+  }
+}
+
+/* ═══ Choosimple hero headline final override ═══
+   Keeps "One clear decision." in the same premium serif family as the main hero headline. */
+.cs-site .hero h1 em,
+.cs-site .hero-left h1 em {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: var(--green) !important;
+  letter-spacing: -0.045em !important;
+}
+
+/* ═══ Choosimple dropdown parent category emphasis — final override ═══ */
+.cs-site .nav-categories-group-title {
+  color: #18160f !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.13em !important;
+  text-transform: uppercase !important;
+  padding: 2px 0 7px !important;
+  margin: 0 0 6px !important;
+  border-bottom: 1px solid rgba(90, 74, 43, 0.22) !important;
+}
+
+.cs-site .nav-categories-group-title:hover,
+.cs-site .nav-categories-group-title:focus {
+  color: var(--green-dark) !important;
+}
+
+@media (max-width: 920px) {
+  .cs-site .nav-categories-group-title {
+    color: #11100b !important;
+    font-size: 14px !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.12em !important;
+    font-weight: 850 !important;
+    padding: 8px 0 8px !important;
+    margin: 8px 0 7px !important;
+    border-bottom: 1px solid rgba(90, 74, 43, 0.26) !important;
+  }
+
+  .cs-site .nav-categories-group:first-child .nav-categories-group-title {
+    margin-top: 2px !important;
   }
 }
