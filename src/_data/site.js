@@ -10,7 +10,7 @@ module.exports = {
       slug: "kitchen",
       url: "/kitchen/",
       description: "Reliable picks for the kitchen products people compare most — from countertop appliances to everyday prep tools.",
-      shortDescription: "Countertop appliances, prep tools, and kitchen upgrades that are easy to overthink.",
+      shortDescription: "Countertop appliances, prep tools, and kitchen upgrades worth getting right.",
       eyebrow: "Kitchen"
     },
     {
@@ -18,7 +18,7 @@ module.exports = {
       slug: "home-essentials",
       url: "/home-essentials/",
       description: "Clear picks for practical home products where reliability, upkeep, and daily use matter most.",
-      shortDescription: "Practical home products where reliability, upkeep, and daily use matter most.",
+      shortDescription: "Everyday home products where reliability, upkeep, and ease of use matter most.",
       eyebrow: "Home"
     },
     {
@@ -26,7 +26,7 @@ module.exports = {
       slug: "personal-care",
       url: "/personal-care/",
       description: "Straightforward picks for daily-use products where performance, comfort, and reliability matter more than gimmicks.",
-      shortDescription: "Daily-use tools where performance, comfort, and reliability matter more than gimmicks.",
+      shortDescription: "Daily-use tools where performance, comfort, and reliability matter most.",
       eyebrow: "Personal Care"
     }
   ],

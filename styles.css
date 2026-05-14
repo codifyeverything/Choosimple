@@ -64,7 +64,7 @@ body {
 .cs-site a { color: inherit; text-decoration: none; }
 
 .cs-site h1, .cs-site h2, .cs-site h3, .cs-site h4 {
-  font-family: 'Fraunces', Georgia, 'Times New Roman', serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-weight: 600;
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -241,7 +241,7 @@ body {
 }
 
 .cs-site .hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
   line-height: 1.02 !important;
@@ -312,7 +312,7 @@ body {
 }
 
 .cs-site .hero-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -332,7 +332,7 @@ body {
 }
 
 .cs-site .hero-card-quote {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -400,7 +400,7 @@ body {
 }
 
 .cs-site .what-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 46px);
   font-weight: 600;
   line-height: 1.12;
@@ -425,13 +425,13 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 18px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 18px !important;
   font-weight: 400;
 }
 
 .cs-site .what-item h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -462,7 +462,7 @@ body {
 .cs-site .catalogue-header-left .eyebrow { margin-bottom: 10px; }
 
 .cs-site .catalogue-header-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(40px, 4.5vw, 56px);
   font-weight: 600;
   line-height: 1.05;
@@ -496,7 +496,7 @@ body {
 }
 
 .cs-site .cat-group-header h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -606,7 +606,7 @@ body {
 }
 
 .cs-site .dec-card-title {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   color: var(--ink);
@@ -705,7 +705,7 @@ body {
 }
 
 .cs-site .email-cta h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(38px, 4.5vw, 52px);
   font-weight: 600;
   margin-bottom: 14px;
@@ -789,7 +789,7 @@ body {
 }
 
 .cs-site .footer-brand h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.1;
@@ -927,7 +927,7 @@ body {
 .cs-site .page-breadcrumb a:hover { color: var(--green-mid); }
 
 .cs-site .page-hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(50px, 6.2vw, 80px);
   font-weight: 600 !important;
   line-height: 0.98;
@@ -969,7 +969,7 @@ body {
 .cs-site .num-left .eyebrow { margin-bottom: 12px; }
 
 .cs-site .num-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(30px, 3vw, 38px);
   font-weight: 600;
   line-height: 1.15;
@@ -1044,7 +1044,7 @@ body {
 
 .cs-site .decision-info h2,
 .cs-site .decision-name {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 44px);
   font-weight: 600;
   line-height: 1.1;
@@ -1080,7 +1080,7 @@ body {
 }
 
 .cs-site .stat-val {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -1244,7 +1244,7 @@ body {
 
 /* ── EDGE CASE / ALTERNATIVES ─────────────────────────────────────── */
 .cs-site .edge-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 42px);
   font-weight: 600;
   line-height: 1.15;
@@ -1282,7 +1282,7 @@ body {
 }
 
 .cs-site .alt-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -1324,14 +1324,14 @@ body {
   content: '"';
   position: absolute;
   top: 6px; left: 16px;
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 56px;
   color: var(--green-border);
   line-height: 1;
 }
 
 .cs-site .quote-card p {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17.5px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -1366,7 +1366,7 @@ body {
 .cs-site details.faq-item summary {
   list-style: none !important;
   padding: 20px 0 !important;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -1432,7 +1432,7 @@ body {
 }
 
 .cs-site .page-cta-box h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 44px);
   font-weight: 600;
   margin-bottom: 12px;
@@ -1453,7 +1453,7 @@ body {
 }
 
 .cs-site .text-page h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(48px, 5.6vw, 72px);
   font-weight: 600;
   margin-bottom: 18px;
@@ -1466,7 +1466,7 @@ body {
   color: var(--muted);
   line-height: 1.65;
   margin-bottom: 40px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-style: italic;
   font-weight: 300;
 }
@@ -1474,7 +1474,7 @@ body {
 .cs-site .text-page .about-section { margin-bottom: 40px; }
 
 .cs-site .text-page h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-top: 44px;
@@ -1532,7 +1532,7 @@ body {
 }
 
 .cs-site .catalogue-guide-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(28px, 3.2vw, 36px);
   line-height: 1.18;
   letter-spacing: -0.02em;
@@ -1809,7 +1809,7 @@ body {
 }
 
 .cs-site .hero-slide h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px !important;
   font-weight: 600 !important;
   margin-bottom: 6px !important;
@@ -1830,7 +1830,7 @@ body {
 }
 
 .cs-site .hero-slide .hero-card-quote {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px !important;
   color: var(--ink-2) !important;
   line-height: 1.6 !important;
@@ -1926,7 +1926,7 @@ body {
 }
 
 .cs-site .catalogue-guide-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(28px, 3vw, 34px);
   line-height: 1.18;
   letter-spacing: -0.02em;
@@ -2133,7 +2133,7 @@ body {
 .cs-site a { color: inherit; text-decoration: none; }
 
 .cs-site h1, .cs-site h2, .cs-site h3, .cs-site h4 {
-  font-family: 'Fraunces', Georgia, 'Times New Roman', serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-weight: 600;
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -2310,7 +2310,7 @@ body {
 }
 
 .cs-site .hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
   line-height: 1.02 !important;
@@ -2381,7 +2381,7 @@ body {
 }
 
 .cs-site .hero-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -2401,7 +2401,7 @@ body {
 }
 
 .cs-site .hero-card-quote {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -2441,7 +2441,7 @@ body {
 }
 
 .cs-site .what-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 46px);
   font-weight: 600;
   line-height: 1.12;
@@ -2466,13 +2466,13 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 18px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 18px !important;
   font-weight: 400;
 }
 
 .cs-site .what-item h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -2503,7 +2503,7 @@ body {
 .cs-site .catalogue-header-left .eyebrow { margin-bottom: 10px; }
 
 .cs-site .catalogue-header-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(40px, 4.5vw, 56px);
   font-weight: 600;
   line-height: 1.05;
@@ -2537,7 +2537,7 @@ body {
 }
 
 .cs-site .cat-group-header h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -2647,7 +2647,7 @@ body {
 }
 
 .cs-site .dec-card-title {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   color: var(--ink);
@@ -2746,7 +2746,7 @@ body {
 }
 
 .cs-site .email-cta h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(38px, 4.5vw, 52px);
   font-weight: 600;
   margin-bottom: 14px;
@@ -2830,7 +2830,7 @@ body {
 }
 
 .cs-site .footer-brand h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.1;
@@ -2968,7 +2968,7 @@ body {
 .cs-site .page-breadcrumb a:hover { color: var(--green-mid); }
 
 .cs-site .page-hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(50px, 6.2vw, 80px);
   font-weight: 600 !important;
   line-height: 0.98;
@@ -3010,7 +3010,7 @@ body {
 .cs-site .num-left .eyebrow { margin-bottom: 12px; }
 
 .cs-site .num-left h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(30px, 3vw, 38px);
   font-weight: 600;
   line-height: 1.15;
@@ -3085,7 +3085,7 @@ body {
 
 .cs-site .decision-info h2,
 .cs-site .decision-name {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 44px);
   font-weight: 600;
   line-height: 1.1;
@@ -3121,7 +3121,7 @@ body {
 }
 
 .cs-site .stat-val {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -3285,7 +3285,7 @@ body {
 
 /* ── EDGE CASE / ALTERNATIVES ─────────────────────────────────────── */
 .cs-site .edge-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.5vw, 42px);
   font-weight: 600;
   line-height: 1.15;
@@ -3323,7 +3323,7 @@ body {
 }
 
 .cs-site .alt-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -3365,14 +3365,14 @@ body {
   content: '"';
   position: absolute;
   top: 6px; left: 16px;
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 56px;
   color: var(--green-border);
   line-height: 1;
 }
 
 .cs-site .quote-card p {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17.5px;
   color: var(--ink-2);
   line-height: 1.6;
@@ -3407,7 +3407,7 @@ body {
 .cs-site details.faq-item summary {
   list-style: none !important;
   padding: 20px 0 !important;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 20px;
   font-weight: 600;
   color: var(--ink);
@@ -3473,7 +3473,7 @@ body {
 }
 
 .cs-site .page-cta-box h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(34px, 3.6vw, 44px);
   font-weight: 600;
   margin-bottom: 12px;
@@ -3494,7 +3494,7 @@ body {
 }
 
 .cs-site .text-page h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(48px, 5.6vw, 72px);
   font-weight: 600;
   margin-bottom: 18px;
@@ -3507,7 +3507,7 @@ body {
   color: var(--muted);
   line-height: 1.65;
   margin-bottom: 40px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-style: italic;
   font-weight: 300;
 }
@@ -3515,7 +3515,7 @@ body {
 .cs-site .text-page .about-section { margin-bottom: 40px; }
 
 .cs-site .text-page h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 30px;
   font-weight: 600;
   margin-top: 44px;
@@ -3761,7 +3761,7 @@ body {
   letter-spacing: 0.08em;
 }
 .cs-site .snapshot-val {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 17.5px;
   color: var(--ink);
   line-height: 1.45;
@@ -3806,7 +3806,7 @@ body {
 .cs-site .decision-kicker {
   display: inline-block;
   margin-top: 10px;
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 22px;
   line-height: 1.2;
   color: var(--ink);
@@ -3974,7 +3974,7 @@ body {
   box-shadow: 0 14px 28px -16px rgba(20,18,12,0.16);
 }
 .cs-site .signal-title {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 22px !important;
   font-weight: 600 !important;
   color: var(--ink) !important;
@@ -4028,7 +4028,7 @@ body {
   border: 1px solid var(--brass-border);
 }
 .cs-site .default-pick-name {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 28px !important;
   font-weight: 600 !important;
   color: var(--ink) !important;
@@ -4089,7 +4089,7 @@ body {
 .cs-site .alt-table tr:last-child td { border-bottom: none; }
 .cs-site .alt-table tr:hover td { background: rgba(245,236,210,0.22); }
 .cs-site .alt-model {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 17px !important;
   font-weight: 600;
   color: var(--ink);
@@ -4107,7 +4107,7 @@ body {
 
 /* ── Edge/alt section intro refined ───────────────────────────── */
 .cs-site .edge-intro {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(28px, 2.8vw, 36px) !important;
   font-weight: 600 !important;
   line-height: 1.2;
@@ -4192,7 +4192,7 @@ body {
 
 /* ── Choosimple conversion refinements ───────────────────────────── */
 .cs-site .page-verdict {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(24px, 3vw, 30px) !important;
   line-height: 1.28 !important;
   letter-spacing: -0.015em;
@@ -4281,7 +4281,7 @@ body {
   }
 
   .cs-site .hero h1 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(52px, 7vw, 88px) !important;
   font-weight: 600 !important;
   line-height: 1.02 !important;
@@ -6186,7 +6186,7 @@ font-size: 11px !important;
   color: var(--muted);
 }
 .cs-site .quick-shop-card strong {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 22px;
   line-height: 1.12;
 }
@@ -6254,7 +6254,7 @@ font-size: 11px !important;
   margin-bottom: 8px;
 }
 .cs-site .page-quick-product {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 28px;
   line-height: 1.08;
   margin-bottom: 12px;
@@ -7366,7 +7366,7 @@ font-size: 11px !important;
 .cs-site .category-landing-hero h1,
 .cs-site .category-landing-note h2,
 .cs-site .all-decisions-group-header h2 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 1.04;
@@ -7687,7 +7687,7 @@ font-size: 11px !important;
 }
 
 .cs-site .decision-area-card h3 {
-  font-family: 'Fraunces', Georgia, serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: clamp(30px, 3vw, 38px) !important;
   letter-spacing: -0.025em !important;
   line-height: 1.02 !important;
@@ -7929,5 +7929,205 @@ font-size: 11px !important;
 
   .cs-site .all-decisions-link {
     font-size: 13px !important;
+  }
+}
+
+
+/* ═══ Choosimple final homepage/category tightening pass ═══ */
+.cs-site h1,
+.cs-site h2,
+.cs-site h3,
+.cs-site h4,
+.cs-site .what-left h2,
+.cs-site .what-item-icon,
+.cs-site .what-item h3,
+.cs-site .catalogue-header-left h2,
+.cs-site .cat-group-header h3,
+.cs-site .decision-info h2,
+.cs-site .decision-name,
+.cs-site .decision-areas-header h2,
+.cs-site .category-landing-hero h1,
+.cs-site .category-landing-note h2,
+.cs-site .all-decisions-group-header h2,
+.cs-site .decision-area-card h3,
+.cs-site .footer-brand h2 {
+  font-family: Georgia, 'Times New Roman', serif !important;
+}
+
+.cs-site .decision-areas {
+  padding-top: 70px !important;
+  padding-bottom: 58px !important;
+}
+
+.cs-site .decision-areas-header {
+  margin-bottom: 24px !important;
+}
+
+.cs-site .decision-areas-header h2 {
+  margin-bottom: 10px !important;
+}
+
+.cs-site .decision-area-card {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 334px !important;
+  gap: 13px !important;
+}
+
+.cs-site .decision-area-eyebrow {
+  display: none !important;
+}
+
+.cs-site .decision-area-card h3 {
+  margin-top: 0 !important;
+}
+
+.cs-site .decision-area-card p {
+  min-height: 78px !important;
+}
+
+.cs-site .decision-area-products {
+  min-height: 66px !important;
+  align-content: flex-start !important;
+}
+
+.cs-site .decision-area-footer {
+  width: 100% !important;
+  margin-top: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+}
+
+.cs-site .decision-area-footer strong {
+  white-space: nowrap !important;
+  flex: 0 0 auto !important;
+  line-height: 1.2 !important;
+}
+
+.cs-site .decision-area-footer span {
+  white-space: nowrap !important;
+  text-align: right !important;
+  line-height: 1.2 !important;
+  font-size: 15px !important;
+}
+
+.cs-site .latest-decisions {
+  padding-top: 56px !important;
+  padding-bottom: 60px !important;
+}
+
+.cs-site .catalogue-header--compact {
+  margin-bottom: 22px !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-left .eyebrow {
+  margin-bottom: 8px !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-left h2 {
+  line-height: 1.04 !important;
+}
+
+.cs-site .mini-how--home {
+  padding-bottom: 64px !important;
+}
+
+.cs-site .micro-signup {
+  padding-top: 54px !important;
+  padding-bottom: 58px !important;
+}
+
+.cs-site .category-landing-hero {
+  padding-top: 62px !important;
+  padding-bottom: 40px !important;
+}
+
+.cs-site .category-landing-hero h1 {
+  margin-top: 6px !important;
+  margin-bottom: 14px !important;
+}
+
+.cs-site .category-landing-list {
+  padding-top: 46px !important;
+  padding-bottom: 56px !important;
+}
+
+.cs-site .category-landing-note {
+  padding-top: 10px !important;
+  padding-bottom: 70px !important;
+}
+
+.cs-site .all-decisions-index {
+  padding-top: 30px !important;
+}
+
+.cs-site .all-decisions-group-header h2 {
+  margin-top: 0 !important;
+}
+
+@media (min-width: 901px) {
+  .cs-site .decision-area-card:nth-child(2) .decision-area-footer span,
+  .cs-site .decision-area-card:nth-child(3) .decision-area-footer span {
+    font-size: 14.5px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .cs-site .decision-areas {
+    padding-top: 42px !important;
+    padding-bottom: 38px !important;
+  }
+
+  .cs-site .decision-area-card {
+    min-height: 0 !important;
+    gap: 11px !important;
+  }
+
+  .cs-site .decision-area-card p,
+  .cs-site .decision-area-products {
+    min-height: 0 !important;
+  }
+
+  .cs-site .decision-area-footer {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .cs-site .latest-decisions {
+    padding-top: 38px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .cs-site .mini-how--home {
+    padding-bottom: 46px !important;
+  }
+
+  .cs-site .category-landing-hero {
+    padding-top: 38px !important;
+    padding-bottom: 26px !important;
+  }
+
+  .cs-site .category-landing-list {
+    padding-top: 34px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .cs-site .category-landing-note {
+    padding-top: 4px !important;
+    padding-bottom: 48px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .cs-site .decision-area-footer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+  }
+
+  .cs-site .decision-area-footer span {
+    text-align: left !important;
   }
 }

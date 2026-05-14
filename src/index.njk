@@ -88,7 +88,7 @@ extraHead: |
   <div class="decision-areas-inner">
     <div class="decision-areas-header">
       <span class="eyebrow">Shop by category</span>
-      <h2>Find the right decision faster.</h2>
+      <h2>Find the right decision faster</h2>
       <p>Start with the area you’re shopping in, then choose the product guide you need.</p>
     </div>
 
@@ -96,7 +96,6 @@ extraHead: |
       {% for group in site.categoryGroups %}
       {% set groupItems = categories | groupItems(group) %}
       <a class="decision-area-card" href="{{ group.url }}">
-        <span class="decision-area-eyebrow">{{ group.eyebrow }}</span>
         <h3>{{ group.title }}</h3>
         <p>{{ group.shortDescription }}</p>
         <div class="decision-area-products">
@@ -119,10 +118,7 @@ extraHead: |
     <div class="catalogue-header catalogue-header--compact">
       <div class="catalogue-header-left">
         <span class="eyebrow">Latest decisions</span>
-        <h2>Recently added picks.</h2>
-      </div>
-      <div class="catalogue-header-right">
-        <p>Fresh Choosimple guides from across the site.</p>
+        <h2>Recently added picks</h2>
       </div>
     </div>
     <div class="card-grid">
@@ -160,7 +156,7 @@ extraHead: |
   <div class="micro-signup-inner">
     <div class="micro-signup-copy">
       <span class="eyebrow">Get updates</span>
-      <h2>New picks, no clutter.</h2>
+      <h2>New picks, no clutter</h2>
       <p>Get the latest Choosimple decisions as new guides are added.</p>
     </div>
     <form action="ACTION-URL-HERE" class="micro-signup-form" method="post" target="_blank">
