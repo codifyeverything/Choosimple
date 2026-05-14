@@ -8210,3 +8210,52 @@ font-size: 11px !important;
     margin-top: 2px !important;
   }
 }
+
+/* ═══ Choosimple sticky header hardening — sitewide ═══
+   Keeps the shared header accessible while scrolling on desktop and mobile. */
+.cs-site .nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  width: 100% !important;
+  background-color: rgba(238, 245, 224, 0.94) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  backdrop-filter: blur(14px) !important;
+  border-bottom: 1px solid rgba(201, 192, 169, 0.78) !important;
+  box-shadow: 0 6px 18px -18px rgba(20, 18, 12, 0.28) !important;
+}
+
+.cs-site .nav-inner {
+  position: relative !important;
+  z-index: 1001 !important;
+}
+
+.cs-site .nav-panel,
+.cs-site .nav-categories-menu {
+  z-index: 1002 !important;
+}
+
+.cs-site [id] {
+  scroll-margin-top: 96px;
+}
+
+@media (max-width: 900px) {
+  .cs-site .nav {
+    background-color: rgba(238, 245, 224, 0.97) !important;
+  }
+
+  .cs-site .nav-panel {
+    z-index: 1003 !important;
+    max-height: calc(100vh - 92px) !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .cs-site .nav-categories-menu {
+    z-index: 1004 !important;
+  }
+
+  .cs-site [id] {
+    scroll-margin-top: 84px;
+  }
+}
