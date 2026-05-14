@@ -8164,3 +8164,14 @@ font-size: 11px !important;
     border-bottom: 1px solid rgba(43, 90, 43, 0.20) !important;
   }
 }
+
+/* ═══ Choosimple hero headline final override ═══
+   Keeps "One clear decision." in the same premium serif family as the main hero headline. */
+.cs-site .hero h1 em,
+.cs-site .hero-left h1 em {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: var(--green) !important;
+  letter-spacing: -0.045em !important;
+}
