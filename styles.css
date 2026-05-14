@@ -8175,3 +8175,38 @@ font-size: 11px !important;
   color: var(--green) !important;
   letter-spacing: -0.045em !important;
 }
+
+/* ═══ Choosimple dropdown parent category emphasis — final override ═══ */
+.cs-site .nav-categories-group-title {
+  color: #18160f !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.13em !important;
+  text-transform: uppercase !important;
+  padding: 2px 0 7px !important;
+  margin: 0 0 6px !important;
+  border-bottom: 1px solid rgba(90, 74, 43, 0.22) !important;
+}
+
+.cs-site .nav-categories-group-title:hover,
+.cs-site .nav-categories-group-title:focus {
+  color: var(--green-dark) !important;
+}
+
+@media (max-width: 920px) {
+  .cs-site .nav-categories-group-title {
+    color: #11100b !important;
+    font-size: 14px !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.12em !important;
+    font-weight: 850 !important;
+    padding: 8px 0 8px !important;
+    margin: 8px 0 7px !important;
+    border-bottom: 1px solid rgba(90, 74, 43, 0.26) !important;
+  }
+
+  .cs-site .nav-categories-group:first-child .nav-categories-group-title {
+    margin-top: 2px !important;
+  }
+}
