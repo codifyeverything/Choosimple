@@ -8131,3 +8131,36 @@ font-size: 11px !important;
     text-align: left !important;
   }
 }
+
+
+/* ═══ Choosimple minor homepage/header refinement pass ═══ */
+.cs-site .hero h1 em {
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+.cs-site .nav-categories-group-title {
+  color: var(--ink) !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  padding-bottom: 4px !important;
+  margin-bottom: 4px !important;
+  border-bottom: 1px solid rgba(90, 74, 43, 0.16) !important;
+}
+
+.cs-site .nav-categories-group-title:hover {
+  color: var(--green-dark) !important;
+}
+
+@media (max-width: 920px) {
+  .cs-site .nav-categories-group-title {
+    font-size: 13px !important;
+    color: var(--green-dark) !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-top: 4px !important;
+    margin-bottom: 6px !important;
+    border-bottom: 1px solid rgba(43, 90, 43, 0.20) !important;
+  }
+}
