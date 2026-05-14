@@ -1,33 +1,40 @@
 <nav class="nav">
-<div class="nav-inner">
-<a aria-label="Choosimple — Home" class="nav-logo" href="/index.html">
-<img alt="Choosimple" class="nav-logo-img" src="/TRANSPARENT_Logo.png"/>
-<span class="nav-logo-tagline">One clear decision.</span>
-</a>
-<button aria-controls="site-nav-panel" aria-expanded="false" class="nav-menu-toggle" type="button">
-<span class="nav-menu-label">Site Menu</span>
-</button>
-<div class="nav-panel" id="site-nav-panel">
-<div class="nav-primary">
-<div class="nav-categories">
-<button aria-controls="site-categories-menu" aria-expanded="false" class="nav-categories-toggle" type="button">Categories</button>
-<div class="nav-categories-menu" id="site-categories-menu">
-{% for group in site.categoryGroups %}
-<div class="nav-categories-group">
-<p>{{ group }}</p>
-{% for item in categories %}{% if item.group == group %}
-<a href="{{ item.url }}">{{ item.title }}</a>
-{% endif %}{% endfor %}
-</div>
-{% endfor %}
-</div>
-</div>
-<a class="" href="/about.html">About</a>
-<a class="" href="/disclosure.html">Disclosure</a>
-<a class="" href="/privacy.html">Privacy</a>
-<a class="" href="/contact.html">Contact</a>
-</div>
-<a class="nav-subscribe-link" href="/index.html#email-signup">Get updates</a>
-</div>
-</div>
+  <div class="nav-inner">
+    <a aria-label="Choosimple — Home" class="nav-logo" href="/index.html">
+      <img alt="Choosimple" class="nav-logo-img" src="/TRANSPARENT_Logo.png"/>
+      <span class="nav-logo-tagline">One clear decision.</span>
+    </a>
+
+    <button aria-controls="site-nav-panel" aria-expanded="false" class="nav-menu-toggle" type="button">
+      <span class="nav-menu-label">Site Menu</span>
+    </button>
+
+    <div class="nav-panel" id="site-nav-panel">
+      <div class="nav-primary">
+        <div class="nav-categories">
+          <button aria-controls="site-categories-menu" aria-expanded="false" class="nav-categories-toggle" type="button">Categories</button>
+          <div class="nav-categories-menu nav-categories-menu--scalable" id="site-categories-menu">
+            {% for group in site.categoryGroups %}
+            {% set groupItems = categories | groupItems(group) %}
+            <div class="nav-categories-group">
+              <a class="nav-categories-group-title" href="{{ group.url }}">{{ group.title }}</a>
+              {% for item in groupItems | limitItems(6) %}
+              <a href="{{ item.url }}">{{ item.title }}</a>
+              {% endfor %}
+              {% if groupItems.length > 6 %}
+              <a class="nav-categories-view-all" href="{{ group.url }}">View all {{ group.title }} →</a>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <a href="/all-decisions.html">All Decisions</a>
+        <a href="/about.html">About</a>
+        <a href="/disclosure.html">Disclosure</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <a class="nav-subscribe-link" href="/index.html#email-signup">Get updates</a>
+    </div>
+  </div>
 </nav>
