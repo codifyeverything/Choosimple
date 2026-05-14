@@ -351,6 +351,31 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuckoo CR-0675F 6-cup micom rice cooker here. Use the CR-0675F model; avoid pressure models, CR-0655F unless intentionally used as a substitute, renewed, or accessory-only listings unless intentionally changed."
   }
+  ,
+  "cuisinart-custom-14-cup-dfp-14bcny": {
+    "name": "Cuisinart Custom 14-Cup Food Processor",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Cuisinart Custom 14-Cup Food Processor here. Use the DFP-14BCNY / Custom 14-cup model family; avoid Mini-Prep, Elemental, Pro Custom 11, renewed, accessory-only, or replacement-bowl listings unless intentionally changed."
+  },
+  "hamilton-beach-stack-snap-70725a": {
+    "name": "Hamilton Beach 12-Cup Stack & Snap 70725A",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Hamilton Beach 12-Cup Stack & Snap food processor here. Use the 70725A / 12-cup Stack & Snap model family; avoid 10-cup Bowl Scraper, 8-cup, mini chopper, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "cuisinart-mini-prep-plus": {
+    "name": "Cuisinart Mini-Prep Plus 3-Cup",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Cuisinart Mini-Prep Plus here. Use the DLC-2ABC / DLC-2A 3-cup Mini-Prep Plus model family; avoid full-size Cuisinart processors, replacement parts, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "breville-sous-chef-12": {
+    "name": "Breville Sous Chef 12",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Sous Chef 12 here. Use the BFP660 / 12-cup Sous Chef model family; avoid Sous Chef 16, Paradice, renewed, accessory-only, or non-North-American listings unless intentionally changed."
+  }
 
 
 };

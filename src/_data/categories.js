@@ -121,6 +121,24 @@ module.exports = [
     "featuredQuote": "“The best rice cooker for most people: Zojirushi NS-ZCC10 Neuro Fuzzy — reliable, forgiving, and easier to defend than cheap cookers or premium overkill.”",
     "featuredProof": "<strong>Why it wins:</strong> the strongest ownership pattern, forgiving fuzzy logic, practical 5.5-cup capacity, and fewer long-term regrets than cheaper or more complex models."
   },
+
+  {
+    "title": "Food Processor",
+    "slug": "food-processor",
+    "url": "/food-processor.html",
+    "group": "Kitchen",
+    "cardTitle": "The food processor that makes the most sense",
+    "decision": "Cuisinart Custom 14-Cup",
+    "image": "/Cuisinart-Custom-14Cup.png",
+    "imageAlt": "Cuisinart Custom 14-Cup Food Processor",
+    "summary": "The best food processor for most people: proven full-size reliability, practical 14-cup capacity, and simpler ownership than cheap or feature-heavy alternatives.",
+    "proof": "handles the core prep jobs most people actually repeat without forcing buyers into accessory clutter or premium overkill.",
+    "price": "Typical price: $200–$320",
+    "featured": true,
+    "featuredSub": "Kitchen · Typical price: $200–$320",
+    "featuredQuote": "“The best food processor for most people: Cuisinart Custom 14-Cup — proven, practical, and easier to defend than cheap or overbuilt alternatives.”",
+    "featuredProof": "<strong>Why it wins:</strong> long-term owner trust, useful 14-cup capacity, simple controls, and fewer regret points than mini, budget, or attachment-heavy machines."
+  },
   {
     "title": "Robot Vacuum",
     "slug": "robot-vacuum",
