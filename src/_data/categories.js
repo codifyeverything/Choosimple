@@ -103,24 +103,6 @@ module.exports = [
     "featuredQuote": "“The best Instant Pot for most people: Instant Pot Duo Plus 6 qt — proven 6-quart usability, a cleaner daily experience, and no premium-model clutter.”",
     "featuredProof": "<strong>Why it wins:</strong> it keeps the dependable Instant Pot formula, improves the daily interface, and avoids the size, cost, and complexity of air-fryer or smart models."
   },
-
-  {
-    "title": "Rice Cooker",
-    "slug": "rice-cooker",
-    "url": "/rice-cooker.html",
-    "group": "Kitchen",
-    "cardTitle": "The rice cooker that makes the most sense",
-    "decision": "Zojirushi NS-ZCC10 Neuro Fuzzy",
-    "image": "/Zojirushi-Overall-Best.png",
-    "imageAlt": "Zojirushi NS-ZCC10 Neuro Fuzzy rice cooker",
-    "summary": "The best rice cooker for most people: proven long-term reliability, forgiving rice consistency, and fewer regrets than cheap basic cookers or premium overkill.",
-    "proof": "balances rice quality, keep-warm performance, usability, and long-term ownership better than cheaper or more complex alternatives.",
-    "price": "Typical price: $230–$320",
-    "featured": true,
-    "featuredSub": "Kitchen · Typical price: $230–$320",
-    "featuredQuote": "“The best rice cooker for most people: Zojirushi NS-ZCC10 Neuro Fuzzy — reliable, forgiving, and easier to defend than cheap cookers or premium overkill.”",
-    "featuredProof": "<strong>Why it wins:</strong> the strongest ownership pattern, forgiving fuzzy logic, practical 5.5-cup capacity, and fewer long-term regrets than cheaper or more complex models."
-  },
   {
     "title": "Robot Vacuum",
     "slug": "robot-vacuum",
