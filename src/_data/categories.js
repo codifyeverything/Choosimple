@@ -139,6 +139,24 @@ module.exports = [
     "featuredQuote": "“The best food processor for most people: Cuisinart Custom 14-Cup — proven, practical, and easier to defend than cheap or overbuilt alternatives.”",
     "featuredProof": "<strong>Why it wins:</strong> long-term owner trust, useful 14-cup capacity, simple controls, and fewer regret points than mini, budget, or attachment-heavy machines."
   },
+
+  {
+    "title": "Nonstick Pan",
+    "slug": "nonstick-pan",
+    "url": "/nonstick-pan.html",
+    "group": "Kitchen",
+    "cardTitle": "The nonstick pan that makes the most sense",
+    "decision": "Tramontina Professional Fusion 10-Inch",
+    "image": "/Tramontina_Professional.png",
+    "imageAlt": "Tramontina Professional Fusion 10-Inch Nonstick Fry Pan",
+    "summary": "The best nonstick pan for most people: reliable everyday release, easy cleanup, and a realistic replacement cost for cookware that eventually wears out.",
+    "proof": "treats nonstick like a wear item instead of forcing buyers into premium overpayment.",
+    "price": "Typical price: $25–$45",
+    "featured": true,
+    "featuredSub": "Kitchen · Typical price: $25–$45",
+    "featuredQuote": "“The best nonstick pan for most people: Tramontina Professional Fusion 10-Inch — simple, reliable, easy to clean, and priced for real ownership.”",
+    "featuredProof": "<strong>Why it wins:</strong> strong everyday nonstick performance, a rivetless interior that is easier to clean, and a price that makes replacement rational when the coating eventually declines."
+  },
   {
     "title": "Robot Vacuum",
     "slug": "robot-vacuum",

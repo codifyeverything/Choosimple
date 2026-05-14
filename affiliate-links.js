@@ -378,4 +378,31 @@ window.CS_AFFILIATE_LINKS = {
   }
 
 
+
+  ,
+  "tramontina-professional-fusion-10-inch": {
+    "name": "Tramontina Professional Fusion 10-Inch Nonstick Fry Pan",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Tramontina Professional Fusion 10-inch nonstick fry pan here. Use the Professional Fusion / rivetless interior listing when available; regular Professional Restaurant can be used only as an intentional fallback. Avoid induction, ceramic, set-only, renewed, or unrelated Tramontina cookware listings unless intentionally changed."
+  },
+  "greenpan-valencia-pro-ceramic-skillet": {
+    "name": "GreenPan Valencia Pro Ceramic Nonstick Skillet",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the GreenPan Valencia Pro ceramic nonstick skillet here. Use the Valencia Pro fry pan/skillet listing or set containing the 10-inch skillet; avoid other GreenPan lines, sauté pans, cookware sets without the skillet, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "made-in-ceramiclad-nonstick-frying-pan": {
+    "name": "Made In CeramiClad Non Stick Frying Pan",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Made In CeramiClad nonstick frying pan here. Use the ceramic-coated 5-ply stainless-clad induction-compatible fry pan; avoid ProCoat, stainless-only, carbon steel, sets without the fry pan, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "cuisinart-chefs-classic-622-24": {
+    "name": "Cuisinart Chef’s Classic Nonstick Skillet 622-24",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Cuisinart Chef’s Classic 622-24 nonstick skillet here. Use the 10-inch 622-24 model family; avoid stainless, ceramic, multi-pack, renewed, or replacement-part listings unless intentionally changed."
+  }
+
 };
