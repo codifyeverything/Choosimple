@@ -320,6 +320,37 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Paste the Geniuslink URL for the Instant Pot Pro Crisp 8 qt here. Use the Pro Crisp pressure cooker and air fryer combo; avoid Duo Crisp, Pro 6 qt, Pro Plus, renewed, or accessory-only listings unless intentionally changed."
   }
 
+  ,
+  "zojirushi-ns-zcc10-neuro-fuzzy": {
+    "name": "Zojirushi NS-ZCC10 Neuro Fuzzy",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Zojirushi NS-ZCC10 Neuro Fuzzy here. Use the 5.5-cup NS-ZCC10 model, not the NS-ZCC18 10-cup, NS-TSC10, NP-HCC10, renewed, accessory-only, or marketplace-only listings unless intentionally changed."
+  },
+  "zojirushi-ns-lhc05-micom": {
+    "name": "Zojirushi NS-LHC05 3-Cup Micom",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Zojirushi NS-LHC05 3-cup micom rice cooker here. Use the NS-LHC05 / NS-LHC05XT model family; avoid 5.5-cup Zojirushi models, NHS-06 basic models, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "aroma-arc-914sbd": {
+    "name": "Aroma ARC-914SBD Digital Rice Cooker",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Aroma ARC-914SBD digital rice cooker here. Use the single-unit ARC-914SBD / ARC-914D model family; avoid multi-packs, larger Aroma models, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "zojirushi-np-hcc10-induction": {
+    "name": "Zojirushi NP-HCC10 Induction Heating Rice Cooker",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Zojirushi NP-HCC10 induction heating rice cooker here. Use the 5.5-cup NP-HCC10 model, not NP-HCC18, NS-ZCC10, NW-QAC10, pressure-induction models, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "cuckoo-cr-0675f": {
+    "name": "Cuckoo CR-0675F 6-Cup Micom Rice Cooker",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Cuckoo CR-0675F 6-cup micom rice cooker here. Use the CR-0675F model; avoid pressure models, CR-0655F unless intentionally used as a substitute, renewed, or accessory-only listings unless intentionally changed."
+  }
 
 
 };
