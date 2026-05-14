@@ -7633,3 +7633,301 @@ font-size: 11px !important;
     grid-template-columns: 1fr !important;
   }
 }
+
+/* ═══ Choosimple homepage/category polish — consumer-facing copy pass ═══ */
+.cs-site .hero-body {
+  color: var(--ink-2) !important;
+  font-size: clamp(18px, 2vw, 22px) !important;
+  line-height: 1.45 !important;
+  max-width: 36rem !important;
+}
+
+.cs-site .home-brand-proofline {
+  max-width: 36rem !important;
+  color: var(--muted) !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  margin-top: 0.75rem !important;
+}
+
+.cs-site .decision-areas {
+  padding: 82px 0 68px !important;
+  background:
+    radial-gradient(900px 520px at 15% 0%, rgba(47,90,28,0.06), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,0.34), rgba(246,242,229,0.58)) !important;
+}
+
+.cs-site .decision-areas-header {
+  max-width: 680px !important;
+  margin-bottom: 30px !important;
+}
+
+.cs-site .decision-areas-header h2 {
+  font-size: clamp(38px, 4.6vw, 58px) !important;
+  margin-bottom: 12px !important;
+}
+
+.cs-site .decision-areas-header p {
+  max-width: 600px !important;
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+}
+
+.cs-site .decision-area-grid {
+  gap: 18px !important;
+}
+
+.cs-site .decision-area-card {
+  min-height: 330px !important;
+  padding: 28px !important;
+  border-radius: 26px !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(250,248,240,0.94) 100%) !important;
+  box-shadow: 0 22px 55px -45px rgba(20,18,12,0.42) !important;
+}
+
+.cs-site .decision-area-card h3 {
+  font-family: 'Fraunces', Georgia, serif !important;
+  font-size: clamp(30px, 3vw, 38px) !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.02 !important;
+}
+
+.cs-site .decision-area-card p {
+  max-width: 31rem !important;
+  line-height: 1.6 !important;
+}
+
+.cs-site .decision-area-products {
+  gap: 7px !important;
+}
+
+.cs-site .decision-area-products span {
+  background: rgba(255,255,255,0.8) !important;
+  border-color: rgba(196, 182, 149, 0.55) !important;
+  color: var(--ink-2) !important;
+}
+
+.cs-site .decision-area-footer strong {
+  color: var(--muted) !important;
+}
+
+.cs-site .latest-decisions {
+  padding: 68px 0 !important;
+}
+
+.cs-site .catalogue-header--compact {
+  align-items: end !important;
+  border: 0 !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-left h2 {
+  font-size: clamp(34px, 4vw, 50px) !important;
+}
+
+.cs-site .catalogue-header--compact .catalogue-header-right p {
+  color: var(--muted) !important;
+  line-height: 1.6 !important;
+}
+
+.cs-site .mini-how--home {
+  padding-bottom: 76px !important;
+}
+
+.cs-site .mini-how--home .mini-how-grid {
+  border-radius: 26px !important;
+  background: rgba(255,255,255,0.68) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: 0 18px 45px -42px rgba(20,18,12,0.35) !important;
+}
+
+.cs-site .category-landing-hero {
+  padding: 76px 0 48px !important;
+  background:
+    radial-gradient(820px 500px at 88% 8%, rgba(47,90,28,0.09), transparent 64%),
+    linear-gradient(180deg, rgba(250,248,240,0.4), rgba(255,255,255,0)) !important;
+}
+
+.cs-site .page-breadcrumb {
+  display: inline-flex !important;
+  margin-bottom: 20px !important;
+  color: var(--muted) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+.cs-site .category-landing-hero h1 {
+  font-size: clamp(50px, 7vw, 82px) !important;
+  letter-spacing: -0.045em !important;
+  margin: 10px 0 16px !important;
+}
+
+.cs-site .category-landing-hero p {
+  max-width: 690px !important;
+  color: var(--ink-2) !important;
+  font-size: clamp(18px, 2vw, 21px) !important;
+  line-height: 1.58 !important;
+}
+
+.cs-site .category-landing-meta {
+  margin-top: 22px !important;
+}
+
+.cs-site .category-landing-meta span {
+  background: rgba(238, 246, 226, 0.95) !important;
+  border-color: rgba(47,90,28,0.22) !important;
+}
+
+.cs-site .category-landing-list {
+  padding: 58px 0 66px !important;
+}
+
+.cs-site .category-landing-note {
+  padding: 22px 0 82px !important;
+}
+
+.cs-site .category-landing-note-inner {
+  border-radius: 28px !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.92), rgba(248,246,237,0.95)) !important;
+  box-shadow: 0 24px 70px -58px rgba(20,18,12,0.45) !important;
+}
+
+.cs-site .category-landing-note h2 {
+  font-size: clamp(32px, 4vw, 46px) !important;
+  margin-bottom: 12px !important;
+}
+
+.cs-site .all-decisions-hero .category-landing-hero-inner,
+.cs-site .all-decisions-index-inner {
+  max-width: 1120px !important;
+}
+
+.cs-site .all-decisions-index {
+  padding-top: 38px !important;
+}
+
+.cs-site .all-decisions-group {
+  margin-bottom: 42px !important;
+}
+
+.cs-site .all-decisions-group-header {
+  align-items: end !important;
+  padding-bottom: 16px !important;
+}
+
+.cs-site .all-decisions-row {
+  background: rgba(255,255,255,0.76) !important;
+  border-radius: 16px !important;
+  padding: 15px 18px !important;
+}
+
+.cs-site .all-decisions-title,
+.cs-site .all-decisions-pick,
+.cs-site .all-decisions-link {
+  line-height: 1.35 !important;
+}
+
+.cs-site .nav-menu-label {
+  letter-spacing: 0.06em !important;
+}
+
+.cs-site .footer-grid--scalable {
+  gap: clamp(28px, 5vw, 72px) !important;
+}
+
+.cs-site .footer-brand p {
+  max-width: 430px !important;
+}
+
+@media (max-width: 900px) {
+  .cs-site .decision-areas,
+  .cs-site .latest-decisions,
+  .cs-site .category-landing-list,
+  .cs-site .all-decisions-index {
+    padding: 44px 0 !important;
+  }
+
+  .cs-site .decision-areas-header {
+    margin-bottom: 22px !important;
+  }
+
+  .cs-site .decision-areas-header h2,
+  .cs-site .catalogue-header--compact .catalogue-header-left h2 {
+    font-size: 36px !important;
+    line-height: 1.05 !important;
+  }
+
+  .cs-site .decision-area-card {
+    padding: 22px !important;
+    border-radius: 22px !important;
+  }
+
+  .cs-site .decision-area-footer {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+  }
+
+  .cs-site .category-landing-hero {
+    padding: 44px 0 30px !important;
+  }
+
+  .cs-site .category-landing-hero h1 {
+    font-size: 44px !important;
+    line-height: 1.02 !important;
+  }
+
+  .cs-site .category-landing-hero p {
+    font-size: 17px !important;
+  }
+
+  .cs-site .category-landing-note {
+    padding: 10px 0 58px !important;
+  }
+
+  .cs-site .category-landing-note-inner {
+    padding: 26px 22px !important;
+  }
+
+  .cs-site .all-decisions-group-header a {
+    margin-top: 2px !important;
+  }
+
+  .cs-site .all-decisions-row {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .cs-site .hero-body {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+  }
+
+  .cs-site .home-brand-proofline {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  .cs-site .hero-buttons {
+    gap: 10px !important;
+  }
+
+  .cs-site .hero-buttons .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .cs-site .decision-area-products span:nth-child(n+4) {
+    display: none !important;
+  }
+
+  .cs-site .latest-decisions .card-grid .dec-card-new:nth-child(n+5) {
+    display: none !important;
+  }
+
+  .cs-site .all-decisions-link {
+    font-size: 13px !important;
+  }
+}

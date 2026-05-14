@@ -6,7 +6,7 @@
     </a>
 
     <button aria-controls="site-nav-panel" aria-expanded="false" class="nav-menu-toggle" type="button">
-      <span class="nav-menu-label">Site Menu</span>
+      <span class="nav-menu-label">Menu</span>
     </button>
 
     <div class="nav-panel" id="site-nav-panel">
@@ -22,13 +22,13 @@
               <a href="{{ item.url }}">{{ item.title }}</a>
               {% endfor %}
               {% if groupItems.length > 6 %}
-              <a class="nav-categories-view-all" href="{{ group.url }}">View all {{ group.title }} →</a>
+              <a class="nav-categories-view-all" href="{{ group.url }}">Browse all {{ group.title }} →</a>
               {% endif %}
             </div>
             {% endfor %}
           </div>
         </div>
-        <a href="/all-decisions.html">All Decisions</a>
+        <a href="/all-decisions.html">All decisions</a>
         <a href="/about.html">About</a>
         <a href="/disclosure.html">Disclosure</a>
         <a href="/privacy.html">Privacy</a>

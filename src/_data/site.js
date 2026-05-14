@@ -9,25 +9,25 @@ module.exports = {
       title: "Kitchen",
       slug: "kitchen",
       url: "/kitchen/",
-      description: "Simple, reliable decisions for everyday kitchen products — from prep tools to countertop appliances.",
+      description: "Reliable picks for the kitchen products people compare most — from countertop appliances to everyday prep tools.",
       shortDescription: "Countertop appliances, prep tools, and kitchen upgrades that are easy to overthink.",
-      eyebrow: "Everyday kitchen decisions"
+      eyebrow: "Kitchen"
     },
     {
       title: "Home Essentials",
       slug: "home-essentials",
       url: "/home-essentials/",
-      description: "Clear decisions for practical home products where reliability, maintenance, and daily usability matter.",
+      description: "Clear picks for practical home products where reliability, upkeep, and daily use matter most.",
       shortDescription: "Practical home products where reliability, upkeep, and daily use matter most.",
-      eyebrow: "Reliable home upgrades"
+      eyebrow: "Home"
     },
     {
       title: "Personal Care",
       slug: "personal-care",
       url: "/personal-care/",
-      description: "Personal care product decisions that avoid premium gimmicks and focus on daily results, usability, and value.",
-      shortDescription: "Personal care tools where the right pick beats app features, gimmicks, and luxury markup.",
-      eyebrow: "Better daily routines"
+      description: "Straightforward picks for daily-use products where performance, comfort, and reliability matter more than gimmicks.",
+      shortDescription: "Daily-use tools where performance, comfort, and reliability matter more than gimmicks.",
+      eyebrow: "Personal Care"
     }
   ],
   homepage: {

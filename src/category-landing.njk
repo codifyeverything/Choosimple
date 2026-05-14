@@ -14,13 +14,13 @@ eleventyComputed:
 
 <section class="category-landing-hero">
   <div class="category-landing-hero-inner">
-    <a class="page-breadcrumb" href="/index.html">Choosimple / Decision Areas</a>
+    <a class="page-breadcrumb" href="/index.html">Choosimple / {{ group.title }}</a>
     <span class="eyebrow">{{ group.eyebrow }}</span>
-    <h1>{{ group.title }} decisions.</h1>
+    <h1>{{ group.title }} decisions</h1>
     <p>{{ group.description }}</p>
     <div class="category-landing-meta">
-      <span>{{ groupItems.length }} current decisions</span>
-      <span>One clear pick per category</span>
+      <span>{{ groupItems.length }} guides</span>
+      <span>One clear pick each</span>
     </div>
   </div>
 </section>
@@ -30,10 +30,10 @@ eleventyComputed:
     <div class="catalogue-header catalogue-header--compact">
       <div class="catalogue-header-left">
         <span class="eyebrow">Browse {{ group.title }}</span>
-        <h2>Every {{ group.title | lower }} pick in one place.</h2>
+        <h2>All {{ group.title | lower }} decisions.</h2>
       </div>
       <div class="catalogue-header-right">
-        <p>Use this page as the full hub for this decision area. The homepage can stay clean while the library keeps growing.</p>
+        <p>Choose the product you’re shopping for and go straight to the recommended pick.</p>
       </div>
     </div>
 
@@ -47,9 +47,9 @@ eleventyComputed:
 
 <section class="category-landing-note">
   <div class="category-landing-note-inner">
-    <span class="eyebrow">How Choosimple decides</span>
-    <h2>Not every good product becomes the decision.</h2>
-    <p>Each category is built around the product that makes the strongest overall case for reliability, performance, ease of use, maintenance, and value. Alternatives can still be good — they just need a clearer reason to beat the main decision.</p>
-    <a class="btn btn-outline" href="/all-decisions.html">View all decision areas</a>
+    <span class="eyebrow">How Choosimple chooses</span>
+    <h2>Useful beats flashy.</h2>
+    <p>Each guide weighs reliability, performance, ease of use, maintenance, and value. The decision goes to the product that makes the strongest overall case for most buyers.</p>
+    <a class="btn btn-outline" href="/all-decisions.html">View all decisions</a>
   </div>
 </section>

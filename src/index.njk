@@ -20,6 +20,7 @@ extraHead: |
       .hero-left { padding-top: 0.95rem; padding-bottom: 0; max-width: 600px; }
       .hero-eyebrow { margin-bottom: 0.7rem; }
       .hero-left h1 { max-width: 8.8ch; margin-bottom: 1.05rem; }
+      .hero-body { max-width: 35rem; margin-bottom: 1.1rem; }
       .hero-buttons { margin-bottom: 0.95rem; }
       .hero-helper { max-width: 34rem; margin-top: 0.45rem; }
       .hero-right { width: 432px; }
@@ -36,7 +37,7 @@ extraHead: |
       .hero-grid.hero-grid--focused { align-items: start; gap: 0.45rem; }
       .hero-right { align-self: start; margin-top: 0; }
       .hero-left h1 { margin-bottom: 0.75rem; max-width: 8.5ch; line-height: 0.98; }
-      .hero-body { margin-bottom: 0.75rem; }
+      .hero-body { margin-bottom: 0.85rem; }
       .hero-buttons { margin-bottom: 0.1rem; }
       .hero-helper { display: none; }
       .featured-image-wrap { height: 100px; min-height: 100px; max-height: 100px; margin: 0 0 0.75rem; }
@@ -53,21 +54,21 @@ extraHead: |
 <section class="hero">
   <div class="hero-grid hero-grid--focused">
     <div class="hero-left">
-      <p class="hero-eyebrow">BEST PRODUCT PICKS FOR REAL BUYERS — BACKED BY RELIABILITY SIGNALS AND BUYER PATTERNS</p>
+      <p class="hero-eyebrow">INDEPENDENT PRODUCT DECISIONS</p>
       <h1>Best products. One clear decision.</h1>
+      <p class="hero-body">We compare the obvious choices, filter out the noise, and point you to the product that makes the most sense for most people.</p>
       <div class="hero-buttons">
-        <a class="btn btn-primary" href="#decision-areas">Browse decisions</a>
-        <a class="btn btn-outline" href="/all-decisions.html">View all</a>
+        <a class="btn btn-primary" href="#decision-areas">Shop by category</a>
+        <a class="btn btn-outline" href="/all-decisions.html">Browse all decisions</a>
       </div>
-      <p class="hero-helper">Choosimple gives you one clear product decision per category — based on ownership patterns, reliability signals, usability, maintenance, and value.</p>
-      <p class="home-brand-proofline">No top-10 lists. No spec-sheet overload. Just the pick that makes the most sense and the proof behind it.</p>
+      <p class="home-brand-proofline">No top-10 lists. No spec-sheet overload. Just the pick, the reasoning, and the tradeoffs worth knowing.</p>
     </div>
 
     <div class="hero-right">
       <div class="featured-card-rotator" aria-live="polite">
         {% for item in categories | featuredItems | limitItems(site.homepage.featuredLimit) %}
         <a aria-label="View details for {{ item.decision }}" class="hero-card hero-card--featured-link{% if loop.first %} is-active{% endif %}" href="{{ item.url }}">
-          <p class="hero-card-eyebrow">Choosimple featured decision</p>
+          <p class="hero-card-eyebrow">Featured decision</p>
           <div class="featured-image-wrap">
             <img alt="{{ item.imageAlt }}" class="featured-image" src="{{ item.image }}"/>
           </div>
@@ -86,9 +87,9 @@ extraHead: |
 <section class="decision-areas" id="decision-areas">
   <div class="decision-areas-inner">
     <div class="decision-areas-header">
-      <span class="eyebrow">Browse by decision area</span>
-      <h2>A cleaner way to shop as the library grows.</h2>
-      <p>Start with the area you are shopping in. Each decision hub includes every current Choosimple pick in that category, with room for the site to scale without crowding the homepage.</p>
+      <span class="eyebrow">Shop by category</span>
+      <h2>Find the right decision faster.</h2>
+      <p>Start with the area you’re shopping in, then choose the product guide you need.</p>
     </div>
 
     <div class="decision-area-grid">
@@ -104,8 +105,8 @@ extraHead: |
           {% endfor %}
         </div>
         <div class="decision-area-footer">
-          <strong>{{ groupItems.length }} decisions</strong>
-          <span>View {{ group.title }} →</span>
+          <strong>{{ groupItems.length }} guides</strong>
+          <span>Browse {{ group.title }} →</span>
         </div>
       </a>
       {% endfor %}
@@ -121,7 +122,7 @@ extraHead: |
         <h2>Recently added picks.</h2>
       </div>
       <div class="catalogue-header-right">
-        <p>New categories are added using the same decision-first system.</p>
+        <p>Fresh Choosimple guides from across the site.</p>
       </div>
     </div>
     <div class="card-grid">
@@ -130,7 +131,7 @@ extraHead: |
       {% endfor %}
     </div>
     <div class="home-section-action">
-      <a class="btn btn-outline" href="/all-decisions.html">Browse every Choosimple decision</a>
+      <a class="btn btn-outline" href="/all-decisions.html">Browse every decision</a>
     </div>
   </div>
 </section>
@@ -139,18 +140,18 @@ extraHead: |
   <div class="mini-how-grid">
     <div class="mini-how-item">
       <span>01</span>
-      <h3>Start with the decision</h3>
-      <p>Get the one pick that makes the most sense before spending time on edge cases.</p>
+      <h3>Reliability first</h3>
+      <p>We prioritize products that hold up well in real ownership, not just products that look best on paper.</p>
     </div>
     <div class="mini-how-item">
       <span>02</span>
-      <h3>Use the proof</h3>
-      <p>See the buyer mistakes, misleading signals, and ownership tradeoffs that support the decision.</p>
+      <h3>Performance that matters</h3>
+      <p>We focus on the features and results people actually notice after buying.</p>
     </div>
     <div class="mini-how-item">
       <span>03</span>
-      <h3>Check the exceptions</h3>
-      <p>Only look at alternatives if your situation clearly calls for one.</p>
+      <h3>Clear tradeoffs</h3>
+      <p>Alternatives matter only when there is a real reason to choose something different.</p>
     </div>
   </div>
 </section>
@@ -159,8 +160,8 @@ extraHead: |
   <div class="micro-signup-inner">
     <div class="micro-signup-copy">
       <span class="eyebrow">Get updates</span>
-      <h2>New decisions, no clutter.</h2>
-      <p>Stay up to date with the latest picks and category launches.</p>
+      <h2>New picks, no clutter.</h2>
+      <p>Get the latest Choosimple decisions as new guides are added.</p>
     </div>
     <form action="ACTION-URL-HERE" class="micro-signup-form" method="post" target="_blank">
       <input name="EMAIL" placeholder="you@example.com" type="email"/>
