@@ -227,6 +227,24 @@ module.exports = [
     "featuredProof": "<strong>Why it wins:</strong> broad cleaning performance, strong pet-hair pickup, mature accessory support, and fewer unknowns than newer dock-based or flagship models."
   },
   {
+    "title": "Dehumidifier",
+    "slug": "dehumidifier",
+    "url": "/dehumidifier.html",
+    "group": "Home Essentials",
+    "cardTitle": "The dehumidifier that makes the most sense",
+    "decision": "Midea Cube 50 Pint",
+    "image": "/Midea-Cute-50-Pint.png",
+    "imageAlt": "Midea Cube 50 Pint dehumidifier",
+    "summary": "The best dehumidifier for most people: serious moisture removal, a large tank, simple drainage, and fewer long-term regrets than tiny units or pump-first alternatives.",
+    "proof": "handles real household humidity without forcing most buyers into pump complexity or commercial pricing.",
+    "price": "Typical price: $230–$330",
+    "featured": true,
+    "featuredSub": "Home Essentials · Typical price: $230–$330",
+    "featuredQuote": "“The best dehumidifier for most people: Midea Cube 50 Pint — serious moisture removal, easier daily ownership, and no unnecessary pump complexity.”",
+    "featuredProof": "<strong>Why it wins:</strong> strong moisture removal, a large tank, continuous drainage, and a simpler reliability profile than pump-heavy or underpowered alternatives."
+  },
+
+  {
     "title": "Electric Toothbrush",
     "slug": "electric-toothbrush",
     "url": "/electric-toothbrush.html",
