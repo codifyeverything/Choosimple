@@ -7344,6 +7344,10 @@ font-size: 11px !important;
 .cs-site .all-decisions-index {
   padding: 72px 0 !important;
 }
+
+.cs-site .category-landing-list {
+  padding-top: 28px !important;
+}
 .cs-site .decision-areas-inner,
 .cs-site .latest-decisions-inner,
 .cs-site .category-landing-list-inner,
@@ -7461,6 +7465,7 @@ font-size: 11px !important;
   padding: 0 !important;
   margin-bottom: 28px !important;
 }
+
 .cs-site .home-section-action {
   margin-top: 28px;
   display: flex;
@@ -7598,6 +7603,10 @@ font-size: 11px !important;
   .cs-site .category-landing-list,
   .cs-site .all-decisions-index {
     padding: 52px 0 !important;
+  }
+
+  .cs-site .category-landing-list {
+    padding-top: 24px !important;
   }
   .cs-site .decision-areas-inner,
   .cs-site .latest-decisions-inner,

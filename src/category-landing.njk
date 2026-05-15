@@ -26,15 +26,6 @@ eleventyComputed:
 
 <section class="category-landing-list">
   <div class="category-landing-list-inner">
-    <div class="catalogue-header catalogue-header--compact">
-      <div class="catalogue-header-left">
-        <h2>All {{ group.title | lower }} decisions</h2>
-      </div>
-      <div class="catalogue-header-right">
-        <p>Choose the product you’re shopping for and go straight to the recommended pick.</p>
-      </div>
-    </div>
-
     <div class="card-grid">
       {% for item in groupItems %}
       {% include "category-card.njk" %}
