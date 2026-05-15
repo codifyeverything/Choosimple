@@ -7461,6 +7461,25 @@ font-size: 11px !important;
   padding: 0 !important;
   margin-bottom: 28px !important;
 }
+
+.cs-site .category-landing-list-header {
+  display: block !important;
+  max-width: none !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+.cs-site .category-landing-list-header .catalogue-header-left {
+  max-width: 640px;
+}
+
+.cs-site .category-landing-list-header .category-list-intro {
+  max-width: 520px;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.6;
+}
 .cs-site .home-section-action {
   margin-top: 28px;
   display: flex;
