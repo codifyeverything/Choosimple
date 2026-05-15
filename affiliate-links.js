@@ -403,6 +403,31 @@ window.CS_AFFILIATE_LINKS = {
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuisinart Chef’s Classic 622-24 nonstick skillet here. Use the 10-inch 622-24 model family; avoid stainless, ceramic, multi-pack, renewed, or replacement-part listings unless intentionally changed."
+  },
+  "midea-cube-50-pint": {
+    "name": "Midea Cube 50 Pint",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Midea Cube 50 Pint dehumidifier here. Use the 50-pint non-pump Cube as the default when available; avoid pump versions, smaller-capacity models, renewed, accessory-only, or unrelated Midea dehumidifier listings unless intentionally changed."
+  },
+  "frigidaire-50-pint-dehumidifier": {
+    "name": "Frigidaire 50 Pint Dehumidifier",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Frigidaire 50 Pint dehumidifier here. Use the cleanest current 50-pint Frigidaire listing, such as FFAD5034W1 or the appropriate current equivalent; avoid pump models, smaller-capacity models, renewed, accessory-only, or inflated marketplace listings unless intentionally changed."
+  },
+  "ge-apyr50lc-50-pint-pump": {
+    "name": "GE APYR50LC 50 Pint Dehumidifier with Pump",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the GE APYR50LC 50 Pint dehumidifier with pump here. Use the APYR50LC pump model; avoid non-pump GE models, smaller-capacity units, renewed, accessory-only, or unrelated GE appliance listings unless intentionally changed."
+  },
+  "aprilaire-e080": {
+    "name": "AprilAire E080",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL or Choice Page URL for the AprilAire E080 here. Use the E080 heavy-duty whole-home/basement/crawlspace dehumidifier; avoid E070, E100, E080W unless intentionally used as a fallback, renewed, accessory-only, or inflated third-party listings unless intentionally changed."
   }
+
 
 };
