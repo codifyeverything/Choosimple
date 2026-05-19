@@ -507,4 +507,31 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Shark Navigator Lift-Away here. Use NV360 for U.S. listings and NV380C or the closest current Canadian Lift-Away equivalent when needed; avoid cordless, renewed, accessory-only, or non-Lift-Away Shark variants unless intentionally changed."
   }
+
+  ,
+  "waterpik-aquarius-water-flosser": {
+    "name": "Waterpik Aquarius Water Flosser",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Waterpik Aquarius Water Flosser here. Use the WP-660 / WP-662 Aquarius family; avoid Cordless, Ultra, Complete Care, Sonic-Fusion, renewed, accessory-only, or replacement-tip listings unless intentionally changed."
+  },
+  "waterpik-cordless-advanced": {
+    "name": "Waterpik Cordless Advanced",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Waterpik Cordless Advanced here. Use the Cordless Advanced / Advanced 2.0 family; avoid Cordless Plus, Cordless Express, countertop Aquarius, renewed, accessory-only, or replacement-tip listings unless intentionally changed."
+  },
+  "philips-sonicare-power-flosser": {
+    "name": "Philips Sonicare Power Flosser",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Philips Sonicare Power Flosser here. Use the strongest available countertop Power Flosser model by market, such as 3000 or current equivalent; avoid toothbrush-only Sonicare listings, cordless variants unless intentionally chosen, replacement nozzles, renewed, or accessory-only listings."
+  },
+  "waterpik-sonic-fusion": {
+    "name": "Waterpik Sonic-Fusion",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Waterpik Sonic-Fusion here. Use Sonic-Fusion 2.0 or the cleanest current Sonic-Fusion toothbrush + water flosser listing; avoid Complete Care bundles, replacement brush heads, tips, renewed, or accessory-only listings unless intentionally changed."
+  }
+
 };
