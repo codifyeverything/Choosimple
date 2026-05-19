@@ -164,16 +164,16 @@ module.exports = [
     "url": "/electric-kettle.html",
     "group": "Kitchen",
     "cardTitle": "The electric kettle that makes the most sense",
-    "decision": "Cuisinart PerfecTemp CPK-17",
+    "decision": "Cuisinart PerfecTemp Electric Kettle",
     "image": "/Cuisinart-PerfectTemp.png",
-    "imageAlt": "Cuisinart PerfecTemp CPK-17 electric kettle",
-    "summary": "The best electric kettle for most people: reliable temperature presets, broad North American availability, and simpler ownership than niche gooseneck or premium design kettles.",
-    "proof": "balances reliability, tea-friendly controls, easy daily use, and availability better than trendier or harder-to-source alternatives.",
+    "imageAlt": "Cuisinart PerfecTemp electric kettle",
+    "summary": "The best electric kettle for most people: useful temperature presets, proven everyday usability, broad North American availability, and fewer regrets than niche or design-first alternatives.",
+    "proof": "balances reliability, tea-friendly controls, simple daily use, and realistic availability better than prettier or more specialized kettles.",
     "price": "Typical price: $80–$130",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $80–$130",
-    "featuredQuote": "“The best electric kettle for most people: Cuisinart PerfecTemp CPK-17 — reliable presets, broad availability, and simple daily ownership.”",
-    "featuredProof": "<strong>Why it wins:</strong> long market presence, useful temperature presets, broad North American availability, and fewer regret points than niche coffee or premium design kettles."
+    "featuredQuote": "“The best electric kettle for most people: Cuisinart PerfecTemp Electric Kettle — reliable presets, broad availability, and simple daily ownership.”",
+    "featuredProof": "<strong>Why it wins:</strong> useful temperature presets, a long ownership track record, simple daily controls, and a cleaner North America-wide buying path."
   },
   {
     "title": "Robot Vacuum",
