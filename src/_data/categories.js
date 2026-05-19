@@ -157,6 +157,24 @@ module.exports = [
     "featuredQuote": "“The best nonstick pan for most people: Tramontina Professional Fusion 10-Inch — simple, reliable, easy to clean, and priced for real ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> strong everyday nonstick performance, a rivetless interior that is easier to clean, and a price that makes replacement rational when the coating eventually declines."
   },
+
+  {
+    "title": "Electric Kettle",
+    "slug": "electric-kettle",
+    "url": "/electric-kettle.html",
+    "group": "Kitchen",
+    "cardTitle": "The electric kettle that makes the most sense",
+    "decision": "Cuisinart PerfecTemp CPK-17",
+    "image": "/Cuisinart-PerfectTemp.png",
+    "imageAlt": "Cuisinart PerfecTemp CPK-17 electric kettle",
+    "summary": "The best electric kettle for most people: reliable temperature presets, broad North American availability, and simpler ownership than niche gooseneck or premium design kettles.",
+    "proof": "balances reliability, tea-friendly controls, easy daily use, and availability better than trendier or harder-to-source alternatives.",
+    "price": "Typical price: $80–$130",
+    "featured": true,
+    "featuredSub": "Kitchen · Typical price: $80–$130",
+    "featuredQuote": "“The best electric kettle for most people: Cuisinart PerfecTemp CPK-17 — reliable presets, broad availability, and simple daily ownership.”",
+    "featuredProof": "<strong>Why it wins:</strong> long market presence, useful temperature presets, broad North American availability, and fewer regret points than niche coffee or premium design kettles."
+  },
   {
     "title": "Robot Vacuum",
     "slug": "robot-vacuum",
