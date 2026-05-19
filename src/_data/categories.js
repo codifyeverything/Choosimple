@@ -245,6 +245,24 @@ module.exports = [
     "featuredProof": "<strong>Why it wins:</strong> broad cleaning performance, strong pet-hair pickup, mature accessory support, and fewer unknowns than newer dock-based or flagship models."
   },
   {
+    "title": "Upright Vacuum",
+    "slug": "upright-vacuum",
+    "url": "/upright-vacuum.html",
+    "group": "Home Essentials",
+    "cardTitle": "The upright vacuum that makes the most sense",
+    "decision": "Shark Stratos Upright Vacuum",
+    "image": "/Shark-Stratos-Upright.png",
+    "imageAlt": "Shark Stratos Upright Vacuum",
+    "summary": "The best upright vacuum for most people: stronger carpet cleaning, pet-hair confidence, and whole-home usability without specialty-vacuum pricing.",
+    "proof": "balances carpet performance, hair control, sealed filtration, and practical ownership better than heavier or cheaper alternatives.",
+    "price": "Typical price: $300–$550",
+    "featured": true,
+    "featuredSub": "Home Essentials · Typical price: $300–$550",
+    "featuredQuote": "“The best upright vacuum for most people: Shark Stratos Upright Vacuum — serious carpet cleaning, pet-hair confidence, and practical whole-home ownership.”",
+    "featuredProof": "<strong>Why it wins:</strong> strong mainstream cleaning, better hair handling, lift-away versatility, and a more defensible ownership fit than heavier or cheaper alternatives."
+  },
+
+  {
     "title": "Dehumidifier",
     "slug": "dehumidifier",
     "url": "/dehumidifier.html",

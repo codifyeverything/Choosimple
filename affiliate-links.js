@@ -482,4 +482,29 @@ window.CS_AFFILIATE_LINKS = {
   }
 
 
+  ,
+  "shark-stratos-upright-az3002": {
+    "name": "Shark Stratos Upright Vacuum",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Shark Stratos Upright here. Use the AZ3002 / AZ3000-series upright vacuum listing; avoid cordless Stratos, renewed, accessory-only, or unrelated Shark Stratos variants unless intentionally changed."
+  },
+  "sebo-felix-premium": {
+    "name": "SEBO Felix Premium",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL or Choice Page URL for the SEBO Felix Premium here. Use the Felix Premium upright vacuum; avoid SEBO Dart, Felix parts, bags, accessories, renewed, or inflated marketplace-only listings unless intentionally changed."
+  },
+  "kenmore-elite-31150": {
+    "name": "Kenmore Elite Bagged Upright",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Kenmore Elite 31150 here. Use the 31150 Pet & Allergy Friendly bagged upright listing; avoid 31140, BU1017, canister models, renewed, accessory-only, or unrelated Kenmore vacuums unless intentionally changed."
+  },
+  "shark-navigator-lift-away-nv360": {
+    "name": "Shark Navigator Lift-Away",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Shark Navigator Lift-Away here. Use NV360 for U.S. listings and NV380C or the closest current Canadian Lift-Away equivalent when needed; avoid cordless, renewed, accessory-only, or non-Lift-Away Shark variants unless intentionally changed."
+  }
 };
