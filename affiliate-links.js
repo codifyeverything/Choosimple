@@ -430,4 +430,31 @@ window.CS_AFFILIATE_LINKS = {
   }
 
 
+
+  ,
+
+  "cuisinart-perfectemp-cpk-17": {
+    "name": "Cuisinart PerfecTemp CPK-17 / CPK-17C",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Cuisinart PerfecTemp electric kettle here. Use CPK-17 for U.S. listings and CPK-17C for Canadian listings; avoid renewed, accessory-only, stovetop, or unrelated Cuisinart kettle variants unless intentionally changed."
+  },
+  "oxo-brew-adjustable-temperature-kettle-1-75l": {
+    "name": "OXO Brew Adjustable Temperature Kettle 1.75L",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the standard OXO Brew Adjustable Temperature Kettle 1.75L here. Avoid the OXO Adjustable Temperature Electric Pour-Over / gooseneck kettle unless intentionally used as a coffee-specific alternative."
+  },
+  "fellow-stagg-ekg": {
+    "name": "Fellow Stagg EKG",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Fellow Stagg EKG gooseneck electric kettle here. Confirm whether using regular EKG, EKG Pro, or Studio Edition; avoid accessory-only, stovetop, or renewed listings unless intentionally changed."
+  },
+  "hamilton-beach-1-7l-glass-kettle": {
+    "name": "Hamilton Beach 1.7L Glass Electric Kettle",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Hamilton Beach 1.7L glass electric kettle here. Use the 40864 / 40864C model family or the closest current 1.7L glass equivalent; avoid plastic-only, travel, stovetop, renewed, or unrelated Hamilton Beach kettle variants unless intentionally changed."
+  }
 };
