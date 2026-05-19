@@ -263,6 +263,24 @@ module.exports = [
   },
 
   {
+    "title": "Humidifier",
+    "slug": "humidifier",
+    "url": "/humidifier.html",
+    "group": "Home Essentials",
+    "cardTitle": "The humidifier that makes the most sense",
+    "decision": "Levoit Classic 300S",
+    "image": "/Levoit-Classic-300S.png",
+    "imageAlt": "Levoit Classic 300S humidifier",
+    "summary": "The best humidifier for most people: quiet bedroom-friendly use, easy top-fill ownership, realistic tank capacity, and fewer regrets than tiny budget units or oversized large-room machines.",
+    "proof": "balances daily comfort, refill convenience, cleaning burden, and availability better than mist-heavy or feature-first alternatives.",
+    "price": "Typical price: $80–$130",
+    "featured": true,
+    "featuredSub": "Home Essentials · Typical price: $80–$130",
+    "featuredQuote": "“The best humidifier for most people: Levoit Classic 300S — quiet, easy to refill, and sized for normal rooms without overbuying.”",
+    "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of quiet use, top-fill convenience, realistic capacity, and long-term ownership simplicity."
+  },
+
+  {
     "title": "Electric Toothbrush",
     "slug": "electric-toothbrush",
     "url": "/electric-toothbrush.html",

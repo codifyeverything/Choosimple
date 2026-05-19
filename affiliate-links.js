@@ -455,5 +455,31 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Paste the Geniuslink URL for the Hamilton Beach 1.7L glass electric kettle here. Use the 40864 / 40864C or closest current 1.7L glass model; avoid stovetop, plastic-only, small-capacity, renewed, or accessory-only listings unless intentionally changed."
   }
 
+  ,
+  "levoit-classic-300s": {
+    "name": "Levoit Classic 300S",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Levoit Classic 300S humidifier here. Use the smart 6L top-fill Classic 300S model; avoid Classic 200S, Dual 200S, LV600S, renewed, accessory-only, or filter listings unless intentionally changed."
+  },
+  "levoit-superior-6000s": {
+    "name": "Levoit Superior 6000S",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Levoit Superior 6000S evaporative humidifier here. Use the 6-gallon / 23L Superior 6000S model family; avoid LV600S ultrasonic, smaller Levoit humidifiers, replacement wicks, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "vornado-evdc300": {
+    "name": "Vornado EVDC300",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Vornado EVDC300 evaporative humidifier here. Use the EVDC300 model; avoid EV100, EV200, EVDC500 unless intentionally used, replacement wicks, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "levoit-dual-200s": {
+    "name": "Levoit Dual 200S",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Levoit Dual 200S humidifier here. Use the smaller smart top-fill Dual 200S model; avoid Classic 300S, Classic 200S, LV600S, renewed, accessory-only, or filter listings unless intentionally changed."
+  }
+
 
 };
