@@ -584,6 +584,31 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the corded Wahl Professional Peanut here. Use model 8655-200 / 8685 or the cleanest corded Peanut listing; avoid Peanut Li, cordless Peanut, clipper guards only, replacement blades, renewed, or accessory-only listings unless intentionally changed."
   }
+  ,
+  "t3-singlepass-curl-x-125": {
+    "name": "T3 SinglePass Curl X 1.25 inch",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the T3 SinglePass Curl X 1.25-inch extra-long barrel curling iron here. Avoid the 1-inch version, SinglePass Curl, SinglePass StyleMax flat iron, AireBrush, renewed, accessory-only, or other T3 styling tool listings unless intentionally changed."
+  },
+  "hot-tools-24k-gold-extended-barrel-125": {
+    "name": "Hot Tools Pro Artist 24K Gold Extended Barrel 1.25 inch",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Hot Tools Pro Artist 24K Gold Extended Barrel curling iron in the 1.25-inch size here. Use the extended/extra-long barrel model; avoid standard-length, 1-inch, 1.5-inch, wand-only, renewed, accessory-only, or unrelated Hot Tools listings unless intentionally changed."
+  },
+  "t3-singlepass-curl-x-1": {
+    "name": "T3 SinglePass Curl X 1 inch",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the T3 SinglePass Curl X 1-inch extra-long barrel curling iron here. Avoid the 1.25-inch version, SinglePass Curl, SinglePass StyleMax flat iron, AireBrush, renewed, accessory-only, or other T3 styling tool listings unless intentionally changed."
+  },
+  "beachwaver-b125": {
+    "name": "Beachwaver B1.25",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Beachwaver B1.25 rotating curling iron here. Confirm the exact B1.25 model; avoid B1 1-inch, S1.25, Pro 1.25, seasonal-only unavailable colors, renewed, accessory-only, or third-party automatic curlers unless intentionally changed."
+  }
 
 
 };
