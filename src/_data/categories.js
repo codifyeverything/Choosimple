@@ -316,6 +316,24 @@ module.exports = [
     "featuredQuote": "“The best water flosser for most people: Waterpik Aquarius Water Flosser — reliable daily cleaning, a full-size tank, and fewer compromises than cordless alternatives.”",
     "featuredProof": "<strong>Why it wins:</strong> proven Waterpik ownership patterns, practical tank size, broad tip support, and a simpler long-term reliability case than battery-powered or cheap clone models."
   },
+
+  {
+    "title": "Electric Shaver",
+    "slug": "electric-shaver",
+    "url": "/electric-shaver.html",
+    "group": "Personal Care",
+    "cardTitle": "The electric shaver that makes the most sense",
+    "decision": "Braun Series 9 Pro+",
+    "image": "/Braun-Series9.png",
+    "imageAlt": "Braun Series 9 Pro+ electric shaver",
+    "summary": "The best electric shaver for most men: a safer premium balance of comfort, closeness, reliability, and long-term ownership than more aggressive or more niche alternatives.",
+    "proof": "balances daily comfort, close-enough performance, broad parts support, and low-regret ownership better than the main foil and rotary alternatives.",
+    "price": "Typical price: $250–$450",
+    "featured": true,
+    "featuredSub": "Personal Care · Typical price: $250–$450",
+    "featuredQuote": "“The best electric shaver for most men: Braun Series 9 Pro+ — comfortable, close enough, reliable, and easier to defend than aggressive or niche alternatives.”",
+    "featuredProof": "<strong>Why it wins:</strong> strong comfort, broad availability, mature replacement support, and the safest low-regret ownership profile for daily face shaving."
+  },
   {
     "title": "Electric Toothbrush",
     "slug": "electric-toothbrush",
