@@ -533,5 +533,31 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Waterpik Sonic-Fusion here. Use Sonic-Fusion 2.0 or the cleanest current Sonic-Fusion toothbrush + water flosser listing; avoid Complete Care bundles, replacement brush heads, tips, renewed, or accessory-only listings unless intentionally changed."
   }
+  ,
+  "braun-series-9-pro-plus": {
+    "name": "Braun Series 9 Pro+",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Braun Series 9 Pro+ here. Use a legitimate 95xx Pro+ bundle such as 9567cc / 9577cc / 9599cc depending on market and price; avoid older Series 9, renewed, accessory-only, replacement-head, or inflated third-party listings unless intentionally changed."
+  },
+  "braun-series-7": {
+    "name": "Braun Series 7",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Braun Series 7 here. Use a current wet/dry Series 7 shaver bundle such as 7185cc / 7071cc / 7127cs or closest market equivalent; avoid Series 3/5/6/8/9, replacement heads, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "panasonic-arc5": {
+    "name": "Panasonic Arc5",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Panasonic Arc5 here. Use a current or widely available Arc5 model such as ES-LV67 / ES-LV97 depending on market; avoid Arc3, Arc4, Arc6, replacement foils, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "panasonic-arc5-palm-sized-series-900s": {
+    "name": "Panasonic Arc5 Palm-Sized / Series 900S",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Panasonic Arc5 Palm-Sized / Series 900S here. Use ES-PV3A-K / ES-PV6B or the closest current palm-sized Arc5 listing; avoid full-size Arc5, replacement foils, renewed, or accessory-only listings unless intentionally changed."
+  }
+
 
 };
