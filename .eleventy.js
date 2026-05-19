@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("affiliate-links.js");
   eleventyConfig.addPassthroughCopy("affiliate-loader.js");
   eleventyConfig.addPassthroughCopy("site.webmanifest");
+  eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("tools");
 
   // Copy common image/icon file types from the repo root
