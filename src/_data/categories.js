@@ -298,6 +298,24 @@ module.exports = [
     "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of quiet use, top-fill convenience, realistic capacity, and long-term ownership simplicity."
   },
 
+
+  {
+    "title": "Water Flosser",
+    "slug": "water-flosser",
+    "url": "/water-flosser.html",
+    "group": "Personal Care",
+    "cardTitle": "The water flosser that makes the most sense",
+    "decision": "Waterpik Aquarius Water Flosser",
+    "image": "/Waterpik-Aquarius.png",
+    "imageAlt": "Waterpik Aquarius Water Flosser",
+    "summary": "The best water flosser for most people: reliable daily cleaning, a full-size tank, easy tip replacement, and fewer compromises than cordless or cheap high-spec alternatives.",
+    "proof": "solves the real ownership problem: enough tank capacity, pressure control, and a proven tip ecosystem without battery or tiny-reservoir friction.",
+    "price": "Typical price: $70–$110",
+    "featured": true,
+    "featuredSub": "Personal Care · Typical price: $70–$110",
+    "featuredQuote": "“The best water flosser for most people: Waterpik Aquarius Water Flosser — reliable daily cleaning, a full-size tank, and fewer compromises than cordless alternatives.”",
+    "featuredProof": "<strong>Why it wins:</strong> proven Waterpik ownership patterns, practical tank size, broad tip support, and a simpler long-term reliability case than battery-powered or cheap clone models."
+  },
   {
     "title": "Electric Toothbrush",
     "slug": "electric-toothbrush",
