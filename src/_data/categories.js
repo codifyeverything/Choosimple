@@ -401,5 +401,22 @@ module.exports = [
     "featuredSub": "Personal Care · Typical price: $180–$250",
     "featuredQuote": "“The best hair straightener for most people: T3 SinglePass StyleMax 1” — controlled heat, smooth styling, and practical everyday ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> balanced reliability, controlled heat, and ease of use make it more defensible than cheap flat irons and less excessive than luxury tools."
+  },
+  {
+    "title": "Curling Iron",
+    "slug": "curling-iron",
+    "url": "/curling-iron.html",
+    "group": "Personal Care",
+    "cardTitle": "The curling iron that makes the most sense",
+    "decision": "T3 SinglePass Curl X, 1.25”",
+    "image": "/T3-SinglePass-CurlX.png",
+    "imageAlt": "T3 SinglePass Curl X 1.25 inch curling iron",
+    "summary": "The best curling iron for most people: controlled heat, smooth styling, long-barrel usability, and fewer regrets than cheap, overly hot, or overcomplicated alternatives.",
+    "proof": "balances curl performance, heat control, everyday usability, and long-term ownership better than budget irons, automatic curlers, or premium air-styling systems.",
+    "price": "Typical price: $130–$230",
+    "featured": true,
+    "featuredSub": "Personal Care · Typical price: $130–$230",
+    "featuredQuote": "“The best curling iron for most people: T3 SinglePass Curl X, 1.25” — controlled heat, smooth styling, and practical premium ownership.”",
+    "featuredProof": "<strong>Why it wins:</strong> controlled heat, long-barrel usability, smooth handling, and a safer broad-use decision than cheap irons or overcomplicated styling systems."
   }
 ];
