@@ -429,5 +429,31 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Paste the Geniuslink URL or Choice Page URL for the AprilAire E080 here. Use the E080 heavy-duty whole-home/basement/crawlspace dehumidifier; avoid E070, E100, E080W unless intentionally used as a fallback, renewed, accessory-only, or inflated third-party listings unless intentionally changed."
   }
 
+  ,
+  "cuisinart-perfectemp-cpk-17": {
+    "name": "Cuisinart PerfecTemp Electric Kettle",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Cuisinart PerfecTemp electric kettle here. Use CPK-17 for U.S. listings and CPK-17C for Canadian listings; avoid renewed, accessory-only, stovetop, or unrelated Cuisinart kettle variants unless intentionally changed."
+  },
+  "oxo-brew-adjustable-temperature-kettle-1-75l": {
+    "name": "OXO Brew Adjustable Temperature Kettle 1.75L",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the standard OXO Brew Adjustable Temperature Kettle 1.75L here. Avoid the OXO gooseneck pour-over kettle, renewed listings, accessory-only listings, or inflated marketplace variants unless intentionally changed."
+  },
+  "fellow-stagg-ekg": {
+    "name": "Fellow Stagg EKG",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Fellow Stagg EKG electric gooseneck kettle here. Use the standard Stagg EKG or intentional EKG Pro listing; avoid stovetop Stagg, replacement parts, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "hamilton-beach-1-7l-glass-kettle": {
+    "name": "Hamilton Beach 1.7L Glass Electric Kettle",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Hamilton Beach 1.7L glass electric kettle here. Use the 40864 / 40864C or closest current 1.7L glass model; avoid stovetop, plastic-only, small-capacity, renewed, or accessory-only listings unless intentionally changed."
+  }
+
 
 };
