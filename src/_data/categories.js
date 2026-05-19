@@ -318,6 +318,23 @@ module.exports = [
   },
 
   {
+    "title": "Beard Trimmer",
+    "slug": "beard-trimmer",
+    "url": "/beard-trimmer.html",
+    "group": "Personal Care",
+    "cardTitle": "The beard trimmer that makes the most sense",
+    "decision": "Philips Norelco Multigroom 9000",
+    "image": "/Philips-Norelco-Multigroom-9000.png",
+    "imageAlt": "Philips Norelco Multigroom 9000",
+    "summary": "The best beard trimmer for most people: dependable trimming, strong battery life, useful attachments, and easier long-term ownership than cheap kits or barber-style tools.",
+    "proof": "solves the real ownership problem: clean repeatable beard maintenance without weak batteries, flimsy guards, or attachment clutter.",
+    "price": "Typical price: $80–$130",
+    "featured": true,
+    "featuredSub": "Personal Care · Typical price: $80–$130",
+    "featuredQuote": "“The best beard trimmer for most people: Philips Norelco Multigroom 9000 — reliable, versatile, and easier to live with than cheap kits or pro-style tools.”",
+    "featuredProof": "<strong>Why it wins:</strong> strong battery confidence, easy cleaning, useful attachments, and the safest mainstream ownership profile for regular beard maintenance."
+  },
+  {
     "title": "Electric Shaver",
     "slug": "electric-shaver",
     "url": "/electric-shaver.html",
