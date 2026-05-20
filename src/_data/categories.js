@@ -352,6 +352,23 @@ module.exports = [
     "featuredProof": "<strong>Why it wins:</strong> strong comfort, broad availability, mature replacement support, and the safest low-regret ownership profile for daily face shaving."
   },
   {
+    "title": "Massage Gun",
+    "slug": "massage-gun",
+    "url": "/massage-gun.html",
+    "group": "Personal Care",
+    "cardTitle": "The massage gun that makes the most sense",
+    "decision": "Ekrin B37v2",
+    "image": "/Ekrin-Athletics-B37v2.png",
+    "imageAlt": "Ekrin B37v2 massage gun",
+    "summary": "The best massage gun for most people: strong enough for real recovery, comfortable enough to keep using, and a more defensible ownership fit than louder, heavier, or cheaper alternatives.",
+    "proof": "balances reliability, power, quiet use, comfort, and value better than premium overkill or no-name budget models.",
+    "price": "Typical price: $250–$330",
+    "featured": true,
+    "featuredSub": "Personal Care · Typical price: $250–$330",
+    "featuredQuote": "“The best massage gun for most people: Ekrin B37v2 — strong, comfortable, quiet enough, and easier to defend than premium overkill or cheap clones.”",
+    "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of reliability signal, real recovery performance, comfortable handling, quiet use, and long-term value."
+  },
+  {
     "title": "Electric Toothbrush",
     "slug": "electric-toothbrush",
     "url": "/electric-toothbrush.html",
