@@ -8305,3 +8305,59 @@ body {
     scroll-margin-top: 88px !important;
   }
 }
+
+/* ═══ Choosimple premium header visibility refinement ═══
+   Purpose: make the global header read as a distinct, polished navigation layer
+   without changing markup, page layout, category content, or footer styling. */
+.cs-site .nav {
+  background: rgba(252, 250, 238, 0.97) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(1.08) !important;
+  backdrop-filter: blur(16px) saturate(1.08) !important;
+  border-bottom: 1px solid rgba(128, 111, 71, 0.34) !important;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.72) inset,
+    0 10px 30px -24px rgba(20, 18, 12, 0.48),
+    0 2px 10px rgba(31, 41, 20, 0.045) !important;
+}
+
+.cs-site .nav-inner {
+  align-items: center !important;
+}
+
+.cs-site .nav-primary > a,
+.cs-site .nav-categories-toggle {
+  color: #263817 !important;
+  font-weight: 650 !important;
+  letter-spacing: 0.01em !important;
+}
+
+.cs-site .nav-primary > a:hover,
+.cs-site .nav-categories-toggle:hover,
+.cs-site .nav-primary > a.active {
+  color: var(--green-mid) !important;
+}
+
+.cs-site .nav-subscribe-link {
+  background: #eef5d7 !important;
+  border-color: rgba(108, 132, 67, 0.58) !important;
+  color: #263817 !important;
+  font-weight: 750 !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset !important;
+}
+
+.cs-site .nav-menu-toggle {
+  background: #fffdf3 !important;
+  border-color: rgba(128, 111, 71, 0.34) !important;
+  color: #263817 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset !important;
+}
+
+@media (max-width: 900px) {
+  .cs-site .nav {
+    background: rgba(252, 250, 238, 0.985) !important;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.72) inset,
+      0 10px 26px -22px rgba(20, 18, 12, 0.42) !important;
+  }
+}
