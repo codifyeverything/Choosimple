@@ -13,7 +13,7 @@ module.exports = [
     "price": "Typical price: $350–$480",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $350–$480",
-    "featuredQuote": "“The best blender for most people: Vitamix 5200 — proven durability, consistent performance, and simple long-term ownership.”",
+    "featuredQuote": "“The best blender for most people: Vitamix 5200: proven durability, consistent performance, and simple long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> proven motor durability, consistent results across smoothies, frozen fruit, nut butters, and soups, and a simple low-failure design."
   },
   {
@@ -30,7 +30,7 @@ module.exports = [
     "price": "Typical price: $100–$200",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $100–$200",
-    "featuredQuote": "“The best air fryer for most people: Instant Vortex Plus 6-Quart — practical capacity, strong everyday cooking, and simpler long-term ownership.”",
+    "featuredQuote": "“The best air fryer for most people: Instant Vortex Plus 6-Quart: practical capacity, strong everyday cooking, and simpler long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> the 6-quart size hits the sweet spot for daily meals without paying for features most households ignore."
   },
   {
@@ -47,7 +47,7 @@ module.exports = [
     "price": "Typical price: $180–$220",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $180–$220",
-    "featuredQuote": "“The best coffee grinder for most people: Baratza Encore ESP — consistent burr grinding, broad brew coverage, and a simpler long-term fit.”",
+    "featuredQuote": "“The best coffee grinder for most people: Baratza Encore ESP: consistent burr grinding, broad brew coverage, and a simpler long-term fit.”",
     "featuredProof": "<strong>Why it wins:</strong> dependable grind quality, strong owner trust, and a broader use case than more specialized grinders."
   },
 
@@ -65,7 +65,7 @@ module.exports = [
     "price": "Typical price: $400–$500",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $400–$500",
-    "featuredQuote": "“The best espresso machine for most people: Breville Bambino Plus — real espresso, easy milk drinks, compact ownership, and fewer long-term compromises.”",
+    "featuredQuote": "“The best espresso machine for most people: Breville Bambino Plus: real espresso, easy milk drinks, compact ownership, and fewer long-term compromises.”",
     "featuredProof": "<strong>Why it wins:</strong> strong daily usability, automatic milk support, compact size, and no built-in grinder dependency."
   },
 
@@ -83,7 +83,7 @@ module.exports = [
     "price": "Typical price: $250–$350",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $250–$350",
-    "featuredQuote": "“The best toaster oven for most people: Breville Smart Oven Pro — practical capacity, predictable cooking, and daily usability without oversized-appliance regret.”",
+    "featuredQuote": "“The best toaster oven for most people: Breville Smart Oven Pro: practical capacity, predictable cooking, and daily usability without oversized-appliance regret.”",
     "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of cooking consistency, capacity, controls, and long-term ownership confidence."
   },
   {
@@ -100,7 +100,7 @@ module.exports = [
     "price": "Typical price: $110–$160",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $110–$160",
-    "featuredQuote": "“The best Instant Pot for most people: Instant Pot Duo Plus 6 qt — proven 6-quart usability, a cleaner daily experience, and no premium-model clutter.”",
+    "featuredQuote": "“The best Instant Pot for most people: Instant Pot Duo Plus 6 qt: proven 6-quart usability, a cleaner daily experience, and no premium-model clutter.”",
     "featuredProof": "<strong>Why it wins:</strong> it keeps the dependable Instant Pot formula, improves the daily interface, and avoids the size, cost, and complexity of air-fryer or smart models."
   },
 
@@ -118,7 +118,7 @@ module.exports = [
     "price": "Typical price: $230–$320",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $230–$320",
-    "featuredQuote": "“The best rice cooker for most people: Zojirushi NS-ZCC10 Neuro Fuzzy — reliable, forgiving, and easier to defend than cheap cookers or premium overkill.”",
+    "featuredQuote": "“The best rice cooker for most people: Zojirushi NS-ZCC10 Neuro Fuzzy: reliable, forgiving, and easier to defend than cheap cookers or premium overkill.”",
     "featuredProof": "<strong>Why it wins:</strong> the strongest ownership pattern, forgiving fuzzy logic, practical 5.5-cup capacity, and fewer long-term regrets than cheaper or more complex models."
   },
 
@@ -136,7 +136,7 @@ module.exports = [
     "price": "Typical price: $200–$320",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $200–$320",
-    "featuredQuote": "“The best food processor for most people: Cuisinart Custom 14-Cup — proven, practical, and easier to defend than cheap or overbuilt alternatives.”",
+    "featuredQuote": "“The best food processor for most people: Cuisinart Custom 14-Cup: proven, practical, and easier to defend than cheap or overbuilt alternatives.”",
     "featuredProof": "<strong>Why it wins:</strong> long-term owner trust, useful 14-cup capacity, simple controls, and fewer regret points than mini, budget, or attachment-heavy machines."
   },
 
@@ -154,7 +154,7 @@ module.exports = [
     "price": "Typical price: $25–$45",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $25–$45",
-    "featuredQuote": "“The best nonstick pan for most people: Tramontina Professional Fusion 10-Inch — simple, reliable, easy to clean, and priced for real ownership.”",
+    "featuredQuote": "“The best nonstick pan for most people: Tramontina Professional Fusion 10-Inch: simple, reliable, easy to clean, and priced for real ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> strong everyday nonstick performance, a rivetless interior that is easier to clean, and a price that makes replacement rational when the coating eventually declines."
   },
 
@@ -172,7 +172,7 @@ module.exports = [
     "price": "Typical price: $80–$130",
     "featured": true,
     "featuredSub": "Kitchen · Typical price: $80–$130",
-    "featuredQuote": "“The best electric kettle for most people: Cuisinart PerfecTemp Electric Kettle — reliable presets, broad availability, and simple daily ownership.”",
+    "featuredQuote": "“The best electric kettle for most people: Cuisinart PerfecTemp Electric Kettle: reliable presets, broad availability, and simple daily ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> useful temperature presets, a long ownership track record, simple daily controls, and a cleaner North America-wide buying path."
   },
   {
@@ -189,7 +189,7 @@ module.exports = [
     "price": "Typical price: $850–$1,200",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $850–$1,200",
-    "featuredQuote": "“The best robot vacuum for most people: Roborock Qrevo Curv — strong automation, reliable navigation, and a dock that feels worth the money.”",
+    "featuredQuote": "“The best robot vacuum for most people: Roborock Qrevo Curv: strong automation, reliable navigation, and a dock that feels worth the money.”",
     "featuredProof": "<strong>Why it wins:</strong> strong daily automation without stepping into the most failure-prone premium complexity."
   },
   {
@@ -206,7 +206,7 @@ module.exports = [
     "price": "Typical price: $180–$250",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $180–$250",
-    "featuredQuote": "“The best air purifier for most people: Coway AP-1512HH Mighty — real airflow, manageable filter costs, and dependable everyday ownership.”",
+    "featuredQuote": "“The best air purifier for most people: Coway AP-1512HH Mighty: real airflow, manageable filter costs, and dependable everyday ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> balanced airflow, realistic room coverage, and filter costs that stay manageable over time."
   },
   {
@@ -223,7 +223,7 @@ module.exports = [
     "price": "Typical price: $150–$250",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $150–$250",
-    "featuredQuote": "“The best video doorbell for most people: Ring Battery Doorbell Plus — easy setup, reliable alerts, and less annoying long-term ownership.”",
+    "featuredQuote": "“The best video doorbell for most people: Ring Battery Doorbell Plus: easy setup, reliable alerts, and less annoying long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> strong mainstream reliability, a removable battery, good package visibility, and a mature app ecosystem."
   },
 
@@ -241,7 +241,7 @@ module.exports = [
     "price": "Typical price: $550–$750",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $550–$750",
-    "featuredQuote": "“The best cordless vacuum for most people: Dyson V15 Detect — strong mixed-floor cleaning, pet-hair confidence, and proven ownership without flagship overkill.”",
+    "featuredQuote": "“The best cordless vacuum for most people: Dyson V15 Detect: strong mixed-floor cleaning, pet-hair confidence, and proven ownership without flagship overkill.”",
     "featuredProof": "<strong>Why it wins:</strong> broad cleaning performance, strong pet-hair pickup, mature accessory support, and fewer unknowns than newer dock-based or flagship models."
   },
   {
@@ -258,7 +258,7 @@ module.exports = [
     "price": "Typical price: $300–$550",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $300–$550",
-    "featuredQuote": "“The best upright vacuum for most people: Shark Stratos Upright Vacuum — serious carpet cleaning, pet-hair confidence, and practical whole-home ownership.”",
+    "featuredQuote": "“The best upright vacuum for most people: Shark Stratos Upright Vacuum: serious carpet cleaning, pet-hair confidence, and practical whole-home ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> strong mainstream cleaning, better hair handling, lift-away versatility, and a more defensible ownership fit than heavier or cheaper alternatives."
   },
 
@@ -276,7 +276,7 @@ module.exports = [
     "price": "Typical price: $230–$330",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $230–$330",
-    "featuredQuote": "“The best dehumidifier for most people: Midea Cube 50 Pint — serious moisture removal, easier daily ownership, and no unnecessary pump complexity.”",
+    "featuredQuote": "“The best dehumidifier for most people: Midea Cube 50 Pint: serious moisture removal, easier daily ownership, and no unnecessary pump complexity.”",
     "featuredProof": "<strong>Why it wins:</strong> strong moisture removal, a large tank, continuous drainage, and a simpler reliability profile than pump-heavy or underpowered alternatives."
   },
 
@@ -294,7 +294,7 @@ module.exports = [
     "price": "Typical price: $80–$130",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $80–$130",
-    "featuredQuote": "“The best humidifier for most people: Levoit Classic 300S — quiet, easy to refill, and sized for normal rooms without overbuying.”",
+    "featuredQuote": "“The best humidifier for most people: Levoit Classic 300S: quiet, easy to refill, and sized for normal rooms without overbuying.”",
     "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of quiet use, top-fill convenience, realistic capacity, and long-term ownership simplicity."
   },
 
@@ -313,7 +313,7 @@ module.exports = [
     "price": "Typical price: $70–$110",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $70–$110",
-    "featuredQuote": "“The best water flosser for most people: Waterpik Aquarius Water Flosser — reliable daily cleaning, a full-size tank, and fewer compromises than cordless alternatives.”",
+    "featuredQuote": "“The best water flosser for most people: Waterpik Aquarius Water Flosser: reliable daily cleaning, a full-size tank, and fewer compromises than cordless alternatives.”",
     "featuredProof": "<strong>Why it wins:</strong> proven Waterpik ownership patterns, practical tank size, broad tip support, and a simpler long-term reliability case than battery-powered or cheap clone models."
   },
 
@@ -331,7 +331,7 @@ module.exports = [
     "price": "Typical price: $80–$130",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $80–$130",
-    "featuredQuote": "“The best beard trimmer for most people: Philips Norelco Multigroom 9000 — reliable, versatile, and easier to live with than cheap kits or pro-style tools.”",
+    "featuredQuote": "“The best beard trimmer for most people: Philips Norelco Multigroom 9000: reliable, versatile, and easier to live with than cheap kits or pro-style tools.”",
     "featuredProof": "<strong>Why it wins:</strong> strong battery confidence, easy cleaning, useful attachments, and the safest mainstream ownership profile for regular beard maintenance."
   },
   {
@@ -348,7 +348,7 @@ module.exports = [
     "price": "Typical price: $250–$450",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $250–$450",
-    "featuredQuote": "“The best electric shaver for most men: Braun Series 9 Pro+ — comfortable, close enough, reliable, and easier to defend than aggressive or niche alternatives.”",
+    "featuredQuote": "“The best electric shaver for most men: Braun Series 9 Pro+: comfortable, close enough, reliable, and easier to defend than aggressive or niche alternatives.”",
     "featuredProof": "<strong>Why it wins:</strong> strong comfort, broad availability, mature replacement support, and the safest low-regret ownership profile for daily face shaving."
   },
   {
@@ -365,7 +365,7 @@ module.exports = [
     "price": "Typical price: $250–$330",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $250–$330",
-    "featuredQuote": "“The best massage gun for most people: Ekrin B37v2 — strong, comfortable, quiet enough, and easier to defend than premium overkill or cheap clones.”",
+    "featuredQuote": "“The best massage gun for most people: Ekrin B37v2: strong, comfortable, quiet enough, and easier to defend than premium overkill or cheap clones.”",
     "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of reliability signal, real recovery performance, comfortable handling, quiet use, and long-term value."
   },
   {
@@ -382,7 +382,7 @@ module.exports = [
     "price": "Typical price: $50–$90",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $50–$90",
-    "featuredQuote": "“The best electric toothbrush for most people: Philips Sonicare 4100 Series — reliable daily cleaning, simple ownership, and fewer premium extras.”",
+    "featuredQuote": "“The best electric toothbrush for most people: Philips Sonicare 4100 Series: reliable daily cleaning, simple ownership, and fewer premium extras.”",
     "featuredProof": "<strong>Why it wins:</strong> proven daily cleaning with pressure sensing and fewer gimmicks than pricier models."
   },
   {
@@ -399,7 +399,7 @@ module.exports = [
     "price": "Typical price: $180–$250",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $180–$250",
-    "featuredQuote": "“The best hair dryer for most people: T3 AireLuxe — controlled drying, daily comfort, and practical premium ownership without Dyson-level pricing.”",
+    "featuredQuote": "“The best hair dryer for most people: T3 AireLuxe: controlled drying, daily comfort, and practical premium ownership without Dyson-level pricing.”",
     "featuredProof": "<strong>Why it wins:</strong> balanced reliability, comfort, control, and value make it more defensible than cheap dryers and less excessive than luxury systems."
   },
   {
@@ -416,7 +416,7 @@ module.exports = [
     "price": "Typical price: $180–$250",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $180–$250",
-    "featuredQuote": "“The best hair straightener for most people: T3 SinglePass StyleMax 1” — controlled heat, smooth styling, and practical everyday ownership.”",
+    "featuredQuote": "“The best hair straightener for most people: T3 SinglePass StyleMax 1”: controlled heat, smooth styling, and practical everyday ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> balanced reliability, controlled heat, and ease of use make it more defensible than cheap flat irons and less excessive than luxury tools."
   },
   {
@@ -433,7 +433,7 @@ module.exports = [
     "price": "Typical price: $130–$230",
     "featured": true,
     "featuredSub": "Personal Care · Typical price: $130–$230",
-    "featuredQuote": "“The best curling iron for most people: T3 SinglePass Curl X, 1.25” — controlled heat, smooth styling, and practical premium ownership.”",
+    "featuredQuote": "“The best curling iron for most people: T3 SinglePass Curl X, 1.25”: controlled heat, smooth styling, and practical premium ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> controlled heat, long-barrel usability, smooth handling, and a safer broad-use decision than cheap irons or overcomplicated styling systems."
   }
 ];

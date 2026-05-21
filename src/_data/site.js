@@ -9,7 +9,7 @@ module.exports = {
       title: "Kitchen",
       slug: "kitchen",
       url: "/kitchen/",
-      description: "Reliable picks for the kitchen products people compare most — from countertop appliances to everyday prep tools.",
+      description: "Reliable picks for the kitchen products people compare most, from countertop appliances to everyday prep tools.",
       shortDescription: "Countertop appliances, prep tools, and kitchen upgrades worth getting right.",
       eyebrow: "Kitchen"
     },
