@@ -272,7 +272,7 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "cuisinart-chefs-convection-tob-260n1": {
     "name": "Cuisinart Chef's Convection Toaster Oven",
-    "url": "",
+    "url": "https://amzn.to/4tKQZvx",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuisinart Chef's Convection Toaster Oven here. Use TOB-260N1 / TOB-260N1C new-unit listings; avoid TOA air-fryer models, renewed, remanufactured, accessory-only, or unrelated Cuisinart toaster oven listings unless intentionally changed."
   },
