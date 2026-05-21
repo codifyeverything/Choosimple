@@ -1,0 +1,191 @@
+CHOOSIMPLE EDITORIAL REFINEMENT SUMMARY
+Generated: 2026-05-21 12:56:40.861919
+
+Primary goals:
+- Reduce detectable AI-writing cadence
+- Reduce em-dash overuse
+- Humanize repetitive CTA structures
+- Improve editorial rhythm and trust
+- Preserve existing structure and SEO/LLMO strengths
+
+FILES CHANGED:
+
+src/_data/categories.js
+  - Standardized featured quote punctuation across category metadata
+
+src/_data/site.js
+  - Reduced AI-style em dash cadence
+
+src/_includes/footer.njk
+  - Reduced unnecessary em dash in footer
+
+src/_includes/header.njk
+  - Removed unnecessary aria-label em dash
+
+src/about.njk
+  - Reduced rhetorical em dash usage
+  - Made positioning statement feel more editorial and human
+  - Humanized manifesto-style bullet
+  - Humanized manifesto-style bullet
+  - Reduced AI-coded phrasing
+  - Reduced repetitive em dash structure
+
+src/air-fryer.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/air-purifier.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/beard-trimmer.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/blender.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/coffee-grinder.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/contact.njk
+  - Made contact-page tone more human and direct
+
+src/cordless-vacuum.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/curling-iron.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/dehumidifier.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/disclosure.njk
+  - Simplified trust language
+  - Reduced AI-coded punctuation cadence
+  - Removed unnecessary em dash
+  - Humanized explanatory cadence
+
+src/electric-kettle.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/electric-shaver.njk
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/electric-toothbrush.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/espresso-machine.njk
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/food-processor.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/hair-dryer.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/hair-straightener.njk
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/humidifier.njk
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/instant-pot.njk
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/massage-gun.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/nonstick-pan.njk
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/rice-cooker.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/robot-vacuum.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/toaster-oven.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/upright-vacuum.njk
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+
+src/video-doorbell.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
+  - Humanized trust-block language
+
+src/water-flosser.njk
+  - Removed AI-style em-dash proofline construction
+  - Humanized repetitive mid-CTA structure
+  - Replaced repetitive em-dash heading
+  - Standardized punctuation and removed em dash
