@@ -8431,3 +8431,26 @@ body {
     opacity: 1 !important;
   }
 }
+
+
+/* ═══ Choosimple nav word crispness fix — links only ═══
+   Only targets the header words: Categories, All decisions, About, Disclosure, Privacy, Contact. */
+.cs-site .nav-primary > a:not(.nav-subscribe-link),
+.cs-site .nav-categories-toggle {
+  color: #fffbea !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.005em !important;
+  line-height: 1 !important;
+  text-shadow: none !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: geometricPrecision !important;
+}
+
+.cs-site .nav-primary > a:not(.nav-subscribe-link):hover,
+.cs-site .nav-primary > a:not(.nav-subscribe-link).active,
+.cs-site .nav-categories-toggle:hover {
+  color: #dbe96f !important;
+}
