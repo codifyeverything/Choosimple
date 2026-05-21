@@ -272,7 +272,7 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "cuisinart-chefs-convection-tob-260n1": {
     "name": "Cuisinart Chef's Convection Toaster Oven",
-    "url": "https://amzn.to/4tKQZvx",
+    "url": "https://www.amazon.com/Cuisinart-TOB-260N1-Convection-Toaster-Stainless/dp/B01M0AWSJX?crid=2D2FGF57QUH56&dib=eyJ2IjoiMSJ9.uD-hMYOCXpJyF5ykDrBZaJHGk1OEdtvE4hKodE8LQqYqEL6gN_kR0Zh1JDcAtZn8iXTPmdnumeF-h35YF1WytIjKdKcVLuqp8Cxm9vMSkmvW0sjauq6vQQ9XjlTIhkPBnQLul079T6F-R7ojDkjoTH7P0ME8y01zORl7PIiUoHvb8PMX02hVYehvp48F0L7Pu74dgn5Z-HvdKpd7LygZ8OMmT5CFSIvsqpDnywagOWA.b6_acAsyMseoRVdiZyRkyRUrJGjxjiVYcq9VlrkDFbk&dib_tag=se&keywords=Cuisinart%2BChef%E2%80%99s%2BConvection%2BToaster%2BOven%2BTOB-260N1&qid=1779384080&sprefix=cuisinart%2Bchef%2Bs%2Bconvection%2Btoaster%2Boven%2Btob-260n1%2Caps%2C182&sr=8-1&th=1&linkCode=ll2&tag=choosimple-20&linkId=cf2a95c4417a77a28aa6220fd2606dbf&language=en_US&ref_=as_li_ss_tl",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuisinart Chef's Convection Toaster Oven here. Use TOB-260N1 / TOB-260N1C new-unit listings; avoid TOA air-fryer models, renewed, remanufactured, accessory-only, or unrelated Cuisinart toaster oven listings unless intentionally changed."
   },
