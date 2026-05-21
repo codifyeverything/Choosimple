@@ -82,7 +82,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "instant-vortex-plus-6qt": {
     "name": "Instant Vortex Plus 6-Quart",
-    "url": "",
+    "url": "https://amzn.to/3PtmvAh",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
