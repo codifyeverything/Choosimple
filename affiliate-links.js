@@ -4,7 +4,7 @@
 window.CS_AFFILIATE_LINKS = {
   "baratza-encore-esp": {
     "name": "Baratza Encore ESP",
-    "url": "",
+    "url": "https://amzn.to/3RmrSC0",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
