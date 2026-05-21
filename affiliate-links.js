@@ -4,7 +4,7 @@
 window.CS_AFFILIATE_LINKS = {
   "baratza-encore-esp": {
     "name": "Baratza Encore ESP",
-    "url": "",
+    "url": "https://amzn.to/3RmrSC0",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
@@ -16,7 +16,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "breville-bambino-plus": {
     "name": "Breville Bambino Plus",
-    "url": "",
+    "url": "https://amzn.to/4dB80m1",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Bambino Plus here. Use the BES500/BES500BSS model, not the regular Bambino."
   },
@@ -82,7 +82,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "instant-vortex-plus-6qt": {
     "name": "Instant Vortex Plus 6-Quart",
-    "url": "",
+    "url": "https://amzn.to/3PtmvAh",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
@@ -202,7 +202,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-5200": {
     "name": "Vitamix 5200",
-    "url": "",
+    "url": "https://amzn.to/3RkrGmF",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
