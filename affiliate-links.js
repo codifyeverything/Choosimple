@@ -202,7 +202,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-5200": {
     "name": "Vitamix 5200",
-    "url": "",
+    "url": "https://amzn.to/3RkrGmF",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
