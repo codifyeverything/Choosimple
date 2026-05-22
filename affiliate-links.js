@@ -16,7 +16,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "breville-bambino-plus": {
     "name": "Breville Bambino Plus",
-    "url": "https://amzn.to/4dB80m1",
+    "url": "https://geni.us/sfYFR",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Bambino Plus here. Use the BES500/BES500BSS model, not the regular Bambino."
   },
@@ -270,11 +270,11 @@ window.CS_AFFILIATE_LINKS = {
 
 
   ,
-  "breville-smart-oven-pro": {
-    "name": "Breville Smart Oven Pro",
-    "url": "",
+  "cuisinart-chefs-convection-tob-260n1": {
+    "name": "Cuisinart Chef's Convection Toaster Oven",
+    "url": "https://geni.us/2vGyLn",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Breville Smart Oven Pro here. Use BOV845BSS / BOV845 model listings; avoid Mini, Compact, Air Fryer Pro, Joule, renewed, or accessory-only listings unless intentionally changed."
+    "notes": "Paste the Geniuslink URL for the Cuisinart Chef's Convection Toaster Oven here. Use TOB-260N1 / TOB-260N1C new-unit listings; avoid TOA air-fryer models, renewed, remanufactured, accessory-only, or unrelated Cuisinart toaster oven listings unless intentionally changed."
   },
   "breville-smart-oven-air-fryer-pro": {
     "name": "Breville Smart Oven Air Fryer Pro",
