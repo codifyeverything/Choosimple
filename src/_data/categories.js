@@ -39,16 +39,16 @@ module.exports = [
     "url": "/coffee-grinder.html",
     "group": "Kitchen",
     "cardTitle": "The coffee grinder that makes the most sense",
-    "decision": "Baratza Encore ESP",
-    "image": "/baratza-encore-esp.png",
-    "imageAlt": "Baratza Encore ESP",
-    "summary": "The best coffee grinder for most people: consistent burr grinding across brew styles, strong long-term usability, and a simpler ownership fit than specialized grinders.",
-    "proof": "reliable grind quality and broad brew coverage without stepping into specialist complexity.",
-    "price": "Typical price: $180–$220",
+    "decision": "Breville Smart Grinder Pro",
+    "image": "/Breville-Smart-Grinder-Pro.png",
+    "imageAlt": "Breville Smart Grinder Pro",
+    "summary": "The best coffee grinder for most people: broad grind coverage, intuitive controls, and a cleaner mainstream ownership fit than cheaper or more specialized grinders.",
+    "proof": "covers espresso, drip, pour-over, French press, and cold brew without pushing most buyers into specialist grinder complexity.",
+    "price": "Typical price: $200–$250",
     "featured": true,
-    "featuredSub": "Kitchen · Typical price: $180–$220",
-    "featuredQuote": "“The best coffee grinder for most people: Baratza Encore ESP — consistent burr grinding, broad brew coverage, and a simpler long-term fit.”",
-    "featuredProof": "<strong>Why it wins:</strong> dependable grind quality, strong owner trust, and a broader use case than more specialized grinders."
+    "featuredSub": "Kitchen · Typical price: $200–$250",
+    "featuredQuote": "“The best coffee grinder for most people: Breville Smart Grinder Pro — broad grind coverage, intuitive controls, and a cleaner mainstream buying path.”",
+    "featuredProof": "<strong>Why it wins:</strong> broad espresso-to-French-press coverage, clear daily controls, strong mainstream availability, and fewer purchase-path regrets than harder-to-buy alternatives."
   },
 
   {
