@@ -396,21 +396,27 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "cuisinart-custom-14-cup-dfp-14bcny": {
     "name": "Cuisinart Custom 14-Cup Food Processor",
-    "url": "",
+    "url": "https://geni.us/isVVAR",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Cuisinart Custom 14-Cup Food Processor here. Use the DFP-14BCNY / Custom 14-cup model family; avoid Mini-Prep, Elemental, Pro Custom 11, renewed, accessory-only, or replacement-bowl listings unless intentionally changed."
+    "notes": "Geniuslink for the Cuisinart Custom 14-Cup Food Processor. Use the DFP-14BCNY / Custom 14-cup model family; avoid Mini-Prep, Elemental, Pro Custom 11, renewed, accessory-only, or replacement-bowl listings unless intentionally changed."
   },
   "hamilton-beach-stack-snap-70725a": {
     "name": "Hamilton Beach 12-Cup Stack & Snap 70725A",
-    "url": "",
+    "url": "https://geni.us/3A2C07",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Hamilton Beach 12-Cup Stack & Snap food processor here. Use the 70725A / 12-cup Stack & Snap model family; avoid 10-cup Bowl Scraper, 8-cup, mini chopper, renewed, or accessory-only listings unless intentionally changed."
+    "notes": "Geniuslink for the Hamilton Beach 12-Cup Stack & Snap food processor. Use the 70725A / 12-cup Stack & Snap model family; avoid 10-cup Bowl Scraper, 8-cup, mini chopper, renewed, or accessory-only listings unless intentionally changed."
   },
   "cuisinart-mini-prep-plus": {
     "name": "Cuisinart Mini-Prep Plus 3-Cup",
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuisinart Mini-Prep Plus here. Use the DLC-2ABC / DLC-2A 3-cup Mini-Prep Plus model family; avoid full-size Cuisinart processors, replacement parts, renewed, or accessory-only listings unless intentionally changed."
+  },
+  "kitchenaid-3-5-cup-food-chopper-kfc3516": {
+    "name": "KitchenAid 3.5 Cup Food Chopper",
+    "url": "https://geni.us/5AKTRCz",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the KitchenAid 3.5 Cup Food Chopper. Use the KFC3516 / 3.5-cup Food Chopper model family; colour may vary by region, but avoid 5-cup choppers, 7-cup or larger food processors, cordless models, renewed units, replacement bowls, accessories, and unrelated KitchenAid variants unless intentionally changed."
   },
   "breville-sous-chef-12": {
     "name": "Breville Sous Chef 12",
