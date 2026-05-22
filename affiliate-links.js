@@ -220,7 +220,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-ascent-x2": {
     "name": "Vitamix Ascent X2",
-    "url": "",
+    "url": "https://geni.us/blZr",
     "merchant": "Amazon",
     "notes": "Use the Vitamix Ascent X2 blender with 48 oz / 1.4L container. Avoid SmartPrep bundles, Ascent X3/X4/X5, renewed units, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
@@ -232,7 +232,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-propel-510": {
     "name": "Vitamix Propel 510",
-    "url": "",
+    "url": "https://geni.us/7uOjs",
     "merchant": "Amazon",
     "notes": "Use the Vitamix Propel Series 510 with 48 oz / 1.4L container. Avoid renewed units, Propel 750, Explorian E310, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
