@@ -300,11 +300,23 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuisinart Chef's Convection Toaster Oven here. Use TOB-260N1 / TOB-260N1C new-unit listings; avoid TOA air-fryer models, renewed, remanufactured, accessory-only, or unrelated Cuisinart toaster oven listings unless intentionally changed."
   },
+  "breville-smart-oven-pro-bov845bss": {
+    "name": "Breville Smart Oven Pro",
+    "url": "https://geni.us/Q5BPMJ",
+    "merchant": "Amazon",
+    "notes": "Use the Breville Smart Oven Pro BOV845BSS model family. Avoid the larger Smart Oven Air Fryer Pro BOV900BSS, Joule Oven BOV950, Mini Smart Oven BOV450XL, renewed units, accessory-only listings, cutting boards, trays, and unrelated Breville toaster oven variants unless intentionally changed."
+  },
   "breville-smart-oven-air-fryer-pro": {
     "name": "Breville Smart Oven Air Fryer Pro",
-    "url": "",
+    "url": "https://geni.us/ADGgLX",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Breville Smart Oven Air Fryer Pro here. Use BOV900BSS model listings; avoid Smart Oven Pro BOV845, Joule BOV950, renewed, or accessory-only listings unless intentionally changed."
+    "notes": "Use the Breville Smart Oven Air Fryer Pro BOV900BSS model family. Avoid Smart Oven Pro BOV845, Joule BOV950, non-Pro Smart Oven Air Fryer, renewed units, accessory-only listings, cutting boards, trays, and unrelated Breville oven variants unless intentionally changed."
+  },
+  "breville-mini-smart-oven-bov450xl": {
+    "name": "Breville Mini Smart Oven",
+    "url": "https://geni.us/SqSA8sG",
+    "merchant": "Amazon",
+    "notes": "Use the Breville Mini Smart Oven BOV450XL model family. Avoid the larger Smart Oven Pro BOV845, Smart Oven Air Fryer Pro BOV900BSS, Compact Smart Oven BOV650, renewed units, accessory-only listings, cutting boards, trays, and unrelated Breville oven variants unless intentionally changed."
   },
   "panasonic-flashxpress-nb-g110p": {
     "name": "Panasonic FlashXpress NB-G110P",
