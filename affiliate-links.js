@@ -22,25 +22,25 @@ window.CS_AFFILIATE_LINKS = {
   },
   "breville-bambino-plus": {
     "name": "Breville Bambino Plus",
-    "url": "https://geni.us/sfYFR",
+    "url": "https://geni.us/xNVkF",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Bambino Plus here. Use the BES500/BES500BSS model, not the regular Bambino."
   },
   "breville-bambino": {
     "name": "Breville Bambino",
-    "url": "",
+    "url": "https://geni.us/8t9L4t",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Bambino here. Use the BES450/BES450BSS model, not the Bambino Plus."
   },
   "breville-barista-express-impress": {
     "name": "Breville Barista Express Impress",
-    "url": "",
+    "url": "https://geni.us/bCJt6J",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Barista Express Impress here. Use BES876/BES876BSS, not the regular Barista Express BES870 or Barista Touch."
   },
   "delonghi-magnifica-evo-ecam29084sb": {
     "name": "De'Longhi Magnifica Evo ECAM29084SB",
-    "url": "",
+    "url": "https://geni.us/AuQkz",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the De'Longhi Magnifica Evo ECAM29084SB here. Use the Evo model with LatteCrema automatic milk system; avoid Magnifica Start or manual-frother variants unless intentionally changed."
   },
