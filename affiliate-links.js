@@ -16,7 +16,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "breville-bambino-plus": {
     "name": "Breville Bambino Plus",
-    "url": "https://amzn.to/4dB80m1",
+    "url": "https://geni.us/sfYFR",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Bambino Plus here. Use the BES500/BES500BSS model, not the regular Bambino."
   },
