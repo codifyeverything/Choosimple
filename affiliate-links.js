@@ -82,19 +82,19 @@ window.CS_AFFILIATE_LINKS = {
   },
   "instant-vortex-plus-6qt": {
     "name": "Instant Vortex Plus 6-Quart Air Fryer with ClearCook",
-    "url": "https://amzn.to/3PtmvAh",
+    "url": "https://geni.us/tuwb9ic",
     "merchant": "Amazon",
     "notes": "Use the Instant Vortex Plus 6-quart basket air fryer with ClearCook window. Avoid 4-quart, 8-quart, dual-basket, OdorErase-only variants, toaster oven models, renewed units, accessory-only listings, or unrelated Instant air fryer models unless intentionally changed."
   },
   "instant-vortex-plus-xl-8qt-dual-basket": {
     "name": "Instant Vortex Plus XL 8-Quart Dual Basket Air Fryer",
-    "url": "",
+    "url": "https://geni.us/AMBbu",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Instant Vortex Plus XL 8-quart dual-basket air fryer here. Use the dual-basket ClearCook model; avoid the 6-quart single-basket model, 10-quart oven-style models, renewed units, accessory-only listings, or unrelated Instant air fryer variants unless intentionally changed."
   },
   "cosori-turboblaze-6qt": {
     "name": "Cosori TurboBlaze 6-Quart Air Fryer",
-    "url": "",
+    "url": "https://geni.us/grgKcP",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cosori TurboBlaze 6-quart air fryer here. Use the current 6-quart TurboBlaze basket air fryer; avoid Pro II, Pro Gen 2, 5.8-quart, toaster oven, renewed, accessory-only, or unrelated Cosori air fryer listings unless intentionally changed."
   },
