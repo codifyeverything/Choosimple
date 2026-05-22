@@ -10,9 +10,9 @@ module.exports = [
     "imageAlt": "Vitamix 5200",
     "summary": "The best blender for most people: proven long-term durability, consistent blending across hard use cases, and a simple design with fewer failure points.",
     "proof": "avoids the replacement cycle better than cheaper and more feature-heavy blenders.",
-    "price": "Typical price (USD): $350–$480",
+    "price": "Typical price: US $350–$480 / CA $600–$700",
     "featured": true,
-    "featuredSub": "Kitchen · Typical price (USD): $350–$480",
+    "featuredSub": "Kitchen · Typical price: US $350–$480 / CA $600–$700",
     "featuredQuote": "“The best blender for most people: Vitamix 5200 — proven durability, consistent performance, and simple long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> proven motor durability, consistent results across smoothies, frozen fruit, nut butters, and soups, and a simple low-failure design."
   },
