@@ -110,12 +110,6 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
-  "ninja-professional-bl610": {
-    "name": "Ninja Professional BL610",
-    "url": "",
-    "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
-  },
   "oral-b-pro-1000": {
     "name": "Oral-B Pro 1000",
     "url": "",
@@ -212,23 +206,11 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
-  "vitamix-a2500": {
-    "name": "Vitamix A2500",
-    "url": "",
-    "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
-  },
   "vitamix-ascent-x2": {
     "name": "Vitamix Ascent X2",
     "url": "https://geni.us/blZr",
     "merchant": "Amazon",
     "notes": "Use the Vitamix Ascent X2 blender with 48 oz / 1.4L container. Avoid SmartPrep bundles, Ascent X3/X4/X5, renewed units, containers/accessories, or marketplace-only listings unless intentionally changed."
-  },
-  "vitamix-e310": {
-    "name": "Vitamix E310",
-    "url": "",
-    "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
   "vitamix-propel-510": {
     "name": "Vitamix Propel 510",
