@@ -8,6 +8,12 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "breville-smart-grinder-pro": {
+    "name": "Breville Smart Grinder Pro",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the Breville Smart Grinder Pro here. Use the BCG820 / BCG820BSS Smart Grinder Pro model family; avoid Dose Control Pro, Barista Express grinders, renewed units, accessory-only listings, color-only inflated marketplace variants, or unrelated Breville grinder models unless intentionally changed."
+  },
   "blueair-blue-pure-311i-plus-max": {
     "name": "Blueair Blue Pure 311i+ Max",
     "url": "",
@@ -72,7 +78,7 @@ window.CS_AFFILIATE_LINKS = {
     "name": "Fellow Ode Gen 2",
     "url": "",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Paste the Geniuslink URL for the Fellow Ode Gen 2 here. Use the Gen 2 Ode Brew Grinder for drip, pour-over, French press, and cold brew; avoid Gen 1, Opus, espresso-focused grinders, SSP-burr variants unless intentional, renewed units, accessories, or unrelated Fellow products."
   },
   "fellow-opus": {
     "name": "Fellow Opus",
@@ -133,6 +139,12 @@ window.CS_AFFILIATE_LINKS = {
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "oxo-brew-compact-conical-burr-grinder": {
+    "name": "OXO Brew Compact Conical Burr Coffee Grinder",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Paste the Geniuslink URL for the OXO Brew Compact Conical Burr Coffee Grinder here. Use the compact electric conical burr model; avoid the full-size OXO Brew grinder, OXO grinder with scale, manual grinders, blade grinders, renewed units, accessory-only listings, or unrelated OXO coffee products."
   },
   "philips-sonicare-4100": {
     "name": "Philips Sonicare 4100 Series",
