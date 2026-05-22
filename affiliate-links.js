@@ -98,6 +98,12 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "hamilton-beach-power-elite-58148a": {
+    "name": "Hamilton Beach Power Elite 58148A",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Use Hamilton Beach Power Elite 58148A / 58148 model-family listings with the 40 oz glass jar. Avoid used/renewed units, accessory-only listings, chopper bundles unless intentional, or unrelated Hamilton Beach blender variants."
+  },
   "ninja-foodi-dz201-dual-zone": {
     "name": "Ninja Foodi DZ201 Dual Zone",
     "url": "",
@@ -109,12 +115,6 @@ window.CS_AFFILIATE_LINKS = {
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
-  },
-  "ninja-professional-plus-bn701": {
-    "name": "Ninja Professional Plus BN701 / BN701C",
-    "url": "",
-    "merchant": "Amazon",
-    "notes": "Use BN701 for U.S. listings and BN701C for Canadian listings. Avoid BL610, BN751 Duo bundles, renewed units, replacement pitchers, or accessory-only listings unless intentionally changed."
   },
   "oral-b-pro-1000": {
     "name": "Oral-B Pro 1000",
@@ -232,7 +232,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-propel-510": {
     "name": "Vitamix Propel 510",
-    "url": "https://geni.us/7uOjs",
+    "url": "",
     "merchant": "Amazon",
     "notes": "Use the Vitamix Propel Series 510 with 48 oz / 1.4L container. Avoid renewed units, Propel 750, Explorian E310, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
