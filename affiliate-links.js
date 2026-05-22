@@ -232,7 +232,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-propel-510": {
     "name": "Vitamix Propel 510",
-    "url": "",
+    "url": "https://geni.us/7uOjs",
     "merchant": "Amazon",
     "notes": "Use the Vitamix Propel Series 510 with 48 oz / 1.4L container. Avoid renewed units, Propel 750, Explorian E310, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
