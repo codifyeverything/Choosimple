@@ -110,6 +110,12 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "ninja-professional-plus-bn701": {
+    "name": "Ninja Professional Plus BN701 / BN701C",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Use BN701 for U.S. listings and BN701C for Canadian listings. Avoid BL610, BN751 Duo bundles, renewed units, replacement pitchers, or accessory-only listings unless intentionally changed."
+  },
   "oral-b-pro-1000": {
     "name": "Oral-B Pro 1000",
     "url": "",
@@ -202,7 +208,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "vitamix-5200": {
     "name": "Vitamix 5200",
-    "url": "https://geni.us/lXGex6",
+    "url": "https://amzn.to/3RkrGmF",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
@@ -212,11 +218,23 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "vitamix-ascent-x2": {
+    "name": "Vitamix Ascent X2",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Use the Vitamix Ascent X2 blender with 48 oz / 1.4L container. Avoid SmartPrep bundles, Ascent X3/X4/X5, renewed units, containers/accessories, or marketplace-only listings unless intentionally changed."
+  },
   "vitamix-e310": {
     "name": "Vitamix E310",
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+  },
+  "vitamix-propel-510": {
+    "name": "Vitamix Propel 510",
+    "url": "",
+    "merchant": "Amazon",
+    "notes": "Use the Vitamix Propel Series 510 with 48 oz / 1.4L container. Avoid renewed units, Propel 750, Explorian E310, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
   "ring-battery-doorbell-plus-2nd-gen": {
     "name": "Ring Battery Doorbell Plus 2nd Gen",
