@@ -10,9 +10,9 @@ module.exports = [
     "imageAlt": "Vitamix 5200",
     "summary": "The best blender for most people: proven long-term durability, consistent blending across hard use cases, and a simple design with fewer failure points.",
     "proof": "avoids the replacement cycle better than cheaper and more feature-heavy blenders.",
-    "price": "Typical price: US $350–$480 / CA $600–$700",
+    "price": "Typical price: $350–$480",
     "featured": true,
-    "featuredSub": "Kitchen · Typical price: US $350–$480 / CA $600–$700",
+    "featuredSub": "Kitchen · Typical price: $350–$480",
     "featuredQuote": "“The best blender for most people: Vitamix 5200 — proven durability, consistent performance, and simple long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> proven motor durability, consistent results across smoothies, frozen fruit, nut butters, and soups, and a simple low-failure design."
   },
@@ -27,9 +27,9 @@ module.exports = [
     "imageAlt": "Instant Vortex Plus 6-Quart Air Fryer with ClearCook",
     "summary": "The best air fryer for most people: practical 6-quart capacity, strong everyday performance, and fewer tradeoffs than oversized, dual-basket, or ultra-cheap options.",
     "proof": "the 6-quart ClearCook model hits the sweet spot for daily cooking without overbuying capacity or features.",
-    "price": "Typical price: US $90–$150 / CA $130–$200",
+    "price": "Typical price: $90–$150",
     "featured": true,
-    "featuredSub": "Kitchen · Typical price: US $90–$150 / CA $130–$200",
+    "featuredSub": "Kitchen · Typical price: $90–$150",
     "featuredQuote": "“The best air fryer for most people: Instant Vortex Plus 6-Quart Air Fryer with ClearCook — practical capacity, strong everyday cooking, and simpler long-term ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> the 6-quart ClearCook model hits the sweet spot for daily meals without paying for features most households ignore."
   },
