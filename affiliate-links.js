@@ -359,9 +359,9 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "zojirushi-ns-zcc10-neuro-fuzzy": {
     "name": "Zojirushi NS-ZCC10 Neuro Fuzzy",
-    "url": "",
+    "url": "https://geni.us/27nuDW",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Zojirushi NS-ZCC10 Neuro Fuzzy here. Use the 5.5-cup NS-ZCC10 model, not the NS-ZCC18 10-cup, NS-TSC10, NP-HCC10, renewed, accessory-only, or marketplace-only listings unless intentionally changed."
+    "notes": "Use the 5.5-cup NS-ZCC10 Neuro Fuzzy model. Avoid NS-ZCC18 10-cup, NS-TSC10, NP-HCC10, renewed units, accessory-only listings, bundles, unrelated Zojirushi variants, and marketplace-only listings unless intentionally changed."
   },
   "zojirushi-ns-lhc05-micom": {
     "name": "Zojirushi NS-LHC05 3-Cup Micom",
@@ -373,13 +373,19 @@ window.CS_AFFILIATE_LINKS = {
     "name": "Aroma ARC-914SBD Digital Rice Cooker",
     "url": "",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Aroma ARC-914SBD digital rice cooker here. Use the single-unit ARC-914SBD / ARC-914D model family; avoid multi-packs, larger Aroma models, renewed, or accessory-only listings unless intentionally changed."
+    "notes": "Legacy rice cooker budget entry. This model was removed from the rice cooker page after Amazon.com availability became unreliable. Do not use for the current rice cooker page unless intentionally restored. Avoid multi-packs, larger Aroma models, renewed units, accessory-only listings, bundles, and unrelated variants."
+  },
+  "aroma-arc-914d": {
+    "name": "Aroma ARC-914D 8-Cup Digital Rice Cooker",
+    "url": "https://geni.us/w9nY",
+    "merchant": "Amazon",
+    "notes": "Use the Aroma ARC-914D 8-cup digital rice cooker single-unit listing. Avoid ARC-914SBD unless intentionally substituted, ARC-914SB, ARC-994SB, larger Aroma models, multi-packs, renewed units, accessory-only listings, bundles, and unrelated variants."
   },
   "zojirushi-np-hcc10-induction": {
     "name": "Zojirushi NP-HCC10 Induction Heating Rice Cooker",
-    "url": "",
+    "url": "https://geni.us/KlUfaao",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Zojirushi NP-HCC10 induction heating rice cooker here. Use the 5.5-cup NP-HCC10 model, not NP-HCC18, NS-ZCC10, NW-QAC10, pressure-induction models, renewed, or accessory-only listings unless intentionally changed."
+    "notes": "Use the 5.5-cup NP-HCC10 induction heating model. Avoid NP-HCC18 10-cup, NS-ZCC10, NW-QAC10, pressure-induction models, renewed units, accessory-only listings, bundles, and unrelated Zojirushi variants unless intentionally changed."
   },
   "cuckoo-cr-0675f": {
     "name": "Cuckoo CR-0675F 6-Cup Micom Rice Cooker",
