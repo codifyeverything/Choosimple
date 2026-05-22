@@ -98,14 +98,14 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "hamilton-beach-power-elite-58148a": {
+    "name": "Hamilton Beach Power Elite 58148A",
+    "url": "https://geni.us/kYa60",
+    "merchant": "Amazon",
+    "notes": "Use Hamilton Beach Power Elite 58148A / 58148 model-family listings with the 40 oz glass jar. Avoid used/renewed units, accessory-only listings, chopper bundles unless intentional, or unrelated Hamilton Beach blender variants."
+  },
   "ninja-foodi-dz201-dual-zone": {
     "name": "Ninja Foodi DZ201 Dual Zone",
-    "url": "",
-    "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
-  },
-  "ninja-professional-bl610": {
-    "name": "Ninja Professional BL610",
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
@@ -206,17 +206,17 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
-  "vitamix-a2500": {
-    "name": "Vitamix A2500",
-    "url": "",
+  "vitamix-ascent-x2": {
+    "name": "Vitamix Ascent X2",
+    "url": "https://geni.us/blZr",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Vitamix Ascent X2 blender with 48 oz / 1.4L container. Avoid SmartPrep bundles, Ascent X3/X4/X5, renewed units, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
-  "vitamix-e310": {
-    "name": "Vitamix E310",
-    "url": "",
+  "vitamix-propel-510": {
+    "name": "Vitamix Propel 510",
+    "url": "https://geni.us/7uOjs",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Vitamix Propel Series 510 with 48 oz / 1.4L container. Avoid renewed units, Propel 750, Explorian E310, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
   "ring-battery-doorbell-plus-2nd-gen": {
     "name": "Ring Battery Doorbell Plus 2nd Gen",
