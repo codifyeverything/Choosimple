@@ -87,24 +87,6 @@ module.exports = [
     "featuredProof": "<strong>Why it wins:</strong> the strongest mainstream balance of cooking consistency, useful capacity, controls, availability, and long-term ownership confidence."
   },
   {
-    "title": "Instant Pot",
-    "slug": "instant-pot",
-    "url": "/instant-pot.html",
-    "group": "Kitchen",
-    "cardTitle": "The Instant Pot that makes the most sense",
-    "decision": "Instant Pot Duo Plus 6 qt",
-    "image": "/Instant-Pot-Duo-Plus-6-qrt.png",
-    "imageAlt": "Instant Pot Duo Plus 6 qt",
-    "summary": "The best Instant Pot for most people: the proven 6-quart format, easier daily usability than the basic Duo, and fewer regrets than smart, oversized, or air-fryer models.",
-    "proof": "keeps the classic Instant Pot benefit while avoiding the cost, bulk, and complexity most buyers do not need.",
-    "price": "Typical price: $110–$160",
-    "featured": true,
-    "featuredSub": "Kitchen · Typical price: $110–$160",
-    "featuredQuote": "“The best Instant Pot for most people: Instant Pot Duo Plus 6 qt — proven 6-quart usability, a cleaner daily experience, and no premium-model clutter.”",
-    "featuredProof": "<strong>Why it wins:</strong> it keeps the dependable Instant Pot formula, improves the daily interface, and avoids the size, cost, and complexity of air-fryer or smart models."
-  },
-
-  {
     "title": "Rice Cooker",
     "slug": "rice-cooker",
     "url": "/rice-cooker.html",
