@@ -10,7 +10,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "breville-smart-grinder-pro": {
     "name": "Breville Smart Grinder Pro",
-    "url": "",
+    "url": "https://geni.us/f7kfNlQ",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Smart Grinder Pro here. Use the BCG820 / BCG820BSS Smart Grinder Pro model family; avoid Dose Control Pro, Barista Express grinders, renewed units, accessory-only listings, color-only inflated marketplace variants, or unrelated Breville grinder models unless intentionally changed."
   },
@@ -76,7 +76,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "fellow-ode-gen-2": {
     "name": "Fellow Ode Gen 2",
-    "url": "",
+    "url": "https://geni.us/A0wNng",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Fellow Ode Gen 2 here. Use the Gen 2 Ode Brew Grinder for drip, pour-over, French press, and cold brew; avoid Gen 1, Opus, espresso-focused grinders, SSP-burr variants unless intentional, renewed units, accessories, or unrelated Fellow products."
   },
@@ -142,7 +142,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "oxo-brew-compact-conical-burr-grinder": {
     "name": "OXO Brew Compact Conical Burr Coffee Grinder",
-    "url": "",
+    "url": "https://geni.us/O5GGeJ",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the OXO Brew Compact Conical Burr Coffee Grinder here. Use the compact electric conical burr model; avoid the full-size OXO Brew grinder, OXO grinder with scale, manual grinders, blade grinders, renewed units, accessory-only listings, or unrelated OXO coffee products."
   },
