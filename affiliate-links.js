@@ -100,7 +100,7 @@ window.CS_AFFILIATE_LINKS = {
   },
   "hamilton-beach-power-elite-58148a": {
     "name": "Hamilton Beach Power Elite 58148A",
-    "url": "",
+    "url": "https://geni.us/kYa60",
     "merchant": "Amazon",
     "notes": "Use Hamilton Beach Power Elite 58148A / 58148 model-family listings with the 40 oz glass jar. Avoid used/renewed units, accessory-only listings, chopper bundles unless intentional, or unrelated Hamilton Beach blender variants."
   },
