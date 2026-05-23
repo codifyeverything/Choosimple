@@ -14,11 +14,11 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Breville Smart Grinder Pro here. Use the BCG820 / BCG820BSS Smart Grinder Pro model family; avoid Dose Control Pro, Barista Express grinders, renewed units, accessory-only listings, color-only inflated marketplace variants, or unrelated Breville grinder models unless intentionally changed."
   },
-  "blueair-blue-pure-311i-plus-max": {
-    "name": "Blueair Blue Pure 311i+ Max",
-    "url": "",
+  "blueair-blue-pure-311i-max": {
+    "name": "Blueair Blue Pure 311i Max",
+    "url": "https://geni.us/OZ14PBf",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Blueair Blue Pure 311i Max air purifier. Avoid the 311i+ Max listing, 411i/511i/411a variants, replacement filters, accessory-only listings, bundles unless intentional, renewed units, or unrelated Blueair models."
   },
   "breville-bambino-plus": {
     "name": "Breville Bambino Plus",
@@ -58,15 +58,15 @@ window.CS_AFFILIATE_LINKS = {
   },
   "coway-airmega-400s": {
     "name": "Coway Airmega 400S",
-    "url": "",
+    "url": "https://geni.us/0YphbZ",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Coway Airmega 400S large-room air purifier. Avoid the non-S 400 unless intentionally changed, Airmega 240/250/300 variants, replacement filters, accessory-only listings, bundles unless intentional, renewed units, or unrelated Coway models."
   },
   "coway-ap1512hh-mighty": {
     "name": "Coway AP-1512HH Mighty",
-    "url": "",
+    "url": "https://geni.us/lsBABa",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Coway AP-1512HH Mighty air purifier. Avoid Airmega variants, AP-1512HHS unless intentionally changed, replacement filters, accessory-only listings, bundles unless intentional, renewed units, or unrelated Coway models."
   },
   "eufy-x10-pro-omni": {
     "name": "Eufy X10 Pro Omni",
@@ -112,9 +112,9 @@ window.CS_AFFILIATE_LINKS = {
   },
   "levoit-core-200s": {
     "name": "Levoit Core 200S",
-    "url": "",
+    "url": "https://geni.us/eNCGk",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Levoit Core 200S / Core 200S-P small-room smart air purifier. Avoid Core Mini, Core 300/300S/400S variants, replacement filters, accessory-only listings, bundles unless intentional, renewed units, or unrelated Levoit models."
   },
   "hamilton-beach-power-elite-58148a": {
     "name": "Hamilton Beach Power Elite 58148A",
