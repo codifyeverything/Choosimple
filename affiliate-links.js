@@ -230,11 +230,23 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
+  "babylisspro-nano-titanium-ultra-thin-1-inch": {
+    "name": "BaBylissPRO Nano Titanium Ultra-Thin 1 inch",
+    "url": "https://geni.us/hWh0",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the BaBylissPRO Nano Titanium Ultra-Thin 1 inch flat iron. Confirm the listing is new and specifically the Ultra-Thin/Ultra-Slim 1 inch straightening iron; avoid mini irons, curling irons, wider plate variants, renewed units, accessories, unrelated BaBylissPRO Nano Titanium tools, and bundle-only pages."
+  },
+  "remington-shine-therapy-1-inch-flat-iron": {
+    "name": "Remington Shine Therapy 1 inch Flat Iron",
+    "url": "https://geni.us/uRVt",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Remington Shine Therapy 1 inch flat iron. Confirm the listing is new and specifically the 1 inch flat iron/straightener; avoid 2 inch variants, curling tools, brushes, renewed units, accessories, unrelated Remington Shine Therapy products, and bundle-only pages."
+  },
   "ghd-platinum-plus-styler": {
     "name": "ghd Platinum+ Styler",
-    "url": "",
+    "url": "https://geni.us/RW5Zq",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Geniuslink for the ghd Platinum+ Styler. Confirm the listing is new and specifically the Platinum+ flat iron/styler; avoid Original, Gold, Chronos, travel-size, color-only variants if mismatched, renewed units, accessories, unrelated ghd tools, and bundle-only pages."
   },
   "vitamix-5200": {
     "name": "Vitamix 5200",
