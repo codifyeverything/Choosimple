@@ -274,10 +274,16 @@ window.CS_AFFILIATE_LINKS = {
   }
   ,
   "dyson-v15-detect": {
-    "name": "Dyson V15 Detect",
-    "url": "",
+    "name": "Dyson V15 Detect Plus",
+    "url": "https://geni.us/Lk90B",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Dyson V15 Detect here. Use the standard V15 Detect listing, not Renewed, accessory-only, Gen5detect, V12, or Outsize listings unless intentionally changed."
+    "notes": "Use the Dyson V15 Detect Plus cordless vacuum only. Manual Geniuslink rules may be needed for U.S. and Canada. Avoid V15 Detect non-Plus variants, Gen5detect, V12, Outsize, renewed units, accessory-only listings, replacement batteries, filters, parts, and unrelated bundles unless intentionally changed."
+  },
+  "dyson-v8-plus": {
+    "name": "Dyson V8 Plus",
+    "url": "https://geni.us/8GBWkd",
+    "merchant": "Amazon",
+    "notes": "Use the Dyson V8 Plus cordless vacuum only. Avoid V8 Origin, V8 Animal, V8 Absolute, V8 Motorhead, renewed units, accessory-only listings, replacement batteries, filters, parts, and unrelated Dyson variants unless intentionally changed."
   },
   "shark-stratos-cordless-iz862h": {
     "name": "Shark Stratos Cordless IZ862H / IZ862HC",
@@ -293,9 +299,9 @@ window.CS_AFFILIATE_LINKS = {
   },
   "shark-powerdetect-clean-empty": {
     "name": "Shark PowerDetect Clean & Empty",
-    "url": "",
+    "url": "https://geni.us/FI6x13t",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Shark PowerDetect Clean & Empty cordless vacuum here. Confirm the exact Amazon SKU before launch; avoid non-dock PowerDetect, upright, or accessory-only listings unless intentionally changed."
+    "notes": "Use the Shark PowerDetect Clean & Empty cordless vacuum only. U.S. and Canada may use different model suffixes such as IP3251/IP3251C. Avoid non-auto-empty PowerDetect variants, upright vacuums, corded models, renewed units, accessory-only listings, replacement parts, filters, docks-only, and unrelated bundles unless intentionally changed."
   }
 
 
