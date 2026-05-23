@@ -707,9 +707,21 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "t3-singlepass-curl-x-125": {
     "name": "T3 SinglePass Curl X 1.25 inch",
-    "url": "",
+    "url": "https://geni.us/lbBC2mL",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the T3 SinglePass Curl X 1.25-inch extra-long barrel curling iron here. Avoid the 1-inch version, SinglePass Curl, SinglePass StyleMax flat iron, AireBrush, renewed, accessory-only, or other T3 styling tool listings unless intentionally changed."
+    "notes": "Geniuslink for the T3 SinglePass Curl X 1.25-inch extra-long barrel curling iron. Confirm the listing is new and specifically the 1.25-inch Curl X clip curling iron; avoid the 1-inch version, standard SinglePass Curl, SinglePass StyleMax flat iron, AireBrush, renewed units, accessories, bundles, or other T3 styling tool listings unless intentionally changed."
+  },
+  "conair-double-ceramic-125": {
+    "name": "Conair Double Ceramic 1.25 inch Curling Iron",
+    "url": "https://geni.us/baOZxd",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Conair Double Ceramic 1.25-inch curling iron. Confirm the listing is new and specifically the 1.25-inch clip curling iron; avoid 1-inch or 1.5-inch variants, wands, hot brushes, 3-barrel wavers, renewed units, accessories, bundles, and unrelated Conair Double Ceramic styling tools unless intentionally changed."
+  },
+  "bio-ionic-long-barrel-styler-pro-125": {
+    "name": "Bio Ionic Long Barrel Styler Pro 1.25 inch",
+    "url": "https://geni.us/rQ5LPU",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Bio Ionic Long Barrel Styler Pro 1.25-inch curling iron. Confirm the listing is new and specifically the long-barrel 1.25-inch clip curling iron; avoid 1-inch variants, wands, flat irons, travel tools, renewed units, accessories, bundles, and unrelated Bio Ionic styling tools unless intentionally changed."
   },
   "hot-tools-24k-gold-extended-barrel-125": {
     "name": "Hot Tools Pro Artist 24K Gold Extended Barrel 1.25 inch",
