@@ -530,15 +530,15 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "levoit-classic-300s": {
     "name": "Levoit Classic 300S",
-    "url": "",
+    "url": "https://geni.us/0dsfqd",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Levoit Classic 300S humidifier here. Use the smart 6L top-fill Classic 300S model; avoid Classic 200S, Dual 200S, LV600S, renewed, accessory-only, or filter listings unless intentionally changed."
+    "notes": "Geniuslink for the Levoit Classic 300S humidifier. Use the smart 6L top-fill Classic 300S model; avoid Classic 200S, Dual 200S, LV600S, renewed, accessory-only, or filter listings unless intentionally changed."
   },
   "levoit-superior-6000s": {
     "name": "Levoit Superior 6000S",
-    "url": "",
+    "url": "https://geni.us/m8N6",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Levoit Superior 6000S evaporative humidifier here. Use the 6-gallon / 23L Superior 6000S model family; avoid LV600S ultrasonic, smaller Levoit humidifiers, replacement wicks, renewed, or accessory-only listings unless intentionally changed."
+    "notes": "Geniuslink for the Levoit Superior 6000S evaporative humidifier. Use the 6-gallon / 23L Superior 6000S model family; avoid LV600S ultrasonic, smaller Levoit humidifiers, overpriced marketplace-only listings, replacement wicks, renewed, or accessory-only listings unless intentionally changed."
   },
   "vornado-evdc300": {
     "name": "Vornado EVDC300",
@@ -551,6 +551,18 @@ window.CS_AFFILIATE_LINKS = {
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Levoit Dual 200S humidifier here. Use the smaller smart top-fill Dual 200S model; avoid Classic 300S, Classic 200S, LV600S, renewed, accessory-only, or filter listings unless intentionally changed."
+  },
+  "dreo-4l-top-fill-humidifier": {
+    "name": "Dreo 4L Top Fill Humidifier",
+    "url": "https://geni.us/1drZgsC",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Dreo 4L Top Fill Humidifier. Use the standard 4L top-fill bedroom humidifier; avoid larger Dreo models, HM311S/HM713S variants unless intentionally matched, aroma accessories, replacement parts, renewed units, accessory-only listings, or unrelated Dreo humidifier variants."
+  },
+  "vornado-evdc500": {
+    "name": "Vornado EVDC500",
+    "url": "https://geni.us/g8O7H",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Vornado EVDC500 evaporative humidifier. Use the EVDC500 model for the hard-water / evaporative role; avoid EVDC300, EV100, EV200, replacement wicks, filters, renewed units, accessory-only listings, or unrelated Vornado air circulators unless intentionally changed."
   }
 
 
