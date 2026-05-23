@@ -551,9 +551,9 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "shark-stratos-upright-az3002": {
     "name": "Shark Stratos Upright Vacuum",
-    "url": "",
+    "url": "https://geni.us/qfampmc",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Shark Stratos Upright here. Use the AZ3002 / AZ3000-series upright vacuum listing; avoid cordless Stratos, renewed, accessory-only, or unrelated Shark Stratos variants unless intentionally changed."
+    "notes": "Use the Shark Stratos Upright Vacuum. Use AZ3002 for U.S. listings and the AZ3000/AZ3000C upright family for Canadian listings when needed; avoid cordless Stratos models, renewed units, accessory-only listings, filters, replacement parts, and unrelated Shark Stratos variants unless intentionally changed."
   },
   "sebo-felix-premium": {
     "name": "SEBO Felix Premium",
@@ -569,9 +569,15 @@ window.CS_AFFILIATE_LINKS = {
   },
   "shark-navigator-lift-away-nv360": {
     "name": "Shark Navigator Lift-Away",
-    "url": "",
+    "url": "https://geni.us/eZ1f8",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Shark Navigator Lift-Away here. Use NV360 for U.S. listings and NV380C or the closest current Canadian Lift-Away equivalent when needed; avoid cordless, renewed, accessory-only, or non-Lift-Away Shark variants unless intentionally changed."
+    "notes": "Use the Shark Navigator Lift-Away upright vacuum. Use NV360 for U.S. listings and NV380C or the closest current Canadian Lift-Away equivalent when needed; avoid cordless models, renewed units, accessory-only listings, filters, replacement parts, non-Lift-Away Shark variants, and unrelated bundles unless intentionally changed."
+  },
+  "shark-powerdetect-upright-az4002": {
+    "name": "Shark PowerDetect Upright Vacuum",
+    "url": "https://geni.us/jAsBr",
+    "merchant": "Amazon",
+    "notes": "Use the Shark PowerDetect Upright Vacuum. Use AZ4002 for U.S. listings and AZ4000C/AZ4000-series upright equivalents for Canadian listings when needed; avoid Shark PowerDetect cordless models, Clean & Empty cordless variants, renewed units, accessory-only listings, filters, replacement parts, and unrelated Shark variants unless intentionally changed."
   }
 
   ,
