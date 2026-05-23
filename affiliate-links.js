@@ -466,15 +466,21 @@ window.CS_AFFILIATE_LINKS = {
   },
   "midea-cube-50-pint": {
     "name": "Midea Cube 50 Pint",
-    "url": "",
+    "url": "https://geni.us/mQNz",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Midea Cube 50 Pint dehumidifier here. Use the 50-pint non-pump Cube as the default when available; avoid pump versions, smaller-capacity models, renewed, accessory-only, or unrelated Midea dehumidifier listings unless intentionally changed."
+    "notes": "Use the Midea Cube 50 Pint dehumidifier. Avoid standard non-Cube models, pump versions unless intentionally changed, smaller-capacity models, renewed units, accessory-only listings, replacement parts, bundles unless intentional, or unrelated Midea dehumidifier listings."
   },
   "frigidaire-50-pint-dehumidifier": {
     "name": "Frigidaire 50 Pint Dehumidifier",
-    "url": "",
+    "url": "https://geni.us/Kk4NF",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Frigidaire 50 Pint dehumidifier here. Use the cleanest current 50-pint Frigidaire listing, such as FFAD5034W1 or the appropriate current equivalent; avoid pump models, smaller-capacity models, renewed, accessory-only, or inflated marketplace listings unless intentionally changed."
+    "notes": "Use the Frigidaire 50 Pint dehumidifier as the simple alternative. Avoid pump models, smaller-capacity models, older or unrelated Frigidaire variants, renewed units, accessory-only listings, replacement parts, bundles unless intentional, or inflated marketplace-only listings."
+  },
+  "midea-50-pint-dehumidifier-with-pump": {
+    "name": "Midea 50 Pint Dehumidifier with Pump",
+    "url": "https://geni.us/Mhe4w",
+    "merchant": "Amazon",
+    "notes": "Use the Midea 50 Pint dehumidifier with built-in pump as the pump alternative. Avoid the Midea Cube, non-pump Midea models, smaller-capacity models, renewed units, accessory-only listings, replacement parts, bundles unless intentional, or unrelated Midea dehumidifier variants."
   },
   "ge-apyr50lc-50-pint-pump": {
     "name": "GE APYR50LC 50 Pint Dehumidifier with Pump",
