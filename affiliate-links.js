@@ -177,16 +177,16 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
   },
   "t3-aireluxe": {
-    "name": "T3 AireLuxe",
-    "url": "",
+    "name": "T3 AireLuxe Hair Dryer",
+    "url": "https://geni.us/8LMRqp",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the standalone T3 AireLuxe hair dryer here after Amazon Associates/Geniuslink setup."
+    "notes": "Geniuslink for the T3 AireLuxe Hair Dryer. Confirm the listing is new and matches the AireLuxe dryer family; avoid renewed units, accessory-only pages, unrelated T3 styling tools, and wrong bundle/model variants."
   },
   "conair-infinitipro-smoothwrap": {
     "name": "Conair InfinitiPRO SmoothWrap",
-    "url": "",
+    "url": "https://geni.us/53M1ZPU",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the InfinitiPRO SmoothWrap hair dryer here. Avoid generic InfinitiPRO dryer variants."
+    "notes": "Geniuslink for the Conair InfinitiPRO SmoothWrap hair dryer. Confirm the listing is new and specifically SmoothWrap; avoid generic InfinitiPRO dryers, renewed units, diffuser/accessory-only pages, and unrelated Conair variants."
   },
   "dyson-supersonic": {
     "name": "Dyson Supersonic",
@@ -194,11 +194,23 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the standard Dyson Supersonic hair dryer here. Do not use Nural, R, Travel, or accessory-only listings unless intentionally changed."
   },
+  "dyson-supersonic-nural": {
+    "name": "Dyson Supersonic Nural",
+    "url": "https://geni.us/AWqA",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Dyson Supersonic Nural hair dryer. Confirm the listing is new and specifically the Nural model; avoid standard Supersonic, Supersonic r, Travel, refurbished/renewed units, accessory-only pages, and unrelated Dyson styling tools."
+  },
   "shark-speedstyle-curly-coily": {
     "name": "Shark SpeedStyle Curly/Coily Bundle",
     "url": "",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Shark SpeedStyle curly/coily bundle with diffuser here."
+  },
+  "shark-speedstyle-pro-flex": {
+    "name": "Shark SpeedStyle Pro FLEX",
+    "url": "https://geni.us/dXGjLr",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Shark SpeedStyle Pro FLEX hair dryer. Confirm the listing is new and specifically the Pro FLEX configuration with the appropriate diffuser/attachment setup; avoid Shark FlexStyle, SpeedStyle accessories, diffuser-only pages, renewed units, and unrelated Shark dryer variants."
   },
   "t3-singlepass-stylemax-1-inch": {
     "name": "T3 SinglePass StyleMax 1 inch",
