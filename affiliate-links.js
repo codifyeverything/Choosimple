@@ -130,9 +130,9 @@ window.CS_AFFILIATE_LINKS = {
   },
   "oral-b-pro-1000": {
     "name": "Oral-B Pro 1000",
-    "url": "",
+    "url": "https://geni.us/dLkQX9",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Oral-B Pro 1000 rechargeable electric toothbrush. Avoid Oral-B Pro 500/1500/3000/5000/Smart variants, iO models, replacement brush heads, accessory-only listings, bundles unless intentional, renewed units, and unrelated Oral-B toothbrush variants."
   },
   "oxo-brew-conical-burr-grinder": {
     "name": "OXO Brew Conical Burr Grinder",
@@ -148,15 +148,15 @@ window.CS_AFFILIATE_LINKS = {
   },
   "philips-sonicare-4100": {
     "name": "Philips Sonicare 4100 Series",
-    "url": "",
+    "url": "https://geni.us/34WNZ5e",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Philips Sonicare 4100 Series rechargeable electric toothbrush, preferably the cleanest HX3681/HX368x family listing. Avoid Sonicare 2100/3100/ProtectiveClean variants unless intentionally changed, replacement brush heads, accessory-only listings, bundles unless intentional, renewed units, and unrelated Sonicare toothbrush variants."
   },
   "philips-sonicare-9900-prestige": {
     "name": "Philips Sonicare 9900 Prestige",
-    "url": "",
+    "url": "https://geni.us/xUKeW",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Philips Sonicare 9900 Prestige / DiamondClean Prestige 9900 rechargeable electric toothbrush, preferably the cleanest HX9990/HX999x family listing. Avoid DiamondClean non-Prestige models, Sonicare 4100/6100/9900 replacement heads, accessory-only listings, bundles unless intentional, renewed units, inflated marketplace-only offers, and unrelated Sonicare variants."
   },
   "quip-electric-brush": {
     "name": "Quip Electric Brush",

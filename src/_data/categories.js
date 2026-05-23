@@ -340,7 +340,7 @@ module.exports = [
     "cardTitle": "The electric toothbrush most people should stop at",
     "decision": "Philips Sonicare 4100 Series",
     "image": "/PHILIPS_SONICARE_4100__transparent_.png",
-    "imageAlt": "Philips Sonicare 4100",
+    "imageAlt": "Philips Sonicare 4100 Series",
     "summary": "The best electric toothbrush for most people: reliable daily cleaning without the app extras, charger clutter, or premium price creep that rarely improves outcomes.",
     "proof": "proven daily cleaning with pressure sensing and fewer gimmicks than pricier models.",
     "price": "Typical price: $50–$90",
