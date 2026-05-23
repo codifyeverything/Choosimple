@@ -243,28 +243,34 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Use the Vitamix Propel Series 510 with 48 oz / 1.4L container. Avoid renewed units, Propel 750, Explorian E310, containers/accessories, or marketplace-only listings unless intentionally changed."
   },
   "ring-battery-doorbell-plus-2nd-gen": {
-    "name": "Ring Battery Doorbell Plus 2nd Gen",
-    "url": "",
+    "name": "Ring Battery Doorbell Plus (2nd Gen)",
+    "url": "https://geni.us/QYNWOCo",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use Ring Battery Doorbell Plus (2nd Gen) only. Avoid the older Battery Doorbell Plus, plain Ring Battery Doorbell, Battery Doorbell Pro, renewed units, faceplates, mounts, replacement batteries, chimes, accessories, unrelated bundles, or marketplace-only listings unless intentionally changed."
   },
   "google-nest-doorbell-wired-2nd-gen": {
     "name": "Google Nest Doorbell Wired 2nd Gen",
     "url": "",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Retained for historical/reference use. No longer used on the video doorbell page after replacement with Ring Wired Doorbell Plus (2nd Gen). Avoid renewing this link unless the page intentionally returns to the Nest wired pick."
+  },
+  "ring-wired-doorbell-plus-2nd-gen": {
+    "name": "Ring Wired Doorbell Plus (2nd Gen)",
+    "url": "https://geni.us/dZloVX7",
+    "merchant": "Amazon",
+    "notes": "Use Ring Wired Doorbell Plus (2nd Gen) only. Avoid Ring Battery models, Ring Video Doorbell Wired, Ring Battery Doorbell Pro, Ring Wired Doorbell Pro, older generations, renewed units, chimes, transformers, mounts, faceplates, accessories, or unclear bundles unless intentionally changed."
   },
   "eufy-video-doorbell-e340": {
     "name": "eufy Video Doorbell E340",
-    "url": "",
+    "url": "https://geni.us/EzfIUG",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the eufy Video Doorbell E340 product family only. Regional listings may emphasize battery or wired installation differently; avoid renewed units, unrelated eufy doorbells, HomeBase-only listings, chime-only accessories, mounts, batteries, replacement parts, or unclear bundles unless intentionally changed."
   },
   "reolink-video-doorbell-poe": {
     "name": "Reolink Video Doorbell PoE",
-    "url": "",
+    "url": "https://geni.us/mWjMoA",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use Reolink Video Doorbell PoE only. Avoid Reolink WiFi doorbells, battery doorbells, NVR-only bundles, chime-only listings, mounts, transformers, accessories, renewed units, or marketplace-only listings unless intentionally changed."
   }
   ,
   "dyson-v15-detect": {
