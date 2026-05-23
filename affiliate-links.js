@@ -70,9 +70,9 @@ window.CS_AFFILIATE_LINKS = {
   },
   "eufy-x10-pro-omni": {
     "name": "Eufy X10 Pro Omni",
-    "url": "",
+    "url": "https://geni.us/bSqi3zh",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Eufy X10 Pro Omni robot vacuum and mop combo with Omni station. Avoid C28 Omni, X9 Pro, L60, accessories, replacement parts, bundles unless intentional, renewed units, or unrelated Eufy robot vacuum variants."
   },
   "fellow-ode-gen-2": {
     "name": "Fellow Ode Gen 2",
@@ -166,9 +166,9 @@ window.CS_AFFILIATE_LINKS = {
   },
   "roborock-qrevo-curv": {
     "name": "Roborock Qrevo Curv",
-    "url": "",
+    "url": "https://geni.us/At02Qg",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for this product here after Amazon Associates/Geniuslink setup."
+    "notes": "Use the Roborock Qrevo Curv robot vacuum and mop with the matching dock. Canada may require manual Geniuslink destination targeting. Avoid Qrevo Curv S5X, CurvX, Curv 2 Flow, Qrevo Master, accessories, replacement parts, bundles unless intentional, renewed units, or unrelated Roborock variants."
   },
   "roborock-s8-pro-ultra": {
     "name": "Roborock S8 Pro Ultra",
