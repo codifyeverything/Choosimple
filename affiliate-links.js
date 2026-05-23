@@ -652,25 +652,25 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "philips-norelco-multigroom-9000": {
     "name": "Philips Norelco Multigroom 9000",
-    "url": "",
+    "url": "https://geni.us/f2s3",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Philips Norelco Multigroom 9000 here. Use MG9510/60 or the cleanest current Multigroom 9000 / All-in-One 9000 listing by market; avoid Multigroom 7000, 5000, older 9000 variants, renewed, accessory-only, or replacement-part listings unless intentionally changed."
   },
   "philips-norelco-multigroom-3000": {
     "name": "Philips Norelco Multigroom 3000",
-    "url": "",
+    "url": "https://geni.us/zaGwc",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Philips Norelco Multigroom 3000 here. Use MG3740/40 or the closest current Multigroom 3000 kit; avoid Multigroom 5000/7000/9000, shaver-only, renewed, accessory-only, or replacement-part listings unless intentionally changed."
   },
   "panasonic-er-gb42-k": {
     "name": "Panasonic ER-GB42-K",
-    "url": "",
+    "url": "https://geni.us/2ZRvLm",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Panasonic ER-GB42-K beard trimmer here. Use the ER-GB42-K wet/dry adjustable beard trimmer; avoid ER-GB80/ER-GB96, Arc shavers, hair clippers, renewed, accessory-only, or replacement-blade listings unless intentionally changed."
   },
   "wahl-professional-peanut-corded": {
     "name": "Wahl Professional Peanut Corded",
-    "url": "",
+    "url": "https://geni.us/QALoA",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the corded Wahl Professional Peanut here. Use model 8655-200 / 8685 or the cleanest corded Peanut listing; avoid Peanut Li, cordless Peanut, clipper guards only, replacement blades, renewed, or accessory-only listings unless intentionally changed."
   }
