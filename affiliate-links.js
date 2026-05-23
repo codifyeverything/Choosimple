@@ -636,6 +636,12 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Use a current wet/dry Series 7 shaver bundle such as 7185cc / 7071cc / 7127cs or closest market equivalent; avoid Series 3/5/6/8/9, replacement heads, renewed, or accessory-only listings unless intentionally changed."
   },
+  "braun-series-5": {
+    "name": "Braun Series 5",
+    "url": "https://geni.us/C1kaoPO",
+    "merchant": "Amazon",
+    "notes": "Use a current Braun Series 5 wet/dry foil shaver bundle such as 5150cs / 5155cs or the cleanest current market equivalent; avoid Series 3/6/7/8/9, replacement heads, renewed, accessory-only, marketplace-only, or wrong-model listings unless intentionally changed."
+  },
   "panasonic-arc5": {
     "name": "Panasonic Arc5",
     "url": "https://geni.us/gGWx5",
