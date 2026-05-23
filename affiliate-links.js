@@ -601,21 +601,21 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "waterpik-aquarius-water-flosser": {
     "name": "Waterpik Aquarius Water Flosser",
-    "url": "",
+    "url": "https://geni.us/mgLd",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Waterpik Aquarius Water Flosser here. Use the WP-660 / WP-662 Aquarius family; avoid Cordless, Ultra, Complete Care, Sonic-Fusion, renewed, accessory-only, or replacement-tip listings unless intentionally changed."
+    "notes": "Use the Waterpik Aquarius Water Flosser. Use the WP-660 / WP-662 Aquarius family; avoid Cordless, Ultra, Complete Care, Sonic-Fusion, renewed, accessory-only, replacement-tip listings, unrelated bundles, or wrong Waterpik variants unless intentionally changed."
   },
   "waterpik-cordless-advanced": {
-    "name": "Waterpik Cordless Advanced",
-    "url": "",
+    "name": "Waterpik Cordless Advanced 2.0",
+    "url": "https://geni.us/cBLHGB",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Waterpik Cordless Advanced here. Use the Cordless Advanced / Advanced 2.0 family; avoid Cordless Plus, Cordless Express, countertop Aquarius, renewed, accessory-only, or replacement-tip listings unless intentionally changed."
+    "notes": "Use the Waterpik Cordless Advanced 2.0 / WP-580 family. Avoid Cordless Plus, Cordless Express, countertop Aquarius, renewed units, accessory-only listings, replacement tips, unrelated bundles, and wrong Waterpik variants unless intentionally changed."
   },
   "philips-sonicare-power-flosser": {
-    "name": "Philips Sonicare Power Flosser",
-    "url": "",
+    "name": "Philips Sonicare Power Flosser 5000",
+    "url": "https://geni.us/OwOhp",
     "merchant": "Amazon",
-    "notes": "Paste the Geniuslink URL for the Philips Sonicare Power Flosser here. Use the strongest available countertop Power Flosser model by market, such as 3000 or current equivalent; avoid toothbrush-only Sonicare listings, cordless variants unless intentionally chosen, replacement nozzles, renewed, or accessory-only listings."
+    "notes": "Use the Philips Sonicare Power Flosser 5000 countertop model, preferably HX3811/20 or the cleanest current equivalent. Avoid cordless Power Flosser 3000/1000 models, toothbrush-only Sonicare listings, replacement nozzles, renewed units, accessory-only listings, unrelated bundles, and wrong Sonicare variants unless intentionally changed."
   },
   "waterpik-sonic-fusion": {
     "name": "Waterpik Sonic-Fusion",
