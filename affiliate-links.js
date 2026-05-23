@@ -480,7 +480,7 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "cuisinart-perfectemp-cpk-17": {
     "name": "Cuisinart PerfecTemp Electric Kettle",
-    "url": "",
+    "url": "https://geni.us/h9fEt",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Cuisinart PerfecTemp electric kettle here. Use CPK-17 for U.S. listings and CPK-17C for Canadian listings; avoid renewed, accessory-only, stovetop, or unrelated Cuisinart kettle variants unless intentionally changed."
   },
@@ -490,15 +490,21 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the standard OXO Brew Adjustable Temperature Kettle 1.75L here. Avoid the OXO gooseneck pour-over kettle, renewed listings, accessory-only listings, or inflated marketplace variants unless intentionally changed."
   },
+  "breville-iq-kettle-bke820xl": {
+    "name": "Breville IQ Kettle",
+    "url": "https://geni.us/p9w0m",
+    "merchant": "Amazon",
+    "notes": "Geniuslink for the Breville IQ Kettle. Use the BKE820XL / BKE820 model-family variable-temperature kettle; avoid Breville tea makers with infuser baskets, Compact Kettle models, Soft Top kettles, renewed units, accessory-only listings, or unrelated Breville kettle variants unless intentionally changed."
+  },
   "fellow-stagg-ekg": {
     "name": "Fellow Stagg EKG",
-    "url": "",
+    "url": "https://geni.us/m3BxO9",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Fellow Stagg EKG electric gooseneck kettle here. Use the standard Stagg EKG or intentional EKG Pro listing; avoid stovetop Stagg, replacement parts, renewed, or accessory-only listings unless intentionally changed."
   },
   "hamilton-beach-1-7l-glass-kettle": {
     "name": "Hamilton Beach 1.7L Glass Electric Kettle",
-    "url": "",
+    "url": "https://geni.us/fPEAM",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Hamilton Beach 1.7L glass electric kettle here. Use the 40864 / 40864C or closest current 1.7L glass model; avoid stovetop, plastic-only, small-capacity, renewed, or accessory-only listings unless intentionally changed."
   }
