@@ -710,25 +710,25 @@ window.CS_AFFILIATE_LINKS = {
   ,
   "ekrin-b37v2": {
     "name": "Ekrin Athletics B37v2 Massage Gun",
-    "url": "",
+    "url": "https://geni.us/AYlV",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Ekrin Athletics B37v2 Massage Gun here. Use the B37v2 listing; avoid B37 original, Ekrin 365, Bantam, Kestrel, renewed, accessory-only, or unrelated massage gun listings unless intentionally changed."
   },
   "bob-and-brad-d6-pro": {
     "name": "BOB AND BRAD D6 Pro Massage Gun",
-    "url": "",
+    "url": "https://geni.us/N8sd3k",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the BOB AND BRAD D6 Pro Massage Gun here. Use the D6 Pro listing; avoid D6 Pro Plus, D6 Pro Max+, mini models, renewed, accessory-only, or unrelated Bob and Brad massage gun listings unless intentionally changed."
   },
   "theragun-mini-3rd-gen": {
     "name": "Theragun Mini by Therabody, 3rd Generation",
-    "url": "",
+    "url": "https://geni.us/GDww",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the Theragun Mini 3rd Generation here. Use the current Mini 3rd Gen listing; avoid older Mini generations, Mini Plus, Prime, Pro, renewed, accessory-only, or color-only marketplace variants unless intentionally changed."
   },
   "bob-and-brad-q2-mini": {
     "name": "BOB AND BRAD Q2 Mini Massage Gun",
-    "url": "",
+    "url": "https://geni.us/IY0XIUm",
     "merchant": "Amazon",
     "notes": "Paste the Geniuslink URL for the BOB AND BRAD Q2 Mini Massage Gun here. Use the standard Q2 Mini listing; avoid Q2 Pro Mini, heat/cold bundles, D6 models, renewed, accessory-only, or unrelated Bob and Brad listings unless intentionally changed."
   }
