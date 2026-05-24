@@ -17,6 +17,97 @@ extraHead: |
     .price-line {
       white-space: nowrap;
     }
+
+
+    .page-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.46rem;
+      flex-wrap: wrap;
+    }
+
+    .page-breadcrumb .breadcrumb-separator {
+      display: inline-block;
+      opacity: 0.82;
+    }
+
+    .page-hero .page-tagline {
+      max-width: 62rem;
+      font-size: clamp(1rem, 1.18vw, 1.12rem);
+      line-height: 1.45;
+      margin-top: 1rem;
+    }
+
+    .decision-section {
+      padding-top: clamp(2.4rem, 4vw, 4rem);
+    }
+
+    .decision-info {
+      padding-top: 0;
+    }
+
+
+    @media (max-width: 760px) {
+      .cs-site .page-hero .page-tagline {
+        position: relative;
+        left: auto;
+        transform: none;
+        width: calc(100vw - 40px) !important;
+        max-width: calc(100vw - 40px) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: left;
+        font-size: 0.95rem;
+        line-height: 1.32;
+        margin-top: 0.72rem;
+      }
+
+      .page-breadcrumb {
+        gap: 0.42rem;
+      }
+
+      .decision-section {
+        padding-top: 1.35rem;
+      }
+
+      .decision-head-mobile {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+      }
+
+      .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem;
+        align-items: start;
+        gap: 0.85rem;
+      }
+
+      .decision-head-mobile .decision-head-mobile__text {
+        min-width: 0;
+      }
+
+      .decision-head-mobile .decision-name {
+        margin-bottom: 0.45rem !important;
+      }
+
+      .decision-head-mobile .decision-subhead {
+        margin: 0;
+        max-width: none;
+      }
+
+      .decision-head-mobile .decision-mobile-thumb-link {
+        display: block !important;
+        width: 6rem;
+        align-self: start;
+      }
+
+      .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 100% !important;
+        height: 6rem !important;
+        object-fit: contain !important;
+      }
+    }
   </style>
 extraBody: |
   <script>
@@ -37,32 +128,28 @@ extraBody: |
 
 <div class="num-wrap" style="padding-top:0;">
 <div class="page-hero">
-<p class="page-breadcrumb"><a href="/">Home</a> · <a href="/kitchen/">Kitchen</a> · The Decision</p>
+<p class="page-breadcrumb"><a href="/">Home</a><span class="breadcrumb-separator">·</span><a href="/kitchen/">Kitchen</a><span class="breadcrumb-separator">·</span>The Decision</p>
 <h1>Best Rice Cooker for Most People</h1>
-<p class="page-tagline">Stop researching. Get the right answer for your situation.</p>
-<p class="page-support">The best rice cooker for most people is the Zojirushi NS-ZCC10 Neuro Fuzzy. It is the clearest decision if you make rice regularly and want dependable results without paying for premium induction or pressure features most households do not need.</p>
-<p class="category-brand-proofline"><strong>Choosimple decision:</strong> based on real ownership patterns, reliability signals, and fewer regret points — not specs or review noise.</p>
+<p class="page-tagline">Choosimple decision: based on ownership patterns, reliability signals, and fewer regret points, not just specs and review noise.</p>
 </div>
 </div><section class="num-section decision-section">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
 <span class="section-num">01</span>
-<span class="eyebrow">The decision</span>
-<div class="decision-kicker">Start here.</div>
+<span class="eyebrow">The Choosimple Decision</span>
 </div>
 <div>
 <div class="decision-cols">
 <div class="decision-info">
-<span class="conf-badge conf-badge--pick">✓ Choosimple Decision</span>
 <div class="decision-head-mobile">
 <div class="decision-head-mobile__row">
 <div class="decision-head-mobile__text">
 <a class="decision-name-link" data-affiliate-id="zojirushi-ns-zcc10-neuro-fuzzy" href="#"><h2 class="decision-name">Zojirushi NS-ZCC10 Neuro Fuzzy</h2></a>
+<p class="decision-subhead">Best for buyers who make rice often enough to care about consistency, reliability, and keep-warm quality, but do not need a luxury pressure model.</p>
 </div>
 <a aria-label="Check price for Zojirushi NS-ZCC10 Neuro Fuzzy" class="decision-mobile-thumb-link" data-affiliate-id="zojirushi-ns-zcc10-neuro-fuzzy" href="#"><img alt="Zojirushi NS-ZCC10 Neuro Fuzzy rice cooker" class="decision-head-mobile__thumb" src="/Zojirushi-Overall-Best.png"/></a>
 </div>
-<p class="decision-subhead">Best for buyers who make rice often enough to care about consistency, reliability, and keep-warm quality, but do not need a luxury pressure-induction machine.</p>
 </div>
 <div class="snapshot">
 <p class="snapshot-label">Decision Snapshot</p>
@@ -73,7 +160,7 @@ extraBody: |
 </ul>
 </div>
 <div class="decision-inline-proof">
-<p><strong>Why it wins:</strong> the strongest long-term ownership pattern, consistent rice across normal household variation, and a practical middle ground between cheap basic cookers and expensive induction models.</p>
+<p><strong>Why this is the pick:</strong> the strongest long-term ownership pattern, consistent rice across normal household variation, and a practical middle ground between cheap basic cookers and expensive induction.</p>
 </div>
 <div class="decision-inline-cta"><a class="btn-block btn-block-green btn-block-cta" data-affiliate-id="zojirushi-ns-zcc10-neuro-fuzzy" href="#">Check price <span>→</span></a><p class="cta-micro"><span class="price-line">Typical price <span class="currency-note">(USD)</span>: $230–$320.</span> Check current pricing now.</p><p class="decision-brand-micro">Chosen by Choosimple for the strongest fit across reliability, usability, and long-term ownership.</p></div>
 </div>
@@ -114,13 +201,13 @@ extraBody: |
 </div>
 <div class="watchout">
 <span class="eyebrow">Worth knowing</span>
-<p>It is slower than basic rice cookers and the design feels dated, but that is part of why it remains such a dependable long-term choice.</p>
+<p>The Zojirushi NS-ZCC10 Neuro Fuzzy is built around proven reliability, forgiving fuzzy logic, practical 5.5-cup size more than being the cheapest or most specialized option. If you mostly need a smaller, cheaper, or more niche fit, one of the alternatives below may make more sense.</p>
 </div>
 </div>
 <div class="mid-cta-box">
 <p class="mid-cta-kicker">Already leaning toward it?</p>
 <div class="mid-cta-row">
-<p class="mid-cta-copy">Check current pricing now — this is the point where most people already know whether the Zojirushi NS-ZCC10 fits their situation.</p>
+<p class="mid-cta-copy">Check current pricing if the Zojirushi NS-ZCC10 Neuro Fuzzy already feels like the right fit.</p>
 <a class="btn btn-primary" data-affiliate-id="zojirushi-ns-zcc10-neuro-fuzzy" href="#">Check price</a>
 </div>
 <p class="inline-disclosure">Affiliate link. <a href="/disclosure.html">Disclosure</a></p>
@@ -128,11 +215,11 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Search intent</span><h2>What most buyers are really looking for</h2></div><div><p class="intent-intro">Most rice cooker searches are really about avoiding disappointment: mushy rice, dry rice on warm, scratched pots, confusing menus, oversized machines, and cheap cookers that seem fine until rice becomes part of the weekly routine.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best rice cooker</h3><p>Most buyers need the safest default: consistent rice, reliable ownership, easy cleaning, and a size that fits normal weekly use.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best small rice cooker</h3><p>Small households often regret buying too much capacity. A compact micom model is usually a better fit than a full-size cooker if you make small batches.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best budget rice cooker</h3><p>Budget shoppers are really asking what they can give up without hating the appliance later. Price matters, but keep-warm quality and pot durability still count.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Zojirushi vs Cuckoo rice cooker</h3><p>The real choice is not brand loyalty. Zojirushi is the simpler default for most buyers; Cuckoo makes more sense if Korean-style rice and mixed-grain menus matter most.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
+</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Buying criteria</span><h2>What actually matters</h2></div><div><p class="intent-intro">Most rice cooker searches are really about avoiding disappointment: mushy rice, dry rice on warm, scratched pots, confusing menus, oversized machines, and cheap cookers that seem fine until.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best rice cooker</h3><p>Most buyers need the safest default: consistent rice, reliable ownership, easy cleaning, and a size that fits normal weekly use.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best small rice cooker</h3><p>Small households often regret buying too much capacity.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best budget rice cooker</h3><p>Budget shoppers are really asking what they can give up without hating the appliance later.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Zojirushi vs Cuckoo rice cooker</h3><p>The real choice is not brand loyalty.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
-<span class="section-num">02</span>
+<span class="section-num">03</span>
 <span class="eyebrow">Best for</span>
 <h2>Who this is for</h2>
 </div>
@@ -151,7 +238,7 @@ extraBody: |
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
-<span class="section-num">03</span>
+<span class="section-num">04</span>
 <span class="eyebrow">Common buying mistakes</span>
 <h2>What buyers get wrong</h2>
 </div>
@@ -162,37 +249,7 @@ extraBody: |
 <li><span class="x-icon">✕</span><p>Paying for pressure induction before knowing whether they care enough about rice texture</p></li>
 <li><span class="x-icon">✕</span><p>Treating rice cookers like multi-cookers instead of judging whether they make rice well</p></li>
 <li><span class="x-icon">✕</span><p>Ignoring keep-warm quality until rice starts drying out, crusting, or turning mushy</p></li>
-</ul>
-</div>
-</div>
-</div>
-</section><section class="num-section" id="misleading-signals">
-<div class="num-wrap">
-<div class="num-split">
-<div class="num-left">
-<span class="section-num">04</span>
-<span class="eyebrow">Misleading signals</span>
-<h2>What sounds convincing — but isn’t</h2>
-</div>
-<div>
-<div class="signal-grid">
-<div class="signal-card">
-<h3 class="signal-title">More cooking modes</h3>
-<p>A long menu list does not mean better rice. White rice, brown rice, timer, and keep-warm quality matter more than rarely used specialty modes.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Pressure cooking</h3>
-<p>Pressure can be useful, but it also adds cost and complexity. Most households do not need it to get reliable everyday rice.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Huge capacity</h3>
-<p>Bigger sounds safer, but oversized cookers can be annoying for small households and small batches.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Fast cooking</h3>
-<p>Fast is not the same as better. Good rice cookers often take longer because they manage soaking, heating, and resting more carefully.</p>
-</div>
-</div>
+<li><span class="x-icon">✕</span><p>Treat more cooking modes carefully. A long menu list does not mean better rice.</p></li><li><span class="x-icon">✕</span><p>Treat pressure cooking carefully. Pressure can be useful, but it also adds cost and complexity.</p></li></ul>
 </div>
 </div>
 </div>
@@ -206,7 +263,7 @@ extraBody: |
 </div>
 <div>
 <div class="proof-intro">
-<p class="win-supporting">This is the obvious budget alternative most buyers compare first. It can be the right answer for occasional use, but the Zojirushi NS-ZCC10 remains the most defensible decision for most regular rice households.</p>
+<p class="win-supporting">These are the models most buyers compare first. Each one makes sense for a specific situation; the Zojirushi NS-ZCC10 Neuro Fuzzy remains the safer default for most buyers.</p>
 </div>
 <div class="default-pick-block">
 <span class="default-pick-tag">Choosimple Decision</span>
@@ -246,10 +303,10 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Where to go next</h2></div><div><p class="related-intro">Still deciding? These are the next two Choosimple pages most relevant to rice cooker shoppers.</p><div class="related-grid"><div class="related-card"><h3>Best Food Processor for Most People</h3><p>For shoppers building a practical everyday kitchen without overbuying prep appliances.</p><a href="/food-processor.html">Open decision →</a></div><div class="related-card"><h3>Best Toaster Oven for Most People</h3><p>For shoppers building a practical everyday kitchen without overbuying appliances.</p><a href="/toaster-oven.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
+</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Related decisions</h2></div><div><p class="related-intro">Useful next decisions if you are comparing related rice cooker or household purchases.</p><div class="related-grid"><div class="related-card"><h3>Best Food Processor for Most People</h3><p>For shoppers building a practical everyday kitchen without overbuying prep appliances.</p><a href="/food-processor.html">Open decision →</a></div><div class="related-card"><h3>Best Toaster Oven for Most People</h3><p>For shoppers building a practical everyday kitchen without overbuying appliances.</p><a href="/toaster-oven.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
 <div class="page-cta-box">
-<h2>Ready to stop researching?</h2>
-<p>The best rice cooker for most people is the Zojirushi NS-ZCC10 Neuro Fuzzy. Check live pricing and move on if it fits your situation.</p>
+<h2>Ready to choose?</h2>
+<p>The Zojirushi NS-ZCC10 Neuro Fuzzy is the rice cooker we’d buy first for most buyers.</p>
 <a class="btn btn-primary" data-affiliate-id="zojirushi-ns-zcc10-neuro-fuzzy" href="#" style="font-size:18px; padding:18px 38px;">Check price</a>
 <p class="affiliate-note">As an Amazon Associate we earn from qualifying purchases. <a href="/disclosure.html">See our affiliate disclosure.</a></p>
 </div>
