@@ -78,7 +78,7 @@ extraHead: |
       .decision-head-mobile .decision-head-mobile__row {
         display: grid !important;
         grid-template-columns: minmax(0, 1fr) 6rem;
-        align-items: start;
+        align-items: start !important;
         gap: 0.85rem;
       }
 
@@ -97,15 +97,26 @@ extraHead: |
 
       .decision-head-mobile .decision-mobile-thumb-link {
         display: block !important;
-        width: 6rem;
-        align-self: start;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        align-self: start !important;
+        justify-self: end !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
       }
 
       .decision-head-mobile .decision-head-mobile__thumb {
         display: block !important;
-        width: 100% !important;
+        width: 6rem !important;
         height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
         object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
       }
     }
   </style>
