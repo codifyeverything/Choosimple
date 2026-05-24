@@ -7813,7 +7813,11 @@ font-size: 11px !important;
 }
 
 .cs-site .all-decisions-index {
-  padding-top: 38px !important;
+  padding-top: 30px !important;
+}
+
+.cs-site .all-decisions-hero {
+  padding-bottom: 34px !important;
 }
 
 .cs-site .all-decisions-group {
@@ -8469,4 +8473,105 @@ body {
   letter-spacing: 0.06em !important;
   vertical-align: 0.08em !important;
   white-space: nowrap !important;
+}
+
+/* ═══ Parent category mobile card density pass ═══
+   Mobile-only: keeps parent category pages distinct from All Decisions while making the cards faster to scan. */
+@media (max-width: 900px) {
+  .cs-site .category-landing-list .card-grid {
+    gap: 12px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-new {
+    display: grid !important;
+    grid-template-columns: 104px minmax(0, 1fr) !important;
+    align-items: stretch !important;
+    border-radius: 18px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-img {
+    height: auto !important;
+    min-height: 148px !important;
+    border-right: 1px solid var(--border) !important;
+    border-bottom: 0 !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-img img {
+    height: 86px !important;
+    max-width: 86px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-body {
+    padding: 14px 15px !important;
+    min-height: 0 !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-cat,
+  .cs-site .category-landing-list .dec-card-kicker {
+    display: none !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-title {
+    font-size: 22px !important;
+    line-height: 1.08 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-pick {
+    font-size: 14.5px !important;
+    line-height: 1.35 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-summary {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    font-size: 13.5px !important;
+    line-height: 1.42 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-proofline {
+    display: none !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-price {
+    font-size: 13.5px !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-footer {
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-link {
+    font-size: 13.5px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .cs-site .category-landing-list .dec-card-new {
+    grid-template-columns: 92px minmax(0, 1fr) !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-img {
+    min-height: 140px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-img img {
+    height: 76px !important;
+    max-width: 76px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-body {
+    padding: 13px 13px !important;
+  }
+
+  .cs-site .category-landing-list .dec-card-title {
+    font-size: 21px !important;
+  }
 }
