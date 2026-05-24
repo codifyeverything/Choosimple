@@ -121,7 +121,7 @@
       '<div class="cs-affiliate-exit-backdrop" data-cs-affiliate-close></div>',
       '<div class="cs-affiliate-exit-dialog">',
       '  <h2 class="cs-affiliate-exit-title" id="cs-affiliate-exit-title">Open Amazon?</h2>',
-      '  <p class="cs-affiliate-exit-copy" id="cs-affiliate-exit-copy">This may open the Amazon app or Amazon website.</p>',
+      '  <p class="cs-affiliate-exit-copy" id="cs-affiliate-exit-copy">This may open the Amazon app or website. Use Back to return to Choosimple.</p>',
       '  <p class="cs-affiliate-exit-product" data-cs-affiliate-product></p>',
       '  <div class="cs-affiliate-exit-actions">',
       '    <button type="button" class="cs-affiliate-exit-continue">Continue to Amazon</button>',
