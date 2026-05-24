@@ -7813,7 +7813,11 @@ font-size: 11px !important;
 }
 
 .cs-site .all-decisions-index {
-  padding-top: 38px !important;
+  padding-top: 30px !important;
+}
+
+.cs-site .all-decisions-hero {
+  padding-bottom: 34px !important;
 }
 
 .cs-site .all-decisions-group {
