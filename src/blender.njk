@@ -18,6 +18,19 @@ extraHead: |
       white-space: nowrap;
     }
 
+
+    .page-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.46rem;
+      flex-wrap: wrap;
+    }
+
+    .page-breadcrumb .breadcrumb-separator {
+      display: inline-block;
+      opacity: 0.82;
+    }
+
     .page-hero .page-tagline {
       max-width: 62rem;
       font-size: clamp(1rem, 1.18vw, 1.12rem);
@@ -35,6 +48,18 @@ extraHead: |
 
 
     @media (max-width: 760px) {
+      .page-hero .page-tagline {
+        width: 100%;
+        max-width: none;
+        font-size: 0.95rem;
+        line-height: 1.32;
+        margin-top: 0.72rem;
+      }
+
+      .page-breadcrumb {
+        gap: 0.42rem;
+      }
+
       .decision-section {
         padding-top: 1.35rem;
       }
@@ -97,7 +122,7 @@ extraBody: |
 
 <div class="num-wrap" style="padding-top:0;">
 <div class="page-hero">
-<p class="page-breadcrumb"><a href="/">Home</a> · <a href="/kitchen/">Kitchen</a> · The Decision</p>
+<p class="page-breadcrumb"><a href="/">Home</a><span class="breadcrumb-separator">·</span><a href="/kitchen/">Kitchen</a><span class="breadcrumb-separator">·</span>The Decision</p>
 <h1>Best Blender for Most People</h1>
 <p class="page-tagline">Choosimple decision: based on ownership patterns, reliability signals, and fewer regret points, not just specs and review noise.</p>
 </div>
