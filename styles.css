@@ -8454,3 +8454,19 @@ body {
 .cs-site .nav-categories-toggle:hover {
   color: #dbe96f !important;
 }
+
+
+/* Choosimple USD price note consistency */
+.cs-site .decision-section .snapshot .price-line,
+.cs-site .decision-section .snapshot-val .price-line {
+  white-space: nowrap !important;
+}
+
+.cs-site .decision-section .snapshot .currency-note,
+.cs-site .decision-section .snapshot-val .currency-note {
+  font-size: 0.58em !important;
+  line-height: 1 !important;
+  letter-spacing: 0.06em !important;
+  vertical-align: 0.08em !important;
+  white-space: nowrap !important;
+}
