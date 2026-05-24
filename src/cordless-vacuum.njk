@@ -75,11 +75,12 @@ extraHead: |
         margin-bottom: 0.8rem;
       }
 
-      .decision-head-mobile .decision-head-mobile__row {
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
         display: grid !important;
-        grid-template-columns: minmax(0, 1fr) 6rem;
-        align-items: start !important;
-        gap: 0.85rem;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+        margin-bottom: 0.8rem !important;
       }
 
       .decision-head-mobile .decision-head-mobile__text {
@@ -109,6 +110,51 @@ extraHead: |
       }
 
       .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+
+
+      /* Mobile decision thumbnail: match approved Blender rhythm on longer product names */
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-name {
+        font-size: clamp(1.78rem, 7.35vw, 1.95rem) !important;
+        line-height: 0.98 !important;
+        margin-bottom: 0.38rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-subhead {
+        font-size: 0.96rem !important;
+        line-height: 1.34 !important;
+        margin: 0 !important;
+        max-width: none !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-mobile-thumb-link {
+        align-self: center !important;
+        justify-self: end !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__thumb {
         display: block !important;
         width: 6rem !important;
         height: 6rem !important;
@@ -157,7 +203,7 @@ extraBody: |
 <div class="decision-head-mobile__row">
 <div class="decision-head-mobile__text">
 <a class="decision-name-link" data-affiliate-id="dyson-v15-detect" href="#"><h2 class="decision-name">Dyson V15 Detect Plus</h2></a>
-<p class="decision-subhead">Best for buyers who want the safest cordless vacuum decision for most homes, mixed floors, and pet cleanup without paying for a newer flagship.</p>
+<p class="decision-subhead">Best for buyers who want a strong cordless vacuum for mixed floors, pets, and normal home cleanup.</p>
 </div>
 <a aria-label="Check price for Dyson V15 Detect Plus" class="decision-mobile-thumb-link" data-affiliate-id="dyson-v15-detect" href="#"><img alt="Dyson V15 Detect Plus cordless vacuum" class="decision-head-mobile__thumb" src="/Dyson-V15.png"/></a>
 </div>
