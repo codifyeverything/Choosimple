@@ -48,12 +48,15 @@ extraHead: |
 
 
     @media (max-width: 760px) {
-      .page-hero .page-tagline {
+      .cs-site .page-hero .page-tagline {
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        width: calc(100vw - 2rem);
-        max-width: calc(100vw - 2rem);
+        left: auto;
+        transform: none;
+        width: calc(100vw - 40px) !important;
+        max-width: calc(100vw - 40px) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: left;
         font-size: 0.95rem;
         line-height: 1.32;
         margin-top: 0.72rem;
