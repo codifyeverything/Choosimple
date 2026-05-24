@@ -97,7 +97,7 @@
 
     link.setAttribute('href', url.trim());
     link.setAttribute('target', '_blank');
-    link.setAttribute('rel', 'nofollow sponsored noopener');
+    link.setAttribute('rel', 'nofollow sponsored noopener noreferrer');
     link.removeAttribute('data-affiliate-missing');
 
     if (!link.getAttribute('aria-label')) {

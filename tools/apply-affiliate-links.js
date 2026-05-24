@@ -27,7 +27,7 @@ for (const file of htmlFiles) {
 
     let updated = tag.replace(/href="[^"]*"/, `href="${url}"`);
     if (!/href="/.test(updated)) updated = updated.replace('<a ', `<a href="${url}" `);
-    if (!/rel="/.test(updated)) updated = updated.replace('<a ', '<a rel="nofollow sponsored noopener" ');
+    if (!/rel="/.test(updated)) updated = updated.replace('<a ', '<a rel="nofollow sponsored noopener noreferrer" ');
     if (!/target="/.test(updated)) updated = updated.replace('<a ', '<a target="_blank" ');
     changed = true;
     return updated;
