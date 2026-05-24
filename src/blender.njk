@@ -32,6 +32,52 @@ extraHead: |
     .decision-info {
       padding-top: 0;
     }
+
+
+    @media (max-width: 760px) {
+      .decision-section {
+        padding-top: 1.45rem;
+      }
+
+      .decision-head-mobile {
+        margin-top: 0;
+      }
+
+      .decision-head-mobile .decision-head-mobile__row {
+        display: block;
+      }
+
+      .decision-head-mobile .decision-mobile-thumb-link {
+        float: right;
+        display: block;
+        width: 6rem;
+        margin: 0.05rem 0 0.7rem 1rem;
+      }
+
+      .decision-head-mobile .decision-head-mobile__thumb {
+        width: 100%;
+        height: auto;
+      }
+
+      .decision-head-mobile .decision-head-mobile__text {
+        display: block;
+      }
+
+      .decision-head-mobile .decision-name {
+        margin-bottom: 0.45rem;
+      }
+
+      .decision-head-mobile .decision-subhead {
+        margin: 0;
+        max-width: none;
+      }
+
+      .decision-head-mobile .decision-head-mobile__row::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    }
   </style>
 extraBody: |
   <script>
@@ -68,12 +114,12 @@ extraBody: |
 <div class="decision-info">
 <div class="decision-head-mobile">
 <div class="decision-head-mobile__row">
+<a aria-label="Check price for Vitamix 5200" class="decision-mobile-thumb-link" data-affiliate-id="vitamix-5200" href="#"><img alt="Vitamix 5200" class="decision-head-mobile__thumb" src="/Vitamix_5200.png"/></a>
 <div class="decision-head-mobile__text">
 <a class="decision-name-link" data-affiliate-id="vitamix-5200" href="#"><h2 class="decision-name">Vitamix 5200</h2></a>
 </div>
-<a aria-label="Check price for Vitamix 5200" class="decision-mobile-thumb-link" data-affiliate-id="vitamix-5200" href="#"><img alt="Vitamix 5200" class="decision-head-mobile__thumb" src="/Vitamix_5200.png"/></a>
-</div>
 <p class="decision-subhead">Best for buyers who want a durable, simple, high-power blender for smoothies, frozen fruit, nut butters, and hot soups.</p>
+</div>
 </div>
 <div class="snapshot">
 <p class="snapshot-label">Decision Snapshot</p>
