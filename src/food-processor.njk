@@ -17,6 +17,154 @@ extraHead: |
     .price-line {
       white-space: nowrap;
     }
+
+
+    .page-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.46rem;
+      flex-wrap: wrap;
+    }
+
+    .page-breadcrumb .breadcrumb-separator {
+      display: inline-block;
+      opacity: 0.82;
+    }
+
+    .page-hero .page-tagline {
+      max-width: 62rem;
+      font-size: clamp(1rem, 1.18vw, 1.12rem);
+      line-height: 1.45;
+      margin-top: 1rem;
+    }
+
+    .decision-section {
+      padding-top: clamp(2.4rem, 4vw, 4rem);
+    }
+
+    .decision-info {
+      padding-top: 0;
+    }
+
+
+    @media (max-width: 760px) {
+      .cs-site .page-hero .page-tagline {
+        position: relative;
+        left: auto;
+        transform: none;
+        width: calc(100vw - 40px) !important;
+        max-width: calc(100vw - 40px) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: left;
+        font-size: 0.95rem;
+        line-height: 1.32;
+        margin-top: 0.72rem;
+      }
+
+      .page-breadcrumb {
+        gap: 0.42rem;
+      }
+
+      .decision-section {
+        padding-top: 1.35rem;
+      }
+
+      .decision-head-mobile {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+        margin-bottom: 0.8rem !important;
+      }
+
+      .decision-head-mobile .decision-head-mobile__text {
+        min-width: 0;
+      }
+
+      .decision-head-mobile .decision-name {
+        margin-bottom: 0.45rem !important;
+      }
+
+      .decision-head-mobile .decision-subhead {
+        margin: 0;
+        max-width: none;
+      }
+
+      .decision-head-mobile .decision-mobile-thumb-link {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        align-self: start !important;
+        justify-self: end !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+
+
+      /* Mobile decision thumbnail: match approved Blender rhythm on longer product names */
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-name {
+        font-size: clamp(1.78rem, 7.35vw, 1.95rem) !important;
+        line-height: 0.98 !important;
+        margin-bottom: 0.38rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-subhead {
+        font-size: 0.96rem !important;
+        line-height: 1.34 !important;
+        margin: 0 !important;
+        max-width: none !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-mobile-thumb-link {
+        align-self: center !important;
+        justify-self: end !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+    }
   </style>
 extraBody: |
   <script>
@@ -37,32 +185,28 @@ extraBody: |
 
 <div class="num-wrap" style="padding-top:0;">
 <div class="page-hero">
-<p class="page-breadcrumb"><a href="/">Home</a> · <a href="/kitchen/">Kitchen</a> · The Decision</p>
+<p class="page-breadcrumb"><a href="/">Home</a><span class="breadcrumb-separator">·</span><a href="/kitchen/">Kitchen</a><span class="breadcrumb-separator">·</span>The Decision</p>
 <h1>Best Food Processor for Most People</h1>
-<p class="page-tagline">Stop researching. Get the right answer for your situation.</p>
-<p class="page-support">The best food processor for most people is the Cuisinart Custom 14-Cup. It is the clearest decision if you want one dependable full-size machine for chopping, slicing, shredding, pureeing, sauces, and normal meal prep without overbuying features.</p>
-<p class="category-brand-proofline"><strong>Choosimple decision:</strong> based on real ownership patterns, reliability signals, and fewer regret points — not specs or review noise.</p>
+<p class="page-tagline">Choosimple decision: based on ownership patterns, reliability signals, and fewer regret points, not just specs and review noise.</p>
 </div>
 </div><section class="num-section decision-section">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
 <span class="section-num">01</span>
-<span class="eyebrow">The decision</span>
-<div class="decision-kicker">Start here.</div>
+<span class="eyebrow">The Choosimple Decision</span>
 </div>
 <div>
 <div class="decision-cols">
 <div class="decision-info">
-<span class="conf-badge conf-badge--pick">✓ Choosimple Decision</span>
 <div class="decision-head-mobile">
 <div class="decision-head-mobile__row">
 <div class="decision-head-mobile__text">
 <a class="decision-name-link" data-affiliate-id="cuisinart-custom-14-cup-dfp-14bcny" href="#"><h2 class="decision-name">Cuisinart Custom 14-Cup</h2></a>
+<p class="decision-subhead">Best for buyers who want one reliable full-size food processor for real cooking tasks.</p>
 </div>
 <a aria-label="Check price for Cuisinart Custom 14-Cup" class="decision-mobile-thumb-link" data-affiliate-id="cuisinart-custom-14-cup-dfp-14bcny" href="#"><img alt="Cuisinart Custom 14-Cup Food Processor" class="decision-head-mobile__thumb" src="/Cuisinart-Custom-14Cup.png"/></a>
 </div>
-<p class="decision-subhead">Best for buyers who want one reliable full-size food processor that handles real cooking without paying for attachments and complexity most people rarely use.</p>
 </div>
 <div class="snapshot">
 <p class="snapshot-label">Decision Snapshot</p>
@@ -73,7 +217,7 @@ extraBody: |
 </ul>
 </div>
 <div class="decision-inline-proof">
-<p><strong>Why it wins:</strong> long-term owner trust, a practical 14-cup size, and a simple design focused on the jobs people actually repeat: chopping, slicing, shredding, pureeing, sauces, and occasional dough.</p>
+<p><strong>Why this is the pick:</strong> long-term owner trust, a practical 14-cup size, and a simple design focused on the jobs people actually repeat: chopping, slicing, shredding, pureeing, sauces, and occasional.</p>
 </div>
 <div class="decision-inline-cta"><a class="btn-block btn-block-green btn-block-cta" data-affiliate-id="cuisinart-custom-14-cup-dfp-14bcny" href="#">Check price <span>→</span></a><p class="cta-micro"><span class="price-line">Typical price <span class="currency-note">(USD)</span>: $200–$320.</span> Check current pricing now.</p><p class="decision-brand-micro">Chosen by Choosimple for the strongest fit across reliability, usability, and long-term ownership.</p></div>
 </div>
@@ -115,13 +259,13 @@ extraBody: |
 </div>
 <div class="watchout">
 <span class="eyebrow">Worth knowing</span>
-<p>It is not the slickest or most modern machine. If you mostly make tiny sauces, dressings, or quick herb prep, a small chopper may be more convenient as a secondary tool.</p>
+<p>The Cuisinart Custom 14-Cup is built around proven reliability, practical capacity, simple ownership more than being the cheapest or most specialized option. If you mostly need a smaller, cheaper, or more niche fit, one of the alternatives below may make more sense.</p>
 </div>
 </div>
 <div class="mid-cta-box">
 <p class="mid-cta-kicker">Already leaning toward it?</p>
 <div class="mid-cta-row">
-<p class="mid-cta-copy">Check current pricing now — this is the point where most people already know whether the Cuisinart Custom 14-Cup fits their kitchen.</p>
+<p class="mid-cta-copy">Check current pricing if the Cuisinart Custom 14-Cup already feels like the right fit.</p>
 <a class="btn btn-primary" data-affiliate-id="cuisinart-custom-14-cup-dfp-14bcny" href="#">Check price</a>
 </div>
 <p class="inline-disclosure">Affiliate link. <a href="/disclosure.html">Disclosure</a></p>
@@ -129,7 +273,7 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Search intent</span><h2>What most buyers are really looking for</h2></div><div><p class="intent-intro">Most food processor searches are really about avoiding regret: bowls that are too small, lids that are annoying, uneven chopping, weak motors, bulky accessories, and cheap machines that stop feeling worth the cabinet space.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best food processor</h3><p>Most buyers need a full-size machine that handles normal prep reliably. The right answer should be dependable, easy to use, and large enough for real cooking.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best food processor for dough</h3><p>Dough is harder on motors, bowls, and lids than vegetables. Occasional dough is fine for a strong full-size machine, but it should not drive most buyers into overbuying.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best small food processor</h3><p>Small processors are useful, but they solve a different problem. They are for herbs, garlic, sauces, nuts, and small dips — not family prep or slicing/shredding.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Food processor vs mini chopper</h3><p>The real question is whether you need full-size prep or quick small jobs. A mini chopper is useful, but it is not the main machine for most kitchens.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
+</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Buying criteria</span><h2>What actually matters</h2></div><div><p class="intent-intro">Most food processor searches are really about avoiding regret: bowls that are too small, lids that are annoying, uneven chopping, weak motors, bulky accessories, and cheap machines that.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best food processor</h3><p>Most buyers need a full-size machine that handles normal prep reliably.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best food processor for dough</h3><p>Dough is harder on motors, bowls, and lids than vegetables.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best small food processor</h3><p>Small processors are useful, but they solve a different problem.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Food processor vs mini chopper</h3><p>The real question is whether you need full-size prep or quick small jobs.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
@@ -163,37 +307,7 @@ extraBody: |
 <li><span class="x-icon">✕</span><p>Assuming more watts automatically means a better machine</p></li>
 <li><span class="x-icon">✕</span><p>Choosing countertop looks over bowl size, lid design, and durability</p></li>
 <li><span class="x-icon">✕</span><p>Buying too cheap, then dealing with uneven chopping and flimsy plastic</p></li>
-</ul>
-</div>
-</div>
-</div>
-</section><section class="num-section" id="misleading-signals">
-<div class="num-wrap">
-<div class="num-split">
-<div class="num-left">
-<span class="section-num">05</span>
-<span class="eyebrow">Misleading signals</span>
-<h2>What sounds convincing — but isn’t</h2>
-</div>
-<div>
-<div class="signal-grid">
-<div class="signal-card">
-<h3 class="signal-title">Wattage</h3>
-<p>More power on the box does not guarantee better chopping, better usability, or longer life. Food processor ownership is about the whole design.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Accessory count</h3>
-<p>More parts often means more clutter. Most people repeatedly use the S-blade, slicing disc, and shredding disc.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Dicing kits</h3>
-<p>They look impressive, but many owners use them less than expected because setup, cleanup, and storage become the real cost.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Compact size</h3>
-<p>Small feels convenient until you need to shred cheese, slice cabbage, make dough, or prep for more than one person.</p>
-</div>
-</div>
+<li><span class="x-icon">✕</span><p>Treat wattage carefully. More power on the box does not guarantee better chopping, better usability, or longer life.</p></li><li><span class="x-icon">✕</span><p>Treat accessory count carefully. More parts often means more clutter.</p></li></ul>
 </div>
 </div>
 </div>
@@ -207,7 +321,7 @@ extraBody: |
 </div>
 <div>
 <div class="proof-intro">
-<p class="win-supporting">These are the models most buyers compare first. Each one can be the right answer for a specific situation, but the Cuisinart Custom 14-Cup remains the most defensible decision for most people.</p>
+<p class="win-supporting">These are the models most buyers compare first. Each one makes sense for a specific situation; the Cuisinart Custom 14-Cup remains the safer default for most buyers.</p>
 </div>
 <div class="default-pick-block">
 <span class="default-pick-tag">Choosimple Decision</span>
@@ -257,10 +371,10 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Where to go next</h2></div><div><p class="related-intro">Still deciding? These are the next two Choosimple pages most relevant to food processor shoppers.</p><div class="related-grid"><div class="related-card"><h3>Best Blender for Most People</h3><p>For buyers comparing food prep appliances and trying to avoid countertop clutter.</p><a href="/blender.html">Open decision →</a></div><div class="related-card"><h3>Best Rice Cooker for Most People</h3><p>For shoppers building a practical kitchen around reliable daily-use appliances.</p><a href="/rice-cooker.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
+</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Related decisions</h2></div><div><p class="related-intro">Useful next decisions if you are comparing related food processor or household purchases.</p><div class="related-grid"><div class="related-card"><h3>Best Blender for Most People</h3><p>For buyers comparing food prep appliances and trying to avoid countertop clutter.</p><a href="/blender.html">Open decision →</a></div><div class="related-card"><h3>Best Rice Cooker for Most People</h3><p>For shoppers building a practical kitchen around reliable daily-use appliances.</p><a href="/rice-cooker.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
 <div class="page-cta-box">
-<h2>Ready to stop researching?</h2>
-<p>The best food processor for most people is the Cuisinart Custom 14-Cup. Check live pricing and move on if it fits your kitchen.</p>
+<h2>Ready to choose?</h2>
+<p>The Cuisinart Custom 14-Cup is the food processor we’d buy first for most buyers.</p>
 <a class="btn btn-primary" data-affiliate-id="cuisinart-custom-14-cup-dfp-14bcny" href="#" style="font-size:18px; padding:18px 38px;">Check price</a>
 <p class="affiliate-note">As an Amazon Associate we earn from qualifying purchases. <a href="/disclosure.html">See our affiliate disclosure.</a></p>
 </div>

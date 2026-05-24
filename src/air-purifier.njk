@@ -17,6 +17,154 @@ extraHead: |
     .price-line {
       white-space: nowrap;
     }
+
+
+    .page-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.46rem;
+      flex-wrap: wrap;
+    }
+
+    .page-breadcrumb .breadcrumb-separator {
+      display: inline-block;
+      opacity: 0.82;
+    }
+
+    .page-hero .page-tagline {
+      max-width: 62rem;
+      font-size: clamp(1rem, 1.18vw, 1.12rem);
+      line-height: 1.45;
+      margin-top: 1rem;
+    }
+
+    .decision-section {
+      padding-top: clamp(2.4rem, 4vw, 4rem);
+    }
+
+    .decision-info {
+      padding-top: 0;
+    }
+
+
+    @media (max-width: 760px) {
+      .cs-site .page-hero .page-tagline {
+        position: relative;
+        left: auto;
+        transform: none;
+        width: calc(100vw - 40px) !important;
+        max-width: calc(100vw - 40px) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: left;
+        font-size: 0.95rem;
+        line-height: 1.32;
+        margin-top: 0.72rem;
+      }
+
+      .page-breadcrumb {
+        gap: 0.42rem;
+      }
+
+      .decision-section {
+        padding-top: 1.35rem;
+      }
+
+      .decision-head-mobile {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+        margin-bottom: 0.8rem !important;
+      }
+
+      .decision-head-mobile .decision-head-mobile__text {
+        min-width: 0;
+      }
+
+      .decision-head-mobile .decision-name {
+        margin-bottom: 0.45rem !important;
+      }
+
+      .decision-head-mobile .decision-subhead {
+        margin: 0;
+        max-width: none;
+      }
+
+      .decision-head-mobile .decision-mobile-thumb-link {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        align-self: start !important;
+        justify-self: end !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+
+
+      /* Mobile decision thumbnail: match approved Blender rhythm on longer product names */
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-name {
+        font-size: clamp(1.78rem, 7.35vw, 1.95rem) !important;
+        line-height: 0.98 !important;
+        margin-bottom: 0.38rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-subhead {
+        font-size: 0.96rem !important;
+        line-height: 1.34 !important;
+        margin: 0 !important;
+        max-width: none !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-mobile-thumb-link {
+        align-self: center !important;
+        justify-self: end !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+    }
   </style>
 extraBody: |
   <script>
@@ -37,32 +185,28 @@ extraBody: |
 
 <div class="num-wrap" style="padding-top:0;">
 <div class="page-hero">
-<p class="page-breadcrumb"><a href="/">Home</a> · <a href="/home-essentials/">Home Essentials</a> · The Decision</p>
+<p class="page-breadcrumb"><a href="/">Home</a><span class="breadcrumb-separator">·</span><a href="/home-essentials/">Home Essentials</a><span class="breadcrumb-separator">·</span>The Decision</p>
 <h1>Best Air Purifier for Most People</h1>
-<p class="page-tagline">Stop researching. Get the right answer for your situation.</p>
-<p class="page-support">The best air purifier for most people is the Coway AP-1512HH Mighty. It is the clearest decision if you want real air cleaning for bedrooms, home offices, and everyday living spaces without overspending on inflated room claims.</p>
-<p class="category-brand-proofline"><strong>Choosimple decision:</strong> based on real ownership patterns, reliability signals, and fewer regret points — not specs or review noise.</p>
+<p class="page-tagline">Choosimple decision: based on ownership patterns, reliability signals, and fewer regret points, not just specs and review noise.</p>
 </div>
 </div><section class="num-section decision-section">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
 <span class="section-num">01</span>
-<span class="eyebrow">The decision</span>
-<div class="decision-kicker">Start here.</div>
+<span class="eyebrow">The Choosimple Decision</span>
 </div>
 <div>
 <div class="decision-cols">
 <div class="decision-info">
-<span class="conf-badge conf-badge--pick">✓ Choosimple Decision</span>
 <div class="decision-head-mobile">
 <div class="decision-head-mobile__row">
 <div class="decision-head-mobile__text">
 <a class="decision-name-link" data-affiliate-id="coway-ap1512hh-mighty" href="#"><h2 class="decision-name">Coway AP-1512HH Mighty</h2></a>
+<p class="decision-subhead">Best for buyers who want proven everyday air cleaning with reasonable filters and simple ownership.</p>
 </div>
 <a aria-label="Check price for Coway AP-1512HH Mighty" class="decision-mobile-thumb-link" data-affiliate-id="coway-ap1512hh-mighty" href="#"><img alt="Coway AP-1512HH Mighty" class="decision-head-mobile__thumb" src="/coway-air-purifier.png"/></a>
 </div>
-<p class="decision-subhead">Best for buyers who want real everyday air cleaning, reasonable filter costs, and a proven purifier that avoids the most common category mistakes.</p>
 </div>
 <div class="snapshot">
 <p class="snapshot-label">Decision Snapshot</p>
@@ -73,7 +217,7 @@ extraBody: |
 </ul>
 </div>
 <div class="decision-inline-proof">
-<p><strong>Why it wins:</strong> balanced airflow, realistic room coverage, manageable filter costs, and a simpler ownership case than feature-heavy alternatives.</p>
+<p><strong>Why this is the pick:</strong> balanced airflow, realistic room coverage, manageable filter costs, and a simpler ownership case than feature-heavy alternatives.</p>
 </div>
 <div class="decision-inline-cta">
 <a class="btn-block btn-block-green btn-block-cta" data-affiliate-id="coway-ap1512hh-mighty" href="#">Check price <span>→</span></a>
@@ -85,7 +229,7 @@ extraBody: |
 <a aria-label="Check price for Coway AP-1512HH Mighty" class="decision-img-link" data-affiliate-id="coway-ap1512hh-mighty" href="#"><div class="decision-img">
 <img alt="Coway AP-1512HH Mighty" src="/coway-air-purifier.png"/>
 </div></a>
-<div class="snapshot quick-comparison-box"><p class="snapshot-label">Quick Comparison</p><ul class="snapshot-list"><li><span class="snapshot-key">Best overall</span><span class="snapshot-val"><a data-affiliate-id="coway-ap1512hh-mighty" href="#">Coway AP-1512HH Mighty</a></span></li><li><span class="snapshot-key">Best small room</span><span class="snapshot-val"><a data-affiliate-id="levoit-core-200s" href="#">Levoit Core 200S</a></span></li><li><span class="snapshot-key">Best quiet</span><span class="snapshot-val"><a data-affiliate-id="blueair-blue-pure-311i-max" href="#">Blueair Blue Pure 311i Max</a></span></li><li><span class="snapshot-key">Best large room</span><span class="snapshot-val"><a data-affiliate-id="coway-airmega-400s" href="#">Coway Airmega 400S</a></span></li></ul><a class="btn-block btn-block-outline btn-block-cta quick-comparison-cta" href="#obvious-alternatives">More detailed comparison<span>→</span></a></div></div>
+<div class="snapshot quick-comparison-box"><p class="snapshot-label">Quick Comparison</p><ul class="snapshot-list"><li><span class="snapshot-key">Best overall</span><span class="snapshot-val"><a data-affiliate-id="coway-ap1512hh-mighty" href="#">Coway AP-1512HH Mighty</a></span></li><li><span class="snapshot-key">Best small room</span><span class="snapshot-val"><a data-affiliate-id="levoit-core-200s" href="#">Levoit Core 200S</a></span></li><li><span class="snapshot-key">Best quiet</span><span class="snapshot-val"><a data-affiliate-id="blueair-blue-pure-311i-max" href="#">Blueair Blue Pure 311i Max</a></span></li><li><span class="snapshot-key">Best large room</span><span class="snapshot-val"><a data-affiliate-id="coway-airmega-400s" href="#">Coway Airmega 400S</a></span></li></ul><a class="btn-block btn-block-outline btn-block-cta quick-comparison-cta" href="#obvious-alternatives">More detailed comparison <span>→</span></a></div></div>
 </div>
 <div class="decision-jump-row">
 <div class="decision-jump-links">
@@ -100,13 +244,13 @@ extraBody: |
 </div><div class="trust-block"><p class="trust-label">How this decision was made</p><ul class="trust-list"><li>Based on long-term ownership patterns, airflow and filter-cost signals, expert testing, and real-world room use cases — not inflated room-size claims alone.</li></ul></div>
 <div class="watchout">
 <span class="eyebrow">Worth knowing</span>
-<p>It is not the largest or quietest purifier, but it is the most defensible starting point for normal bedrooms and everyday living spaces.</p>
+<p>The Coway AP-1512HH Mighty is built around balanced airflow, reasonable filters, proven ownership more than being the cheapest or most specialized option. If you mostly need a smaller, cheaper, or more niche fit, one of the alternatives below may make more sense.</p>
 </div>
 </div>
 <div class="mid-cta-box">
 <p class="mid-cta-kicker">Already leaning toward it?</p>
 <div class="mid-cta-row">
-<p class="mid-cta-copy">Check current pricing now — this is the point where most people already know whether the Coway AP-1512HH Mighty fits their situation.</p>
+<p class="mid-cta-copy">Check current pricing if the Coway AP-1512HH Mighty already feels like the right fit.</p>
 <a class="btn btn-primary" data-affiliate-id="coway-ap1512hh-mighty" href="#">Check price</a>
 </div>
 <p class="inline-disclosure">Affiliate link. <a href="/disclosure.html">Disclosure</a></p>
@@ -114,11 +258,11 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Search intent</span><h2>What most buyers are really looking for</h2></div><div><p class="intent-intro">Most air purifier searches are really about confidence: whether the unit can clean a real room, stay quiet enough to leave on, and avoid expensive filter regret over time.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best air purifier for bedroom</h3><p>Bedroom searches are about quiet, consistent cleaning while you sleep. The right purifier should work well on a usable fan speed, not only in a loud maximum mode.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best air purifier for allergies</h3><p>Allergy buyers need dependable HEPA filtration and enough airflow for the room. Marketing claims matter less than whether the purifier can keep moving air consistently.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best air purifier under $250</h3><p>Budget matters, but the cheapest purifier often becomes expensive through weak coverage, loud operation, or high replacement-filter costs.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Coway vs Levoit vs Blueair</h3><p>These brands solve different problems: Coway is the balanced default, Levoit is strong for smaller rooms, Blueair is compelling for quiet operation, and larger Coway units fit bigger spaces.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
+</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Buying criteria</span><h2>What actually matters</h2></div><div><p class="intent-intro">Most air purifier searches are really about confidence: whether the unit can clean a real room, stay quiet enough to leave on, and avoid expensive filter regret over time.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best air purifier for bedroom</h3><p>Bedroom searches are about quiet, consistent cleaning while you sleep.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best air purifier for allergies</h3><p>Allergy buyers need dependable HEPA filtration and enough airflow for the room.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best air purifier under $250</h3><p>Budget matters, but the cheapest purifier often becomes expensive through weak coverage, loud operation, or high replacement-filter.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Coway vs Levoit vs Blueair</h3><p>These brands solve different problems: Coway is the balanced default, Levoit is strong for smaller rooms, Blueair is compelling for.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
-<span class="section-num">02</span>
+<span class="section-num">03</span>
 <span class="eyebrow">Best for</span>
 <h2>Who this is for</h2>
 </div>
@@ -137,7 +281,7 @@ extraBody: |
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
-<span class="section-num">03</span>
+<span class="section-num">04</span>
 <span class="eyebrow">Common buying mistakes</span>
 <h2>What buyers get wrong</h2>
 </div>
@@ -148,37 +292,7 @@ extraBody: |
 <li><span class="x-icon">✕</span><p>Choosing the quietest model without asking what it actually cleans at usable speeds</p></li>
 <li><span class="x-icon">✕</span><p>Ignoring replacement filter costs until the “cheap” purifier becomes expensive</p></li>
 <li><span class="x-icon">✕</span><p>Trusting feature-heavy purifiers before long-term reliability shows up</p></li>
-</ul>
-</div>
-</div>
-</div>
-</section><section class="num-section" id="misleading-signals">
-<div class="num-wrap">
-<div class="num-split">
-<div class="num-left">
-<span class="section-num">04</span>
-<span class="eyebrow">Misleading signals</span>
-<h2>What sounds convincing — but isn’t</h2>
-</div>
-<div>
-<div class="signal-grid">
-<div class="signal-card">
-<h3 class="signal-title">Big room claims</h3>
-<p>Many purifiers are rated for ideal conditions. That does not mean they clean a real room quickly or meaningfully at the speeds people actually use.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">“True HEPA” alone</h3>
-<p>Filtration matters, but airflow matters just as much. A purifier with good filtration and weak airflow can still disappoint in real use.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Ultra-quiet marketing</h3>
-<p>Quiet often means slower cleaning. If the purifier only works well on a speed you will not keep running, the promise breaks down.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Feature-heavy controls</h3>
-<p>Apps, sensors, and auto modes can sound advanced, but they do not automatically translate into cleaner air or better long-term value.</p>
-</div>
-</div>
+<li><span class="x-icon">✕</span><p>Treat big room claims carefully. Many purifiers are rated for ideal conditions.</p></li><li><span class="x-icon">✕</span><p>Treat “True HEPA” alone carefully. Filtration matters, but airflow matters just as much.</p></li></ul>
 </div>
 </div>
 </div>
@@ -192,7 +306,7 @@ extraBody: |
 </div>
 <div>
 <div class="proof-intro">
-<p class="win-supporting">These are the models most buyers compare first. Each one can be the right answer for a specific situation, but the Coway AP-1512HH Mighty remains the most defensible decision for most people.</p>
+<p class="win-supporting">These are the models most buyers compare first. Each one makes sense for a specific situation; the Coway AP-1512HH Mighty remains the safer default for most buyers.</p>
 </div>
 <div class="default-pick-block">
 <span class="default-pick-tag">Choosimple Decision</span>
@@ -253,10 +367,10 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Where to go next</h2></div><div><p class="related-intro">These are the next Choosimple decisions most relevant to buyers improving their everyday home setup.</p><div class="related-grid"><div class="related-card"><h3>Best Robot Vacuum for Most People</h3><p>For homes trying to reduce daily maintenance with a practical automation upgrade.</p><a href="/robot-vacuum.html">Open decision →</a></div><div class="related-card"><h3>Best Electric Toothbrush for Most People</h3><p>For buyers who value simple, high-frequency products that hold up in real use.</p><a href="/electric-toothbrush.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
+</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Related decisions</h2></div><div><p class="related-intro">Useful next decisions if you are comparing related air purifier or household purchases.</p><div class="related-grid"><div class="related-card"><h3>Best Robot Vacuum for Most People</h3><p>For homes trying to reduce daily maintenance with a practical automation upgrade.</p><a href="/robot-vacuum.html">Open decision →</a></div><div class="related-card"><h3>Best Electric Toothbrush for Most People</h3><p>For buyers who value simple, high-frequency products that hold up in real use.</p><a href="/electric-toothbrush.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
 <div class="page-cta-box">
-<h2>Ready to stop researching?</h2>
-<p>For most buyers, the Coway Mighty still makes the most sense because it gets the fundamentals right: airflow, cost of ownership, and everyday reliability.</p>
+<h2>Ready to choose?</h2>
+<p>The Coway AP-1512HH Mighty is the air purifier we’d buy first for most buyers.</p>
 <a class="btn btn-primary" data-affiliate-id="coway-ap1512hh-mighty" href="#" style="font-size:18px; padding:18px 38px;">Check price</a>
 <p class="affiliate-note">As an Amazon Associate we earn from qualifying purchases. <a href="/disclosure.html">See our affiliate disclosure.</a></p>
 </div>

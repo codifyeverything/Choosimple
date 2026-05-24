@@ -17,6 +17,154 @@ extraHead: |
     .price-line {
       white-space: nowrap;
     }
+
+
+    .page-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.46rem;
+      flex-wrap: wrap;
+    }
+
+    .page-breadcrumb .breadcrumb-separator {
+      display: inline-block;
+      opacity: 0.82;
+    }
+
+    .page-hero .page-tagline {
+      max-width: 62rem;
+      font-size: clamp(1rem, 1.18vw, 1.12rem);
+      line-height: 1.45;
+      margin-top: 1rem;
+    }
+
+    .decision-section {
+      padding-top: clamp(2.4rem, 4vw, 4rem);
+    }
+
+    .decision-info {
+      padding-top: 0;
+    }
+
+
+    @media (max-width: 760px) {
+      .cs-site .page-hero .page-tagline {
+        position: relative;
+        left: auto;
+        transform: none;
+        width: calc(100vw - 40px) !important;
+        max-width: calc(100vw - 40px) !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: left;
+        font-size: 0.95rem;
+        line-height: 1.32;
+        margin-top: 0.72rem;
+      }
+
+      .page-breadcrumb {
+        gap: 0.42rem;
+      }
+
+      .decision-section {
+        padding-top: 1.35rem;
+      }
+
+      .decision-head-mobile {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+        margin-bottom: 0.8rem !important;
+      }
+
+      .decision-head-mobile .decision-head-mobile__text {
+        min-width: 0;
+      }
+
+      .decision-head-mobile .decision-name {
+        margin-bottom: 0.45rem !important;
+      }
+
+      .decision-head-mobile .decision-subhead {
+        margin: 0;
+        max-width: none;
+      }
+
+      .decision-head-mobile .decision-mobile-thumb-link {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        align-self: start !important;
+        justify-self: end !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+
+
+      /* Mobile decision thumbnail: match approved Blender rhythm on longer product names */
+      .cs-site .decision-head-mobile .decision-head-mobile__row {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 6rem !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-name {
+        font-size: clamp(1.78rem, 7.35vw, 1.95rem) !important;
+        line-height: 0.98 !important;
+        margin-bottom: 0.38rem !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-subhead {
+        font-size: 0.96rem !important;
+        line-height: 1.34 !important;
+        margin: 0 !important;
+        max-width: none !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-mobile-thumb-link {
+        align-self: center !important;
+        justify-self: end !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        min-width: 6rem !important;
+        max-width: 6rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .cs-site .decision-head-mobile .decision-head-mobile__thumb {
+        display: block !important;
+        width: 6rem !important;
+        height: 6rem !important;
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+      }
+    }
   </style>
 extraBody: |
   <script>
@@ -37,32 +185,28 @@ extraBody: |
 
 <div class="num-wrap" style="padding-top:0;">
 <div class="page-hero">
-<p class="page-breadcrumb"><a href="/">Home</a> · <a href="/kitchen/">Kitchen</a> · The Decision</p>
+<p class="page-breadcrumb"><a href="/">Home</a><span class="breadcrumb-separator">·</span><a href="/kitchen/">Kitchen</a><span class="breadcrumb-separator">·</span>The Decision</p>
 <h1>Best Air Fryer for Most People</h1>
-<p class="page-tagline">Stop researching. Get the right answer for your situation.</p>
-<p class="page-support">The best air fryer for most people is the Instant Vortex Plus 6-Quart Air Fryer with ClearCook. It is the clearest decision if you want fast weeknight cooking, reliable reheating, and a practical 6-quart basket without paying for extra features most households barely use.</p>
-<p class="category-brand-proofline"><strong>Choosimple decision:</strong> based on real ownership patterns, reliability signals, and fewer regret points — not specs or review noise.</p>
+<p class="page-tagline">Choosimple decision: based on ownership patterns, reliability signals, and fewer regret points, not just specs and review noise.</p>
 </div>
 </div><section class="num-section decision-section">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
 <span class="section-num">01</span>
-<span class="eyebrow">The decision</span>
-<div class="decision-kicker">Start here.</div>
+<span class="eyebrow">The Choosimple Decision</span>
 </div>
 <div>
 <div class="decision-cols">
 <div class="decision-info">
-<span class="conf-badge conf-badge--pick">✓ Choosimple Decision</span>
 <div class="decision-head-mobile">
 <div class="decision-head-mobile__row">
 <div class="decision-head-mobile__text">
 <a class="decision-name-link" data-affiliate-id="instant-vortex-plus-6qt" href="#"><h2 class="decision-name">Instant Vortex Plus 6-Quart Air Fryer with ClearCook</h2></a>
+<p class="decision-subhead">Best for buyers who want an easy everyday air fryer for crisp meals, leftovers, and simple weeknight cooking.</p>
 </div>
 <a aria-label="Check price for Instant Vortex Plus 6-Quart Air Fryer with ClearCook" class="decision-mobile-thumb-link" data-affiliate-id="instant-vortex-plus-6qt" href="#"><img alt="Instant Vortex Plus 6-Quart Air Fryer with ClearCook" class="decision-head-mobile__thumb" src="/Instant_Vortex_Plus__transparent_.png"/></a>
 </div>
-<p class="decision-subhead">Best for households that want a practical everyday air fryer with enough capacity for real meals, even cooking, and fewer feature-driven tradeoffs.</p>
 </div>
 <div class="snapshot">
 <p class="snapshot-label">Decision Snapshot</p>
@@ -73,7 +217,7 @@ extraBody: |
 </ul>
 </div>
 <div class="decision-inline-proof">
-<p><strong>Why it wins:</strong> strong basket-size-to-usability balance, even everyday cooking, and fewer long-term tradeoffs than oversized or overly cheap alternatives.</p>
+<p><strong>Why this is the pick:</strong> strong basket-size-to-usability balance, even everyday cooking, and fewer long-term tradeoffs than oversized or overly cheap alternatives.</p>
 </div>
 <div class="decision-inline-cta">
 <a class="btn-block btn-block-green btn-block-cta" data-affiliate-id="instant-vortex-plus-6qt" href="#">Check price <span>→</span></a>
@@ -85,7 +229,7 @@ extraBody: |
 <a aria-label="Check price for Instant Vortex Plus 6-Quart Air Fryer with ClearCook" class="decision-img-link" data-affiliate-id="instant-vortex-plus-6qt" href="#"><div class="decision-img">
 <img alt="Instant Vortex Plus 6-Quart Air Fryer with ClearCook" src="/Instant_Vortex_Plus__transparent_.png"/>
 </div></a>
-<div class="snapshot quick-comparison-box"><p class="snapshot-label">Quick Comparison</p><ul class="snapshot-list"><li><span class="snapshot-key">Best overall</span><span class="snapshot-val"><a data-affiliate-id="instant-vortex-plus-6qt" href="#">Instant Vortex Plus 6-Quart Air Fryer with ClearCook</a></span></li><li><span class="snapshot-key">Best dual-basket</span><span class="snapshot-val"><a data-affiliate-id="instant-vortex-plus-xl-8qt-dual-basket" href="#">Instant Vortex Plus XL 8-Quart Dual Basket</a></span></li><li><span class="snapshot-key">Best value</span><span class="snapshot-val"><a data-affiliate-id="cosori-turboblaze-6qt" href="#">Cosori TurboBlaze 6-Quart</a></span></li></ul><a class="btn-block btn-block-outline btn-block-cta quick-comparison-cta" href="#obvious-alternatives">More detailed comparison<span>→</span></a></div></div>
+<div class="snapshot quick-comparison-box"><p class="snapshot-label">Quick Comparison</p><ul class="snapshot-list"><li><span class="snapshot-key">Best overall</span><span class="snapshot-val"><a data-affiliate-id="instant-vortex-plus-6qt" href="#">Instant Vortex Plus 6-Quart Air Fryer with ClearCook</a></span></li><li><span class="snapshot-key">Best dual-basket</span><span class="snapshot-val"><a data-affiliate-id="instant-vortex-plus-xl-8qt-dual-basket" href="#">Instant Vortex Plus XL 8-Quart Dual Basket</a></span></li><li><span class="snapshot-key">Best value</span><span class="snapshot-val"><a data-affiliate-id="cosori-turboblaze-6qt" href="#">Cosori TurboBlaze 6-Quart</a></span></li></ul><a class="btn-block btn-block-outline btn-block-cta quick-comparison-cta" href="#obvious-alternatives">More detailed comparison <span>→</span></a></div></div>
 </div>
 <div class="decision-jump-row">
 <div class="decision-jump-links">
@@ -100,13 +244,13 @@ extraBody: |
 </div><div class="trust-block"><p class="trust-label">How this decision was made</p><ul class="trust-list"><li>Based on long-term ownership patterns, basket durability signals, expert testing, and real-world weeknight use cases — not presets or marketing claims alone.</li></ul></div>
 <div class="watchout">
 <span class="eyebrow">Worth knowing</span>
-<p>It is not the fanciest air fryer and it is not the absolute cheapest, but it lands in the practical middle most households should start with.</p>
+<p>The Instant Vortex Plus 6-Quart Air Fryer with ClearCook is built around strong capacity, even cooking, simpler ownership more than being the cheapest or most specialized option. If you mostly need a smaller, cheaper, or more niche fit, one of the alternatives below may make more sense.</p>
 </div>
 </div>
 <div class="mid-cta-box">
 <p class="mid-cta-kicker">Already leaning toward it?</p>
 <div class="mid-cta-row">
-<p class="mid-cta-copy">Check current pricing now — this is the point where most people already know whether the Instant Vortex Plus 6-Quart Air Fryer with ClearCook fits their situation.</p>
+<p class="mid-cta-copy">Check current pricing if the Instant Vortex Plus 6-Quart Air Fryer with ClearCook already feels like the right fit.</p>
 <a class="btn btn-primary" data-affiliate-id="instant-vortex-plus-6qt" href="#">Check price</a>
 </div>
 <p class="inline-disclosure">Affiliate link. <a href="/disclosure.html">Disclosure</a></p>
@@ -114,11 +258,11 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Search intent</span><h2>What most buyers are really looking for</h2></div><div><p class="intent-intro">Most air fryer shoppers are not really looking for the most features. They are trying to avoid a basket that is too small, coating that wears quickly, uneven cooking, or a bulky appliance they stop using after a month.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best air fryer for a family</h3><p>Family-size searches are usually about usable basket space, not just the largest number on the box. A good family air fryer should handle normal weeknight portions without becoming too bulky to keep on the counter.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best air fryer for everyday use</h3><p>Everyday use depends on simple controls, predictable cooking, and easy cleanup. The right choice should make reheating, sides, and quick meals easier without adding another complicated appliance.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Best air fryer under $200</h3><p>Budget searches should focus on avoiding the cheap-air-fryer trap: weak baskets, coating wear, uneven results, and cramped capacity. Paying a little more for the right size and build can reduce replacement regret.</p></div><div class="intent-card"><span class="intent-tag">Common search</span><h3>Single-basket vs dual-basket air fryer</h3><p>Dual baskets are useful when you regularly cook two foods at once. For most households, one strong 6-quart basket is simpler, roomier per basket, and easier to clean.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
+</section><section class="num-section" id="shop-signals"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="section-num">02</span><span class="eyebrow">Buying criteria</span><h2>What actually matters</h2></div><div><p class="intent-intro">Most air fryer shoppers are not really looking for the most features.</p><div class="intent-grid"><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best air fryer for a family</h3><p>Family-size searches are usually about usable basket space, not just the largest number on the box.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best air fryer for everyday use</h3><p>Everyday use depends on simple controls, predictable cooking, and easy cleanup.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Best air fryer under $200</h3><p>Budget searches should focus on avoiding the cheap-air-fryer trap: weak baskets, coating wear, uneven results, and cramped capacity.</p></div><div class="intent-card"><span class="intent-tag">Decision factor</span><h3>Single-basket vs dual-basket air fryer</h3><p>Dual baskets are useful when you regularly cook two foods at once.</p></div></div></div></div></div></section><section class="num-section" id="who-its-for">
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
-<span class="section-num">02</span>
+<span class="section-num">03</span>
 <span class="eyebrow">Best for</span>
 <h2>Who this is for</h2>
 </div>
@@ -137,7 +281,7 @@ extraBody: |
 <div class="num-wrap">
 <div class="num-split">
 <div class="num-left">
-<span class="section-num">03</span>
+<span class="section-num">04</span>
 <span class="eyebrow">Common buying mistakes</span>
 <h2>What buyers get wrong</h2>
 </div>
@@ -148,37 +292,7 @@ extraBody: |
 <li><span class="x-icon">✕</span><p>Skipping EvenCrisp-style airflow design — it matters more than most preset claims</p></li>
 <li><span class="x-icon">✕</span><p>Grabbing whichever unit is on sale without checking coating durability after 12 months</p></li>
 <li><span class="x-icon">✕</span><p>Assuming bigger wattage means faster cooking when airflow design matters more</p></li>
-</ul>
-</div>
-</div>
-</div>
-</section><section class="num-section" id="misleading-signals">
-<div class="num-wrap">
-<div class="num-split">
-<div class="num-left">
-<span class="section-num">04</span>
-<span class="eyebrow">Misleading signals</span>
-<h2>What sounds convincing — but isn’t</h2>
-</div>
-<div>
-<div class="signal-grid">
-<div class="signal-card">
-<h3 class="signal-title">More presets</h3>
-<p>Most presets are just slightly different time and temperature combinations. They do not tell you whether the machine cooks better.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Smart app features</h3>
-<p>Most owners stop using app connectivity quickly. Physical controls matter much more in everyday use.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">Dual baskets</h3>
-<p>Two baskets sound like more capacity, but each basket is usually smaller and harder to clean than a strong single 6-quart basket.</p>
-</div>
-<div class="signal-card">
-<h3 class="signal-title">More wattage</h3>
-<p>Raw wattage is less important than airflow design, basket shape, and how evenly the machine browns food.</p>
-</div>
-</div>
+<li><span class="x-icon">✕</span><p>Treat more presets carefully. Most presets are just slightly different time and temperature combinations.</p></li><li><span class="x-icon">✕</span><p>Treat smart app features carefully. Most owners stop using app connectivity quickly.</p></li></ul>
 </div>
 </div>
 </div>
@@ -192,7 +306,7 @@ extraBody: |
 </div>
 <div>
 <div class="proof-intro">
-<p class="win-supporting">These are the models most buyers compare first. Each one can be the right answer for a specific situation, but the Instant Vortex Plus 6-Quart Air Fryer with ClearCook remains the most defensible decision for most people because it is simpler, easier to buy, and easier to live with.</p>
+<p class="win-supporting">These are the models most buyers compare first. Each one makes sense for a specific situation; the Instant Vortex Plus 6-Quart Air Fryer with ClearCook remains the safer default for most buyers.</p>
 </div>
 <div class="default-pick-block">
 <span class="default-pick-tag">Choosimple Decision</span>
@@ -243,10 +357,10 @@ extraBody: |
 </div>
 </div>
 </div>
-</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Where to go next</h2></div><div><p class="related-intro">These are the next Choosimple pages most likely to help an air fryer buyer finish the kitchen decision set.</p><div class="related-grid"><div class="related-card"><h3>Best Blender for Most People</h3><p>For buyers who want one dependable countertop blender instead of overpaying for raw power.</p><a href="/blender.html">Open decision →</a></div><div class="related-card"><h3>Best Coffee Grinder for Most People</h3><p>For shoppers rounding out a practical, high-use kitchen setup.</p><a href="/coffee-grinder.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
+</section><section class="num-section" id="related-decisions"><div class="num-wrap"><div class="num-split"><div class="num-left"><span class="eyebrow">Related decisions</span><h2>Related decisions</h2></div><div><p class="related-intro">Useful next decisions if you are comparing related air fryer or household purchases.</p><div class="related-grid"><div class="related-card"><h3>Best Blender for Most People</h3><p>For buyers who want one dependable countertop blender instead of overpaying for raw power.</p><a href="/blender.html">Open decision →</a></div><div class="related-card"><h3>Best Coffee Grinder for Most People</h3><p>For shoppers rounding out a practical, high-use kitchen setup.</p><a href="/coffee-grinder.html">Open decision →</a></div></div></div></div></div></section><div class="page-cta-wrap">
 <div class="page-cta-box">
-<h2>Ready to stop researching?</h2>
-<p>For most people, the Instant Vortex Plus 6-Quart Air Fryer with ClearCook is still the air fryer that makes the most sense. Check live pricing if it fits your situation.</p>
+<h2>Ready to choose?</h2>
+<p>The Instant Vortex Plus 6-Quart Air Fryer with ClearCook is the air fryer we’d buy first for most buyers.</p>
 <a class="btn btn-primary" data-affiliate-id="instant-vortex-plus-6qt" href="#" style="font-size:18px; padding:18px 38px;">Check price</a>
 <p class="affiliate-note">As an Amazon Associate we earn from qualifying purchases. <a href="/disclosure.html">See our affiliate disclosure.</a></p>
 </div>
