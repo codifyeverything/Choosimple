@@ -12,7 +12,7 @@
     <div class="nav-panel" id="site-nav-panel">
       <div class="nav-primary">
         <div class="nav-categories">
-          <button aria-controls="site-categories-menu" aria-expanded="false" class="nav-categories-toggle nav-link-primary-path" type="button">Shop by category</button>
+          <button aria-controls="site-categories-menu" aria-expanded="false" class="nav-categories-toggle" type="button">Shop by category</button>
           <div class="nav-categories-menu nav-categories-menu--scalable" id="site-categories-menu">
             {% for group in site.categoryGroups %}
             {% set groupItems = categories | groupItems(group) %}
@@ -28,7 +28,7 @@
             {% endfor %}
           </div>
         </div>
-        <a class="nav-link-primary-path nav-link-primary-path--strong" href="/all-decisions.html">Browse all decisions</a>
+        <a href="/all-decisions.html">Browse all decisions</a>
         <a href="/methodology.html">Methodology</a>
         <a href="/about.html">About</a>
       </div>
