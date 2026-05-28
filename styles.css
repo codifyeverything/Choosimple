@@ -8576,52 +8576,6 @@ body {
   }
 }
 
-/* Choosimple homepage navigation path clarity */
-.cs-site .nav-primary > a.nav-link-primary-path,
-.cs-site .nav-categories-toggle.nav-link-primary-path {
-  white-space: nowrap !important;
-}
-
-@media (min-width: 901px) {
-  .cs-site .nav-primary {
-    gap: 16px !important;
-  }
-
-  .cs-site .nav-categories-toggle.nav-link-primary-path {
-    padding: 8px 11px !important;
-    border: 1px solid rgba(219, 233, 111, 0.28) !important;
-    border-radius: 999px !important;
-    background: rgba(247, 243, 215, 0.06) !important;
-  }
-
-  .cs-site .nav-primary > a.nav-link-primary-path--strong {
-    padding: 8px 12px !important;
-    border-radius: 999px !important;
-    background: #dbe96f !important;
-    color: #11110d !important;
-    border: 1px solid rgba(219, 233, 111, 0.95) !important;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset !important;
-  }
-
-  .cs-site .nav-primary > a.nav-link-primary-path--strong:hover {
-    background: #edf7a3 !important;
-    color: #11110d !important;
-  }
-}
-
-@media (max-width: 900px) {
-  .cs-site .nav-primary > a.nav-link-primary-path,
-  .cs-site .nav-categories-toggle.nav-link-primary-path {
-    background: rgba(219, 233, 111, 0.11) !important;
-    border-color: rgba(219, 233, 111, 0.3) !important;
-  }
-
-  .cs-site .nav-primary > a.nav-link-primary-path--strong {
-    background: #dbe96f !important;
-    color: #11110d !important;
-    font-weight: 800 !important;
-  }
-}
 
 .cs-site .hero-buttons--decision-paths .btn {
   min-width: 178px;
@@ -8651,5 +8605,19 @@ body {
 
   .cs-site .hero-buttons--decision-paths .btn-outline {
     background-color: rgba(255, 255, 255, 0.66) !important;
+  }
+}
+
+
+/* Choosimple mobile category menu toggle refinement
+   Keeps the mobile Shop by category drawer controlled by tap state only, so tapping the label again collapses it cleanly. */
+@media (max-width: 900px) {
+  .cs-site .nav-categories:hover .nav-categories-menu,
+  .cs-site .nav-categories:focus-within .nav-categories-menu {
+    display: none !important;
+  }
+
+  .cs-site .nav-categories.is-open .nav-categories-menu {
+    display: grid !important;
   }
 }
