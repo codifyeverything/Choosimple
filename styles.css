@@ -8623,26 +8623,22 @@ body {
   }
 }
 
-.cs-site .hero-pathline {
-  max-width: 520px;
-  margin: -2px 0 14px !important;
-  color: var(--ink) !important;
-  font-size: 15px !important;
-  line-height: 1.45 !important;
-  font-weight: 700 !important;
-}
-
 .cs-site .hero-buttons--decision-paths .btn {
   min-width: 178px;
 }
 
-@media (max-width: 767px) {
-  .cs-site .hero-pathline {
-    margin: 0 0 10px !important;
-    font-size: 14.5px !important;
-    line-height: 1.4 !important;
-  }
+.cs-site .hero-buttons--decision-paths .btn-outline {
+  background-color: rgba(255, 255, 255, 0.54) !important;
+  border-color: rgba(47, 90, 28, 0.22) !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.45) inset;
+}
 
+.cs-site .hero-buttons--decision-paths .btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.74) !important;
+  border-color: rgba(47, 90, 28, 0.42) !important;
+}
+
+@media (max-width: 767px) {
   .cs-site .hero-buttons--decision-paths {
     gap: 10px !important;
     margin-bottom: 0.65rem !important;
@@ -8651,5 +8647,9 @@ body {
   .cs-site .hero-buttons--decision-paths .btn {
     width: 100% !important;
     min-width: 0;
+  }
+
+  .cs-site .hero-buttons--decision-paths .btn-outline {
+    background-color: rgba(255, 255, 255, 0.66) !important;
   }
 }
