@@ -29,6 +29,15 @@ module.exports = {
       shortDescription: "Daily-use tools where performance, comfort, and reliability matter most.",
       eyebrow: "Personal Care"
     }
+    ,
+    {
+      title: "Tech",
+      slug: "tech",
+      url: "/tech/",
+      description: "Straightforward picks for everyday tech products where ecosystem fit, reliability, and low-friction ownership matter most.",
+      shortDescription: "Everyday tech where ecosystem fit, reliability, and ease of ownership matter most.",
+      eyebrow: "Tech"
+    }
   ],
   homepage: {
     featuredLimit: 8,

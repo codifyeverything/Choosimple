@@ -399,5 +399,23 @@ module.exports = [
     "featuredSub": "Personal Care · Typical price: $130–$230",
     "featuredQuote": "“The best curling iron for most people: T3 SinglePass Curl X, 1.25” — controlled heat, smooth styling, and practical premium ownership.”",
     "featuredProof": "<strong>Why it wins:</strong> controlled heat, long-barrel usability, smooth handling, and a safer broad-use decision than cheap irons or overcomplicated styling systems."
+  },
+
+  {
+    "title": "E-Reader",
+    "slug": "e-reader",
+    "url": "/e-reader.html",
+    "group": "Tech",
+    "cardTitle": "The e-reader that makes the most sense",
+    "decision": "Kobo Clara BW",
+    "image": "/Kobo-Clara-BW.png",
+    "imageAlt": "Kobo Clara BW",
+    "summary": "The best e-reader for most people: strong black-and-white reading, library-friendly ownership, and fewer ecosystem regrets than cheaper, colour-first, or country-limited alternatives.",
+    "proof": "avoids the biggest e-reader mistake: buying into the wrong ecosystem for your country, library habits, and everyday reading.",
+    "price": "Typical price: $140–$160",
+    "featured": true,
+    "featuredSub": "Tech · Typical price: $140–$160",
+    "featuredQuote": "“The best e-reader for most people: Kobo Clara BW — simple, library-friendly, and safer for long-term ownership across Canada and the U.S.”",
+    "featuredProof": "<strong>Why it wins:</strong> sharp black-and-white reading, warm light, waterproofing, no lock-screen ads, broad file support, and a safer cross-border library fit."
   }
 ];
