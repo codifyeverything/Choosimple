@@ -2,6 +2,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>{{ title }}</title>
 <meta content="{{ description }}" name="description"/>
+<meta content="{{ site.name }}" name="application-name"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
@@ -9,7 +10,8 @@
 <link href="{{ site.url }}{{ page.url }}" rel="canonical"/>
 <meta content="{{ title }}" property="og:title"/>
 <meta content="{{ description }}" property="og:description"/>
-<meta content="article" property="og:type"/>
+<meta content="{{ site.name }}" property="og:site_name"/>
+<meta content="{% if page.url == "/" or page.url == "/index.html" %}website{% else %}article{% endif %}" property="og:type"/>
 <meta content="{{ site.url }}{{ page.url }}" property="og:url"/>
 <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -22,6 +24,18 @@
 <meta property="og:image:height" content="630"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ site.url }}{{ site.ogImage }}"/>
+
+{% if page.url == "/" or page.url == "/index.html" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Choosimple",
+  "alternateName": "Choose Simple",
+  "url": "{{ site.url }}/"
+}
+</script>
+{% endif %}
 {% if extraHead %}
 {{ extraHead | safe }}
 {% endif %}
