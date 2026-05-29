@@ -769,4 +769,33 @@ window.CS_AFFILIATE_LINKS = {
     "notes": "Paste the Geniuslink URL for the BOB AND BRAD Q2 Mini Massage Gun here. Use the standard Q2 Mini listing; avoid Q2 Pro Mini, heat/cold bundles, D6 models, renewed, accessory-only, or unrelated Bob and Brad listings unless intentionally changed."
   }
 
+  ,
+  "kobo-clara-bw": {
+      "name": "Kobo Clara BW",
+      "url": "https://geni.us/jZpqBY",
+      "merchant": "Amazon",
+      "notes": "Use the Kobo Clara BW black-and-white e-reader, preferably the cleanest 16GB waterproof listing. Avoid Kobo Clara Colour, older Clara models, Kobo Libra models, cases, screen protectors, stylus-only pages, renewed/refurbished units, marketplace-only inflated offers, or unrelated Kobo variants."
+  }
+  ,
+  "kindle-paperwhite-16gb": {
+      "name": "Kindle Paperwhite 16GB",
+      "url": "https://geni.us/oSJhIi",
+      "merchant": "Amazon",
+      "notes": "Use the current Kindle Paperwhite 16GB e-reader. Avoid Kindle Paperwhite Kids, Signature Edition unless intentionally changed, base Kindle, Colorsoft, Scribe, older-generation Paperwhite listings, ad/no-ad mismatches, bundles unless intentional, renewed/refurbished units, accessories, or unrelated Kindle variants."
+  }
+  ,
+  "kindle-paperwhite-kids": {
+      "name": "Kindle Paperwhite Kids",
+      "url": "https://geni.us/c87hbN",
+      "merchant": "Amazon",
+      "notes": "Use the current Kindle Paperwhite Kids 16GB bundle with cover, Kids+ trial, and 2-year worry-free guarantee. Avoid base Kindle Kids, regular Paperwhite, Signature Edition, Colorsoft Kids unless intentionally changed, old generations, cover-only/accessory listings, renewed/refurbished units, or unrelated Kindle bundles."
+  }
+  ,
+  "kobo-libra-colour": {
+      "name": "Kobo Libra Colour",
+      "url": "https://geni.us/dG9A5em",
+      "merchant": "Amazon",
+      "notes": "Use the Kobo Libra Colour e-reader. Avoid Kobo Clara Colour, Kobo Clara BW, older Kobo Libra 2/Libra H2O models, Kobo Sage, cases, stylus-only listings, bundles unless intentional, renewed/refurbished units, marketplace-only inflated offers, or unrelated Kobo variants."
+  }
+
 };
