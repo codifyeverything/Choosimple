@@ -170,6 +170,18 @@ window.CS_AFFILIATE_LINKS = {
     "merchant": "Amazon",
     "notes": "Use the Roborock Qrevo Curv robot vacuum and mop with the matching dock. Canada may require manual Geniuslink destination targeting. Avoid Qrevo Curv S5X, CurvX, Curv 2 Flow, Qrevo Master, accessories, replacement parts, bundles unless intentional, renewed units, or unrelated Roborock variants."
   },
+  "roborock-q10-s5-plus": {
+    "name": "Roborock Q10 S5+",
+    "url": "https://geni.us/fcEjN7",
+    "merchant": "Amazon",
+    "notes": "Use the exact Roborock Q10 S5+ robot vacuum with self-empty dock. Avoid Q10 S5 without the plus dock, Q10 X5+, Q8 Max+, Qrevo/QV models, accessories, replacement parts, bundles unless intentional, renewed units, or unrelated Roborock variants."
+  },
+  "dreame-x50-ultra": {
+    "name": "Dreame X50 Ultra",
+    "url": "https://geni.us/eitQ1",
+    "merchant": "Amazon",
+    "notes": "Use the exact Dreame X50 Ultra robot vacuum and mop. Avoid X50 Ultra Complete unless intentionally choosing the accessory bundle, X60 Ultra, L/X series lookalikes, accessories, replacement parts, bundles unless intentional, renewed units, or unrelated Dreame variants."
+  },
   "roborock-s8-pro-ultra": {
     "name": "Roborock S8 Pro Ultra",
     "url": "",

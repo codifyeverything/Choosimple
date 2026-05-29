@@ -144,17 +144,17 @@ module.exports = [
     "slug": "robot-vacuum",
     "url": "/robot-vacuum.html",
     "group": "Home Essentials",
-    "cardTitle": "The robot vacuum that best balances automation and reliability",
+    "cardTitle": "The robot vacuum that best balances cleaning and ownership",
     "decision": "Roborock Qrevo Curv",
     "image": "/ROBOROCK_QREVO_TRANSPARENT_FOR_NOTION.png",
     "imageAlt": "Roborock Qrevo Curv",
-    "summary": "The best robot vacuum for most people: high-end convenience that still feels rational, with strong navigation, solid dock automation, and fewer painful compromises.",
-    "proof": "strong daily automation without stepping into the most failure-prone premium complexity.",
+    "summary": "The best robot vacuum for most people: reliable vacuuming, useful mopping, self-emptying convenience, and dock automation that still feels manageable.",
+    "proof": "balances reliable vacuuming, useful mopping, self-emptying convenience, and ownership complexity better than most flashier alternatives.",
     "price": "Typical price: $850–$1,200",
     "featured": true,
     "featuredSub": "Home Essentials · Typical price: $850–$1,200",
-    "featuredQuote": "“The best robot vacuum for most people: Roborock Qrevo Curv — strong automation, reliable navigation, and a dock that feels worth the money.”",
-    "featuredProof": "<strong>Why it wins:</strong> strong daily automation without stepping into the most failure-prone premium complexity."
+    "featuredQuote": "“The best robot vacuum for most people: Roborock Qrevo Curv — reliable vacuuming, useful mopping, and dock automation without overcomplicating ownership.”",
+    "featuredProof": "<strong>Why it wins:</strong> it balances reliable vacuuming, useful mopping, self-emptying convenience, and manageable ownership complexity."
   },
   {
     "title": "Air Purifier",
