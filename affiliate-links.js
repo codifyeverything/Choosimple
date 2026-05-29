@@ -810,4 +810,26 @@ window.CS_AFFILIATE_LINKS = {
       "notes": "Use the Kobo Libra Colour e-reader. Avoid Kobo Clara Colour, Kobo Clara BW, older Kobo Libra 2/Libra H2O models, Kobo Sage, cases, stylus-only listings, bundles unless intentional, renewed/refurbished units, marketplace-only inflated offers, or unrelated Kobo variants."
   }
 
+  ,
+  "soundcore-liberty-4-nc": {
+      "name": "soundcore Liberty 4 NC",
+      "url": "https://geni.us/SmCVus",
+      "merchant": "Amazon",
+      "notes": "Use the exact soundcore Liberty 4 NC true wireless earbuds. Avoid soundcore Liberty 4, Liberty 4 Pro, Liberty 5, renewed/refurbished units, accessory-only listings, ear tips/cases, color-only marketplace drift, bundles unless intentional, or unrelated soundcore earbuds."
+  }
+  ,
+  "sony-wf-1000xm6": {
+      "name": "Sony WF-1000XM6",
+      "url": "https://geni.us/9H5jSj7",
+      "merchant": "Amazon",
+      "notes": "Use the exact Sony WF-1000XM6 true wireless noise-cancelling earbuds. Avoid Sony WH-1000XM6 over-ear headphones, WF-1000XM5, renewed/refurbished units, accessory-only listings, ear tips/cases, bundles unless intentional, or unrelated Sony headphone variants."
+  }
+  ,
+  "beats-powerbeats-pro-2": {
+      "name": "Beats Powerbeats Pro 2",
+      "url": "https://geni.us/WnTYY",
+      "merchant": "Amazon",
+      "notes": "Use the exact Beats Powerbeats Pro 2 wireless earbuds. Avoid the older Powerbeats Pro, Beats Fit Pro, Studio Buds, renewed/refurbished units, accessory-only listings, replacement cases/tips, bundles unless intentional, or unrelated Beats variants."
+  }
+
 };
