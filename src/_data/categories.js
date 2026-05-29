@@ -418,4 +418,23 @@ module.exports = [
     "featuredQuote": "“The best e-reader for most people: Kobo Clara BW — simple, library-friendly, and safer for long-term ownership across Canada and the U.S.”",
     "featuredProof": "<strong>Why it wins:</strong> sharp black-and-white reading, warm light, waterproofing, no lock-screen ads, broad file support, and a safer cross-border library fit."
   }
+  ,
+  {
+    "title": "Wireless Earbuds",
+    "slug": "wireless-earbuds",
+    "url": "/wireless-earbuds.html",
+    "group": "Tech",
+    "cardTitle": "The wireless earbuds that make the most sense",
+    "decision": "soundcore Liberty 4 NC",
+    "image": "/soundcore-liberty-4-nc.png",
+    "imageAlt": "soundcore Liberty 4 NC",
+    "summary": "The best wireless earbuds for most people: strong everyday ANC, good battery life, clean availability, and lower-regret pricing than flagship alternatives.",
+    "proof": "solves the real ownership problem: enough performance for daily use without flagship pricing, ecosystem lock-in, or messy purchase-path risk.",
+    "price": "Typical price: $70–$100",
+    "featured": true,
+    "featuredSub": "Tech · Typical price: $70–$100",
+    "featuredQuote": "“The best wireless earbuds for most people: soundcore Liberty 4 NC — strong everyday performance, clean availability, and lower-regret pricing.”",
+    "featuredProof": "<strong>Why it wins:</strong> mature ownership signals, strong ANC for the price, good battery life, wireless charging, app control, and a cleaner Amazon purchase path."
+  }
+
 ];
